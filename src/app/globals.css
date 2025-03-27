@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --color-primary: #0E3A27;
+  --color-secondary: #D7DED4;
+  --color-secondary-transparent: rgba(215, 222, 212, 0.3);
+  --color-secondary-light: #F6F8F5;
+  --color-orange: #D7740A;
+  --color-orange-hover: #fd8a0f;
+  /* --foreground: #171717; */
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  .bg-secondary-light {
+    background-color: var(--color-secondary-light);
+  }
+  .text-secondary-light {
+    color: var(--color-secondary-light);
+  }
+  .bg-orange {
+    background-color: var(--color-orange);
+  }
+  .text-orange {
+    color: var(--color-orange);
+  }
+}
+
+@theme {
+  --breakpoint-sw: 1440px;
+  --breakpoint-lsw: 1080px;
+  --breakpoint-msw: 720px;
+  --breakpoint-ssw: 640px;
+  --breakpoint-xsw: 480px;
+}
+
+@theme inline {
+  /* --color-background: var(--background); */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+@keyframes slide-progress {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.animate-slide-progress {
+  animation: slide-progress linear forwards;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
