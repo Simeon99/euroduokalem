@@ -21,32 +21,33 @@ const HomeProducts = () => {
       <div className='max-w-screen-sw px-[16px]  w-full'>
 
         <div className='max-w-[1004px] max-lsw:w-[95%] w-full flex flex-row justify-between items-end'>
-          <h1 className='text-5xl font-heading font-bold text-primary'>
+          <h1 className='text-[24px] md:text-[40px] leading-none font-heading font-bold text-primary'>
             Orkrijte naše najtraženije <br />
             sadnice voća
           </h1>
-        <div className='flex flex-col max-md:w-full max-md:items-end '>
-          <div className='flex flex-col items-center gap-[14px]'>
-            <span>{currentCard + 1}/{totapPage}</span>
-            <div className='flex flex-row gap-[10px]'>
-              <button
-                disabled={currentCard === 0}
-                onClick={() => setCurrentCard(prev => prev - 1)}
-                className={`z-10 hover:cursor-pointer`}
-              >
-                <IoIosArrowBack size={36} className={`text-primary ${currentCard === 0 && 'opacity-50'}`} />
-              </button>
-              <button
-                disabled={currentCard === 4}
-                onClick={() => setCurrentCard(prev => prev + 1)}
-                className={`z-10 hover:cursor-pointer  ${currentCard === 4 && 'opacity-50'}`}
-              >
-                <IoIosArrowForward className={`text-primary ${currentCard === 4 && 'opacity-50'}`} size={36} />
-              </button>
-            </div>
-          </div>
+          <div className='flex-1 flex flex-col max-md:w-full items-end '>
 
-        </div>
+              <div className='flex flex-col items-center gap-[14px]'>
+                <span>{currentCard + 1}/{totapPage}</span>
+                <div className='flex flex-row gap-[10px]'>
+                  <button
+                    disabled={currentCard === 0}
+                    onClick={() => setCurrentCard(prev => prev - 1)}
+                    className={`z-10 hover:cursor-pointer`}
+                  >
+                    <IoIosArrowBack size={36} className={`text-primary ${currentCard === 0 && 'opacity-50'}`} />
+                  </button>
+                  <button
+                    disabled={currentCard === 4}
+                    onClick={() => setCurrentCard(prev => prev + 1)}
+                    className={`z-10 hover:cursor-pointer  ${currentCard === 4 && 'opacity-50'}`}
+                  >
+                    <IoIosArrowForward className={`text-primary ${currentCard === 4 && 'opacity-50'}`} size={36} />
+                  </button>
+                </div>
+            </div>
+
+          </div>
         </div>
         <div className='max-w-screen-sw w-full mt-4'>
           <HomeCarousel data={DATA} setCurrentCard={setCurrentCard} currentCard={currentCard} />

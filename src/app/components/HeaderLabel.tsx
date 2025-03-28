@@ -8,7 +8,7 @@ const HeaderLabel = () => {
     return (
         <div className='bg-secondary flex justify-center'>
             <div className=' max-w-screen-sw  w-full px-4 py-6'>
-                <div className='grid grid-cols-4 max-md:grid-cols-2 gap-x-4 gap-y-6  content-center max-md:text-[16px] text-[20px] justify-between'>
+                <div className='grid grid-cols-4 max-md:grid-cols-2 gap-x-4 gap-y-6  content-center text-primary max-md:text-[16px] text-[20px] justify-between'>
                     <div className=' flex flex-row items-center gap-2 '>
                         <div>
                             <PiTree size={28} />

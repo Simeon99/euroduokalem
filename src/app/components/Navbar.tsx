@@ -7,8 +7,8 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 z-50 w-full px-2 py-2">
-            <div className='w-full bg-[var(--color-secondary-transparent)] backdrop-blur-md rounded-md shadow-md max-w-[1440px] mx-auto px-4 py-4 '>
+        <nav className="sticky top-0 z-60 w-full px-2 pt-2">
+            <div className={`w-full bg-[var(--color-secondary-transparent)] backdrop-blur-md rounded-md ${isOpen ? 'rounded-b-none ' : 'shadow-md'}  max-w-[1440px] mx-auto px-4 py-4 `}>
 
                 <div className="max-w-7xl mx-auto  flex items-center justify-between">
                     {/* Logo */}
@@ -69,14 +69,20 @@ export default function Navbar() {
                         </Link>
                     </div>
                 </div>
-
-                {/* Mobile Menu */}
-                <div className={`overflow-hidden transition-all duration-300  ease-in-out md:hidden ${isOpen ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'}`}>
-                    <ul className="flex flex-col gap-4 font-body text-[20px] font-bold text-primary pt-4">
-                        <li><Link href="/" onClick={() => setIsOpen(false)}>Sadnice voća</Link></li>
-                        <li><Link href="/proizvodi" onClick={() => setIsOpen(false)}>O nama</Link></li>
-                        <li><Link href="/kontakt" onClick={() => setIsOpen(false)}>Blog</Link></li>
-                        <li><Link href="/onama" onClick={() => setIsOpen(false)}>Kontaktirajte nas</Link></li>
+            </div>
+            {/* Mobile Menu */}
+            <div className='  fixed top-[72px] left-0 right-0 w-full max-w-[1440px]  mx-auto px-2 '>
+                <div
+                    className={`h-[2px] w-full bg-primary origin-center transform transition-transform duration-300 ${isOpen ? 'scale-x-100' : 'scale-x-0'
+                        }`}
+                />
+                <div className={`z-50 p-4  bg-[var(--color-secondary-transparent)] backdrop-blur-md  rounded-b-md   transition-all duration-300 ease-in-out overflow-hidden  md:hidden ${isOpen ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'
+                    }`}>
+                    <ul className="flex flex-col  gap-4 font-body text-[20px] font-bold text-primary ">
+                        <Link href="/" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>Sadnice voća</li></Link>
+                        <Link href="/proizvodi" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>O nama</li></Link>
+                        <Link href="/kontakt" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>Blog</li></Link>
+                        <Link href="/onama" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>Kontaktirajte nas</li></Link>
                     </ul>
                 </div>
             </div>

@@ -11,15 +11,14 @@ export default function Home() {
         <Landing />
       </div>
       <div className="mt-[620px] max-md:mt-[420px]">
-      <HeaderLabel />
-      <HeadingHome />
+        <HeaderLabel />
+        <HeadingHome />
       </div>
-      <div className="overflow-hidden mt-[140px]">
-      <HomeProducts />
-
+      <div className="overflow-hidden mt-[60px] md:mt-[140px]">
+        <HomeProducts />
       </div>
       <div className="pt-[140px]">
-      <HomeSeedlings />
+        <HomeSeedlings />
       </div>
 
     </div>
