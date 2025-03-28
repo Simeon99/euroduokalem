@@ -7,7 +7,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 z-60 w-full px-2 pt-2">
+        <nav className="sticky top-0 z-60 w-full px-4 pt-2">
             <div className={`w-full bg-[var(--color-secondary-transparent)] backdrop-blur-md rounded-md ${isOpen ? 'rounded-b-none ' : 'shadow-md'}  max-w-[1440px] mx-auto px-4 py-4 `}>
 
                 <div className="max-w-7xl mx-auto  flex items-center justify-between">

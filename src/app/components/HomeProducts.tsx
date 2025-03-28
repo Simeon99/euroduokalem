@@ -17,10 +17,10 @@ const HomeProducts = () => {
 
 
   return (
-    <div className='flex justify-center '>
-      <div className='max-w-screen-sw px-[16px]  w-full'>
+    <div className='flex justify-center px-4'>
+      <div className='max-w-screen-sw w-full'>
 
-        <div className='max-w-[1004px] max-lsw:w-[95%] w-full flex flex-row justify-between items-end'>
+        <div className='max-w-[1004px]  w-full flex flex-row justify-between items-end'>
           <h1 className='text-[24px] md:text-[40px] leading-none font-heading font-bold text-primary'>
             Orkrijte naše najtraženije <br />
             sadnice voća

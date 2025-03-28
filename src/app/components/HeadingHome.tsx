@@ -18,7 +18,7 @@ const HeadingHome = () => {
                     budućnosti.
                 </p>
             </div>
-            <div className='px-[16px] mt-[140px] pb-[70px]'>
+            <div className=' mt-[140px] pb-[70px]'>
                 <ImageCarousel />
             </div>
             </div>

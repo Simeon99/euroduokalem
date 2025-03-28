@@ -6,8 +6,8 @@ import Button from './ui/Button';
 
 const HomeSeedlings = () => {
     return (
-        <div className='flex  justify-center pb-[200px]'>
-            <div className='max-w-screen-sw  w-ful flex flex-row max-md:flex-col bg-secondary rounded-md shadow-md mx-4 px-8 max-md:px-4 py-16 max-md:py-2  items-center gap-16 justify-between'>
+        <div className='flex  justify-center px-4'>
+            <div className='max-w-screen-sw  w-full flex flex-row max-md:flex-col bg-secondary rounded-md shadow-md  px-8  py-16 max-md:py-2  items-center gap-16 justify-between'>
                 <div className='flex flex-col flex-1 py-8 gap-4'>
                     <h1 className='font-heading leading-0 text-6xl text-primary py-8 max-lsw:text-5xl max-md:text-4xl font-bold '>Naše sadnice</h1>
                     {/* Mobile image */}

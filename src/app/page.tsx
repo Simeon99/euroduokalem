@@ -1,5 +1,6 @@
 import HeaderLabel from "./components/HeaderLabel";
 import HeadingHome from "./components/HeadingHome";
+import HomeMessage from "./components/HomeMessage";
 import HomeProducts from "./components/HomeProducts";
 import HomeSeedlings from "./components/HomeSeedlings";
 import Landing from "./components/Landing";
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div className="pt-[140px]">
         <HomeSeedlings />
+      </div>
+      <div className="pt-[140px] pb-[140px]">
+        <HomeMessage />
       </div>
 
     </div>
