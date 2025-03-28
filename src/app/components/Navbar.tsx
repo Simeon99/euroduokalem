@@ -71,7 +71,7 @@ export default function Navbar() {
                 </div>
             </div>
             {/* Mobile Menu */}
-            <div className='  fixed top-[72px] left-0 right-0 w-full max-w-[1440px]  mx-auto px-2 '>
+            <div className='  fixed top-[72px] left-0 right-0 w-full max-w-[1440px]  mx-auto px-4 '>
                 <div
                     className={`h-[2px] w-full bg-primary origin-center transform transition-transform duration-300 ${isOpen ? 'scale-x-100' : 'scale-x-0'
                         }`}
