@@ -3,7 +3,7 @@ import ImageCarousel from './ui/ImageCarousel'
 
 const HeadingHome = () => {
     return (
-        <div className='bg-secondary-light flex justify-center'>
+        <div className='bg-secondary-light flex justify-center px-4'>
             <div className='max-w-screen-sw  w-full'>
             <div className='flex flex-col gap-[32px] items-center pt-[140px] max-md:pt-[96px] px-[16px]'>
                 <h1 className='font-heading text-6xl text-primary  py-8 max-lsw:text-5xl max-md:text-4xl font-bold text-center line'>Na temelju tradicije za <br /> uspešnu budućnost</h1>
