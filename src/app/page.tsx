@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import HeaderLabel from "./components/HeaderLabel";
 import HeadingHome from "./components/HeadingHome";
 import HomeMessage from "./components/HomeMessage";
@@ -28,7 +29,9 @@ export default function Home() {
       <div className="pb-[140px]">
         <YouTubeVideo />
       </div>
-
+      <div className="pb-[140px]">
+        <Contact />
+      </div>
     </div>
   );
 }
