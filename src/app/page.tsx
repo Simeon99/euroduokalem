@@ -1,6 +1,7 @@
 import Contact from "./components/Contact";
 import HeaderLabel from "./components/HeaderLabel";
 import HeadingHome from "./components/HeadingHome";
+import HomeBlog from "./components/HomeBlog";
 import HomeMessage from "./components/HomeMessage";
 import HomeProducts from "./components/HomeProducts";
 import HomeSeedlings from "./components/HomeSeedlings";
@@ -8,6 +9,28 @@ import Landing from "./components/Landing";
 import YouTubeVideo from "./components/YouTubeVideo";
 
 export default function Home() {
+
+  const blogPosts =[ 
+    {
+      title: "Climate Change",
+      description: "Climate change is beginning to have a devastating impact on forests across the world Climate change is beginning to have a devastating Climate change is beginning to have a devastating impact on forests across the world Climate change is beginning to have a devastating impact on Climate change is beginning to have a devastating impact on forests across the world forests across the world",
+      imageUrl: "/images/home/carousel1.jpg",
+      link: ""
+    },
+    {
+      title: "Climate Change",
+      description: "Climate change is beginning to have a devastating impact on forests across the world",
+      imageUrl: "/images/home/carousel7.jpg",
+      link: ""
+    },
+    {
+      title: "Climate Change",
+      description: "Climate change is beginning to have a devastating impact on forests across the world",
+      imageUrl: "/images/home/carousel8.jpg",
+      link: ""
+    },
+  ]
+
   return (
     <div>
       <div className="absolute top-0 w-full">
@@ -31,6 +54,9 @@ export default function Home() {
       </div>
       <div className="pb-[140px]">
         <Contact />
+      </div>
+      <div className="pb-[140px]">
+        <HomeBlog posts={blogPosts}/>
       </div>
     </div>
   );

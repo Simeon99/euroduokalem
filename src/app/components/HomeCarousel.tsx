@@ -129,7 +129,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                     style={{
                         left: windowWidth < 1080 ? -currentCard * (carouselSize.width + 32) : -currentCard * (carouselSize.width + 67)
                     }}
-                    className={`left-[${-currentCard * carouselSize.width + 32}px] left-[50px] w-full h-full absolute flex gap-[67px] max-lsw:gap-[29px] transition-all duration-300 max-xsw:hidden`}>
+                    className={`left-[${-currentCard * carouselSize.width + 32}px] left-[50px] w-full h-full absolute flex gap-[67px] max-lsw:gap-[29px] transition-all duration-300 max-xsw:hidden py-4`}>
                     {/* {
                         cardItems.map((i, index) => {
                             return (
@@ -165,7 +165,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         })
                     } */}
 
-                    <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#FFFBE4] text-[#FF910A] hover:cursor-pointer'
+                    <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#FFFBE4] text-[#FF910A] hover:cursor-pointer shadow-md hover:shadow-lg transition '
                         onMouseEnter={() => animateHover(0, true)}
                         onMouseLeave={() => animateHover(0, false)}>
                         <div className='w-[370px] max-md:w-[200px] '>
@@ -190,11 +190,11 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
 
                         </div>
                         <div className=' flex-1 flex flex-col justify-end pb-8 pr-8'>
-                            <div className='flex flex-row max-lsw:flex-col max-lsw:items-baseline gap-4 items-end'>
+                            <div className='flex flex-col max-lsw:flex-col max-lsw:items-baseline gap-4 items-baseline '>
                                 <div className='flex-1 line-clamp-6'>
                                     <p className='max-lsw:text-[20px]  max-md:text-[18px] text-[24px]'>{cardItems[0].text}</p>
                                 </div>
-                                <div className='flex flex-col items-center max-lsw:items-baseline '>
+                                <div className='flex flex-row gap-4 items-center max-lsw:items-baseline '>
                                     <BsArrowRightCircle className={` ${isHovered.item === 0 && isHovered.hover ? '-rotate-45 transition' : ''} duration-300 ease-out`} size={50} />
                                     <span className='font-black'>Saznaj više</span>
                                 </div>
@@ -202,7 +202,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         </div>
 
                     </div>
-                    <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#E0F1E2] text-[#245E1D] hover:cursor-pointer'
+                    <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#E0F1E2] text-[#245E1D] hover:cursor-pointer shadow-md hover:shadow-lg transition '
                         onMouseEnter={() => animateHover(1, true)}
                         onMouseLeave={() => animateHover(1, false)}>
                         <div className='w-[370px] '>

@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import Input from './ui/Input'
 import Button from './ui/Button';
+import MyMap from './ui/MyMap';
 
 const Contact = () => {
 
@@ -43,16 +44,16 @@ const Contact = () => {
                                 <Button label='Pošalji poruku' />
                             </div>
                         </div>
-                        <div className='w-1/2 max-md:hidden max-md:w-full max-md:h-[500px] bg-green-400'>
-                            <h1>Map</h1>
+                        <div className='w-1/2 max-md:hidden max-md:w-full max-md:h-[500px] '>
+                            <MyMap />
                         </div>
                     </div>
 
                 </div>
 
             </div>
-            <div className='w-1/2 md:hidden  max-md:w-full max-md:h-[500px] bg-green-400'>
-                <h1>Map</h1>
+            <div className='w-1/2 md:hidden  max-md:w-full max-md:h-[500px] '>
+                <MyMap />
             </div>
         </div>
     )

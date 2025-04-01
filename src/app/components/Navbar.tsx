@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -8,12 +9,20 @@ export default function Navbar() {
 
     return (
         <nav className="sticky top-0 z-60 w-full px-4 pt-2">
-            <div className={`w-full bg-[var(--color-secondary-transparent)] backdrop-blur-md rounded-md ${isOpen ? 'rounded-b-none ' : 'shadow-md'}  max-w-[1440px] mx-auto px-4 py-4 `}>
+            <div className={`w-full bg-[var(--color-secondary-transparent)] backdrop-blur-md rounded-md ${isOpen ? 'rounded-b-none ' : 'shadow-md'}  max-w-[1440px] mx-auto px-4  `}>
 
                 <div className="max-w-7xl mx-auto  flex items-center justify-between">
                     {/* Logo */}
                     <Link href="/" className="text-2xl font-bold text-primary font-heading">
-                        EuroDuoKalem
+                        {/* EuroDuoKalem */}
+
+                        <Image
+                            src={'/images/home/logo EDK.svg'}
+                            alt={"AAA"}
+                            width={60}
+                            height={30}
+                            // className="w-full h-full object-cover"
+                        />
                     </Link>
 
                     {/* Hamburger Menu (mobile) */}
@@ -28,7 +37,7 @@ export default function Navbar() {
                     </button>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex gap-8 items-center font-body text-primary ">
+                    <ul className="hidden md:flex gap-8 items-center font-body text-primary py-4">
                         <li className="relative group">
                             <Link
                                 href="/proizvodi"
