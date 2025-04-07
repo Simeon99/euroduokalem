@@ -1,15 +1,16 @@
 'use client'
 
-// import PopUp, { IPopUp } from '@/components/PopUp';
-import { DM_Sans } from 'next/font/google';
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 import { BsArrowRightCircle } from 'react-icons/bs';
+import { Translation } from '../[lang]/dictionaries';
+import { usePathname } from 'next/navigation';
 
 interface HomeCarouselProps {
     data: HomeCaraouselData[];
     currentCard: number;
     setCurrentCard: (value: number) => void;
+    t: Translation;
 }
 
 interface HomeCaraouselData {
@@ -20,10 +21,11 @@ interface HomeCaraouselData {
 
 }
 
-const dmSans = DM_Sans({ subsets: ['latin'] })
+// const dmSans = DM_Sans({ subsets: ['latin'] })
 
-const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard }) => {
+const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard, t }) => {
 
+    const pathname = usePathname().substring(1);
     const [isHovered, setIsHovered] = useState({ item: 0, hover: false });
     const [carouselSize, setCarouselSize] = useState({ width: 1004, height: 496 })
     // const [isOpen, setIsOpen] = useState(false);
@@ -40,28 +42,28 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
     const cardItems = [
         {
             src: '/images/home/pear.png',
-            tittle: 'kruška',
-            text: 'Jutro počinje najboljim mirisom – sveže skuvanom kafom koja budi sva čula i donosi energiju za novi dan. Planovi se često menjaju, ali važno je da ciljevi ostanu jasni i postojani.'
+            tittle: t.home.mostWanted.pear.title,
+            text: t.home.mostWanted.pear.text
         },
         {
             src: '/images/home/apple.png',
-            tittle: 'jabuka',
-            text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore'
+            tittle: t.home.mostWanted.apple.title,
+            text: t.home.mostWanted.apple.text
         },
         {
-            src: '/images/home/apple.png',
-            tittle: 'Communication',
-            text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore'
+            src: '/images/home/plum.png',
+            tittle: t.home.mostWanted.plum.title,
+            text: t.home.mostWanted.plum.text
         },
         {
-            src: '/images/home/apple.png',
-            tittle: 'Development',
-            text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore'
+            src: '/images/home/sour-cherry.png',
+            tittle: t.home.mostWanted.sourCherry.title,
+            text: t.home.mostWanted.sourCherry.text
         },
         {
-            src: '/images/home/apple.png',
-            tittle: 'Deployment & Support',
-            text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore'
+            src: '/images/home/cherry.png',
+            tittle: t.home.mostWanted.cherry.title,
+            text: t.home.mostWanted.cherry.text
         },
 
     ]
@@ -130,42 +132,99 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         left: windowWidth < 1080 ? -currentCard * (carouselSize.width + 32) : -currentCard * (carouselSize.width + 67)
                     }}
                     className={`left-[${-currentCard * carouselSize.width + 32}px] left-[50px] w-full h-full absolute flex gap-[67px] max-lsw:gap-[29px] transition-all duration-300 max-xsw:hidden py-4`}>
-                    {/* {
+                    {
                         cardItems.map((i, index) => {
                             return (
-                                <div key={index} className='relative shrink-0 w-full h-full rounded-2xl bg-[#2C2C2C] text-white'>
-                                    <Image
-                                        className='absolute bottom-0 max-lsw: max-lsw: '
-                                        alt={`carousel-image-${0}`}
-                                        width={300}
-                                        height={300}
-                                        src={i.src}
-                                    />
-                                    <div className='absolute max-lsw:pr-8 left-1/2 transform flex flex-col justify-between h-full pt-[65px] pb-[65px] max-w-[392px]'>
-                                        <div className='flex flex-col'>
-                                            <h1 className={`text-[48px] ${dmSans.className}`}>{cardItems[0].tittle}</h1>
-                                            <p className='text-[20px] '>{cardItems[0].text}</p>
+                                <div key={index} className={` relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  ${index === 1 ? 'bg-[#E0F1E2] text-[#245E1D]' : index === 2 ? 'bg-[#f0deec] text-[#330427]' : index === 3 ? 'bg-[#ffd2d5] text-[#9E030C]' : index === 4 ? 'bg-[#ffe5eb] text-[#D20A2E]' : 'bg-[#FFFBE4] text-[#FF910A]'}  hover:cursor-pointer shadow-md hover:shadow-lg transition `}
+                                    onMouseEnter={() => animateHover(index, true)}
+                                    onMouseLeave={() => animateHover(index, false)}>
+                                    <div className='w-[370px] max-md:w-[200px] '>
+                                        <div className='pt-4 pl-8'>
+                                            <h1 className={`text-6xl max-md:text-4xl font-heading`}>{i.tittle}</h1>
+
                                         </div>
-                                        <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
-                                            onMouseEnter={() => animateHover(0, true)}
-                                            onMouseLeave={() => animateHover(0, false)}
-                                        // onClick={() => {
-                                        //     setPopUpItems({
-                                        //         title: cardItems[0].tittle,
-                                        //         text: cardItems[0].text
-                                        //     }), setIsOpen(true)
-                                        // }}
-                                        >
-                                            <BsArrowRightCircle className={` ${isHovered.item === 0 && isHovered.hover ? '-rotate-45 transition' : ''} duration-300 ease-out`} size={36} />
-                                            <span>View more</span>
+                                        <Image
+                                            className='absolute bottom-0 left-6 max-md:hidden max-lsw: '
+                                            alt={`carousel-image-${0}`}
+                                            width={300}
+                                            height={300}
+                                            src={i.src}
+                                        />
+                                        <Image
+                                            className='absolute bottom-0 md:hidden max-lsw: '
+                                            alt={`carousel-image-${0}`}
+                                            width={150}
+                                            height={300}
+                                            src={i.src}
+                                        />
+
+                                    </div>
+                                    <div className=' flex-1 flex flex-col justify-end pb-8 pr-8'>
+                                        <div className='flex flex-col max-lsw:flex-col max-lsw:items-baseline gap-4 items-baseline '>
+                                            <div className='flex-1 line-clamp-6'>
+                                                <p className='max-lsw:text-[20px]  max-md:text-[18px] text-[24px]'>{i.text}</p>
+                                            </div>
+                                            <div className='flex flex-row gap-4 items-center max-lsw:items-baseline '>
+                                                <BsArrowRightCircle className={` ${isHovered.item === index && isHovered.hover ? '-rotate-45 transition' : ''} duration-300 ease-out`} size={50} />
+                                                <span className='font-black'>{t.home.mostWanted.more}</span>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
                             )
                         })
-                    } */}
 
-                    <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#FFFBE4] text-[#FF910A] hover:cursor-pointer shadow-md hover:shadow-lg transition '
+                    }
+
+                    <div className={`hover:scale-101 transform  duration-300 relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  bg-primary text-secondary-light  hover:cursor-pointer shadow-md hover:shadow-lg transition `}
+                        onMouseEnter={() => animateHover(5, true)}
+                        onMouseLeave={() => animateHover(5, false)}>
+                        <div className='w-[500px] '>
+                            <div className='pt-4 pl-8'>
+                                <h1 className={`text-6xl max-md:text-4xl font-heading`}>{t.home.mostWanted.allProducts.title}</h1>
+
+                            </div>
+                            {/* <Image
+                                className='absolute bottom-0 left-6 max-md:hidden max-lsw: '
+                                alt={`carousel-image-${0}`}
+                                width={300}
+                                height={300}
+                                src={i.src}
+                            />
+                            <Image
+                                className='absolute bottom-0 md:hidden max-lsw: '
+                                alt={`carousel-image-${0}`}
+                                width={150}
+                                height={300}
+                                src={i.src}
+                            /> */}
+
+                        </div>
+                        <div
+                            className='flex-1 flex flex-col justify-end pb-8 pr-8 group'
+                        >
+                            <div className='flex flex-col max-lsw:flex-col max-lsw:items-baseline gap-4 items-end'>
+                                <div className='flex flex-row gap-4 items-center max-lsw:items-baseline'>
+                                    <BsArrowRightCircle
+                                        className={`transform  transition-all duration-300 ease-out 
+                                        ${isHovered.item === 5 && isHovered.hover ? '-translate-x-[0px] -rotate-45 ' : pathname === 'ru' ? 'translate-x-[250px]': pathname === 'sr' ? 'translate-x-[130px]': 'translate-x-[110px]'}`}
+                                        size={50}
+                                    />
+                                    <span
+                                        className={`font-black text-[30px] transition-all duration-300 ease-out 
+                                        ${isHovered.item === 5 && isHovered.hover ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-2'}`}
+                                    >
+                                        {t.home.mostWanted.allProducts.text}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    {/* <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#FFFBE4] text-[#FF910A] hover:cursor-pointer shadow-md hover:shadow-lg transition '
                         onMouseEnter={() => animateHover(0, true)}
                         onMouseLeave={() => animateHover(0, false)}>
                         <div className='w-[370px] max-md:w-[200px] '>
@@ -242,7 +301,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         />
                         <div className='absolute max-lsw:pr-8 left-1/2 transform flex flex-col justify-between h-full pt-[65px] pb-[65px] max-w-[392px]'>
                             <div className='flex flex-col'>
-                                <h1 className={`text-[48px] ${dmSans.className}`}>{cardItems[0].tittle}</h1>
+                                <h1 className={`text-[48px] `}>{cardItems[0].tittle}</h1>
                                 <p className='text-[20px] '>{cardItems[0].text}</p>
                             </div>
                             <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
@@ -270,7 +329,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         />
                         <div className='absolute max-lsw:pr-8 left-1/2 transform flex flex-col justify-between h-full pt-[65px] pb-[65px] max-w-[392px]'>
                             <div className='flex flex-col'>
-                                <h1 className={`text-[48px] ${dmSans.className}`}>{cardItems[0].tittle}</h1>
+                                <h1 className={`text-[48px] `}>{cardItems[0].tittle}</h1>
                                 <p className='text-[20px] '>{cardItems[0].text}</p>
                             </div>
                             <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
@@ -298,7 +357,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         />
                         <div className='absolute max-lsw:pr-8 left-1/2 transform flex flex-col justify-between h-full pt-[65px] pb-[65px] max-w-[392px]'>
                             <div className='flex flex-col'>
-                                <h1 className={`text-[48px] ${dmSans.className}`}>{cardItems[0].tittle}</h1>
+                                <h1 className={`text-[48px] `}>{cardItems[0].tittle}</h1>
                                 <p className='text-[20px] '>{cardItems[0].text}</p>
                             </div>
                             <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
@@ -315,7 +374,12 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                 <span>View more</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+
+
+
+
                     {/* <div className='relative shrink-0 w-full h-full rounded-2xl bg-[#2C2C2C] text-white'>
                         <Image
                             className='absolute bottom-0 max-lsw: max-lsw: '
@@ -465,47 +529,76 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                     onTouchMove={handleTouchMove}
                     onTouchEnd={handleTouchEnd}
                     style={{
-                        left: -currentCard * (carouselSize.width + 32)
+                        left: -currentCard * (carouselSize.width + 29)
                     }}
                     className='w-full h-full absolute flex gap-[29px] transition-all  duration-300  xsw:hidden'>
-                    <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#FFFBE4] text-[#FF910A] hover:cursor-pointer'
-                        onMouseEnter={() => animateHover(0, true)}
-                        onMouseLeave={() => animateHover(0, false)}>
+                    {
+                        cardItems.map((i, index) => {
+                            return (
+                                <div key={index} className={`relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl ${index === 1 ? 'bg-[#E0F1E2] text-[#245E1D]' : index === 2 ? 'bg-[#f0deec] text-[#330427]' : index === 3 ? 'bg-[#ffd2d5] text-[#9E030C]' : index === 4 ? 'bg-[#ffe5eb] text-[#D20A2E]' : 'bg-[#FFFBE4] text-[#FF910A]'} hover:cursor-pointer`}
+                                    onMouseEnter={() => animateHover(index, true)}
+                                    onMouseLeave={() => animateHover(index, false)}>
+                                    <div className='w-full   flex flex-col justify-between'>
+                                        <div className='px-4'>
+                                            <div className='pt-4 '>
+                                                <h1 className={`text-4xl font-bold font-heading`}>{i.tittle}</h1>
+
+                                            </div>
+
+                                            <div className=' flex-1 flex flex-col justify-end  py-4'>
+                                                <div className='flex flex-col w-full gap-4'>
+                                                    <div className='flex-1 line-clamp-6'>
+                                                        <p className='text-[18px] '>{i.text}</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className='flex flex-row justify-between items-end pl-4'>
+
+                                            <Image
+                                                className='max-lsw: max-lsw: '
+                                                alt={`carousel-image-${0}`}
+                                                width={170}
+                                                height={300}
+                                                src={i.src}
+                                            />
+                                            <div className='flex flex-col items-center p-4'>
+                                                <BsArrowRightCircle className={` ${isHovered.item === index && isHovered.hover ? '-rotate-45 transition' : ''} duration-300 ease-out`} size={35} />
+                                                <span className='text-[16px]'>{t.home.mostWanted.more}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            )
+                        }
+                        )
+                    }
+
+                    <div className={`relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  bg-primary text-secondary-light hover:cursor-pointer`}
+                        onMouseEnter={() => animateHover(5, true)}
+                        onMouseLeave={() => animateHover(5, false)}>
                         <div className='w-full   flex flex-col justify-between'>
                             <div className='px-4'>
                                 <div className='pt-4 '>
-                                    <h1 className={`text-4xl font-bold font-heading`}>{cardItems[0].tittle}</h1>
+                                    <h1 className={`text-4xl font-bold font-heading`}>{t.home.mostWanted.allProducts.title}</h1>
 
-                                </div>
-
-                                <div className=' flex-1 flex flex-col justify-end  py-4'>
-                                    <div className='flex flex-col w-full gap-4'>
-                                        <div className='flex-1 line-clamp-6'>
-                                            <p className='text-[18px] '>{cardItems[0].text}</p>
-                                        </div>
-
-                                    </div>
                                 </div>
                             </div>
-                            <div className='flex flex-row justify-between items-end'>
+                            <div className='flex flex-row justify-between items-end pl-4'>
 
-                                <Image
-                                    className='max-lsw: max-lsw: '
-                                    alt={`carousel-image-${0}`}
-                                    width={170}
-                                    height={300}
-                                    src={cardItems[0].src}
-                                />
-                                <div className='flex flex-col items-center p-4'>
-                                    <BsArrowRightCircle className={` ${isHovered.item === 0 && isHovered.hover ? '-rotate-45 transition' : ''} duration-300 ease-out`} size={35} />
-                                    <span className='text-[16px]'>Saznaj više</span>
+                                <div className='flex flex-row gap-2 items-center pb-4'>
+                                    <BsArrowRightCircle className={` ${isHovered.item === 5 && isHovered.hover ? '-rotate-45 transition' : ''} duration-300 ease-out`} size={35} />
+                                    <span className='text-[16px]'>{t.home.mostWanted.more}</span>
                                 </div>
                             </div>
                         </div>
 
                     </div>
 
-                    <div className='relative  shrink-0 w-full h-full flex bg-[#2C2C2C] text-white'>
+
+                    {/* <div className='relative  shrink-0 w-full h-full flex bg-[#2C2C2C] text-white'>
                         <Image
                             className='absolute overflow-visible left-1/2 transform -translate-x-1/2 -top-[150px]   min-w-[440px]'
                             alt={`carousel-image-${0}`}
@@ -522,7 +615,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                     height={46}
                                     src={'/Group 11.svg'}
                                 />
-                                <h1 className={`text-[35px] leading-none mt-[35px] ${dmSans.className}`}>{cardItems[1].tittle}</h1>
+                                <h1 className={`text-[35px] leading-none mt-[35px]`}>{cardItems[1].tittle}</h1>
                                 <p className='text-[16px] mt-[25px]'>{cardItems[1].text}</p>
                             </div>
                             <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
@@ -558,7 +651,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                     height={46}
                                     src={'/Group 12.svg'}
                                 />
-                                <h1 className={`text-[35px] leading-none mt-[35px] ${dmSans.className}`}>{cardItems[2].tittle}</h1>
+                                <h1 className={`text-[35px] leading-none mt-[35px] `}>{cardItems[2].tittle}</h1>
                                 <p className='text-[16px] mt-[25px]'>{cardItems[2].text}</p>
                             </div>
                             <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
@@ -594,7 +687,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                     height={46}
                                     src={'/Group 13.svg'}
                                 />
-                                <h1 className={`text-[35px] leading-none mt-[35px] ${dmSans.className}`}>{cardItems[3].tittle}</h1>
+                                <h1 className={`text-[35px] leading-none mt-[35px]`}>{cardItems[3].tittle}</h1>
                                 <p className='text-[16px] mt-[25px]'>{cardItems[3].text}</p>
                             </div>
                             <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
@@ -630,7 +723,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                     height={46}
                                     src={'/Group 14.svg'}
                                 />
-                                <h1 className={`text-[35px] leading-none mt-[35px] ${dmSans.className}`}>{cardItems[4].tittle}</h1>
+                                <h1 className={`text-[35px] leading-none mt-[35px]`}>{cardItems[4].tittle}</h1>
                                 <p className='text-[16px] mt-[25px]'>{cardItems[4].text}</p>
                             </div>
                             <div className='flex flex-row items-center hover:cursor-pointer gap-[14px]'
@@ -648,12 +741,12 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                 <span>View more</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
 
             </div>
-        </div>
+        </div >
     )
 }
 

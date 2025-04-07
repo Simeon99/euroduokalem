@@ -4,10 +4,12 @@ import React, { useState } from 'react'
 
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import HomeCarousel from './HomeCarousel';
+import { Translation } from '../[lang]/dictionaries';
+import { formatTextWithBreaks } from './ui/SplitText';
 
-const HomeProducts = () => {
+const HomeProducts = ({ t }: { t: Translation }) => {
 
-  const [totapPage] = useState(5);
+  const [totapPage] = useState(6);
   const [currentCard, setCurrentCard] = useState(0);
 
   const DATA = [
@@ -22,8 +24,9 @@ const HomeProducts = () => {
 
         <div className='max-w-[1004px]  w-full flex flex-row justify-between items-end'>
           <h1 className='text-[24px] md:text-[40px] leading-none font-heading font-bold text-primary'>
-            Orkrijte naše najtraženije <br />
-            sadnice voća
+            {/* Orkrijte naše najtraženije <br />
+            sadnice voća */}
+            {formatTextWithBreaks(t.home.mostWanted.title)}
           </h1>
           <div className='flex-1 flex flex-col max-md:w-full items-end '>
 
@@ -38,11 +41,11 @@ const HomeProducts = () => {
                     <IoIosArrowBack size={36} className={`text-primary ${currentCard === 0 && 'opacity-50'}`} />
                   </button>
                   <button
-                    disabled={currentCard === 4}
+                    disabled={currentCard === totapPage-1}
                     onClick={() => setCurrentCard(prev => prev + 1)}
-                    className={`z-10 hover:cursor-pointer  ${currentCard === 4 && 'opacity-50'}`}
+                    className={`z-10 hover:cursor-pointer  ${currentCard === totapPage-1 && 'opacity-50'}`}
                   >
-                    <IoIosArrowForward className={`text-primary ${currentCard === 4 && 'opacity-50'}`} size={36} />
+                    <IoIosArrowForward className={`text-primary ${currentCard === totapPage-1 && 'opacity-50'}`} size={36} />
                   </button>
                 </div>
             </div>
@@ -50,7 +53,7 @@ const HomeProducts = () => {
           </div>
         </div>
         <div className='max-w-screen-sw w-full mt-4'>
-          <HomeCarousel data={DATA} setCurrentCard={setCurrentCard} currentCard={currentCard} />
+          <HomeCarousel data={DATA} t={t} setCurrentCard={setCurrentCard} currentCard={currentCard} />
           {/* <div className={`text-[55px] mt-[195px] max-md:text-[44px] relative `}>
             <div className='flex flex-row justify-between'>
               <h1 className='text-white'>Industries we handle</h1>

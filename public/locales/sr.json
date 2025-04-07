@@ -1,0 +1,74 @@
+{
+  "header": {
+    "fruiteSeedlings": "Sadnice voća",
+    "aboutUs": "O nama",
+    "blog": "Blog",
+    "contact": "Kontaktirajte nas"
+  },
+  "home": {
+    "title": "Sadnice koje donose \nbogat rod i sigurnu \nbudućnost!",
+    "baner1": "Sadnice voća",
+    "baner2": "Voćarstvo",
+    "baner3": "Sertifikovane sadnice",
+    "baner4": "Bezvirusni sadni materijal",
+    "heading": "Na temelju tradicije za uspešniju budućnost",
+    "desc": "Zemljoradnička zadruga “Euro duo kalem” nastala je na temeljima višedecenijske tradicije uzgoja sadnog materijala. Primarna delatnost je proizvodnja voćnih sadnica, loznih kalemova i sadnica ruža. Proizvodnju bezvirusnih sadnica, ostvarujemo pomoću povoljnih klimatskih uslova, primenom savremene tehnologije i konstantnom saradnjom sa vodećim institutima iz Srbije i drugih zemalja. Savremeni dizajn i vrhunski kvalitet naših proizvoda prepoznatljiv je i u mnogim zemljama Evrope i Azije. Pridružite nam se na našem putu ka plodnoj budućnosti.",
+    "mostWanted": {
+      "title": "Orkrijte naše najtraženije \nsadnice voća",
+      "more": "Saznaj više",
+      "pear": {
+        "title": "kruška",
+        "text": "Naše sadnice kruške donose obilan rod i prilagođene su različitim klimatskim uslovima. Sorte iz naše ponude odlikuju se odličnim balansom slatkoće i svežine, savršene za svežu potrošnju i preradu..."
+      },
+      "apple": {
+        "title": "jabuka",
+        "text": " Kvalitetne sadnice jabuke sa bogatim ukusom i dugim rokom čuvanja, idealne za sve vrste proizvodnje. Nudimo rane, srednje i kasne sorte, prilagođene različitim potrebama voćara i tržišta..."
+      },
+      "plum": {
+        "title": "šljiva",
+        "text": "Otporne i plodne sorte šljive, savršene za sveže konzumiranje, sušenje ili preradu. Naše sadnice garantuju visok prinos i stabilan kvalitet plodova, uz izuzetnu prilagodljivost zemljištu i klimi..."
+      },
+      "sourCherry": {
+        "title": "višnja",
+        "text": "Višnje bogate aromom, odlične za preradu, sokove i džemove, sa stabilnim prinosima. Naše sadnice su otporne na bolesti i prilagođene različitim uslovima gajenja, pružajući sigurnu i kvalitetnu berbu..."
+      },
+      "cherry": {
+        "title": "trešnja",
+        "text": "Slatke i sočne trešnje iz naših zasada, poznate po izuzetnoj krupnoći i ukusu. Birane sorte sa odličnim oprašivanjem i visokim prinosom osiguravaju dugotrajan i kvalitetan rod..."
+      },
+      "allProducts": {
+        "title": "pogledajte sve naše sadnice",
+        "text": "Vidi sve"
+      }
+    },
+    "seedlingsTitle": "Zašto naše sadnice",
+    "seedlings": [
+      "15+ vrsta voćnih sadnica -  Širok asortiman sadnica prilagođen različitim klimatskim uslovima i potrebama poljoprivrednika.",
+      "Izvoz u 20+ zemalja - Naše sadnice su prepoznate na domaćem i međunarodnom tržištu, uz visok standard kvaliteta.",
+      "Tradicionalna proizvodnja uz savremene metode - Spoj dugogodišnjeg iskustva i moderne tehnologije garantuje vrhunski kvalitet sadnica.",
+      "Sertifikovan kvalitet -  Sve sadnice su proizvedene u skladu sa najvišim standardima, uz redovne kontrole zdravlja i kvaliteta.",
+      "Brza i sigurna isporuka - Obavljamo pouzdanu dostavu kako bismo osigurali da sadnice stignu u savršenom stanju. ",
+      "Stručna podrška i savetovanje - Pružamo savete o sadnji, nezi i uzgoju kako biste postigli maksimalan prinos."
+    ],
+    "seedlingsBtn": "Saznaj više",
+    "message": "Ne sadite samo voće, sadite budućnost - vrhunske sadnice za voćnjake koji traju generacijama!",
+    "contact": {
+      "title": "Kontaktirajte nas",
+      "name": "Ime i prezime",
+      "email": "Email",
+      "message": "Poruka",
+      "button": "Pošalji poruku"
+    }
+  },
+  "footer": {
+    "nav": "Brza navigacija",
+    "seedlings": "Sadnice voća",
+    "aboutUs": "O nama",
+    "blog": "Blog",
+    "contactUs": "Kontaktirajte nas",
+    "contact": "Kontakt",
+    "address": "Adresa",
+    "addressOf": "Selo Lazarevac, Kruševac, Srbija",
+    "social": "Mreže"
+  }
+}

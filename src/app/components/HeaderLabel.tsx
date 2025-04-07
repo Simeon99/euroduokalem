@@ -3,8 +3,9 @@ import { PiTree } from "react-icons/pi";
 import { CiApple } from "react-icons/ci";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { Translation } from '../[lang]/dictionaries';
 
-const HeaderLabel = () => {
+const HeaderLabel = ({ t }: { t: Translation }) => {
     return (
         <div className='bg-secondary flex justify-center'>
             <div className=' max-w-screen-sw  w-full px-4 py-6'>
@@ -14,7 +15,7 @@ const HeaderLabel = () => {
                             <PiTree size={28} />
 
                         </div>
-                        <span >Sadnice voca</span>
+                        <span >{t.home.baner1}</span>
 
                     </div>
                     <div className=' flex flex-row items-center gap-2'>
@@ -22,7 +23,7 @@ const HeaderLabel = () => {
                             <CiApple size={33} />
 
                         </div>
-                        <span>Voćarstvo</span>
+                        <span>{t.home.baner2}</span>
 
                     </div>
                     <div className=' flex flex-row items-center gap-2'>
@@ -30,7 +31,7 @@ const HeaderLabel = () => {
                             <AiOutlineSafetyCertificate size={28} />
 
                         </div>
-                        <span >Sertifikovane sadnice</span>
+                        <span >{t.home.baner3}</span>
 
                     </div>
                     <div className=' flex flex-row items-center gap-2'>
@@ -38,7 +39,7 @@ const HeaderLabel = () => {
                             <MdOutlineHealthAndSafety size={30} />
 
                         </div>
-                        <span>Bezvirusni sadni materijal</span>
+                        <span>{t.home.baner4}</span>
 
                     </div>
                 </div>

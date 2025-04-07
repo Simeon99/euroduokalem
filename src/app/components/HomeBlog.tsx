@@ -23,7 +23,7 @@ const HomeBlog: React.FC<Props> = ({ posts }) => {
                     <Link
                         key={index}
                         href={post.link}
-                        className="block rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition duration-300 bg-secondary-light"
+                        className="hover:scale-101 transform   block rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition duration-300 bg-secondary-light"
                     >
                         <Image
                             src={post.imageUrl}

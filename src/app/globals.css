@@ -10,7 +10,7 @@
   --color-secondary-light: #F6F8F5;
   --color-orange: #D7740A;
   --color-orange-hover: #fd8a0f;
-  /* --foreground: #171717; */
+  --foreground: #171717;
 }
 
 @layer utilities {

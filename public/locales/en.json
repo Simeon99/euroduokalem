@@ -1,0 +1,74 @@
+{
+  "header": {
+    "fruiteSeedlings": "Fruit seedlings",
+    "aboutUs": "About us",
+    "blog": "Blog",
+    "contact": "Contact us"
+  },
+  "home": {
+    "title": "Seedlings that bring \nabundant harvests and \na secure future!",
+    "baner1": "Fruit tree seedlings ",
+    "baner2": "Fruit growing ",
+    "baner3": "Certified seedlings",
+    "baner4": "Virus-free planting material ",
+    "heading": "Built on tradition, for a more successful future",
+    "desc": "The agricultural cooperative “Euro duo kalem” was founded on decades-long traditions of cultivating planting material. Our primary activity is the production of fruit tree seedlings, grafted grapevines, and rose seedlings. We achieve virus-free seedling production thanks to favorable climatic conditions, the use of modern technology, and continuous cooperation with leading institutes from Serbia and abroad. The modern design and top quality of our products are recognized in many countries across Europe and Asia. Join us on our journey toward a fruitful future.",
+    "mostWanted": {
+      "title": "Discover our most sought-after fruit tree seedlings",
+      "more": "Learn more ",
+      "pear": {
+        "title": "pear",
+        "text": "Our pear seedlings yield abundant harvests and are adapted to various climatic conditions. The varieties we offer are known for their excellent balance of sweetness and freshness, making them perfect for both fresh consumption and processing..."
+      },
+      "apple": {
+        "title": "apple",
+        "text": "Quality apple seedlings with rich flavor and long shelf life, ideal for all types of production. We offer early, medium, and late varieties, tailored to the different needs of fruit growers and the market..."
+      },
+      "plum": {
+        "title": "plum",
+        "text": "Resistant and fruitful plum varieties, perfect for fresh consumption, drying, or processing. Our seedlings guarantee high yields and stable fruit quality, with exceptional adaptability to soil and climate..."
+      },
+      "sourCherry": {
+        "title": "sour cherry",
+        "text": "Cherries with rich flavor, perfect for processing, juices, and jams, with stable yields. Our seedlings are resistant to diseases and adapted to various growing conditions, providing a secure and high-quality harvest..."
+      },
+      "cherry": {
+        "title": "sweet cherry",
+        "text": "Sweet and juicy cherries from our orchards, known for their exceptional size and flavor. Selected varieties with excellent pollination and high yields ensure long-lasting and high-quality crops..."
+      },
+      "allProducts": {
+        "title": "see all our seedlings",
+        "text": "See all"
+      }
+    },
+    "seedlingsTitle": "Why our seedlings",
+    "seedlings": [
+      "15+ varieties of fruit tree seedlings - A wide assortment of seedlings adapted to various climatic conditions and the needs of farmers.",
+      "Export to 20+ countries - Our seedlings are recognized in both domestic and international markets, with a high standard of quality. ",
+      "Traditional production with modern methods - A combination of years of experience and modern technology ensures top-quality seedlings.",
+      "Certified quality - All seedlings are produced in accordance with the highest standards, with regular health and quality checks.",
+      "Fast and secure delivery - We provide reliable delivery to ensure that the seedlings arrive in perfect condition.",
+      "Expert support and advisory services - We provide advice on planting, care, and cultivation to help you achieve maximum yield."
+    ],
+    "seedlingsBtn": "Learn more",
+    "message": "Don’t just plant fruit, plant the future - top-quality seedlings for orchards that last for generations!",
+    "contact": {
+      "title": "Contact us",
+      "name": "Full name",
+      "email": "Email",
+      "message": "Message",
+      "button": "Send message "
+    }
+  },
+  "footer": {
+    "nav": "Quick Links",
+    "seedlings": "Seedlings",
+    "aboutUs": "About us",
+    "blog": "Blog",
+    "contactUs": "Contact us",
+    "contact": "Contact",
+    "address": "Address",
+    "addressOf": "Village Lazarevac, Kruševac, Serbia",
+    "social": "Networks"
+  }
+}
