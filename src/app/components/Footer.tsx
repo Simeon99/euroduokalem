@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Translation } from '../[lang]/dictionaries'
 
-const Footer = ({ t}: { t: Translation}) => {
+const Footer = ({ t }: { t: Translation }) => {
   return (
     <div className='bg-primary flex justify-center h-full pt-8'>
       <div className='max-w-screen-sw h-[650px] max-md:h-[900px]  w-full relative'>
@@ -85,21 +85,26 @@ const Footer = ({ t}: { t: Translation}) => {
             </div>
             <div className='flex flex-col items-baseline   max-md:pt-4 max-md:gap-4'>
               <span className='font-light opacity-60 text-secondary-light text-[24px] max-md:text-[18px] md:mb-4'>{t.footer.social}</span>
-              <div className='flex flex-row items-baseline gap-4 '>
-                <Image
-                  src={'/images/home/instagram-icon.svg'}
-                  alt={"Instagram"}
-                  width={30}
-                  height={30}
-                // className="w-full h-full object-cover"
-                />
-                <Image
-                  src={'/images/home/facebook-icon.svg'}
-                  alt={"Facebook"}
-                  width={30}
-                  height={30}
-                // className="w-full h-full object-cover"
-                />
+              <div className='flex flex-row items-baseline gap-4 z-50'>
+                <a href={'https://www.instagram.com/euroduokalem/'} target="_blank" className='hover:opacity-60'>
+                  <Image
+                    src={'/images/home/instagram-icon.svg'}
+                    alt={"Instagram"}
+
+                    width={30}
+                    height={30}
+                  // className="w-full h-full object-cover"
+                  />
+                </a>
+                <a href={'https://www.facebook.com/profile.php?id=61566524104473'} target="_blank" className=' hover:opacity-60'>
+                  <Image
+                    src={'/images/home/facebook-icon.svg'}
+                    alt={"Facebook"}
+                    width={30}
+                    height={30}
+                  // className="w-full h-full object-cover"
+                  />
+                </a>
 
               </div>
             </div>

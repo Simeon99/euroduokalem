@@ -11,7 +11,7 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
         <div className='flex  justify-center px-4 bg-secondary'>
             <div className='max-w-screen-sw  w-full flex flex-row max-md:flex-col    py-16 max-md:py-2  items-center gap-16 justify-between'>
                 <div className='flex flex-col flex-1 py-8 gap-4'>
-                    <h1 className='font-heading leading-0 text-6xl text-primary py-8 max-lsw:text-5xl max-md:text-4xl font-bold '>Naše sadnice</h1>
+                    <h1 className='font-heading  text-6xl text-primary py-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.seedlingsTitle}</h1>
                     {/* Mobile image */}
                     <div className=" md:hidden relative full h-[500px] overflow-hidden rounded-md shadow-lg">
                         <Image
@@ -33,11 +33,13 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
                     <div className='flex flex-col gap-4 '>
                         {t.home.seedlings.map((i, index) => {
                             return (
-                                <div key={index} className='flex flex-row items-center gap-4'>
-                                    <div>
+                                <div key={index} className='flex flex-row  gap-4'>
+                                    <div className=''>
                                         <PiChecksBold color='#0E3A27' size={30} />
                                     </div>
-                                    <p className=' text-[24px] max-md:text-[20px]'>{splitBold(i)}</p>
+                                    <div>
+                                        <p className=' text-[24px] max-md:text-[20px] '>{splitBold(i)}</p>
+                                    </div>
                                 </div>
                             )
                         })}
@@ -68,7 +70,7 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
                         </div> */}
                     </div>
                     <div className='w-[200px] pt-8'>
-                        <Button label={t.home.seedlingsBtn}/>
+                        <Button label={t.home.seedlingsBtn} />
                     </div>
                 </div>
                 {/* Desktop image */}

@@ -9,12 +9,8 @@ import { useEffect, useRef, useState } from 'react';
 const images = [
     { src: '/images/home/carousel1.jpg', alt: 'Slide 1' },
     { src: '/images/home/carousel2.jpg', alt: 'Slide 2' },
-    { src: '/images/home/landing.png', alt: 'Slide 3' },
     { src: '/images/home/carousel3.jpg', alt: 'Slide 4' },
-    { src: '/images/home/carousel4.jpg', alt: 'Slide 5' },
-    { src: '/images/home/carousel5.jpg', alt: 'Slide 6' },
     { src: '/images/home/carousel8.jpg', alt: 'Slide 7' },
-    { src: '/images/home/carousel6.jpg', alt: 'Slide 8' },
 ];
 const SLIDE_DURATION = 4000;
 

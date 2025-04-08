@@ -46,7 +46,7 @@ export default async function Home({ params }: PageProps) {
       <div className="absolute top-0 w-full">
         <Landing t={t}/>
       </div>
-      <div className="mt-[636px] max-md:mt-[420px]">
+      <div className="mt-[636px] max-md:mt-[445px]">
         <HeaderLabel t={t}/>
         <HeadingHome t={t}/>
       </div>

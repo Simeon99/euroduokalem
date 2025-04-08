@@ -98,9 +98,6 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                 });
             }
         }
-
-
-        console.log("ww", windowWidth)
     }, [windowWidth])
     const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
         touchStartX.current = e.touches[0].clientX
@@ -111,7 +108,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
     }
     const handleTouchEnd = () => {
         const deltaX = touchStartX.current - touchEndX.current
-        if (deltaX > 50 && currentCard < cardItems.length - 1) {
+        if (deltaX > 50 && currentCard < cardItems.length) {
             setCurrentCard(currentCard + 1) // swipe left
         } else if (deltaX < -50 && currentCard > 0) {
             setCurrentCard(currentCard - 1) // swipe right
@@ -135,7 +132,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                     {
                         cardItems.map((i, index) => {
                             return (
-                                <div key={index} className={` relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  ${index === 1 ? 'bg-[#E0F1E2] text-[#245E1D]' : index === 2 ? 'bg-[#f0deec] text-[#330427]' : index === 3 ? 'bg-[#ffd2d5] text-[#9E030C]' : index === 4 ? 'bg-[#ffe5eb] text-[#D20A2E]' : 'bg-[#FFFBE4] text-[#FF910A]'}  hover:cursor-pointer shadow-md hover:shadow-lg transition `}
+                                <div key={index} className={` hover:scale-101 transform  duration-300 relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  ${index === 1 ? 'bg-[#E0F1E2] text-[#245E1D]' : index === 2 ? 'bg-[#f0deec] text-[#330427]' : index === 3 ? 'bg-[#ffd2d5] text-[#9E030C]' : index === 4 ? 'bg-[#ffe5eb] text-[#D20A2E]' : 'bg-[#FFFBE4] text-[#FF910A]'}  hover:cursor-pointer shadow-md hover:shadow-lg transition `}
                                     onMouseEnter={() => animateHover(index, true)}
                                     onMouseLeave={() => animateHover(index, false)}>
                                     <div className='w-[370px] max-md:w-[200px] '>
