@@ -79,7 +79,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
         }
         window.addEventListener('resize', handleResize);
         handleResize();
-        if (windowWidth < 768) {
+        if (windowWidth < 480) {
             const elem = carouselSmall.current as unknown as HTMLDivElement;
             const { width, height } = elem.getBoundingClientRect();
             if (carouselSmall.current) {
@@ -126,7 +126,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                     onTouchMove={handleTouchMove}
                     onTouchEnd={handleTouchEnd}
                     style={{
-                        left: windowWidth < 1080 ? -currentCard * (carouselSize.width + 32) : -currentCard * (carouselSize.width + 67)
+                        left: windowWidth < 1080 ? -currentCard * (carouselSize.width + 28) : -currentCard * (carouselSize.width + 67)
                     }}
                     className={`left-[${-currentCard * carouselSize.width + 32}px] left-[50px] w-full h-full absolute flex gap-[67px] max-lsw:gap-[29px] transition-all duration-300 max-xsw:hidden py-4`}>
                     {
@@ -161,7 +161,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                             <div className='flex-1 line-clamp-6'>
                                                 <p className='max-lsw:text-[20px]  max-md:text-[18px] text-[24px]'>{i.text}</p>
                                             </div>
-                                            <div className='flex flex-row gap-4 items-center max-lsw:items-baseline '>
+                                            <div className='flex flex-row gap-4 items-center '>
                                                 <BsArrowRightCircle className={` ${isHovered.item === index && isHovered.hover ? '-rotate-45 transition' : ''} duration-300 ease-out`} size={50} />
                                                 <span className='font-black'>{t.home.mostWanted.more}</span>
                                             </div>

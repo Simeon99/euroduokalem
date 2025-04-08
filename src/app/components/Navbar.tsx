@@ -36,9 +36,9 @@ export default function Navbar({ t }: { t: Translation }) {
                             onClick={() => setIsOpen(!isOpen)}
                             aria-label="Toggle menu"
                         >
-                            <div className={`w-6 h-0.5  mb-1 bg-black rounded-full transition-transform ${isOpen ? `bg-black transform rotate-45 translate-y-1` : ''}`}></div>
-                            <div className={`w-6 h-0.5 bg-black  mb-1 rounded-full transition-opacity ${isOpen ? 'bg-black opacity-0' : 'opacity-100'}`}></div>
-                            <div className={`w-6 h-0.5 bg-black  rounded-full transition-transform ${isOpen ? 'bg-black transform -rotate-45 -translate-y-2' : ''}`}></div>
+                            <div className={`w-6 h-0.5  mb-1 bg-primary rounded-full transition-transform ${isOpen ? `bg-primary transform rotate-45 translate-y-1` : ''}`}></div>
+                            <div className={`w-6 h-0.5 bg-primary  mb-1 rounded-full transition-opacity ${isOpen ? 'bg-primary opacity-0' : 'opacity-100'}`}></div>
+                            <div className={`w-6 h-0.5 bg-primary  rounded-full transition-transform ${isOpen ? 'bg-primary transform -rotate-45 -translate-y-2' : ''}`}></div>
                         </button>
 
                     </div>
