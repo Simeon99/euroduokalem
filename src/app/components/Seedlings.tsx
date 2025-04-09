@@ -63,7 +63,7 @@ const Seedlings = ({ lang, t }: { lang: string, t: Translation }) => {
             </div>
 
             {loading ? (
-                <div className='grid grid-cols-4 gap-8'>
+                <div className='grid grid-cols-4 max-sw:grid-cols-3 max-lsw:grid-cols-2 max-ssw:grid-cols-1 gap-8'>
                     {Array.from({ length: 8 }).map((_, index) => (
                         <div key={index}>
                             <Loading />
