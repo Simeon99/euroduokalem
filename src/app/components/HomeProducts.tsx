@@ -19,7 +19,7 @@ const HomeProducts = ({ t }: { t: Translation }) => {
 
 
   return (
-    <div className='flex justify-center px-4'>
+    <div className='flex justify-center px-4 '>
       <div className='max-w-screen-sw w-full'>
 
         <div className='max-w-[1004px]  w-full flex flex-row justify-between items-end'>

@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image';
 import React from 'react'
 
@@ -5,8 +7,11 @@ import { PiChecksBold } from "react-icons/pi";
 import Button from './ui/Button';
 import { Translation } from '../[lang]/dictionaries';
 import { splitBold } from './ui/SplitText';
+import { useRouter } from 'next/navigation';
 
 const HomeSeedlings = ({ t }: { t: Translation }) => {
+
+    const router = useRouter();
     return (
         <div className='flex  justify-center px-4 bg-secondary'>
             <div className='max-w-screen-sw  w-full flex flex-row max-md:flex-col    py-16 max-md:py-2  items-center gap-16 justify-between'>
@@ -22,14 +27,6 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
                             priority
                         />
                     </div>
-                    {/* <div className='md:hidden w-[400px] h-[300px]'>
-                        <Image
-                            alt={`carousel-image-aaaaaaaaa`}
-                            className="object-cover"
-                            priority
-                            src={'/images/home/seedling.png'}
-                        />
-                    </div> */}
                     <div className='flex flex-col gap-4 '>
                         {t.home.seedlings.map((i, index) => {
                             return (
@@ -43,34 +40,9 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
                                 </div>
                             )
                         })}
-
-                        {/* <div className='flex flex-row items-center gap-4'>
-                            <div>
-                                <PiChecksBold size={30} />
-                            </div>
-                            <p className=' text-[24px] max-md:text-[20px]'>14+ sorti voca ali važno je da ciljevi jasni i postojani, jer nas upravo</p>
-                        </div>
-                        <div className='flex flex-row items-center gap-4'>
-                            <div>
-                                <PiChecksBold size={30} />
-                            </div>
-                            <p className=' text-[24px] max-md:text-[20px]'>14+ sorti voca ali važno je da ciljevi ostanu jasni i postojani, jer nas upravo</p>
-                        </div>
-                        <div className='flex flex-row items-center gap-4'>
-                            <div>
-                                <PiChecksBold size={30} />
-                            </div>
-                            <p className=' text-[24px] max-md:text-[20px]'>14+ sorti voca ali važno je da ciljevi ostanu jasni i postojani, jer nas upravo</p>
-                        </div>
-                        <div className='flex flex-row items-center gap-4'>
-                            <div>
-                                <PiChecksBold size={30} />
-                            </div>
-                            <p className=' text-[24px] max-md:text-[20px]'>14+ sorti voca ali važno je da ciljevi ostanu jasni i postojani, jer nas upravo</p>
-                        </div> */}
                     </div>
                     <div className='w-[200px] pt-8'>
-                        <Button label={t.home.seedlingsBtn} />
+                        <Button label={t.home.seedlingsBtn} onClick={() => router.push('/seedlings')} />
                     </div>
                 </div>
                 {/* Desktop image */}

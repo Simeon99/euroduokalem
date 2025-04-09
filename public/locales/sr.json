@@ -60,6 +60,9 @@
       "button": "Pošalji poruku"
     }
   },
+  "seedlings": {
+    "title": "Naše sadnice"
+  },
   "footer": {
     "nav": "Brza navigacija",
     "seedlings": "Sadnice voća",

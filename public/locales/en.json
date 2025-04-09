@@ -60,6 +60,9 @@
       "button": "Send message "
     }
   },
+  "seedlings": {
+    "title": "Our seedlings"
+  },
   "footer": {
     "nav": "Quick Links",
     "seedlings": "Seedlings",

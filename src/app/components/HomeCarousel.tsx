@@ -5,6 +5,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { BsArrowRightCircle } from 'react-icons/bs';
 import { Translation } from '../[lang]/dictionaries';
 import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 interface HomeCarouselProps {
     data: HomeCaraouselData[];
@@ -174,7 +175,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
 
                     }
 
-                    <div className={`hover:scale-101 transform  duration-300 relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  bg-primary text-secondary-light  hover:cursor-pointer shadow-md hover:shadow-lg transition `}
+                    <Link href={'/seedlings'} className={`hover:scale-101 transform  duration-300 relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  bg-primary text-secondary-light  hover:cursor-pointer shadow-md hover:shadow-lg transition `}
                         onMouseEnter={() => animateHover(5, true)}
                         onMouseLeave={() => animateHover(5, false)}>
                         <div className='w-[500px] '>
@@ -219,7 +220,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         </div>
 
 
-                    </div>
+                    </Link>
 
                     {/* <div className='relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl bg-[#FFFBE4] text-[#FF910A] hover:cursor-pointer shadow-md hover:shadow-lg transition '
                         onMouseEnter={() => animateHover(0, true)}
@@ -573,7 +574,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         )
                     }
 
-                    <div className={`relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  bg-primary text-secondary-light hover:cursor-pointer`}
+                    <Link href={'/seedlings'} className={`relative flex flex-row justify-between shrink-0 w-full h-full rounded-2xl  bg-primary text-secondary-light hover:cursor-pointer`}
                         onMouseEnter={() => animateHover(5, true)}
                         onMouseLeave={() => animateHover(5, false)}>
                         <div className='w-full   flex flex-col justify-between'>
@@ -592,7 +593,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                             </div>
                         </div>
 
-                    </div>
+                    </Link>
 
 
                     {/* <div className='relative  shrink-0 w-full h-full flex bg-[#2C2C2C] text-white'>

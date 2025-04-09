@@ -47,7 +47,7 @@ export default function Navbar({ t }: { t: Translation }) {
                     <ul className="hidden md:flex gap-8 items-center font-body text-primary py-4">
                         <li className="relative group">
                             <Link
-                                href="/proizvodi"
+                                href="/seedlings"
                                 className="text-primary font-body transition-colors duration-300"
                             >
                                 {t.header.fruiteSeedlings}

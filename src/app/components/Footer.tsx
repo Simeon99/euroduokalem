@@ -23,7 +23,7 @@ const Footer = ({ t }: { t: Translation }) => {
           <div className='grid grid-cols-7 max-[1200px]:grid-cols-4 max-[1321px]:grid-cols-6 gap-4 max-md:grid-cols-2'>
             <div className='flex flex-col col-span-2 max-md:col-span-1 max-md:gap-y-4 z-50 max-md:pt-4'>
               <span className='font-light opacity-60 text-secondary-light text-[24px] max-md:text-[18px]  md:mb-4'>{t.footer.nav}</span>
-              <Link href={' '} className='text-secondary-light hover:opacity-60'>
+              <Link href={'/seedlings'} className='text-secondary-light hover:opacity-60'>
                 <span className='font-heading font-bold  text-[24px] max-md:text-[18px] '>
                   {t.footer.seedlings}
                 </span>

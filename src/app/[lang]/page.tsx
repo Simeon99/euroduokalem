@@ -50,22 +50,22 @@ export default async function Home({ params }: PageProps) {
         <HeaderLabel t={t}/>
         <HeadingHome t={t}/>
       </div>
-      <div className="overflow-hidden mt-[60px] md:mt-[140px]">
+      <div className="overflow-hidden py-[60px] bg-white md:py-[140px]">
         <HomeProducts t={t}/>
       </div>
-      <div className="pt-[140px]">
+      <div className="">
         <HomeSeedlings t={t}/>
       </div>
-      <div className="pt-[140px] pb-[140px]">
+      <div className="pt-[140px] pb-[140px] bg-white">
         <HomeMessage  t={t}/>
       </div>
-      <div className="pb-[140px]">
+      <div className="pb-[140px] bg-white">
         <YouTubeVideo />
       </div>
-      <div className="pb-[140px]">
+      <div className="">
         <Contact t={t}/>
       </div>
-      <div className="pb-[140px]">
+      <div className="py-[140px] bg-white">
         <HomeBlog posts={blogPosts} />
       </div>
     </div>
