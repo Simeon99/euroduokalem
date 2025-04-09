@@ -15,7 +15,7 @@ export default function LangSwitcher() {
     const [open, setOpen] = useState(false);
 
     useEffect(() => {
-        const parts = pathname.split('/');
+        const parts = pathname?.split('/') || '';
         if (availableLangs.includes(parts[1])) {
             setCurrentLang(parts[1]);
         }
@@ -24,7 +24,7 @@ export default function LangSwitcher() {
     const changeLanguage = (lang: string) => {
         document.cookie = `lang=${lang}; path=/; max-age=31536000`; // 1 year
 
-        const parts = pathname.split('/');
+        const parts = pathname?.split('/') || [''];
         if (availableLangs.includes(parts[1])) {
             parts[1] = lang;
         } else {

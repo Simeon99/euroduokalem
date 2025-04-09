@@ -99,7 +99,7 @@ export default function Navbar({ t }: { t: Translation }) {
                 <div className={`z-50 p-4  bg-[var(--color-secondary-transparent)] backdrop-blur-md  rounded-b-md   transition-all duration-300 ease-in-out overflow-hidden  md:hidden ${isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
                     }`}>
                     <ul className="flex flex-col  gap-4 font-body text-[20px] font-bold text-primary ">
-                        <Link href="/" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.fruiteSeedlings}</li></Link>
+                        <Link href="/seedlings" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.fruiteSeedlings}</li></Link>
                         <Link href="/proizvodi" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.aboutUs}</li></Link>
                         <Link href="/kontakt" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.blog}</li></Link>
                         <Link href="/onama" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.contact}</li></Link>

@@ -26,7 +26,7 @@ interface HomeCaraouselData {
 
 const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard, t }) => {
 
-    const pathname = usePathname().substring(1);
+    const pathname = usePathname()?.substring(1);
     const [isHovered, setIsHovered] = useState({ item: 0, hover: false });
     const [carouselSize, setCarouselSize] = useState({ width: 1004, height: 496 })
     // const [isOpen, setIsOpen] = useState(false);
