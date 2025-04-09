@@ -91,7 +91,7 @@ export default function Navbar({ t }: { t: Translation }) {
                 </div>
             </div>
             {/* Mobile Menu */}
-            <div className='  fixed top-[53.35px] left-0 right-0 w-full max-w-[1440px]  mx-auto px-4 '>
+            <div className='  fixed top-[69.34px] left-0 right-0 w-full max-w-[1440px]  mx-auto px-4 '>
                 <div
                     className={`h-[2px] w-full bg-primary origin-center transform transition-transform duration-300 ${isOpen ? 'scale-x-100' : 'scale-x-0'
                         }`}
