@@ -17,7 +17,7 @@ export default function Navbar({ t }: { t: Translation }) {
             <div className={`w-full bg-[var(--color-secondary-transparent)] backdrop-blur-md rounded-md ${isOpen ? 'rounded-b-none ' : 'shadow-md'}  max-w-[1440px] mx-auto px-4  `}>
                 <div className="max-w-7xl mx-auto  flex items-center justify-between">
                     {/* Logo */}
-                    <Link href="/" className="text-2xl font-bold text-primary font-heading">
+                    <Link href="/" className="text-2xl font-bold text-primary font-heading py-2">
                         {/* EuroDuoKalem */}
                         <Image
                             src={'/images/home/logo EDK.svg'}
@@ -44,7 +44,7 @@ export default function Navbar({ t }: { t: Translation }) {
                     </div>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex gap-8 items-center font-body text-primary py-4">
+                    <ul className="hidden md:flex gap-8 items-center font-body text-primary ">
                         <li className="relative group">
                             <Link
                                 href="/seedlings"
