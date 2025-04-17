@@ -1,0 +1,1013 @@
+{
+  "sr": {
+    "apple": {
+      "title": "Jabuka",
+      "subvarietys": [
+        {
+          "subvariety": "Ajdared",
+          "about": "Ajdared je američka sorta jabuke nastala ukrštanjem sorti Jonathan i Wagner. Zbog svog atraktivnog izgleda, otpornosti i mogućnosti dugotrajnog skladištenja, veoma je popularna kako u komercijalnoj proizvodnji, tako i kod potrošača. Pripada grupi zimskih sorti i poznata je po stabilnom i visokom prinosu. ",
+          "main": [
+            "Blago kiselkast ukus",
+            "Kasna berba",
+            "Dug rok čuvanja",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan do krupan, sa glatkom i sjajnom pokožicom, boja je  pretežno crvena sa zelenkastom osnovom. Pogodna je za potrošače koji vole ravnotežu između slatkoće i kiselosti."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Ajdared sazreva krajem septembra ili početkom oktobra. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima sa dobrom drenažom. Optimalno su joj blago kisela do neutralna zemljišta, a uspeva najbolje na sunčanim i umereno vlažnim parcelama. "
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Breburn",
+          "about": "Breburn je poreklom sa Novog Zelanda i predstavlja jednu od najznačajnijih sorti jabuke u komercijalnoj proizvodnji zbog svoje postojanosti, kvaliteta ploda i uravnoteženog ukusa. Nastala je prirodnim ukrštanjem sorti Lady Hamilton i Granny Smith. Prepoznatljiva je po čvrstoj strukturi, slatko-kiselom ukusu i dugom roku trajanja. ",
+          "main": [
+            "Blago kiselkast ukus",
+            "Pozno zrenje",
+            "Dugotrajna svežina",
+            "Umereno zahtevna"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je čvrst i krupan, sa glatkom pokožicom crvenkastih nijansi. Ono što je karakteristično za ovu sortu je sočan i prijatno osvežavajuć, blago kiselkast ukus. "
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Breburn se bere u drugoj polovini oktobra, što je čini sortom pozne sezone. Odlikuje se odličnom transportabilnošću i čvrstoćom ploda, što je čini pogodnom za duži plasman na tržištu. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu, sa dobrom izloženošću suncu. "
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Fudži",
+          "about": "Fudži je visoko vrednovana sorta jabuke poreklom iz Japana, nastala ukrštanjem sorti Ralls Janet i Red Delicious. U komercijalnoj proizvodnji prepoznata je po izuzetnoj konzistentnosti kvaliteta ploda, otpornosti na skladištenje i dugom roku trajanja bez gubitka svežine. Fudži se ubraja među najtraženije sorte na globalnom tržištu, naročito u segmentu sveže potrošnje. ",
+          "main": [
+            "Prepoznatljiv izgled",
+            "Izuzetno slatka",
+            "Pozna berba",
+            "Dug vek čuvanja"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je krupan, čvrst i sočan. Pokožica je žućkasto-zelena, gotovo u potpunosti prekrivena crveno-ružičastim nijansama. Ukus je izraženo sladak, gotovo bez kiselosti, sa blagom aromom. "
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Fudži se bere u drugoj polovini oktobra. Pripada poznim sortama, ali se odlikuje odličnom postojanošću i dugo zadržava svežinu u skladištu. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dubokim, plodnim i dobro dreniranima zemljištima. Traži topla, sunčana staništa i redovno navodnjavanje kako bi se postigao pun kvalitet ploda."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Gala ",
+          "about": "Gala je vrlo popularna sorta jabuke, poreklom iz Novog Zelanda, koja se odlikuje izuzetnom slatkoćom i prijatnim aromama. Zbog svoje boje i ujednačenog kvaliteta ploda, često se koristi u komercijalnoj proizvodnji, a njeni plodovi su među najtraženijima na tržištu. ",
+          "main": [
+            "Izuzetno slatka",
+            "Rana berba",
+            "Srednji vek čuvanja",
+            "Idealna za svežu konzumaciju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su manji do srednje krupni, sa glatkom, tankom pokožicom koja je žuto-crvena, često sa zlatnim nijansama. Ova sorta je  veoma slatko, sa blagim i prijatnim voćnim aromama."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Gala je rana sorta, koja se bere već u prvoj polovini avgusta."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Gala najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz obezbeđeno dovoljno sunčeve svetlosti."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Gloster",
+          "about": "Gloster je sorta jabuke koja potiče iz Nemačke i poznata je po svojoj čvrstoj teksturi i izuzetnoj otpornosti na skladištenje. Plodovi Glostera su često veći, sa karakterističnom crvenom, gotovo crnom bojom, koja ga čini vrlo prepoznatljivim. Ova sorta je cenjena zbog svoje svestranosti, jer se koristi i za konzumaciju u svežem stanju, ali i za pripremu sokova, džemova i rakija.",
+          "main": [
+            "Intenzivna crvena boja",
+            "Blago kiselkast ukus",
+            "Srednja berba",
+            "Višestruka upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan do krupan, sa tamno crvenom, ponekad gotovo crnom, pokožicom. Blago kiselkast ukus daje osvežavajuću notu. Ujednačenost ukusa i teksture čine ovu sortu pogodnom za dugoročno skladištenje."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Gloster se bere krajem septembra i početkom oktobra."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Ova sorta najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz dovoljnu količinu sunčeve svetlosti. Za optimalan rast, Gloster zahteva uravnoteženu količinu vlage i ne previše kiselina u tlu."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Greni smit",
+          "about": "Granny Smith je australijska sorta jabuke koja se ističe svojom živopisnom zelenom bojom i izrazito kiselkastim ukusom. Ova sorta je vrlo prepoznatljiva i široko korišćena zbog svoje čvrste teksture i svežeg, osvežavajućeg ukusa. Idealna je za sve vrste kulinarskih primena, ali se takođe koristi i u industriji sokova i rakija.",
+          "main": [
+            "Intenzivna zelena boja",
+            "Izražena kiselost",
+            "Srednja berba",
+            "Dug rok čuvanja"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan, sa karakterističnom svetlo zelenom pokožicom. Ukus je snažno kiselkast i osvežavajuć, bez puno slatkoće. Ova kombinacija daje specifičan profil koji je idealan za ljubitelje kiselijih jabuka."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Granny Smith se bere u oktobru i novembru."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Ova sorta najbolje raste na dubokim, plodnim, dobro dreniranim zemljištima, uz redovno navodnjavanje."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Jonagold",
+          "about": "Jonagold je hibridna sorta jabuke nastala ukrštanjem sorti Jonathan i Golden Delicious. Prepoznaje se po svom zlatno-crvenom izgledu, bogatom ukusu i svestranosti u upotrebi. Ova sorta je vrlo cenjena u voćarskoj industriji zbog svoje visokokvalitetne teksture i osvežavajućeg slatko-kiselog ukusa.",
+          "main": [
+            "Intenzivna zelena boja",
+            "Izražena kiselost",
+            "Srednja berba",
+            "Dug rok čuvanja"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi Jonagolda su srednje do krupni, sa glatkom, svetlo žutom do crvenkastom pokožicom. Dominantan je uravnotežen slatko-kiseli ukus. Njegov specifičan voćni miris čini ga veoma prijatnim za konzumaciju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Jonagold se bere u drugoj polovini septembra do početka oktobra, u zavisnosti od regiona. Zbog svoje izdržljivosti, plodovi mogu dugo da se čuvaju bez gubitka kvaliteta. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Jonagold najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz optimalnu količinu vlage i sunčeve svetlosti. Tlo treba da bude bogato hranljivim materijama, uz redovno navodnjavanje tokom sušnih perioda. "
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Red spur delišes",
+          "about": "Red Spur Delišes je varijanta popularne sorte Delišes, poznata po svom intenzivnom crvenom izgledu i slatkom ukusu. Ova sorta je prepoznatljiva po atraktivnoj crvenoj boji i idealna je za potrošnju u svežem stanju. Red Spur Delišes je cenjena zbog svoje čvrste teksture i visokog kvaliteta plodova, što je čini jednim od omiljenih izbora za tržište.",
+          "main": [
+            "Svetlo crvena boja",
+            "Sladak ukus",
+            "Srednja berba",
+            "Idealno za svežu konzumaciju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi sorte Red Spur Delišes su srednje do krupni, sa glatkom, svetlo crvenom kožicom koja je izuzetno privlačna i odlikuje se ujednačenom bojom. Karakteriše je prirodna slatkoća i blag, osvežavajuć ukus. Ova kombinacija ukusa i teksture čini je savršenim izborom za konzumaciju u svežem stanju. "
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Ova sorta se bere sredinom septembra, a plodovi brzo sazrevaju, pa su spremni za tržište krajem leta i početkom jeseni."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Red Spur Delicious zahteva plodna zemljišta sa dobrom drenažom i redovnim navodnjavanjem. Tlo treba biti bogato hranljivim materijama kako bi se obezbedio zdrav rast i kvalitetan plod."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Summer red",
+          "about": "Summer Red je ranija sorta jabuka koja se odlikuje prelepom crvenom bojom i osvežavajućim ukusom. Sa svojom blagom slatko-kiselkastom kombinacijom, idealna je za svežu konzumaciju tokom leta. Plodovi ove sorte brzo sazrevaju, pa su među prvim jabukama koje stižu na tržište, što je čini posebno popularnom u letnjoj sezoni.",
+          "main": [
+            "Blaga slatko-kiselost",
+            "Rana berba",
+            "Kratak rok čuvanja",
+            "Savršena za svežu konzumaciju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi Summer Red su srednje veličine, sa glatkom, jarkocrvenom kožicom. Ima osvežavajuću, uravnoteženu slatko-kiselkastu notu koja pruža prijatan ukus."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sorta se bere početkom leta, obično u junu i julu, čineći je prvom letnjom jabukom koja dolazi na tržište."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Summer Red najbolje uspeva na plodnim, dobro dreniranim zemljištima, sa dovoljno sunčeve svetlosti. Zahteva redovno navodnjavanje tokom sušnih perioda kako bi postigla optimalan kvalitet plodova."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Top red",
+          "about": "Top Red je sorta jabuka koja je poznata po svojoj izuzetnoj crvenoj boji i slatkom, osvežavajućem ukusu. Ova sorta je hibrid, nastala od popularne sorte Delicious, ali sa još dubljom crvenom bojom i odličnim ukusom. Idealna je za tržište sveže potrošnje, kao i za preradu u sokove i džemove. Top Red je cenjena zbog svoje sočne teksture i vizuelne atraktivnosti, što je čini jednim od najpopularnijih izbora među potrošačima.",
+          "main": [
+            "Izuzetna sočnost",
+            "Srednja berba",
+            "Dobar rok čuvanja",
+            "Višestruka upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi Top Red sorte su srednje krupni, sa glatkom, intenzivno crvenom pokožicom. Ima sladak, osvežavajući ukus koji je dobro izbalansiran i prijatan. Ova sorta je vrlo atraktivna zbog svoje boje i izgleda."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Top Red se bere sredinom do kraja septembra."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Top Red preferira plodna i dobro drenirana zemljišta. Da bi se postigao visok kvalitet plodova, potrebno je redovno navodnjavanje i izlaganje dovoljno sunčeve svetlosti tokom vegetacije."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Zlatni delišes",
+          "about": "Zlatni Delišes je jedna od najpoznatijih sorti jabuka, koja se odlikuje svetlom, zlatno-žutom bojom i blagim, slatkim ukusom. Ovo je sorta srednje kasnog sazrevanja, cenjena zbog svoje izdržljivosti tokom skladištenja i široke primene. Idealna je za konzumaciju u svežem stanju, kao i za preradu u sokove i džemove. Zlatni Delišes je takođe izuzetno popularan među potrošačima zbog svoje blage teksture i sočnosti.",
+          "main": [
+            "Sladak ukus",
+            "Kasna berba",
+            "Dobar rok čuvanja",
+            "Univerzalna upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi Zlatnog Delišesa su srednje do krupni, sa glatkom, zlatno-žutom pokožicom koja se povremeno može prekriti sa blagim crvenkastim nijansama. Ova sorta je slatka i sočna, sa blagim voćnim aromama koje ga čine izuzetno prijatnim za konzumaciju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Zlatni Delišes sazreva sredinom oktobra, kada plodovi dostižu svoju punu zrelost. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Za optimalan rast, Zlatni Delišes zahteva plodna i dobro drenirana zemljišta. Najbolje rezultate postiže na zemljištima bogatim hranljivim materijama, uz redovno navodnjavanje."
+            }
+          ],
+          "url": "apples-image.webp"
+        }
+      ]
+    },
+    "pear": {
+      "title": "Kruska",
+      "subvarietys": [
+        {
+          "subvariety": "Kruska1",
+          "about": "Ajdared je američka sorta jabuke nastala ukrštanjem sorti Jonathan i Wagner...",
+          "main": [
+            "Blago kiselkast ukus",
+            "Kasna berba",
+            "Dug rok čuvanja",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan do krupan, sa glatkom i sjajnom pokožicom..."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Ajdared sazreva krajem septembra ili početkom oktobra."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima..."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Kruska2",
+          "about": "Breburn je poreklom sa Novog Zelanda i predstavlja jednu od najznačajnijih sorti...",
+          "main": [
+            "Blago kiselkast ukus",
+            "Kasna berba",
+            "Dug rok čuvanja",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je čvrst i krupan, sa glatkom pokožicom crvenkastih nijansi..."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Breburn se bere u drugoj polovini oktobra..."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu..."
+            }
+          ],
+          "url": "apples-image.webp"
+        }
+      ]
+    }
+  },
+  "en": {
+    "apple": {
+      "title": "Apple",
+      "subvarietys": [
+        {
+          "subvariety": "Idared",
+          "about": "Idared is an American apple variety developed by crossing Jonathan and Wagener. Known for its attractive appearance, resilience, and long shelf life, it is popular in both commercial production and among consumers. It belongs to the group of winter varieties and is recognized for its consistent and high yield.",
+          "main": [
+            "Slightly tart taste",
+            "Late harvest",
+            "Long shelf life",
+            "Versatile use"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "The fruit is medium to large, with smooth and shiny skin, predominantly red with a greenish base. Suitable for consumers who prefer a balance between sweetness and acidity."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Idared ripens in late September or early October."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Thrives best in fertile, deep, and loose soils with good drainage. Prefers slightly acidic to neutral soils and grows best in sunny and moderately moist areas."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Breburn",
+          "about": "Breburn originates from New Zealand and is one of the most important commercial apple varieties due to its firmness, fruit quality, and balanced taste. It is a natural cross between Lady Hamilton and Granny Smith. Known for its firm texture, sweet-tart flavor, and long shelf life.",
+          "main": [
+            "Slightly tart taste",
+            "Late ripening",
+            "Long-lasting freshness",
+            "Moderately demanding"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "The fruit is firm and large, with smooth skin in reddish tones. It is juicy and pleasantly refreshing, with a slightly tart flavor."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Breburn is harvested in the second half of October, making it a late-season variety. It features excellent transportability and firmness, ideal for longer market presence."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Thrives best in well-drained, fertile soil with good sun exposure."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Fuji",
+          "about": "Fuji is a highly regarded apple variety from Japan, created by crossing Ralls Janet and Red Delicious. It is known for the consistent quality of its fruit, excellent storage capability, and long shelf life without losing freshness. Fuji is among the most sought-after varieties globally, especially for fresh consumption.",
+          "main": [
+            "Distinctive appearance",
+            "Exceptionally sweet",
+            "Late harvest",
+            "Long shelf life"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "The fruit is large, firm, and juicy. The skin is yellow-green, almost entirely covered with red-pink hues. The flavor is intensely sweet, with little to no acidity and a mild aroma."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Fuji is harvested in the second half of October. It is a late-season variety, but it stores extremely well and retains freshness for a long time."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Performs best in deep, fertile, and well-drained soils. Requires warm, sunny sites and regular irrigation to achieve optimal fruit quality."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Gala",
+          "about": "Gala is a very popular apple variety originating from New Zealand, known for its exceptional sweetness and pleasant aroma. Due to its color and consistent fruit quality, it is widely used in commercial production, and its fruits are among the most sought after on the market.",
+          "main": [
+            "Exceptionally sweet",
+            "Early harvest",
+            "Medium shelf life",
+            "Ideal for fresh consumption"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "Fruits are small to medium-sized with smooth, thin skin that is yellow-red, often with golden hues. This variety is very sweet with mild and pleasant fruity aromas."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Gala is an early variety, harvested in the first half of August."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Gala thrives best in fertile, well-drained soils with sufficient sunlight exposure."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Gloster",
+          "about": "Gloster is an apple variety from Germany known for its firm texture and excellent storage resistance. Gloster apples are often larger, with a characteristic red, almost black color, making them easily recognizable. This variety is appreciated for its versatility, being suitable for fresh consumption as well as juice, jam, and brandy production.",
+          "main": [
+            "Intense red color",
+            "Slightly tart taste",
+            "Mid-season harvest",
+            "Versatile use"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "The fruit is medium to large with dark red, sometimes almost black skin. A slightly tart taste gives a refreshing note. Consistency in flavor and texture makes it suitable for long-term storage."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Gloster is harvested in late September and early October."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Best grown in fertile, well-drained soils with ample sunlight. For optimal growth, Gloster requires balanced moisture and low soil acidity."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Granny Smith",
+          "about": "Granny Smith is an Australian apple variety known for its vivid green color and distinctly tart taste. This variety is easily recognizable and widely used due to its firm texture and refreshing flavor. It is ideal for all kinds of culinary uses, as well as juice and brandy production.",
+          "main": [
+            "Intense green color",
+            "Pronounced tartness",
+            "Mid-season harvest",
+            "Long shelf life"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "The fruit is medium-sized with characteristic light green skin. The taste is sharply tart and refreshing, with little sweetness. This flavor profile is perfect for lovers of sour apples."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Granny Smith is harvested in October and November."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "This variety grows best in deep, fertile, well-drained soils with regular irrigation."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Jonagold",
+          "about": "Jonagold is a hybrid apple variety developed by crossing Jonathan and Golden Delicious. It is recognized by its golden-red appearance, rich flavor, and versatility. This variety is highly valued in the fruit industry for its high-quality texture and refreshing sweet-tart taste.",
+          "main": [
+            "Intense green color",
+            "Pronounced tartness",
+            "Mid-season harvest",
+            "Long shelf life"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "Jonagold fruits are medium to large, with smooth, light yellow to reddish skin. The dominant taste is a balanced sweet-tart flavor. Its distinct fruity aroma makes it very pleasant for consumption."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Jonagold is harvested from the second half of September to early October, depending on the region. Thanks to its durability, the fruits can be stored for a long time without loss of quality."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Jonagold thrives in fertile, well-drained soils with optimal moisture and sunlight. The soil should be rich in nutrients with regular watering during dry periods."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Red Spur Delicious",
+          "about": "Red Spur Delicious is a variant of the popular Delicious variety, known for its intense red appearance and sweet taste. It is recognizable for its attractive red color and is ideal for fresh consumption. Red Spur Delicious is valued for its firm texture and high fruit quality, making it a favorite on the market.",
+          "main": [
+            "Light red color",
+            "Sweet taste",
+            "Mid-season harvest",
+            "Ideal for fresh consumption"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "Red Spur Delicious fruits are medium to large with smooth, light red skin that is extremely attractive and uniform in color. It has natural sweetness and a mild, refreshing taste. This flavor and texture combination makes it perfect for fresh consumption."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "This variety is harvested in mid-September, and the fruits ripen quickly, ready for market by late summer and early autumn."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Red Spur Delicious requires fertile soils with good drainage and regular watering. The soil should be nutrient-rich to ensure healthy growth and quality fruit."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Summer Red",
+          "about": "Summer Red is an early apple variety known for its beautiful red color and refreshing taste. With its mild sweet-tart combination, it is ideal for fresh consumption during summer. These fruits ripen quickly and are among the first apples to hit the market, making it especially popular in the summer season.",
+          "main": [
+            "Mild sweet-tart flavor",
+            "Early harvest",
+            "Short shelf life",
+            "Perfect for fresh consumption"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "Summer Red fruits are medium-sized, with smooth, bright red skin. It offers a refreshing, balanced sweet-tart note for a pleasant flavor experience."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "This variety is harvested in early summer, usually in June and July, making it the first summer apple available on the market."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Summer Red thrives in fertile, well-drained soils with sufficient sunlight. It requires regular watering during dry periods to achieve optimal fruit quality."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Top Red",
+          "about": "Top Red is an apple variety known for its exceptional red color and sweet, refreshing taste. This hybrid variety comes from Delicious but features a deeper red color and excellent flavor. It is ideal for fresh markets as well as for processing into juice and jams. Top Red is valued for its juicy texture and visual appeal, making it one of the most popular consumer choices.",
+          "main": [
+            "Exceptional juiciness",
+            "Mid-season harvest",
+            "Good shelf life",
+            "Versatile use"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "Top Red fruits are medium to large, with smooth, intensely red skin. The taste is sweet, refreshing, and well-balanced. This variety is highly attractive due to its color and appearance."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Top Red is harvested from mid to late September."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "Top Red prefers fertile and well-drained soils. To achieve high fruit quality, regular irrigation and sufficient sunlight exposure during vegetation are essential."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Golden Delicious",
+          "about": "Golden Delicious is one of the most well-known apple varieties, characterized by its light, golden-yellow color and mild, sweet taste. It is a mid-late maturing variety valued for its storage durability and wide usability. Ideal for fresh consumption and processing into juice and jam. Golden Delicious is also extremely popular among consumers due to its mild texture and juiciness.",
+          "main": [
+            "Sweet taste",
+            "Late harvest",
+            "Good shelf life",
+            "Universal use"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and taste:",
+              "text": "Golden Delicious fruits are medium to large, with smooth, golden-yellow skin that may occasionally show a faint reddish hue. This variety is sweet and juicy, with mild fruity aromas, making it highly pleasant for consumption."
+            },
+            {
+              "title": "Harvest season:",
+              "text": "Golden Delicious ripens in mid-October when the fruits reach full maturity."
+            },
+            {
+              "title": "Suitable soil:",
+              "text": "For optimal growth, Golden Delicious requires fertile and well-drained soil. It performs best in nutrient-rich soils with regular irrigation."
+            }
+          ],
+          "url": "apples-image.webp"
+        }
+      ]
+    },
+    "pear": {
+      "title": "Kruska",
+      "subvarietys": [
+        {
+          "subvariety": "Kruska1",
+          "about": "Ajdared je američka sorta jabuke nastala ukrštanjem sorti Jonathan i Wagner...",
+          "main": [
+            "Blago kiselkast ukus",
+            "Kasna berba",
+            "Dug rok čuvanja",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan do krupan, sa glatkom i sjajnom pokožicom..."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Ajdared sazreva krajem septembra ili početkom oktobra."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima..."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Kruska2",
+          "about": "Breburn je poreklom sa Novog Zelanda i predstavlja jednu od najznačajnijih sorti...",
+          "main": [
+            "Blago kiselkast ukus",
+            "Kasna berba",
+            "Dug rok čuvanja",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je čvrst i krupan, sa glatkom pokožicom crvenkastih nijansi..."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Breburn se bere u drugoj polovini oktobra..."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu..."
+            }
+          ],
+          "url": "apples-image.webp"
+        }
+      ]
+    }
+  },
+  "ru": {
+    "apple": {
+      "title": "Яблоко",
+      "subvarietys": [
+        {
+          "subvariety": "Айдаред",
+          "about": "Айдаред — американский сорт яблок, выведенный путем скрещивания сортов Джонатан и Вагнер. Благодаря привлекательному внешнему виду, устойчивости и возможности длительного хранения, он популярен как в коммерческом производстве, так и среди потребителей. Относится к зимним сортам и известен стабильной и высокой урожайностью.",
+          "main": [
+            "Слегка кисловатый вкус",
+            "Поздний сбор",
+            "Длительный срок хранения",
+            "Многофункциональное использование"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод средний или крупный, с гладкой и блестящей кожицей, преимущественно красного цвета с зеленоватой основой. Подходит для тех, кто предпочитает баланс между сладостью и кислотой."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Айдаред собирают в конце сентября или в начале октября."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растет на плодородных, глубоких и рыхлых почвах с хорошим дренажем. Предпочитает слегка кислую или нейтральную почву, солнечные и умеренно влажные участки."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Бреберн",
+          "about": "Бреберн — сорт яблок из Новой Зеландии, один из важнейших в коммерческом производстве благодаря прочности, качеству плодов и сбалансированному вкусу. Является естественным гибридом сортов Леди Гамильтон и Гренни Смит. Известен твердой текстурой, сладко-кислым вкусом и длительным сроком хранения.",
+          "main": [
+            "Слегка кисловатый вкус",
+            "Позднее созревание",
+            "Долговечная свежесть",
+            "Умеренно требовательный"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод твердый и крупный, с гладкой кожицей красноватых оттенков. Сочный и приятно освежающий, с легкой кислинкой."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Бреберн собирают во второй половине октября. Отличается хорошей транспортабельностью и прочностью плода."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Предпочитает плодородные, хорошо дренированные почвы с хорошим солнечным освещением."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Фуджи",
+          "about": "Фуджи — высоко ценимый сорт яблок из Японии, выведенный путем скрещивания сортов Ралс Джанет и Ред Делишес. Известен стабильным качеством плодов, устойчивостью к хранению и длительным сроком годности. Один из самых востребованных сортов в мире, особенно для свежего потребления.",
+          "main": [
+            "Узнаваемый внешний вид",
+            "Очень сладкое",
+            "Поздний сбор",
+            "Долгий срок хранения"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод крупный, твердый и сочный. Кожица желтовато-зеленая, почти полностью покрыта розово-красными оттенками. Вкус ярко выраженно сладкий, почти без кислотности, с мягким ароматом."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Фуджи собирают во второй половине октября. Отлично хранится и долго остается свежим."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растет на глубоких, плодородных и хорошо дренированных почвах. Нуждается в тепле, солнце и регулярном поливе."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Гала",
+          "about": "Гала — очень популярный сорт яблок из Новой Зеландии, отличающийся исключительной сладостью и приятным ароматом. Благодаря цвету и однородному качеству часто используется в коммерческом производстве, а плоды пользуются большим спросом.",
+          "main": [
+            "Очень сладкое",
+            "Ранний сбор",
+            "Средний срок хранения",
+            "Идеально для свежего потребления"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды небольшие или средние, с гладкой, тонкой кожицей желто-красного цвета, иногда с золотистыми оттенками. Очень сладкие, с мягким фруктовым ароматом."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Гала — ранний сорт, собирается в первой половине августа."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растет на плодородных, хорошо дренированных почвах с достаточным солнечным светом."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Глостер",
+          "about": "Глостер — сорт яблок из Германии, известный своей твердой текстурой и устойчивостью к хранению. Часто крупные плоды с характерным красным, почти черным оттенком. Универсален — подходит как для свежего потребления, так и для приготовления сока, варенья и бренди.",
+          "main": [
+            "Насыщенный красный цвет",
+            "Слегка кисловатый вкус",
+            "Средний сбор",
+            "Разнообразное применение"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод средний или крупный, с темно-красной, почти черной кожицей. Освежающий, слегка кисловатый вкус. Однородность вкуса и текстуры делает сорт подходящим для длительного хранения."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Собирается в конце сентября и начале октября."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растет на плодородных, хорошо дренированных почвах с достаточным солнечным светом. Требует сбалансированной влажности и невысокой кислотности почвы."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Гренни Смит",
+          "about": "Гренни Смит — австралийский сорт яблок, отличающийся ярко-зеленым цветом и выраженной кислотностью. Благодаря твердой текстуре и свежему вкусу широко используется как в кулинарии, так и в производстве сока и бренди.",
+          "main": [
+            "Ярко-зеленый цвет",
+            "Выраженная кислотность",
+            "Средний сбор",
+            "Длительный срок хранения"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод средний, с характерной светло-зеленой кожицей. Вкус ярко выраженно кислый и освежающий, практически без сладости. Идеален для любителей кислых яблок."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Гренни Смит собирают в октябре и ноябре."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растет на глубоких, плодородных, хорошо дренированных почвах, с регулярным поливом."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Джонаголд",
+          "about": "Джонаголд — гибридный сорт яблок, полученный скрещиванием Джонатана и Голден Делишес. Отличается золотисто-красным цветом, насыщенным вкусом и универсальностью. Ценится за высокое качество текстуры и освежающий сладко-кислый вкус.",
+          "main": [
+            "Яркий цвет",
+            "Баланс кислоты и сладости",
+            "Средний сбор",
+            "Длительный срок хранения"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды среднего или крупного размера, с гладкой кожицей от светло-желтого до красноватого оттенка. Преобладает сбалансированный сладко-кислый вкус. Обладает характерным фруктовым ароматом."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Собирается во второй половине сентября — начале октября. Благодаря выносливости долго сохраняет качество при хранении."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растет на плодородных, хорошо дренированных почвах, с достаточным количеством влаги и солнца. Почва должна быть богата питательными веществами, требуется регулярный полив в засушливый период."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Ред Спур Делишес",
+          "about": "Ред Спур Делишес — разновидность популярного сорта Делишес, известная своим насыщенным красным цветом и сладким вкусом. Отличается привлекательным видом, плотной текстурой и высоким качеством плодов, идеально подходит для свежего потребления.",
+          "main": [
+            "Светло-красный цвет",
+            "Сладкий вкус",
+            "Средний сбор",
+            "Идеально для свежего потребления"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды среднего или крупного размера, с гладкой, светло-красной кожицей и равномерной окраской. Обладают естественной сладостью и освежающим вкусом. Отличный выбор для свежего потребления."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Собирается в середине сентября. Плоды быстро созревают и поступают на рынок уже к концу лета."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Требует плодородной почвы с хорошим дренажем и регулярным поливом. Почва должна быть богата питательными веществами для получения качественных плодов."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Саммер Ред",
+          "about": "Саммер Ред — ранний сорт яблок, отличающийся ярко-красным цветом и освежающим вкусом. Благодаря сбалансированной сладко-кислой нотке идеально подходит для летнего потребления. Один из первых сортов на рынке в летний сезон.",
+          "main": [
+            "Мягкая сладко-кислая нота",
+            "Ранний сбор",
+            "Короткий срок хранения",
+            "Идеален для свежего потребления"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод среднего размера, с гладкой ярко-красной кожицей. Имеет освежающий вкус с гармонией сладости и кислоты."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Собирается в начале лета, обычно в июне и июле."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растет на плодородных, хорошо дренированных почвах, при достаточном солнечном освещении и регулярном поливе."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Топ Ред",
+          "about": "Топ Ред — сорт яблок, известный насыщенным красным цветом и сладким, освежающим вкусом. Это гибрид, произошедший от сорта Делишес, но с более ярким цветом и отличным вкусом. Идеален как для свежего потребления, так и для сока и варенья.",
+          "main": [
+            "Очень сочный",
+            "Средний сбор",
+            "Хороший срок хранения",
+            "Многофункциональный"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод средний или крупный, с гладкой, насыщенно-красной кожицей. Сладкий, освежающий вкус, привлекательный внешний вид."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Собирается с середины до конца сентября."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Предпочитает плодородные, хорошо дренированные почвы. Требует регулярного полива и солнечного света в период вегетации."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Голден Делишес",
+          "about": "Голден Делишес — один из самых известных сортов яблок, отличается золотисто-желтым цветом и мягким сладким вкусом. Среднепоздний сорт, ценится за хорошую сохраняемость и универсальность применения. Идеален для свежего потребления, сока и варенья.",
+          "main": [
+            "Сладкий вкус",
+            "Поздний сбор",
+            "Хороший срок хранения",
+            "Универсальное применение"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды средние или крупные, с гладкой золотисто-желтой кожицей, иногда с легким красноватым оттенком. Сладкий и сочный, с мягкими фруктовыми нотами."
+            },
+            {
+              "title": "Сезон сбора:",
+              "text": "Созревает в середине октября, достигая полной зрелости."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Для оптимального роста требует плодородные, хорошо дренированные почвы, богатые питательными веществами и с регулярным поливом."
+            }
+          ],
+          "url": "apples-image.webp"
+        }
+      ]
+    },
+    "pear": {
+      "title": "Kruska",
+      "subvarietys": [
+        {
+          "subvariety": "Kruska1",
+          "about": "Ajdared je američka sorta jabuke nastala ukrštanjem sorti Jonathan i Wagner...",
+          "main": [
+            "Blago kiselkast ukus",
+            "Kasna berba",
+            "Dug rok čuvanja",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan do krupan, sa glatkom i sjajnom pokožicom..."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Ajdared sazreva krajem septembra ili početkom oktobra."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima..."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Kruska2",
+          "about": "Breburn je poreklom sa Novog Zelanda i predstavlja jednu od najznačajnijih sorti...",
+          "main": [
+            "Blago kiselkast ukus",
+            "Kasna berba",
+            "Dug rok čuvanja",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je čvrst i krupan, sa glatkom pokožicom crvenkastih nijansi..."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Breburn se bere u drugoj polovini oktobra..."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu..."
+            }
+          ],
+          "url": "apples-image.webp"
+        }
+      ]
+    }
+  }
+}

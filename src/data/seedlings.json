@@ -1,0 +1,92 @@
+{
+  "seedlings": [
+    {
+      "id": 1,
+      "name": { "en": "Apple", "sr": "Jabuka", "ru": "Яблоня" },
+      "description": {
+        "en": ["11 varietiesg", "Wide range - from early to late-ripening types", "Perfect for fresh consumption, processing, and export"],
+        "sr": ["11 sorti ", "Sortna raznolikost- od ranoh do kasnih sorti", "Idealne za konzumaciju, preradu i izvoz "],
+        "ru": ["11 сортов", "Сортовое разнообразие - от раннеспелых до позднеспелых", "Идеальны для свежего потребления, переработки и экспорта"]
+      },
+      "imageUrl": ["/apple.png", "/apple.jpg"],
+      "url": "apple"
+    },
+    {
+      "id": 2,
+      "name": { "en": "Pear", "sr": "Kruška", "ru": "Груша" },
+      "description": {
+        "en": ["10 varieties", "Certified quality seedlings", "Varieties suited for fresh use, brandy production, or processing"],
+        "sr": ["10 sorti", "Sadnice sertifikovanog kvaliteta", "Različite sorte prema nameni - za konzumaciju, rakiju ili preradu"],
+        "ru": ["10 сортов", "Сертифицированные саженцы высокого качества", "Разные сорта - для потребления в свежем виде, производства наливки или переработки "]
+      },
+      "imageUrl": ["/pear-home.png", "/pear.webp"],
+      "url": "pear"
+    },
+    {
+      "id": 3,
+      "name": { "en": "Plum", "sr": "Šljiva", "ru": "Слива" },
+      "description": {
+        "en": ["7 varieties", "Certified seedlings of domestic and international varieties", "Selection based on ripening period"],
+        "sr": ["7 sorti", "Sertifikovane sadnice domaćih i stranih sorti", "Mogućnost izbora prema vremenu sazrevanja"],
+        "ru": ["7 сортов", "Сертифицированные саженцы отечественных и зарубежных сортов", "Выбор сортов в зависимости от срока созревания"]
+      },
+      "imageUrl": ["", "/sweet-cherry.jpg"],
+      "url": "plum"
+    },
+    {
+      "id": 4,
+      "name": { "en": "Sweet Cherry", "sr": "Trešnja", "ru": "Черешня" },
+      "description": {
+        "en": ["12 varieties", "Available in early, mid-season, and late varieties", "High-quality seedlings for intensive orchards"],
+        "sr": ["12 sorti", "Dostupne rane, srednje i kasne sorte", "Sadnice visokog kvaliteta za intenzivne zasade"],
+        "ru": ["12 сортов", "Доступны ранние, средние и поздние сорта", "Саженцы высокого качества для интенсивных посадок "]
+      },
+      "imageUrl": ["", "/plum.webp"],
+      "url": "sweet-cherry"
+    },
+    {
+      "id": 5,
+      "name": { "en": "Sour Cherry", "sr": "Višnja ", "ru": "Вишня" },
+      "description": {
+        "en": ["6 varieties", "Suitable for mechanical harvesting and industrial production", "Seedlings with stable and consistent yield"],
+        "sr": ["6 sorti", "Pogodne za mehanizovanu berbu i industrijsku proizvodnju", "Sadnice stabilnog i redovnog prinosa "],
+        "ru": ["6 сортов", "Подходят для механизированной уборки и промышленного производства", "Саженцы с устойчивой и стабильной урожайностью"]
+      },
+      "imageUrl": ["", "/peach.webp"],
+      "url": "sour-cherry"
+    },
+    {
+      "id": 6,
+      "name": { "en": "Apricot", "sr": "Kajsija", "ru": "Абрикос" },
+      "description": {
+        "en": ["8 varieties", "Perfect for fresh consumption and processing", "Seedlings with excellent resistance to diseases and pests"],
+        "sr": ["8 sorti", "Pogodne za sveže konzumiranje, ali i za preradu", "Sadnice sa odličnom otpornošću na bolesti i štetočine"],
+        "ru": ["8 сортов", "Отличны для свежего потребления и переработки", "Саженцы с высокой устойчивостью к болезням и вредителям"]
+      },
+      "imageUrl": ["", "/apricot.jpg"],
+      "url": "apricot"
+    },
+    {
+      "id": 7,
+      "name": { "en": "Peach", "sr": "Breskva", "ru": "Персик" },
+      "description": {
+        "en": ["9 varieties", "High-yielding varieties with excellent fruit quality", "Seedlings resistant to frost and diseases"],
+        "sr": ["9 sorti", "Sorte sa visokim prinosima i odličnim kvalitetom plodova", "Sadnice otporne na mraz i bolesti"],
+        "ru": ["9 сортов", "Сорта с высокой урожайностью и отличным качеством плодов", "Саженцы, устойчивые к заморозкам и болезням"]
+      },
+      "imageUrl": ["/quince.png"],
+      "url": "peach"
+    },
+    {
+      "id": 8,
+      "name": { "en": "Columnar Apple", "sr": "Stubasta jabuka", "ru": "Колонновидная яблоня" },
+      "description": {
+        "en": ["5 varieties", "Adaptable to all soil types and suitable for various climates", "High-quality fruits ideal for fresh use and processing"],
+        "sr": ["5 sorti ", "Prilagodljive svim vrstama zemljišta i odlične za različite klimatske uslove", "Plodovi visokog kvaliteta pogodni za svežu potrošnju i preradu"],
+        "ru": ["5 сортов", "Подходят для любых типов почв и различных климатических условий", "Плоды высокого качества, пригодны для потребления и переработки"]
+      },
+      "imageUrl": ["/nectarine.png"],
+      "url": "columnar-apple"
+    }
+  ]
+}

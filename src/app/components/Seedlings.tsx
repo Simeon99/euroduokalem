@@ -6,6 +6,7 @@ import Loading from './ui/Loading';
 import Image from 'next/image';
 import { GoDotFill } from "react-icons/go";
 import { FiSearch } from "react-icons/fi";
+import Link from 'next/link';
 
 type Seedling = {
     id: number;
@@ -55,7 +56,7 @@ const Seedlings = ({ lang, t }: { lang: string, t: Translation }) => {
                 <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-primray" size={20} />
                 <input
                     type="text"
-                    placeholder={ "Pretraži sadnice..."}
+                    placeholder={"Pretraži sadnice..."}
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0E3A27] text-lg"
@@ -78,26 +79,31 @@ const Seedlings = ({ lang, t }: { lang: string, t: Translation }) => {
                         </p>
                     ) : (
                         filteredSeedlings.map(seedling => (
-                            <div key={seedling.id} className='flex flex-col justify-between rounded-2xl bg-white h-[450px] shadow-md'>
-                                <div className='flex flex-col'>
-                                    <Image
-                                        src={'/images/seedlings' + seedling.imageUrl[1]}
-                                        alt={seedling.name}
-                                        width={200}
-                                        height={48}
-                                        className="w-full h-[250px] rounded-t-2xl object-cover"
-                                    />
-                                    <div className="px-2 pb-2 rounded-b-2xl text-primary">
-                                        <h2 className="text-xl font-semibold font-heading text-[30px]">{seedling.name}</h2>
+                            <Link href={`/seedlings/${seedling.url}`} key={seedling.id} className='flex flex-col justify-between rounded-2xl bg-white h-[600px] hover:shadow-2xl transform duration-300 shadow-md'>
+                                <div className='flex flex-col gap-4'>
+                                    <div className="overflow-hidden rounded-t-2xl h-[250px] w-full">
+                                        <Image
+                                            src={'/images/seedlings' + seedling.imageUrl[1]}
+                                            alt={seedling.name}
+                                            width={200}
+                                            height={48}
+                                            className="w-full h-full object-cover transform transition-transform duration-[3000ms] ease-in-out hover:cursor-pointer hover:scale-105"
+                                        />
+                                    </div>
+                                    <div className="pb-2 rounded-b-2xl text-primary px-4">
+                                        <h2 className="text-xl font-semibold font-heading pb-2 text-[30px]">{seedling.name}</h2>
                                         {seedling.description.map((desc, index) => (
-                                            <span key={index} className='flex flex-row items-center gap-2'><GoDotFill />{desc}</span>
+                                            <div key={index} className='flex flex-row items-baseline gap-2'>
+                                                <GoDotFill className='' />
+                                                <span className='flex-1'>{desc}</span>
+                                            </div>
                                         ))}
                                     </div>
                                 </div>
                                 <button className='w-full h-[60px] bg-primary rounded-b-2xl text-secondary-light text-[20px] hover:cursor-pointer hover:bg-[#D7740A] transform duration-300'>
                                     Saznaj više
                                 </button>
-                            </div>
+                            </Link>
                         ))
                     )}
                 </div>
