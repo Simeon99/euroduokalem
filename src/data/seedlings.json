@@ -30,7 +30,7 @@
         "sr": ["7 sorti", "Sertifikovane sadnice domaćih i stranih sorti", "Mogućnost izbora prema vremenu sazrevanja"],
         "ru": ["7 сортов", "Сертифицированные саженцы отечественных и зарубежных сортов", "Выбор сортов в зависимости от срока созревания"]
       },
-      "imageUrl": ["", "/sweet-cherry.jpg"],
+      "imageUrl": ["", "/plum.jpg"],
       "url": "plum"
     },
     {
@@ -41,7 +41,7 @@
         "sr": ["12 sorti", "Dostupne rane, srednje i kasne sorte", "Sadnice visokog kvaliteta za intenzivne zasade"],
         "ru": ["12 сортов", "Доступны ранние, средние и поздние сорта", "Саженцы высокого качества для интенсивных посадок "]
       },
-      "imageUrl": ["", "/plum.webp"],
+      "imageUrl": ["", "/sweet-cherry.jpg"],
       "url": "sweet-cherry"
     },
     {
@@ -52,7 +52,7 @@
         "sr": ["6 sorti", "Pogodne za mehanizovanu berbu i industrijsku proizvodnju", "Sadnice stabilnog i redovnog prinosa "],
         "ru": ["6 сортов", "Подходят для механизированной уборки и промышленного производства", "Саженцы с устойчивой и стабильной урожайностью"]
       },
-      "imageUrl": ["", "/peach.webp"],
+      "imageUrl": ["", "/sour-cherry.jpg"],
       "url": "sour-cherry"
     },
     {
@@ -74,7 +74,7 @@
         "sr": ["9 sorti", "Sorte sa visokim prinosima i odličnim kvalitetom plodova", "Sadnice otporne na mraz i bolesti"],
         "ru": ["9 сортов", "Сорта с высокой урожайностью и отличным качеством плодов", "Саженцы, устойчивые к заморозкам и болезням"]
       },
-      "imageUrl": ["/quince.png"],
+      "imageUrl": ["", "/peach.jpg"],
       "url": "peach"
     },
     {
@@ -87,6 +87,127 @@
       },
       "imageUrl": ["/nectarine.png"],
       "url": "columnar-apple"
+    },
+    {
+      "id": 9,
+      "name": { "en": "Quince", "sr": "Dunja", "ru": "Айва" },
+      "description": {
+        "en": ["3 varieties", "Ideal for making jams, juices, and brandy", "High yield and long shelf life of fruits"],
+        "sr": ["3 sorte", "Odlične za proizvodnju džemova, sokova i rakija", "Visok prinos i dug vek čuvanja plodova "],
+        "ru": ["3 сорта", "Идеальны для производства джемов, соков и наливок", "Высокая урожайность и длительный срок хранения плодов "]
+      },
+      "imageUrl": ["", "/quince.jpg"],
+      "url": "quince"
+    },
+    {
+      "id": 10,
+      "name": { "en": "Medlar", "sr": "Mušmula", "ru": "Мушмула" },
+      "description": {
+        "en": ["2 varieties", "Resistant to drought and colder conditions", "Seedlings well-adapted to different soil types"],
+        "sr": ["2 sorte", "Otporne na sušu i hladnije uslove", "Sadnice sa dobrom adaptacijom na različite tipove zemljišta"],
+        "ru": ["2 сорта", "Устойчива к засухе и холодному климату", "Саженцы хорошо адаптируются к различным типам почв"]
+      },
+      "imageUrl": ["", "/medlar.jpg"],
+      "url": "medlar"
+    },
+    {
+      "id": 11,
+      "name": { "en": "Nectarine", "sr": "Nektarina", "ru": "Нектарин" },
+      "description": {
+        "en": ["7 varieties", "High-yielding varieties with excellent fruit quality", "Perfect for sunny and warm climate conditions"],
+        "sr": ["7 sorti", "Sorte sa visokim prinosima i odličnim kvalitetom plodova", "Savršene za sunčane i tople klimatske uslove"],
+        "ru": ["7 сортов", "Сорта с высоким урожаем и отличным качеством плодов", "Идеальны для тёплого и солнечного климата"]
+      },
+      "imageUrl": ["", "/nectarine.jpg"],
+      "url": "nectarine"
+    },
+    {
+      "id": 12,
+      "name": { "en": "Hazelnut", "sr": "Lešnik", "ru": "Фундук" },
+      "description": {
+        "en": ["8 varieties", "High yield and premium nut quality", "Excellent resistance to diseases and pests"],
+        "sr": ["8 sorti", "Visok prinos i kvalitet plodova", "Odlična otpornost na bolesti i štetočine"],
+        "ru": ["8 сортов", "Высокая урожайность и отличное качество орехов", "Отличная устойчивость к болезням и вредителям"]
+      },
+      "imageUrl": ["", "/hazelnut.jpg"],
+      "url": "hazelnut"
+    },
+    {
+      "id": 13,
+      "name": { "en": "Walnut", "sr": "Orah", "ru": "Грецкий орех" },
+      "description": {
+        "en": ["9 varieties", "Long lifespan, ideal for long-term orchard investments", "Perfect for high-quality nut production and industrial processing"],
+        "sr": ["9 sorti", "Dug vek trajanja, pogodna za dugoročne investicije u voćnjacima", "Savršene za proizvodnju visokokvalitetnih plodova i industrijsku preradu"],
+        "ru": ["9 сортов", "Долговечные деревья, подходят для долгосрочных вложений в садоводство", "Идеальны для производства качественных орехов и промышленной переработки"]
+      },
+      "imageUrl": ["", "/walnut.jpg"],
+      "url": "walnut"
+    },
+    {
+      "id": 14,
+      "name": { "en": "Grapevine", "sr": "Vinova loza", "ru": "Виноградная лоза" },
+      "description": {
+        "en": ["34 varieties", "Ideal for wine production and fresh consumption", "Resistant to diseases and drought, adaptable to different soil types"],
+        "sr": ["34 sorti", "Idealna za proizvodnju vina i svežu konzumaciju", "Otpornost na bolesti i sušu, pogodne za različite tipove zemljišta"],
+        "ru": ["34 сорта", "Подходит для виноделия и свежего потребления", "Устойчив к болезням и засухе, адаптируется к разным типам почв"]
+      },
+      "imageUrl": ["", "/purple.jpg"],
+      "url": "grapevine"
+    },
+    {
+      "id": 15,
+      "name": { "en": "Gooseberry", "sr": "Оgrozd", "ru": "Крыжовник" },
+      "description": {
+        "en": ["6 varieties", "Compact seedlings, easy to maintain and harvest", "Fruits with a unique and refreshing taste"],
+        "sr": ["6 sorti", "Sadnice niskog rasta, lake za održavanje i berbu", "Plodovi jedinstvenog osvežavajućeg ukusa"],
+        "ru": ["6 сортов", "Низкорослые саженцы, удобны для ухода и сбора", "Плоды с уникальным и освежающим вкусом"]
+      },
+      "imageUrl": ["", "/gooseberry.jpg"],
+      "url": "gooseberry"
+    },
+    {
+      "id": 16,
+      "name": { "en": "Currant", "sr": "Ribizla", "ru": "Смородина" },
+      "description": {
+        "en": ["6 varieties", "Available in black, red, and white", "Early fruiting and stable yields"],
+        "sr": ["6 sorti", "Crna, crvena i bela ribizla", "Brzo stupaju u rod i pružaju stabilne prinose"],
+        "ru": ["6 сортов", "Черная, красная и белая смородина", "Быстро вступают в плодоношение, обеспечивают стабильный урожай"]
+      },
+      "imageUrl": ["","/currant.jpg"],
+      "url": "currant"
+    },
+    {
+      "id": 17,
+      "name": { "en": "Blackberry", "sr": "Kupina", "ru": "Ежевика" },
+      "description": {
+        "en": ["1 variety", "Čačanska Bestrna", "Stable yield and excellent adaptability to various climates"],
+        "sr": ["1 sorta", "Čačanska bestrna", "Stabilan prinos i odlična adaptacija na različite klimatske uslove"],
+        "ru": ["1 сорт", "Чачанская бесшипная", "Стабильный урожай и отличная адаптация к различным климатическим условиям "]
+      },
+      "imageUrl": ["", "/berry.jpg"],
+      "url": "blackberry"
+    },
+    {
+      "id": 18,
+      "name": { "en": "Raspberry", "sr": "Malina", "ru": "Малина" },
+      "description": {
+        "en": ["2 varieties", "Suitable for fresh consumption and processing", "Fruits with vibrant color and intense aroma"],
+        "sr": ["2 sorte", "Pogodne za svežu upotrebu i preradu", "Plodovi jarke boje i intenzivne arome"],
+        "ru": ["2 сорта", "Подходит для свежего потребления и переработки", "Ярко окрашенные плоды с насыщенным ароматом"]
+      },
+      "imageUrl": ["", "/raspberry.jpg"],
+      "url": "raspberry"
+    },
+    {
+      "id": 19,
+      "name": { "en": "Roses", "sr": "Ruže", "ru": "Розы" },
+      "description": {
+        "en": ["25 varieties", "Climbing, miniature, and polyantha types", "Quality seedlings with vigorous growth and abundant blooming"],
+        "sr": ["25 sorti ", "Puzavice, mini i polijante", "Kvalitetne sadnice bujnog rasta i obilnog cvetanja"],
+        "ru": ["25 сортов", "Плетистые, миниатюрные и флорибундовые сорта", "Качественные саженцы с пышным ростом и обильным цветением"]
+      },
+      "imageUrl": ["", "/roses.jpg"],
+      "url": "roses"
     }
   ]
 }
