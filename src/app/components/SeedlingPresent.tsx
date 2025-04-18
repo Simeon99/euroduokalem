@@ -3,8 +3,9 @@ import React from 'react'
 import { FruitData, Subvariety } from './Seedling'
 import { FaCheck } from 'react-icons/fa';
 import LoadingSeedling from './ui/LoadingSeedling';
+import { Translation } from '../[lang]/dictionaries';
 
-const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loading }: { selectedData: Subvariety, fruitData: FruitData, selected: string, setSelected: (value: string) => void, loading: boolean }) => {
+const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loading, t }: { selectedData: Subvariety, fruitData: FruitData, selected: string, setSelected: (value: string) => void, loading: boolean,  t: Translation }) => {
     return (
         <div className='flex flex-row max-lsw:flex-col gap-4 '>
             {/* Desktop side nav*/}
@@ -60,11 +61,11 @@ const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loadi
                         <div className='flex flex-row max-md:flex-col gap-8'>
                             <div className='w-1/2 max-md:pt-16 max-md:w-full flex justify-center'>
                                 <Image
-                                    src={`/images/seedlings/${selectedData?.url}` || ''}
+                                    src={`/images/seedling/${selectedData?.url}` || ''}
                                     alt={selectedData?.subvariety || ''}
                                     width={600}
                                     height={400}
-                                    className="rounded-2xl mb-4 object-cover w-full max-w-[600px]"
+                                    className="rounded-2xl mb-4 object-cover w-full h-[400px] max-xsw:h-[250px] max-w-[600px]"
                                 />
 
                             </div>
@@ -101,7 +102,7 @@ const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loadi
                             className={`h-[2px] w-full bg-primary md:hidden`}
                         /> */}
                         <div className='flex flex-col gap-4 mt-16'>
-                            <h1 className="text-[25px]  font-bold text-primary font-heading">Karakteristike sorete</h1>
+                            <h1 className="text-[25px]  font-bold text-primary font-heading">{t.seedling.characteristics}</h1>
                             {selectedData && selectedData?.characteristics?.map((i, index) => (
                                 <div key={index} className='flex flex-row gap-2 '>
                                     <div className='w-3 h-1.5 bg-primary rounded-2xl mt-3'></div>

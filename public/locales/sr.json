@@ -63,6 +63,15 @@
   "seedlings": {
     "title": "Naše sadnice"
   },
+  "seedling": {
+    "characteristics": "Karakteristike sorte"
+  },
+  "aboutUs": {
+    "title": "Ko smo mi i šta nas čini drugačijima",
+    "text": "Specijalizovani smo za sadnice voća vrhunskog kvaliteta, uzgajane sa pažnjom i znanjem — za zasade koje traju generacijama.",
+    "subtitle1": "Koji su benefiti",
+    "subtitle2": "naših sadnica?"
+  },
   "footer": {
     "nav": "Brza navigacija",
     "seedlings": "Sadnice voća",

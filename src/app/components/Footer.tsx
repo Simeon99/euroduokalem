@@ -28,7 +28,7 @@ const Footer = ({ t }: { t: Translation }) => {
                   {t.footer.seedlings}
                 </span>
               </Link>
-              <Link href={' '} className='text-secondary-light hover:opacity-60'>
+              <Link href={'about-us'} className='text-secondary-light hover:opacity-60'>
                 <span className='font-heading font-bold text-secondary-light text-[24px] max-md:text-[18px] '>{t.footer.aboutUs}</span>
               </Link>
               <Link href={' '} className='text-secondary-light hover:opacity-60'>

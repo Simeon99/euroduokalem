@@ -26,7 +26,7 @@
               "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima sa dobrom drenažom. Optimalno su joj blago kisela do neutralna zemljišta, a uspeva najbolje na sunčanim i umereno vlažnim parcelama. "
             }
           ],
-          "url": "apples-image.webp"
+          "url": "ajdared.jpg"
         },
         {
           "subvariety": "Breburn",
@@ -51,7 +51,7 @@
               "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu, sa dobrom izloženošću suncu. "
             }
           ],
-          "url": "apples-image.webp"
+          "url": "breburn.jpg"
         },
         {
           "subvariety": "Fudži",
@@ -76,10 +76,10 @@
               "text": "Najbolje uspeva na dubokim, plodnim i dobro dreniranima zemljištima. Traži topla, sunčana staništa i redovno navodnjavanje kako bi se postigao pun kvalitet ploda."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "fudzi.jpg"
         },
         {
-          "subvariety": "Gala ",
+          "subvariety": "Gala",
           "about": "Gala je vrlo popularna sorta jabuke, poreklom iz Novog Zelanda, koja se odlikuje izuzetnom slatkoćom i prijatnim aromama. Zbog svoje boje i ujednačenog kvaliteta ploda, često se koristi u komercijalnoj proizvodnji, a njeni plodovi su među najtraženijima na tržištu. ",
           "main": [
             "Izuzetno slatka",
@@ -101,7 +101,7 @@
               "text": "Gala najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz obezbeđeno dovoljno sunčeve svetlosti."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "gala.jpg"
         },
         {
           "subvariety": "Gloster",
@@ -126,7 +126,7 @@
               "text": "Ova sorta najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz dovoljnu količinu sunčeve svetlosti. Za optimalan rast, Gloster zahteva uravnoteženu količinu vlage i ne previše kiselina u tlu."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "gloster.jpg"
         },
         {
           "subvariety": "Greni smit",
@@ -151,7 +151,7 @@
               "text": "Ova sorta najbolje raste na dubokim, plodnim, dobro dreniranim zemljištima, uz redovno navodnjavanje."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "greni-smit.jpg"
         },
         {
           "subvariety": "Jonagold",
@@ -176,7 +176,7 @@
               "text": "Jonagold najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz optimalnu količinu vlage i sunčeve svetlosti. Tlo treba da bude bogato hranljivim materijama, uz redovno navodnjavanje tokom sušnih perioda. "
             }
           ],
-          "url": "apples-image.webp"
+          "url": "jonagold.jpg"
         },
         {
           "subvariety": "Red spur delišes",
@@ -201,7 +201,7 @@
               "text": "Red Spur Delicious zahteva plodna zemljišta sa dobrom drenažom i redovnim navodnjavanjem. Tlo treba biti bogato hranljivim materijama kako bi se obezbedio zdrav rast i kvalitetan plod."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "red-spur-delises.jpg"
         },
         {
           "subvariety": "Summer red",
@@ -251,7 +251,7 @@
               "text": "Top Red preferira plodna i dobro drenirana zemljišta. Da bi se postigao visok kvalitet plodova, potrebno je redovno navodnjavanje i izlaganje dovoljno sunčeve svetlosti tokom vegetacije."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "top red.webp"
         },
         {
           "subvariety": "Zlatni delišes",
@@ -276,7 +276,7 @@
               "text": "Za optimalan rast, Zlatni Delišes zahteva plodna i dobro drenirana zemljišta. Najbolje rezultate postiže na zemljištima bogatim hranljivim materijama, uz redovno navodnjavanje."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "zlatni delises .jpg"
         }
       ]
     },
@@ -284,51 +284,251 @@
       "title": "Kruska",
       "subvarietys": [
         {
-          "subvariety": "Kruska1",
-          "about": "Ajdared je američka sorta jabuke nastala ukrštanjem sorti Jonathan i Wagner...",
+          "subvariety": "Abate Fetel",
+          "about": "Visoko cenjena sorta kruške koja pripada jesenjoj grupi sazrevanja. Prepoznatljiva je po svom karakteristično duguljastom obliku i izraženo slatkom, aromatičnom ukusu. Poreklom iz Francuske, danas je jedna od vodećih sorti u komercijalnoj proizvodnji, naročito u Italiji i drugim evropskim zemljama. Zahvaljujući izuzetnom izgledu i vrhunskom kvalitetu ploda, spada među najtraženije sorte za svežu potrošnju. ",
           "main": [
-            "Blago kiselkast ukus",
-            "Kasna berba",
-            "Dug rok čuvanja",
-            "Višenamenska upotreba"
+            "Izdužen oblik ploda",
+            "Pozna berba",
+            "Sorta visokog kvaliteta",
+            "Dobar rok čuvanja"
           ],
           "characteristics": [
             {
               "title": "Izgled i ukus:",
-              "text": "Plod je srednje krupan do krupan, sa glatkom i sjajnom pokožicom..."
+              "text": "Plodovi su karakteristično izduženog oblika sa glatkom, zeleno-žutom pokožicom, često sa smeđim pegicama. Sočna i vrlo slatka, prijatne teksture i osvežavajuće arome. "
             },
             {
               "title": "Sezona berbe:",
-              "text": "Ajdared sazreva krajem septembra ili početkom oktobra."
+              "text": "Abate Fetel se bere početkom septembra, a u skladištu može da se čuva i do nekoliko meseci bez značajnog gubitka kvaliteta. "
             },
             {
               "title": "Pogodno zemljište:",
-              "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima..."
+              "text": "Najbolje uspeva na plodnim, umerenim i dobro dreniranim zemljištima. Potrebno je osigurati adekvatno navodnjavanje, posebno u sušnim periodima, kako bi se postigao maksimalan kvalitet i prinos. "
             }
           ],
           "url": "apples-image.webp"
         },
         {
-          "subvariety": "Kruska2",
-          "about": "Breburn je poreklom sa Novog Zelanda i predstavlja jednu od najznačajnijih sorti...",
+          "subvariety": "Beurre Hardy",
+          "about": "Beurré Hardy je stara francuska sorta kruške cenjena zbog svoje izuzetne arome, fine teksture i sočnosti. Plod je srednje krupan do krupan, sa zeleno-smeđom pokožicom. Vrlo sočna i slatka, sa izraženom aromom muškata, zbog čega je omiljena kako za konzumaciju u svežem stanju, tako i za vrhunsku preradu. Sorta je pogodna za uzgoj u različitim klimatskim uslovima i daje redovan, kvalitetan rod. ",
           "main": [
-            "Blago kiselkast ukus",
-            "Kasna berba",
+            "Sočan, aromatičan plod",
+            "Srednja berba",
             "Dug rok čuvanja",
-            "Višenamenska upotreba"
+            "Izvrsna za konzumaciju i preradu"
           ],
           "characteristics": [
             {
               "title": "Izgled i ukus:",
-              "text": "Plod je čvrst i krupan, sa glatkom pokožicom crvenkastih nijansi..."
+              "text": "Plod Beurré Hardy sorte prepoznaje se po rustičnoj pokožici i visokoj sočnosti. Meso je belo, topeće u ustima, bogato aromom i prijatne slatkoće. "
             },
             {
               "title": "Sezona berbe:",
-              "text": "Breburn se bere u drugoj polovini oktobra..."
+              "text": "Sazreva krajem avgusta ili početkom septembra, u zavisnosti od klimatskih uslova."
             },
             {
               "title": "Pogodno zemljište:",
-              "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu..."
+              "text": "Najbolje uspeva na dubokim, plodnim zemljištima sa dobrom izloženošću suncu. Preporučuje se redovno orezivanje radi održavanja kvaliteta roda."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Boskova bočica",
+          "about": "Potiče iz Engleske i odlikuje se karakterističnim bokalastim oblikom ploda, izuzetnom aromom i sočnim, finim mesom. Idealna je za konzumaciju u svežem stanju, ali se podjednako koristi i za preradu, naročito u proizvodnji rakije i sokova. Daje rane i obilne prinose, što je čini veoma poželjnom u komercijalnim zasadima.",
+          "main": [
+            "Prepoznatljiv oblik",
+            "Rana berba",
+            "Odlična za preradu",
+            "Visoki i redovni prinosi"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan do krupan, zeleno-žute boje, često sa crvenkastim prelivom. Meso je bele boje, izuzetno sočno, nežno i aromatično, sa prepoznatljivim mirisom."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem avgusta i početkom septembra. Zbog svoje rane berbe i brzog zrenja, pogodna je za brzu prodaju i upotrebu. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Uspeva na plodnim, dobro dreniranima zemljištima. Odgovaraju joj sunčane pozicije sa redovnim zalivanjem."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Butira",
+          "about": "Butira je rana letnja sorta kruške francuskog porekla, cenjena zbog ranog sazrevanja i odličnog kvaliteta plodova. Plodovi su srednje veličine, blago zaobljenog oblika, sa tankom pokožicom i osvežavajućim, slatkastim ukusom. Zahvaljujući brzom ulasku u rod i stabilnim prinosima, Butira je odličan izbor za proizvođače koji žele ranu ponudu svežeg voća na tržištu. ",
+          "main": [
+            "Srednje krupan plod",
+            "Rana berba",
+            "Idealna za svežu konzumaciju",
+            "Stabilan prinos"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je svetlozelene do žućkaste boje, gladak i prijatan na dodir. Sočna i slatka, sa blagom aromom, što je čini veoma osvežavajućom i pogodnom za svežu konzumaciju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Jedna od najranijih sorti – sazreva krajem jula do početka avgusta, što omogućava ranu ponudu na tržištu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na lakšim, dobro dreniranim zemljištima, uz dovoljnu količinu svetlosti i redovno navodnjavanje tokom sušnih perioda."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Junska lepotica",
+          "about": "Junska lepotica je ranija sorta kruške, izuzetno cenjena zbog svog atraktivnog izgleda i izuzetne sočnosti. Ova sorta je poznata po svom blago izduženom plodu, zlatno-žutoj boji i savršenoj ravnoteži između slatkoće i kiselkaste svežine. Odlično se uklapa u proizvodnju svežeg voća, a zahvaljujući svom brzom sazrevanju, omiljena je među potrošačima tokom ranog leta.",
+          "main": [
+            "Izdužen oblik ploda",
+            "Rana berba",
+            "Izuzetna otpornost na sušu",
+            "Stabilan prinos"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": " Plodovi su srednje krupni, izduženi, sa glatkom, svetložutom pokožicom koja postepeno prelazi u zlatne nijanse. Blago je slatka, sa prijatnom kiselkastom notom koja je čini osvežavajućom. "
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva početkom juna, što ovu sortu čini vrlo popularnom za tržište svežeg voća tokom ranih letnjih meseci. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Iako uspeva u različitim tipovima zemljišta, najbolje rezultate postiže na zemljištima bogatim hranljivim materijama i uz dobru drenažu. Redovno zalivanje je ključno za visok prinos."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Kaluđerka",
+          "about": "Kaluđerka je jedna od najstarijih i najpoznatijih autohtonih sorti kruške na našim prostorima. Cenjena je zbog izuzetne arome i specifične teksture mesa. Ova jesenja sorta je idealna za svežu konzumaciju, ali i za proizvodnju rakije i tradicionalnu preradu. Njena postojanost, otpornost i karakterističan ukus čine je dragocenim izborom za voćare i ljubitelje domaćih sorti. ",
+          "main": [
+            "Autohtona sorta",
+            "Srednje veliki i simetrični plodovi",
+            "Kasna barba",
+            "Otpornost na lokalne uslove"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje veličine, simetričnog kruškolikog oblika, svetlozelene do žućkaste pokožice. Meso je belo, fino, sočno i aromatično, sa blago zrnastom teksturom koja se topi u ustima. "
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Kaluđerka sazreva krajem septembra i može se čuvati u hladnijim prostorijama tokom dužeg perioda. "
+            },
+            {
+              "title": "Otpornost i uzgoj:",
+              "text": "Odlična prilagodljivost različitim klimatskim i zemljišnim uslovima. Dobro podnosi sušu i ne traži intenzivnu zaštitu, što je čini pogodnom za ekološki uzgoj. "
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Konferens",
+          "about": "Konferans je jedna od najrasprostranjenijih i najcenjenijih sorti kruške u Evropi, poznata po izduženom obliku, sočnom mesu i blagom, aromatičnom ukusu. Potiče iz Engleske, a danas je izuzetno popularna zbog svoje pouzdanosti u rodu, dobrog skladištenja i široke primene. Zahvaljujući izuzetnoj otpornosti i dugoj berbi, predstavlja odličan izbor za komercijalne zasade.",
+          "main": [
+            "Izdužen i elegantan plod",
+            "Kasna berba",
+            "Dug period čuvanja",
+            "Stabilan rod"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi sorte Konferans su srednje do krupne veličine, karakteristično izduženog oblika sa zelenkastom pokožicom. Meso je svetlo, vrlo sočno, mekano i aromatično, sa blagom slatkoćom."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem septembra. Nakon berbe može da se skladišti tokom dužeg perioda bez gubitka kvaliteta, uz pravilne uslove. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Sorta Konferans najbolje uspeva na plodnim, dubokim i umereno vlažnim zemljištima sa dobrom drenažom. Idealna su blago kisela do neutralna zemljišta bogata organskom materijom."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Santa Maria",
+          "about": "Santa Maria je rana letnja sorta kruške poreklom iz Italije. Plodovi su srednje krupni do krupni, pravilnog oblika, sa glatkom žuto-zelenom pokožicom i blagim crvenilom sa sunčane strane. Meso je čvrsto, sočno i slatko-kiselog ukusa. Zbog svoje čvrstine i postojanosti, odlična je za svežu potrošnju, kao i za kraće skladištenje i transport.",
+          "main": [
+            "Čvrsti i sočni plodovi",
+            "Rani prinosi",
+            "Zrenje krajem jula",
+            "Idealna za svežu potrošnju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi sorte Santa Maria su vizuelno privlačni i ujednačeni, sa glatkom pokožicom i blagim crvenkastim prelivom. Sočna, čvrsta i osvežavajuća, idealna za konzumaciju tokom letnjih meseci. "
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem jula ili početkom avgusta, u zavisnosti od klimatskih uslova."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje rezultate daje na umereno plodnim, rastresitim i dobro dreniranim zemljištima. Voli osunčane pozicije i blago kisela do neutralna zemljišta bogata organskom materijom."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Starkrimson",
+          "about": "Starkrimson je upečatljiva jesenja sorta kruške poznata po svojoj intenzivno crvenoj boji i izrazito sočnom, slatkom ukusu. Potiče iz SAD-a, a prepoznatljiva je po svom dekorativnom izgledu koji je čini atraktivnom na tržištu svežeg voća. Njena glatka pokožica i mekano meso prijatne arome posebno se dopadaju potrošačima. Idealna je za konzumaciju u svežem stanju, ali se koristi i za različite oblike prerade.",
+          "main": [
+            "Intenzivna crvena boja",
+            "Sladak, sočan ukus",
+            "Kasna berba",
+            "Idealna za svežu potrošnju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni do krupni, kruškolikog oblika, sa glatkom pokožicom intenzivno crvene boje. Meso je belo, mekano, veoma sočno i slatko, sa prijatnom aromom. "
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Starkrimson sazreva početkom do sredine septembra. Najbolji kvalitet ploda postiže se kada se bere u optimalnom trenutku zrelosti. "
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dubokim i dobro dreniranim zemljištima. Zahteva sunčane položaje kako bi razvila punu boju i aromu."
+            }
+          ],
+          "url": "apples-image.webp"
+        },
+        {
+          "subvariety": "Viljamovka",
+          "about": "Viljamovka je najpoznatija i najrasprostranjenija sorta kruške na svetu.  Potiče iz Engleske, a kod nas je izuzetno popularna kako za svežu potrošnju, tako i za preradu — naročito za proizvodnju rakije. Prepoznatljiva je po svom glatkom plodu žute boje i izraženoj aromi. Rano dolazi u rod i daje stabilne prinose iz godine u godinu.",
+          "main": [
+            "Prepoznatljiv miris i ukus",
+            "Srednje rana berba",
+            "Idealna za rakiju i preradu",
+            "Stabilni prinosi"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": " Plod je srednje krupan do krupan, pravilnog kruškolikog oblika, sa glatkom, svetložutom pokožicom kada je potpuno zreo. Meso je belo, vrlo sočno, slatko i aromatično — izuzetno cenjeno kod potrošača i prerađivača."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Viljamovka sazreva krajem avgusta do početka septembra. Plodovi se beru kada su čvrsti, jer brzo sazrevaju nakon berbe."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Zahteva duboka, plodna, umereno vlažna i dobro drenirana zemljišta. Odgovaraju joj sunčane i zaklonjene pozicije koje omogućavaju optimalno sazrevanje i razvoj arome."
             }
           ],
           "url": "apples-image.webp"
@@ -363,7 +563,7 @@
               "text": "Thrives best in fertile, deep, and loose soils with good drainage. Prefers slightly acidic to neutral soils and grows best in sunny and moderately moist areas."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "ajdared.jpg"
         },
         {
           "subvariety": "Breburn",
@@ -388,7 +588,7 @@
               "text": "Thrives best in well-drained, fertile soil with good sun exposure."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "breburn.jpg"
         },
         {
           "subvariety": "Fuji",
@@ -413,7 +613,7 @@
               "text": "Performs best in deep, fertile, and well-drained soils. Requires warm, sunny sites and regular irrigation to achieve optimal fruit quality."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "fudzi.jpg"
         },
         {
           "subvariety": "Gala",
@@ -438,7 +638,7 @@
               "text": "Gala thrives best in fertile, well-drained soils with sufficient sunlight exposure."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "gala.jpg"
         },
         {
           "subvariety": "Gloster",
@@ -463,7 +663,7 @@
               "text": "Best grown in fertile, well-drained soils with ample sunlight. For optimal growth, Gloster requires balanced moisture and low soil acidity."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "gloster.jpg"
         },
         {
           "subvariety": "Granny Smith",
@@ -488,7 +688,7 @@
               "text": "This variety grows best in deep, fertile, well-drained soils with regular irrigation."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "greni-smit.jpg"
         },
         {
           "subvariety": "Jonagold",
@@ -513,7 +713,7 @@
               "text": "Jonagold thrives in fertile, well-drained soils with optimal moisture and sunlight. The soil should be rich in nutrients with regular watering during dry periods."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "jonagold.jpg"
         },
         {
           "subvariety": "Red Spur Delicious",
@@ -538,7 +738,7 @@
               "text": "Red Spur Delicious requires fertile soils with good drainage and regular watering. The soil should be nutrient-rich to ensure healthy growth and quality fruit."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "red-spur-delises.jpg"
         },
         {
           "subvariety": "Summer Red",
@@ -588,7 +788,7 @@
               "text": "Top Red prefers fertile and well-drained soils. To achieve high fruit quality, regular irrigation and sufficient sunlight exposure during vegetation are essential."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "top red.webp"
         },
         {
           "subvariety": "Golden Delicious",
@@ -613,7 +813,7 @@
               "text": "For optimal growth, Golden Delicious requires fertile and well-drained soil. It performs best in nutrient-rich soils with regular irrigation."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "zlatni delises .jpg"
         }
       ]
     },
@@ -700,7 +900,7 @@
               "text": "Лучше всего растет на плодородных, глубоких и рыхлых почвах с хорошим дренажем. Предпочитает слегка кислую или нейтральную почву, солнечные и умеренно влажные участки."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "ajdared.jpg"
         },
         {
           "subvariety": "Бреберн",
@@ -725,7 +925,7 @@
               "text": "Предпочитает плодородные, хорошо дренированные почвы с хорошим солнечным освещением."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "breburn.jpg"
         },
         {
           "subvariety": "Фуджи",
@@ -750,7 +950,7 @@
               "text": "Лучше всего растет на глубоких, плодородных и хорошо дренированных почвах. Нуждается в тепле, солнце и регулярном поливе."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "fudzi.jpg"
         },
         {
           "subvariety": "Гала",
@@ -775,7 +975,7 @@
               "text": "Лучше всего растет на плодородных, хорошо дренированных почвах с достаточным солнечным светом."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "gala.jpg"
         },
         {
           "subvariety": "Глостер",
@@ -800,7 +1000,7 @@
               "text": "Лучше всего растет на плодородных, хорошо дренированных почвах с достаточным солнечным светом. Требует сбалансированной влажности и невысокой кислотности почвы."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "gloster.jpg"
         },
         {
           "subvariety": "Гренни Смит",
@@ -825,7 +1025,7 @@
               "text": "Лучше всего растет на глубоких, плодородных, хорошо дренированных почвах, с регулярным поливом."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "greni-smit.jpg"
         },
         {
           "subvariety": "Джонаголд",
@@ -850,7 +1050,7 @@
               "text": "Лучше всего растет на плодородных, хорошо дренированных почвах, с достаточным количеством влаги и солнца. Почва должна быть богата питательными веществами, требуется регулярный полив в засушливый период."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "jonagold.jpg"
         },
         {
           "subvariety": "Ред Спур Делишес",
@@ -875,7 +1075,7 @@
               "text": "Требует плодородной почвы с хорошим дренажем и регулярным поливом. Почва должна быть богата питательными веществами для получения качественных плодов."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "red-spur-delises.jpg"
         },
         {
           "subvariety": "Саммер Ред",
@@ -925,7 +1125,7 @@
               "text": "Предпочитает плодородные, хорошо дренированные почвы. Требует регулярного полива и солнечного света в период вегетации."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "top red.webp"
         },
         {
           "subvariety": "Голден Делишес",
@@ -950,7 +1150,7 @@
               "text": "Для оптимального роста требует плодородные, хорошо дренированные почвы, богатые питательными веществами и с регулярным поливом."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "zlatni delises .jpg"
         }
       ]
     },

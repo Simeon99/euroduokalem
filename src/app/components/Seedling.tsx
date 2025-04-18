@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import SeedlingPresent from './SeedlingPresent';
 import LoadingSideBar from './ui/LoadingSideBar';
+import { Translation } from '../[lang]/dictionaries';
 
 
 export interface FruitData {
@@ -24,7 +25,7 @@ export interface Characteristic {
 }
 
 
-const Seedling = ({ fruit, lang }: { fruit: string, lang: string }) => {
+const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translation }) => {
 
     // const { lang } = await params;
     // const fruit = fruitsData[params.seedling];
@@ -105,7 +106,7 @@ const Seedling = ({ fruit, lang }: { fruit: string, lang: string }) => {
             {/* {/* Main Content */}
             {
                 selectedData && 
-                    selectedData && fruitData && <SeedlingPresent selectedData={selectedData} fruitData={fruitData} selected={selected} setSelected={setSelected} loading={loadingSelected} />
+                    selectedData && fruitData && <SeedlingPresent selectedData={selectedData} fruitData={fruitData} selected={selected} setSelected={setSelected} loading={loadingSelected} t={t}/>
                 // <main className="flex-1 p-6">
                 //     <div className='flex flex-col'>
                 //         <div className='flex flex-row gap-8'>

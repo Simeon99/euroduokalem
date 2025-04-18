@@ -56,7 +56,7 @@ export default function Navbar({ t }: { t: Translation }) {
                         </li>
                         <li className="relative group">
                             <Link
-                                href="/proizvodi"
+                                href="/about-us"
                                 className="text-primary font-body transition-colors duration-300 "
                             >
                                 {t.header.aboutUs}
@@ -100,7 +100,7 @@ export default function Navbar({ t }: { t: Translation }) {
                     }`}>
                     <ul className="flex flex-col  gap-4 font-body text-[20px] font-bold text-primary ">
                         <Link href="/seedlings" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.fruiteSeedlings}</li></Link>
-                        <Link href="/proizvodi" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.aboutUs}</li></Link>
+                        <Link href="/about-us" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.aboutUs}</li></Link>
                         <Link href="/kontakt" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.blog}</li></Link>
                         <Link href="/onama" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.contact}</li></Link>
                     </ul>

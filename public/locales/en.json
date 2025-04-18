@@ -63,6 +63,15 @@
   "seedlings": {
     "title": "Our seedlings"
   },
+  "seedling": {
+    "characteristics": "Variety characteristics"
+  },
+  "aboutUs": {
+    "title": "Who We Are, and What Makes Us Different",
+    "text": "We specialize in high-quality fruit seedlings, grown with care and expertise, to help you build orchards that last for generations.",
+    "subtitle1": "What are the benefits",
+    "subtitle2": "of our seedlings?"
+  },
   "footer": {
     "nav": "Quick Links",
     "seedlings": "Seedlings",
