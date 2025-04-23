@@ -52,8 +52,7 @@ export default function Navbar({ t }: { t: Translation }) {
                         <li className="relative group">
                             {lang}
                             <Link
-                                href="/seedlings"
-                                locale={lang}
+                                href={`/${lang}/seedlings`}
                                 className="text-primary font-body transition-colors duration-300"
                             >
                                 {t.header.fruiteSeedlings}
