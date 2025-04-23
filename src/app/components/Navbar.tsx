@@ -5,10 +5,14 @@ import Link from 'next/link';
 import { useState } from 'react';
 import LangSwitcher from './LanguageSwitcher';
 import { Translation } from '../[lang]/dictionaries';
+import { useParams } from 'next/navigation';
 
 
 
 export default function Navbar({ t }: { t: Translation }) {
+
+    const params = useParams();
+    const lang = params?.lang as string;
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -46,8 +50,10 @@ export default function Navbar({ t }: { t: Translation }) {
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex gap-8 items-center font-body text-primary ">
                         <li className="relative group">
+                            {lang}
                             <Link
                                 href="/seedlings"
+                                locale={lang}
                                 className="text-primary font-body transition-colors duration-300"
                             >
                                 {t.header.fruiteSeedlings}
