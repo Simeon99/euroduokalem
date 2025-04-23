@@ -12,7 +12,7 @@ export default function Button({ label, variant = 'primary', ...props }: ButtonP
 
   const variants = {
     primary: `bg-orange text-white hover:bg-[var(--color-orange-hover)] active:bg-[var(--color-primary-active)]`,
-    secondary: `bg-white text-[var(--color-primary)] border border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white`,
+    secondary: ` text-[var(--color-primary)] border border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-secondary-light)]`,
   };
 
   return (

@@ -1,0 +1,164 @@
+{
+    "blogPosts": [
+        {
+            "id": 1,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 2,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 3,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 4,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 5,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 6,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 7,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 8,
+            "title": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "text": {
+                "en": "Apple",
+                "sr": "Jabuka",
+                "ru": "Яблоня"
+            },
+            "imageUrl": "/apple.jpg",
+            "primary": true,
+            "recomended": [
+                2,
+                3,
+                5
+            ]
+        }
+    ]
+}

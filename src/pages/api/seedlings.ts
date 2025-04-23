@@ -10,6 +10,7 @@ const seedlings = seedlingsData.seedlings;
 function isValidLang(value: unknown): value is Lang {
     return typeof value === 'string' && ['en', 'sr', 'ru'].includes(value);
   }
+  
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     const { lang } = req.query;
   

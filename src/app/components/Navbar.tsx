@@ -50,7 +50,6 @@ export default function Navbar({ t }: { t: Translation }) {
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex gap-8 items-center font-body text-primary ">
                         <li className="relative group">
-                            {lang}
                             <Link
                                 href={`/${lang}/seedlings`}
                                 className="text-primary font-body transition-colors duration-300"
@@ -70,7 +69,7 @@ export default function Navbar({ t }: { t: Translation }) {
                         </li>
                         <li className="relative group">
                             <Link
-                                href={`/${lang}/proizvodi`}
+                                href={`/${lang}/blog`}
                                 className="text-primary font-body transition-colors duration-300"
                             >
                                 {t.header.blog}
