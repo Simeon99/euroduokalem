@@ -21,7 +21,7 @@ export default function Navbar({ t }: { t: Translation }) {
             <div className={`w-full bg-[var(--color-secondary-transparent)] backdrop-blur-md rounded-md ${isOpen ? 'rounded-b-none ' : 'shadow-md'}  max-w-[1440px] mx-auto px-4  `}>
                 <div className="max-w-7xl mx-auto  flex items-center justify-between">
                     {/* Logo */}
-                    <Link href="/" className="text-2xl font-bold text-primary font-heading py-2">
+                    <Link href={`/${lang}/`} className="text-2xl font-bold text-primary font-heading py-2">
                         {/* EuroDuoKalem */}
                         <Image
                             src={'/images/home/logo EDK.svg'}
@@ -61,7 +61,7 @@ export default function Navbar({ t }: { t: Translation }) {
                         </li>
                         <li className="relative group">
                             <Link
-                                href="/about-us"
+                                href={`/${lang}/about-us`}
                                 className="text-primary font-body transition-colors duration-300 "
                             >
                                 {t.header.aboutUs}
@@ -70,7 +70,7 @@ export default function Navbar({ t }: { t: Translation }) {
                         </li>
                         <li className="relative group">
                             <Link
-                                href="/proizvodi"
+                                href={`/${lang}/proizvodi`}
                                 className="text-primary font-body transition-colors duration-300"
                             >
                                 {t.header.blog}
@@ -83,7 +83,7 @@ export default function Navbar({ t }: { t: Translation }) {
                     <div className='hidden md:flex flex-row items-center gap-4'>
                         <div className="hidden gap-4 items-center relative group md:block">
                             <Link
-                                href="/proizvodi"
+                                href={`/${lang}/proizvodi`}
                                 className="text-primary font-body transition-colors duration-300"
                             >
                                 {t.header.contact}
@@ -104,10 +104,10 @@ export default function Navbar({ t }: { t: Translation }) {
                 <div className={`z-50 p-4  bg-[var(--color-secondary-transparent)] backdrop-blur-md  rounded-b-md   transition-all duration-300 ease-in-out overflow-hidden  md:hidden ${isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
                     }`}>
                     <ul className="flex flex-col  gap-4 font-body text-[20px] font-bold text-primary ">
-                        <Link href="/seedlings" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.fruiteSeedlings}</li></Link>
-                        <Link href="/about-us" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.aboutUs}</li></Link>
-                        <Link href="/kontakt" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.blog}</li></Link>
-                        <Link href="/onama" className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.contact}</li></Link>
+                        <Link href={`/${lang}/seedlings`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.fruiteSeedlings}</li></Link>
+                        <Link href={`/${lang}/about-us`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.aboutUs}</li></Link>
+                        <Link href={`/${lang}/kontakt`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.blog}</li></Link>
+                        <Link href={`/${lang}/onama`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.contact}</li></Link>
                     </ul>
                     <div
                         className={`h-[2px] my-4 w-full bg-primary origin-center transform transition-transform duration-300 ${isOpen ? 'scale-x-100' : 'scale-x-0'

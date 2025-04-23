@@ -5,11 +5,13 @@ import React from 'react'
 import { Translation } from '../[lang]/dictionaries';
 import { formatTextWithBreaks } from './ui/SplitText';
 import Button from './ui/Button';
-import { useRouter } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import { useLoadingBar } from 'react-top-loading-bar';
 
 const Landing = ({ t }: { t: Translation }) => {
 
+    const params = useParams();
+    const lang = params?.lang as string;
     const router = useRouter();
 
     const { start, complete } = useLoadingBar({
@@ -21,7 +23,7 @@ const Landing = ({ t }: { t: Translation }) => {
         start();
         // slight delay to let bar show before route change (optional)
         setTimeout(() => {
-            router.push('/seedlings');
+            router.push(`/${lang}/seedlings`);
             complete();
         }, 300);
     };

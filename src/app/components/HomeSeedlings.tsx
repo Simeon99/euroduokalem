@@ -7,9 +7,12 @@ import { PiChecksBold } from "react-icons/pi";
 import Button from './ui/Button';
 import { Translation } from '../[lang]/dictionaries';
 import { splitBold } from './ui/SplitText';
-import { useRouter } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 
 const HomeSeedlings = ({ t }: { t: Translation }) => {
+
+    const params = useParams();
+    const lang = params?.lang as string;
 
     const router = useRouter();
     return (
@@ -42,7 +45,7 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
                         })}
                     </div>
                     <div className='w-[200px] pt-8'>
-                        <Button label={t.home.seedlingsBtn} onClick={() => router.push('/seedlings')} />
+                        <Button label={t.home.seedlingsBtn} onClick={() => router.push(`/${lang}/seedlings`)} />
                     </div>
                 </div>
                 {/* Desktop image */}

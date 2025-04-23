@@ -79,7 +79,7 @@ const Seedlings = ({ lang, t }: { lang: string, t: Translation }) => {
                         </p>
                     ) : (
                         filteredSeedlings.map(seedling => (
-                            <Link href={`/seedlings/${seedling.url}`} key={seedling.id} className='flex flex-col justify-between rounded-2xl bg-white h-[600px] hover:shadow-2xl transform duration-300 shadow-md'>
+                            <Link href={`/${lang}/seedlings/${seedling.url}`} key={seedling.id} className='flex flex-col justify-between rounded-2xl bg-white h-[600px] hover:shadow-2xl transform duration-300 shadow-md'>
                                 <div className='flex flex-col gap-4'>
                                     <div className="overflow-hidden rounded-t-2xl h-[250px] w-full">
                                         <Image
