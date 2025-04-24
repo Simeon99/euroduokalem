@@ -23,7 +23,7 @@ const MyMap = () => {
 </div>;
 
   return (
-    <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={12}>
+    <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={6}>
       <Marker position={center} />
     </GoogleMap>
   );
