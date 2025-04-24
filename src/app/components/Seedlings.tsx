@@ -56,7 +56,7 @@ const Seedlings = ({ lang, t }: { lang: string, t: Translation }) => {
                 <FiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-primray" size={20} />
                 <input
                     type="text"
-                    placeholder={"Pretraži sadnice..."}
+                    placeholder={t.seedlings.search}
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0E3A27] text-lg"
@@ -101,7 +101,7 @@ const Seedlings = ({ lang, t }: { lang: string, t: Translation }) => {
                                     </div>
                                 </div>
                                 <button className='w-full h-[60px] bg-primary rounded-b-2xl text-secondary-light text-[20px] hover:cursor-pointer hover:bg-[#D7740A] transform duration-300'>
-                                    Saznaj više
+                                    {t.seedlings.button}
                                 </button>
                             </Link>
                         ))

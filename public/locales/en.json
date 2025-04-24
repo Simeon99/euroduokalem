@@ -65,7 +65,9 @@
     }
   },
   "seedlings": {
-    "title": "Our seedlings"
+    "title": "Our seedlings",
+    "search": "Search seedlings...",
+    "button": "Learn more"
   },
   "seedling": {
     "characteristics": "Variety characteristics",
