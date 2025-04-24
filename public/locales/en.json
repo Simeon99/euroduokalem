@@ -7,6 +7,7 @@
   },
   "home": {
     "title": "Seedlings that bring \nabundant harvests and \na secure future!",
+    "titleBtn": "Our seedlings",
     "baner1": "Fruit tree seedlings ",
     "baner2": "Fruit growing ",
     "baner3": "Certified seedlings",
@@ -58,13 +59,17 @@
       "email": "Email",
       "message": "Message",
       "button": "Send message "
+    },
+    "blog":{
+      "title": "Our blog"
     }
   },
   "seedlings": {
     "title": "Our seedlings"
   },
   "seedling": {
-    "characteristics": "Variety characteristics"
+    "characteristics": "Variety characteristics",
+    "suggested": "Suggested for you"
   },
   "aboutUs": {
     "title": "Who We Are, and What Makes Us Different",

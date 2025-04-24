@@ -26,7 +26,8 @@
               "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima sa dobrom drenažom. Optimalno su joj blago kisela do neutralna zemljišta, a uspeva najbolje na sunčanim i umereno vlažnim parcelama. "
             }
           ],
-          "url": "ajdared.jpg"
+          "url": "ajdared.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Breburn",
@@ -51,7 +52,8 @@
               "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu, sa dobrom izloženošću suncu. "
             }
           ],
-          "url": "breburn.jpg"
+          "url": "breburn.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Fudži",
@@ -76,7 +78,8 @@
               "text": "Najbolje uspeva na dubokim, plodnim i dobro dreniranima zemljištima. Traži topla, sunčana staništa i redovno navodnjavanje kako bi se postigao pun kvalitet ploda."
             }
           ],
-          "url": "fudzi.jpg"
+          "url": "fudzi.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Gala",
@@ -101,7 +104,8 @@
               "text": "Gala najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz obezbeđeno dovoljno sunčeve svetlosti."
             }
           ],
-          "url": "gala.jpg"
+          "url": "gala.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Gloster",
@@ -126,7 +130,8 @@
               "text": "Ova sorta najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz dovoljnu količinu sunčeve svetlosti. Za optimalan rast, Gloster zahteva uravnoteženu količinu vlage i ne previše kiselina u tlu."
             }
           ],
-          "url": "gloster.jpg"
+          "url": "gloster.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Greni smit",
@@ -151,7 +156,8 @@
               "text": "Ova sorta najbolje raste na dubokim, plodnim, dobro dreniranim zemljištima, uz redovno navodnjavanje."
             }
           ],
-          "url": "greni-smit.jpg"
+          "url": "greni-smit.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Jonagold",
@@ -176,7 +182,8 @@
               "text": "Jonagold najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz optimalnu količinu vlage i sunčeve svetlosti. Tlo treba da bude bogato hranljivim materijama, uz redovno navodnjavanje tokom sušnih perioda. "
             }
           ],
-          "url": "jonagold.jpg"
+          "url": "jonagold.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Red spur delišes",
@@ -201,7 +208,8 @@
               "text": "Red Spur Delicious zahteva plodna zemljišta sa dobrom drenažom i redovnim navodnjavanjem. Tlo treba biti bogato hranljivim materijama kako bi se obezbedio zdrav rast i kvalitetan plod."
             }
           ],
-          "url": "red-spur-delises.jpg"
+          "url": "red-spur-delises.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Summer red",
@@ -226,7 +234,8 @@
               "text": "Summer Red najbolje uspeva na plodnim, dobro dreniranim zemljištima, sa dovoljno sunčeve svetlosti. Zahteva redovno navodnjavanje tokom sušnih perioda kako bi postigla optimalan kvalitet plodova."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Top red",
@@ -251,7 +260,8 @@
               "text": "Top Red preferira plodna i dobro drenirana zemljišta. Da bi se postigao visok kvalitet plodova, potrebno je redovno navodnjavanje i izlaganje dovoljno sunčeve svetlosti tokom vegetacije."
             }
           ],
-          "url": "top red.webp"
+          "url": "top red.webp",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Zlatni delišes",
@@ -276,7 +286,8 @@
               "text": "Za optimalan rast, Zlatni Delišes zahteva plodna i dobro drenirana zemljišta. Najbolje rezultate postiže na zemljištima bogatim hranljivim materijama, uz redovno navodnjavanje."
             }
           ],
-          "url": "zlatni delises .jpg"
+          "url": "zlatni delises .jpg",
+          "suggested": [2,3,4]
         }
       ]
     },
@@ -306,7 +317,8 @@
               "text": "Najbolje uspeva na plodnim, umerenim i dobro dreniranim zemljištima. Potrebno je osigurati adekvatno navodnjavanje, posebno u sušnim periodima, kako bi se postigao maksimalan kvalitet i prinos. "
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Beurre Hardy",
@@ -331,7 +343,8 @@
               "text": "Najbolje uspeva na dubokim, plodnim zemljištima sa dobrom izloženošću suncu. Preporučuje se redovno orezivanje radi održavanja kvaliteta roda."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Boskova bočica",
@@ -356,7 +369,8 @@
               "text": "Uspeva na plodnim, dobro dreniranima zemljištima. Odgovaraju joj sunčane pozicije sa redovnim zalivanjem."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Butira",
@@ -381,7 +395,8 @@
               "text": "Najbolje uspeva na lakšim, dobro dreniranim zemljištima, uz dovoljnu količinu svetlosti i redovno navodnjavanje tokom sušnih perioda."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Junska lepotica",
@@ -406,7 +421,8 @@
               "text": "Iako uspeva u različitim tipovima zemljišta, najbolje rezultate postiže na zemljištima bogatim hranljivim materijama i uz dobru drenažu. Redovno zalivanje je ključno za visok prinos."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Kaluđerka",
@@ -431,7 +447,8 @@
               "text": "Odlična prilagodljivost različitim klimatskim i zemljišnim uslovima. Dobro podnosi sušu i ne traži intenzivnu zaštitu, što je čini pogodnom za ekološki uzgoj. "
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Konferens",
@@ -456,7 +473,8 @@
               "text": "Sorta Konferans najbolje uspeva na plodnim, dubokim i umereno vlažnim zemljištima sa dobrom drenažom. Idealna su blago kisela do neutralna zemljišta bogata organskom materijom."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Santa Maria",
@@ -481,7 +499,8 @@
               "text": "Najbolje rezultate daje na umereno plodnim, rastresitim i dobro dreniranim zemljištima. Voli osunčane pozicije i blago kisela do neutralna zemljišta bogata organskom materijom."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Starkrimson",
@@ -506,7 +525,8 @@
               "text": "Najbolje uspeva na plodnim, dubokim i dobro dreniranim zemljištima. Zahteva sunčane položaje kako bi razvila punu boju i aromu."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Viljamovka",
@@ -531,7 +551,355 @@
               "text": "Zahteva duboka, plodna, umereno vlažna i dobro drenirana zemljišta. Odgovaraju joj sunčane i zaklonjene pozicije koje omogućavaju optimalno sazrevanje i razvoj arome."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "plum": {
+      "title": "Šljiva",
+      "subvarietys": [
+        {
+          "subvariety": "Čačanska lepotica",
+          "about": "Čačanska lepotica je domaća letnja šljiva nastala na Institutu za voćarstvo u Čačku. Poznata je po krupnom, tamnoljubičastom plodu i ranom, sigurnom rodu. Zbog fine ravnoteže slatkoće i blage kiselosti odlična je za svežu potrošnju, sušenje i rakiju.",
+          "main": [
+            "Krupan plod",
+            "Sladak ukus",
+            "Srednja berba",
+            "Stabilan prinos"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je 35-40g težak, eliptičnog oblika. Pokožica je tamnoljubičasta sa modrim prahom. Meso žućkastozeleno, čvrsto, sočno i prijatnog slatko‑kiselkastog ukusa. Koštica se lako odvaja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva vrlo rano – obično između 25. jula i 5. avgusta. Plodovi istovremeno dozrevaju, što olakšava jednokratnu berbu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje rezultate daje na dubokim, srednje teškim, umereno vlažnim i dobro dreniranima zemljištima pH 6,0–7,0. Potrebna puna osunčanost radi bogate boje i šećera."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Čačanska najbolja",
+          "about": "Čačanska najbolja je visoko cenjena srpska sorta šljive, stvorena ukrštanjem Wangenheim i  Požegača. Ubraja se u srednje rane sorte i poznata je po izuzetnoj prilagodljivosti, redovnom rodu i vrhunskom kvalitetu ploda, zbog čega se široko koristi i za rakiju i za preradu.",
+          "main": [
+            "Srednje krupan plod; Izrazito slatka",
+            "Srednja berba",
+            "Pogodna za rakiju i sušenje"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su težine 30-35g, eliptičnog oblika. Pokožica je tamnoplava s voštanim premazom. Meso žutozeleno, čvrsto, vrlo sočno i slatko. Koštica se lako odvaja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Dozreva sredinom avgusta. Rod sazreva ujednačeno, što omogućava jednu ili dve berbe."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Dobro uspeva na širokom spektru zemljišta - od lakših aluvijuma do srednje teških glinovita – pod uslovom da su dobro drenirana. Optimalan pH 6,0–7,2. Podnosi blage suše, ali daje najbolje prinose uz navodnjavanje. "
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Čačanska rana",
+          "about": "Čačanska rana je najranija šljiva iz čačanske selekcije nastala ukrštanjem Stanley i Požegača. Donosi zrele plodove već početkom jula, čime otvara sezonu šljiva na tržištu. Sorta je cenjena zbog ranog roda, privlačnog izgleda ploda i univerzalne primene.",
+          "main": [
+            "Srednje krupan plod",
+            "Osvežavajućeg ukusa",
+            "Vrlo rana berba",
+            "Plodno zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je težine 25–30 g, eliptičnog oblika. Pokožica je tamnocrveno-plava s voštanim naletom. Meso žuto, srednje čvrsto, sočno i slatko‑kiselkasto. Koštica se relativno lako odvaja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva vrlo rano – u prvoj dekadi jula. Zbog brzog sazrevanja preporučuje se promptna berba i brza distribucija."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje rezultate daje na dubokim, plodnim, blago kiselim do neutralnim zemljištima, uz dobru drenažu i puno sunčeve svetlosti. Za visoke prinose u suvim godinama preporučuje se navodnjavanje."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Čačanska rodna",
+          "about": "Čačanska rodna, nastala ukrštanjem Stanley i Požegača. Spada u najpouzdanije i najrodnije srpske sorte šljive. Srednje je rane epohe sazrevanja, poznata po izuzetno obilnom i stalnom rodu, krupnijem plodu i visokom sadržaju suve materije, što je čini prvoklasnom sirovinom za sušenje i rakiju.",
+          "main": [
+            "Krupni plpdovi",
+            "Srednja berba",
+            "Stalan prinos",
+            "Odlična za sušenje i rakiju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod 35-40g težak, eliptičnog oblika. Pokožica je tamnoplava s obilnim voštanim prahom. Meso žutozeleno do žuto, čvrsto, srednje sočno, prijatno slatko. Koštica se lako odvaja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva u prvoj dekadi avgusta. Zbog ujednačenog dozrevanja berba se obično obavlja u jednoj etapi."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dubljim, plodnim i dobro dreniranim zemljištima. Podnosi i skromnije uslove, ali za vrhunski prinos preporučuje se redovno navodnjavanje i prihrana."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Grosse Di Felicio",
+          "about": "Stara italijanska šljiva, cenjena u lokalnim voćnjacima zbog vrlo krupnog ploda  i prijatnog, aromatičnog mesa. Tradicionalno se gaji za svežu upotrebu, sušenje i domaću rakiju.",
+          "main": [
+            "Krupan plod",
+            "Sladak ukus",
+            "Kasnija berba",
+            "Plodno zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi dostižu do 45 g. Pokožica je tamnoljubičasta s voštanim prahom, ponekad prošarana svetlijim tačkama. Meso je žutozeleno, čvrsto, sočno i prijatno slatko. Koštica se odvaja poluslobodno."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Obično dozreva sredinom avgusta u kontinentalnim predelima centralne Italije. U toplijim klimama nekoliko dana ranije."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje rod daje na dubokim, srednje teškim ilovastim zemljištima pH 6,2 - 7,2. Zahteva puno sunce. Dobro podnosi blage sušne periode, ali se za vrhunski prinos preporučuje navodnjavanje kap-po-kap."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "President",
+          "about": "President je poznata engleska šljiva koju odlikuju vrlo krupni plodovi, ujednačeno sazrevanje i odlična čuvljivost. Spada u pozne sorte, pa produžava ponudu svežih šljiva do kraja sezone. Zbog čvrstog mesa i visokog sadržaja suve materije ceni se za svežu potrošnju, zamrzavanje, sušenje i kvalitetnu rakiju.",
+          "main": [
+            "Vrlo krupan plod",
+            "Slatko-kiselkast ukus",
+            "Pozna berba",
+            "Stabilan prinos"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je ovalan do elipsast. Pokožica je tamnoljubičasta s izraženim voštanim premazom. Meso je žućkasto-zeleno, čvrsto, sočno, slatko-kiselkastog ukusa. Koštica se odvaja lako."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Dozreva sredinom do druge dekade septembra. Zbog čvrstoće podnosi malo odlaganje berbe, a može se čuvati u hladnjači 4-6 nedelja."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dubokim, umereno vlažnim i dobro dreniranim ilovačama (pH 6,2 - 7,2). Zahteva puno sunca. U suvim godinama preporučuje se navodnjavanje za maksimalnu krupnoću."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Stenly",
+          "about": "Stanley je američka, srednje pozna sorta šljive koja se globalno raširila zahvaljujući pouzdanom prinosu, krupnom plodu i višestrukoj upotrebi. U Srbiji je standard za preradu, sušenje i rakiju. Daje redovan rod, dobro podnosi transport i visoko je prilagodljiva različitim podnebljima.",
+          "main": [
+            "Krupni plodovi",
+            "Prijatno slatko-kiselkast ukus",
+            "Kasnija berba",
+            "Odlična za sušenje i rakiju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Pokožica je tamnoplava s gustim voštanim premazom. Meso je žutozeleno, čvrsto, sočno i prijatno slatko. Koštica se odvaja lako - važno za industrijsku preradu."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Dozreva od 25. avgusta do 5. septembra (zavisno od lokacije). Plodovi dozrevaju ujednačeno, što omogućava jednu glavnu berbu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Stanley dobro raste na većini plodnih, umereno vlažnih zemljišta pH 6,0 - 7,2. Za vrhunski prinos traži puno sunca i navodnjavanje u suvim periodima. Osetljiva na teške, slabo drenirane podloge."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "sour-cherry": {
+      "title": "Višnja",
+      "subvarietys": [
+        {
+          "subvariety": "Hajmanova konzervna",
+          "about": "Hajmanova konzervna je poznata industrijska sorta višnje austrijskog porekla, selektovana krajem 19. veka u rasadniku Heimann. Cenjena je zbog visokog prinosa, stabilne kiselosti i tamnocrvenog soka, što je čini idealnom za preradu u sokove, džemove, kompote i konditorsku industriju. Sorte ovog tipa i dalje su standard u profesionalnim zasadima namenjenim mehanizovanoj berbi i preradi.",
+          "main": [
+            "Krupan plod",
+            "Izrazita kiselost",
+            "Srednje kasna berba",
+            "Visok i stabilan prinos"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled  i ukus:",
+              "text": "Plodovi su okrugli, sa tamnocrvenom do gotovo crnom pokožicom u punoj tehnološkoj zrelosti. Sok je intenzivno crven, bogat pigmentima i kiselinama (pH ≈ 3,3). Meso je mekano, sočno i izrazito kiselkasto, što ovu sortu čini idealnom za proizvodnju koncentrata, džemova i višnja‑likera."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Dozreva srednje kasno: poslednja dekada juna do prve julske sedmice u većini kontinentalnih područja. Plodovi dozrevaju ujednačeno, što olakšava jednokratnu mehanizovanu berbu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na umereno plodnim, dobro dreniranima ilovastim i aluvijalnim zemljištima pH 6,0-7,0. Dobro podnosi blago krečna tla, a optimalan rod postiže na položajima s punom sunčanom ekspozicijom i redovnim navodnjavanjem tokom sušnih perioda."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Keleris 14",
+          "about": "Keleris 14 je danska sorta višnje razvijena u institutu Statens Planteavls­forsøg. Spada u grupu kasnijih kiselih višanja i izuzetno je cenjena u industriji zbog visoke rodnosti, tamnocrvenog, aromatičnog soka i čvrstog mesa koje dobro podnosi zamrzavanje. Sorta je prilagođena mehanizovanoj berbi i preporučuje se za komercijalne zasade namenjene preradi.",
+          "main": [
+            "Tamnocrven plod",
+            "Naglašena kiselost",
+            "Kasnija berba",
+            "Vrhunska za sokove i zamrzavanje"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus",
+              "text": "Plodovi su tamnocrveni i sjajni. Pokožica je čvrsta, a meso svetlocrveno, sočno, čvršće od većine višanja. Sok je tamnocrven, bogat antocijanima, izraženo kiselkast sa prijatnom aromom – odličan za preradu i konditorsku industriju."
+            },
+            {
+              "title": "Sezona berbe",
+              "text": "Dozreva kasno, najčešće u drugoj polovini jula. Dozrevanje je ujednačeno, što omogućuje jednokratnu berbu pomoću tresača."
+            },
+            {
+              "title": "Pogodno zemljište",
+              "text": "Najbolje rezultate postiže na dubokim, plodnim, dobro dreniranima ilovastim zemljištima pH 6,0–7,2. Podnosi hladnije zime i vlažnije klime, ali zahteva punu sunčanu ekspoziciju za maksimalan sadržaj šećera i boje."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Keleris 16",
+          "about": "Keleris 16 je danska industrijska višnja, selektovana u istraživačkoj stanici Kelleriis ukrštanjem sorti Stevnsbær i Schmidt. Sorta je posebno cenjena zbog vrlo visokog prinosa, otpornosti na pucanje ploda i ujednačene tehnološke zrelosti koja omogućava efikasnu mehanizovanu berbu. Tamnocrveni sok bogat pigmentima idealan je za preradu u koncentrate, džemove i zamrznuto voće.",
+          "main": [
+            "Aromatičan plod",
+            "Kasnija berba",
+            "Manje sklona pucanju ploda",
+            "Odlična za preradu"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus",
+              "text": "Plodovi srednje veličine, tamnocrvene pokožice i mesnate teksture. Sok je intenzivno obojen, bogat antocijanima i kiselinama, s prijatnom aromom tipičnom za dansku grupu višanja."
+            },
+            {
+              "title": "Sezona berbe",
+              "text": "Dozreva srednje kasno, najčešće između u drugoj polovini jula. Plodovi sazrevaju ujednačeno, što omogućava jednokratnu mehanizovanu berbu."
+            },
+            {
+              "title": "Pogodno zemljište",
+              "text": "Uspeva na dubokim, plodnim, blago kiselim ili neutralnim zemljištima (pH 6,0-7,0). Dobro podnosi hladnije klime skandinavskog tipa, ali i kontinentalne uslove, uz obaveznu dobru drenažu."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Montmorency",
+          "about": "Montmorency je najrasprostranjenija američka kisela višnja i globalni industrijski standard za preradu. Potiče iz Francuske, ali se od 19. veka intenzivno gaji u SAD‑u i Kanadi zbog izuzetno visokog prinosa, stabilne kiselosti i pogodne konzistencije za zamrzavanje, sokove i pite.",
+          "main": [
+            "Jarkocrven plod",
+            "Srednja berba",
+            "Mehanizovana berba",
+            "Pogodna za preradu i zamrzavanje "
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus",
+              "text": "Plodovi srednje veličine, sjajne jarkocrvene pokožice. Meso je svetlocrveno, čvrsto i sočno. Sok je bistar, izrazito kiseo (pH ≈ 3,2) - idealan za sokove, konzentrate, pite i džemove."
+            },
+            {
+              "title": "Sezona berbe",
+              "text": "Dozreva srednje rano do srednje kasno, najčešće krajem juna i početkom juna u kontinentalnim uslovima. Dozrevanje je prilično ujednačeno, što olakšava jednokratno trešenje."
+            },
+            {
+              "title": "Pogodno zemljište",
+              "text": "Najbolje rezultate daje na dubokim, umerenim i dobro dreniranima glinasto‑ilovastim zemljištima pH 6,0-7,2. Zahteva puno sunčanih sati za visok sadržaj suve materije. Dobro podnosi hladnije zime i blage suše uz navodnjavanje."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Oblačinska",
+          "about": "Oblačinska je autohtona srpska sorta višnje koja čini okosnicu industrijske proizvodnje na Balkanu. Poznata po sitnijem, tamnocrvenom plodu bogatom suvom materijom, visokoj kiselosti i izvanrednoj aromi, smatra se zlatnim standardom za koncentrat, džem, kompot i naročito za tradicionalno pravljanje višnja‑likera. Sorta je samoplodna, veoma rodna i odlično prilagođena raznim agroekološkim uslovima.",
+          "main": [
+            "Sitan plod",
+            "Veoma visoka kiselost",
+            "Srednje rana berba",
+            "Mehanizovana berba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus",
+              "text": "Plodovi su mali, tamnocrveni do gotovo crni. Meso mekano, vrlo sočno, izrazito kiselo i aromatično. Sok je bogat antocijanima, duboke boje, idealan za preradu."
+            },
+            {
+              "title": "Sezona berbe",
+              "text": "Dozreva srednje rano, obično između krajem juna i početkom jula u većini kontinentalnih područja. Plodovi sazrevaju postupno, zbog visoke kiselosti ne prezrevaju brzo, što omogućava fleksibilniji period berbe."
+            },
+            {
+              "title": "Pogodno zemljište",
+              "text": "Oblačinska odlično uspeva na širokom spektru zemljišta – od siromašnijih peskovitih do srednje teških glinovita – pod uslovom da su dobro drenirana. Tolerantna je na manje padavine i temperaturne ekstreme, što je čini pogodnom za ekstenzivne i ekološke zasade."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Šumadinka",
+          "about": "Šumadinka je savremena srpska sorta višnje, stvorena selekcijom na Institutu za voćarstvo u Čačku. Namenjena je prvenstveno industrijskoj preradi, ali je atraktivna i za svežu upotrebu zahvaljujući krupnijem plodu, čvršćem mesu i uravnoteženom odnosu šećera i kiselina. Sorta je samooplodna, stabilno prinosi i prilagođena je mehanizovanoj berbi, što je čini odličnim izborom za intenzivne zasade.",
+          "main": [
+            "Krupa plod",
+            "Slatko-kiselkast ukus",
+            "Srednja berba",
+            "Pogodna za sokovi i zamrzavanje"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus",
+              "text": "Plodovi su okruglastog oblika. Pokožica je tamnocrvena i sjajna. Meso je čvrsto, sočno, finesnog slatko‑kiselog balansa. Sok je intenzivno crven i aromatičan."
+            },
+            {
+              "title": "Sezona berbe",
+              "text": "Dozreva sredinom sezone višanja, najčešće prva sedmica jula. Plodovi sazrevaju ujednačeno, što omogućava jednokratno mehanizovano trešenje ili brzu ručnu berbu."
+            },
+            {
+              "title": "Pogodno zemljište",
+              "text": "Najbolje rezultate daje na dubokim, srednje teškim, dobro dreniranima zemljištima pH 6,0–7,0. Podnosi blage suše i zimske mrazeve. Za vrhunski prinos preporučuje se puna osunčanost i povremeno navodnjavanje u sušnim periodima."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         }
       ]
     }
@@ -563,7 +931,8 @@
               "text": "Thrives best in fertile, deep, and loose soils with good drainage. Prefers slightly acidic to neutral soils and grows best in sunny and moderately moist areas."
             }
           ],
-          "url": "ajdared.jpg"
+          "url": "ajdared.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Breburn",
@@ -588,7 +957,8 @@
               "text": "Thrives best in well-drained, fertile soil with good sun exposure."
             }
           ],
-          "url": "breburn.jpg"
+          "url": "breburn.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Fuji",
@@ -613,7 +983,8 @@
               "text": "Performs best in deep, fertile, and well-drained soils. Requires warm, sunny sites and regular irrigation to achieve optimal fruit quality."
             }
           ],
-          "url": "fudzi.jpg"
+          "url": "fudzi.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Gala",
@@ -638,7 +1009,8 @@
               "text": "Gala thrives best in fertile, well-drained soils with sufficient sunlight exposure."
             }
           ],
-          "url": "gala.jpg"
+          "url": "gala.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Gloster",
@@ -663,7 +1035,8 @@
               "text": "Best grown in fertile, well-drained soils with ample sunlight. For optimal growth, Gloster requires balanced moisture and low soil acidity."
             }
           ],
-          "url": "gloster.jpg"
+          "url": "gloster.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Granny Smith",
@@ -688,7 +1061,8 @@
               "text": "This variety grows best in deep, fertile, well-drained soils with regular irrigation."
             }
           ],
-          "url": "greni-smit.jpg"
+          "url": "greni-smit.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Jonagold",
@@ -713,7 +1087,8 @@
               "text": "Jonagold thrives in fertile, well-drained soils with optimal moisture and sunlight. The soil should be rich in nutrients with regular watering during dry periods."
             }
           ],
-          "url": "jonagold.jpg"
+          "url": "jonagold.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Red Spur Delicious",
@@ -738,7 +1113,8 @@
               "text": "Red Spur Delicious requires fertile soils with good drainage and regular watering. The soil should be nutrient-rich to ensure healthy growth and quality fruit."
             }
           ],
-          "url": "red-spur-delises.jpg"
+          "url": "red-spur-delises.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Summer Red",
@@ -763,7 +1139,8 @@
               "text": "Summer Red thrives in fertile, well-drained soils with sufficient sunlight. It requires regular watering during dry periods to achieve optimal fruit quality."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Top Red",
@@ -788,7 +1165,8 @@
               "text": "Top Red prefers fertile and well-drained soils. To achieve high fruit quality, regular irrigation and sufficient sunlight exposure during vegetation are essential."
             }
           ],
-          "url": "top red.webp"
+          "url": "top red.webp",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Golden Delicious",
@@ -813,7 +1191,8 @@
               "text": "For optimal growth, Golden Delicious requires fertile and well-drained soil. It performs best in nutrient-rich soils with regular irrigation."
             }
           ],
-          "url": "zlatni delises .jpg"
+          "url": "zlatni delises .jpg",
+          "suggested": [2,3,4]
         }
       ]
     },
@@ -843,7 +1222,8 @@
               "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima..."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         },
         {
           "subvariety": "Kruska2",
@@ -868,7 +1248,356 @@
               "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu..."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "plum": {
+      "title": "Plum",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "sour-cherry": {
+      "title": "Sour cherry",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         }
       ]
     }
@@ -900,7 +1629,8 @@
               "text": "Лучше всего растет на плодородных, глубоких и рыхлых почвах с хорошим дренажем. Предпочитает слегка кислую или нейтральную почву, солнечные и умеренно влажные участки."
             }
           ],
-          "url": "ajdared.jpg"
+          "url": "ajdared.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Бреберн",
@@ -925,7 +1655,8 @@
               "text": "Предпочитает плодородные, хорошо дренированные почвы с хорошим солнечным освещением."
             }
           ],
-          "url": "breburn.jpg"
+          "url": "breburn.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Фуджи",
@@ -950,7 +1681,8 @@
               "text": "Лучше всего растет на глубоких, плодородных и хорошо дренированных почвах. Нуждается в тепле, солнце и регулярном поливе."
             }
           ],
-          "url": "fudzi.jpg"
+          "url": "fudzi.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Гала",
@@ -975,7 +1707,8 @@
               "text": "Лучше всего растет на плодородных, хорошо дренированных почвах с достаточным солнечным светом."
             }
           ],
-          "url": "gala.jpg"
+          "url": "gala.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Глостер",
@@ -1000,7 +1733,8 @@
               "text": "Лучше всего растет на плодородных, хорошо дренированных почвах с достаточным солнечным светом. Требует сбалансированной влажности и невысокой кислотности почвы."
             }
           ],
-          "url": "gloster.jpg"
+          "url": "gloster.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Гренни Смит",
@@ -1025,7 +1759,8 @@
               "text": "Лучше всего растет на глубоких, плодородных, хорошо дренированных почвах, с регулярным поливом."
             }
           ],
-          "url": "greni-smit.jpg"
+          "url": "greni-smit.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Джонаголд",
@@ -1050,7 +1785,8 @@
               "text": "Лучше всего растет на плодородных, хорошо дренированных почвах, с достаточным количеством влаги и солнца. Почва должна быть богата питательными веществами, требуется регулярный полив в засушливый период."
             }
           ],
-          "url": "jonagold.jpg"
+          "url": "jonagold.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Ред Спур Делишес",
@@ -1075,7 +1811,8 @@
               "text": "Требует плодородной почвы с хорошим дренажем и регулярным поливом. Почва должна быть богата питательными веществами для получения качественных плодов."
             }
           ],
-          "url": "red-spur-delises.jpg"
+          "url": "red-spur-delises.jpg",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Саммер Ред",
@@ -1100,7 +1837,8 @@
               "text": "Лучше всего растет на плодородных, хорошо дренированных почвах, при достаточном солнечном освещении и регулярном поливе."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Топ Ред",
@@ -1125,7 +1863,8 @@
               "text": "Предпочитает плодородные, хорошо дренированные почвы. Требует регулярного полива и солнечного света в период вегетации."
             }
           ],
-          "url": "top red.webp"
+          "url": "top red.webp",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Голден Делишес",
@@ -1150,7 +1889,8 @@
               "text": "Для оптимального роста требует плодородные, хорошо дренированные почвы, богатые питательными веществами и с регулярным поливом."
             }
           ],
-          "url": "zlatni delises .jpg"
+          "url": "zlatni delises .jpg",
+          "suggested": [2,3,4]
         }
       ]
     },
@@ -1180,7 +1920,8 @@
               "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima..."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [2,3,4]
         },
         {
           "subvariety": "Kruska2",
@@ -1205,7 +1946,356 @@
               "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu..."
             }
           ],
-          "url": "apples-image.webp"
+          "url": "apples-image.webp",
+          "suggested": [2,3,4]
+        }
+      ]
+    },
+    "plum": {
+      "title": "Слива",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "sour-cherry": {
+      "title": "Вишня",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
         }
       ]
     }

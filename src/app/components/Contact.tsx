@@ -1,21 +1,33 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Input from './ui/Input'
 import Button from './ui/Button';
 import MyMap from './ui/MyMap';
 import { Translation } from '../[lang]/dictionaries';
+import { useSearchParams } from 'next/navigation';
 
 const Contact = ({ t }: { t: Translation }) => {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const searchParams = useSearchParams();
+    const scrollTo = searchParams?.get('scrollTo');
+
+    useEffect(() => {
+        if (scrollTo) {
+          const el = document.getElementById(scrollTo);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, [scrollTo]);
 
     return (
-        <div className='bg-secondary-light '>
+        <div id='contact' className='bg-secondary-light '>
             <div className='bg-secondary-light flex flex-col px-4 py-[140px] max-md:py-[70px]'>
-                <div className='max-w-screen-sw  w-full  mx-auto'>
+                <div  className='max-w-screen-sw  w-full  mx-auto'>
 
                     <div className='flex flex-row max-md:flex-col max-md:gap-8' >
                         <div className='flex flex-col  w-1/2 max-md:w-full pr-8'>

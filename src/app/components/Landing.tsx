@@ -44,7 +44,7 @@ const Landing = ({ t }: { t: Translation }) => {
                 {/* <div className='w-[70%]'> */}
                 <h1 className='text-[64px]  p-8 max-lsw:text-[48px] max-md:text-[32px] font-heading font-bold text-right text-secondary-light  z-50'>{formatTextWithBreaks(t.home.title)}</h1>
                 <div className=' pb-16 w-full flex justify-end pr-8'>
-                    <Button label={"Naše sadnice"} onClick={handleClick} />
+                    <Button label={t.home.titleBtn} onClick={handleClick} />
                 </div>
                 {/* </div> */}
             </div>

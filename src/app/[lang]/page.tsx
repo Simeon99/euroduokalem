@@ -44,29 +44,34 @@ export default async function Home({ params }: PageProps) {
   return (
     <div className="">
       <div className=" top-0 w-full h-[100vh]">
-        <Landing t={t}/>
+        <Landing t={t} />
       </div>
       <div className="">
-        <HeaderLabel t={t}/>
-        <HeadingHome t={t}/>
+        <HeaderLabel t={t} />
+        <HeadingHome t={t} />
       </div>
       <div className="overflow-hidden py-[60px] bg-white md:py-[140px]">
-        <HomeProducts t={t}/>
+        <HomeProducts t={t} />
       </div>
       <div className="">
-        <HomeSeedlings t={t}/>
+        <HomeSeedlings t={t} />
       </div>
       <div className="pt-[140px] pb-[140px] bg-white">
-        <HomeMessage  t={t}/>
+        <HomeMessage t={t} />
       </div>
       <div className="pb-[140px] bg-white">
         <YouTubeVideo />
       </div>
-      <div className="">
-        <Contact t={t}/>
+      <div  className="">
+        <Contact t={t} />
       </div>
-      <div className="py-[140px] bg-white">
-        <HomeBlog posts={blogPosts} />
+      <div className="py-[140px] bg-white px-4">
+        <div  className="max-w-screen-sw  w-full  mx-auto flex flex-col gap-8">
+          <h1  className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
+            {t.home.blog.title}
+          </h1>
+          <HomeBlog posts={blogPosts} />
+        </div>
       </div>
     </div>
   );

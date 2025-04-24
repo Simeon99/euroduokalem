@@ -17,6 +17,7 @@ export interface Subvariety {
     main?: string[];
     characteristics?: Characteristic[];
     url?: string;
+    suggested?: number[];
 }
 
 export interface Characteristic {

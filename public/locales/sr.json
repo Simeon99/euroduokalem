@@ -7,6 +7,7 @@
   },
   "home": {
     "title": "Sadnice koje donose \nbogat rod i sigurnu \nbudućnost!",
+    "titleBtn": "Naše sadnice",
     "baner1": "Sadnice voća",
     "baner2": "Voćarstvo",
     "baner3": "Sertifikovane sadnice",
@@ -58,13 +59,17 @@
       "email": "Email",
       "message": "Poruka",
       "button": "Pošalji poruku"
+    },
+    "blog":{
+      "title": "Naš blog"
     }
   },
   "seedlings": {
     "title": "Naše sadnice"
   },
   "seedling": {
-    "characteristics": "Karakteristike sorte"
+    "characteristics": "Karakteristike sorte",
+    "suggested": "Preporučeno za vas"
   },
   "aboutUs": {
     "title": "Ko smo mi i šta nas čini drugačijima",

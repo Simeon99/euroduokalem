@@ -3,12 +3,25 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Translation } from '../[lang]/dictionaries'
-import { useParams } from 'next/navigation'
+import { useParams, usePathname, useRouter } from 'next/navigation'
+import { useNavbar } from '../context/NavbarContext'
 
 const Footer = ({ t }: { t: Translation }) => {
 
   const params = useParams();
   const lang = params?.lang as string;
+
+  const { scrollTo } = useNavbar();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleScroll = (section: string) => {
+    if (pathname === `/${lang}`) {
+      scrollTo(section);
+    } else {
+      router.push(`/?scrollTo=${section}`);
+    }
+  };
 
   return (
     <div className='bg-primary flex justify-center h-full pt-8'>
@@ -36,12 +49,15 @@ const Footer = ({ t }: { t: Translation }) => {
               <Link href={`/${lang}/about-us`} className='text-secondary-light hover:opacity-60'>
                 <span className='font-heading font-bold text-secondary-light text-[24px] max-md:text-[18px] '>{t.footer.aboutUs}</span>
               </Link>
-              <Link href={`/${lang}/`} className='text-secondary-light hover:opacity-60'>
+              <Link href={`/${lang}/blog`} className='text-secondary-light hover:opacity-60'>
                 <span className='font-heading font-bold text-secondary-light text-[24px] max-md:text-[18px] '>{t.footer.blog}</span>
               </Link>
-              <Link href={`/${lang}/`} className='text-secondary-light hover:opacity-60'>
+              <div
+                onClick={() => {
+                  handleScroll("contact")
+                }} className='text-secondary-light hover:opacity-60'>
                 <span className='font-heading font-bold text-secondary-light text-[24px] max-md:text-[18px] '>{t.footer.contactUs}</span>
-              </Link>
+              </div>
             </div>
             <div className='flex flex-col col-span-2 max-md:col-span-2  z-50 max-md:pt-4'>
               <div className='flex flex-col  max-md:gap-4'>

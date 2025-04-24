@@ -25,9 +25,10 @@ export default async function RootLayout({ children, params }: PageProps) {
       <body
         className={`antialiased`}
       >
-        <ClientLayout t={t}>
-          {children}
-        </ClientLayout>
+        
+          <ClientLayout t={t}>
+            {children}
+          </ClientLayout>
       </body>
     </html>
   );

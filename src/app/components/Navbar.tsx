@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 import LangSwitcher from './LanguageSwitcher';
 import { Translation } from '../[lang]/dictionaries';
-import { useParams } from 'next/navigation';
+import { useParams, usePathname, useRouter } from 'next/navigation';
+import { useNavbar } from '../context/NavbarContext';
 
 
 
@@ -13,8 +14,21 @@ export default function Navbar({ t }: { t: Translation }) {
 
     const params = useParams();
     const lang = params?.lang as string;
+    const { scrollTo } = useNavbar();
+    const router = useRouter();
+    const pathname = usePathname();
 
     const [isOpen, setIsOpen] = useState(false);
+
+    const handleScroll = (section: string) => {
+        if (pathname === `/${lang}`) {
+          scrollTo(section);
+        } else {
+          router.push(`/?scrollTo=${section}`);
+        }
+        setIsOpen(false);
+      };
+
 
     return (
         <nav className="sticky top-0 z-60 w-full px-4 pt-2">
@@ -81,13 +95,15 @@ export default function Navbar({ t }: { t: Translation }) {
                     {/* CTA Button */}
                     <div className='hidden md:flex flex-row items-center gap-4'>
                         <div className="hidden gap-4 items-center relative group md:block">
-                            <Link
-                                href={`/${lang}/proizvodi`}
-                                className="text-primary font-body transition-colors duration-300"
+                            <div
+                                onClick={() => {
+                                    handleScroll("contact")
+                                }}
+                                className="text-primary hover:cursor-pointer font-body transition-colors duration-300"
                             >
                                 {t.header.contact}
                                 <span className="absolute left-0 -bottom-1 h-[2px] w-full origin-center scale-x-0 bg-primary transition-transform duration-300 group-hover:scale-x-100" />
-                            </Link>
+                            </div>
 
                         </div>
                         <LangSwitcher />
@@ -105,8 +121,14 @@ export default function Navbar({ t }: { t: Translation }) {
                     <ul className="flex flex-col  gap-4 font-body text-[20px] font-bold text-primary ">
                         <Link href={`/${lang}/seedlings`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.fruiteSeedlings}</li></Link>
                         <Link href={`/${lang}/about-us`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.aboutUs}</li></Link>
-                        <Link href={`/${lang}/kontakt`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.blog}</li></Link>
-                        <Link href={`/${lang}/onama`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.contact}</li></Link>
+                        <Link href={`/${lang}/blog`} className='active:bg-[#0E3A27] active:text-[#D7DED4] ' onClick={() => setIsOpen(false)}><li>{t.header.blog}</li></Link>
+                        <div
+                            onClick={() => {
+                                handleScroll("contact")
+                            }}
+                            className='active:bg-[#0E3A27] active:text-[#D7DED4] '>
+                            <li>{t.header.contact}</li>
+                        </div>
                     </ul>
                     <div
                         className={`h-[2px] my-4 w-full bg-primary origin-center transform transition-transform duration-300 ${isOpen ? 'scale-x-100' : 'scale-x-0'

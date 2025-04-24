@@ -4,13 +4,14 @@ import { FruitData, Subvariety } from './Seedling'
 import { FaCheck } from 'react-icons/fa';
 import LoadingSeedling from './ui/LoadingSeedling';
 import { Translation } from '../[lang]/dictionaries';
+import SeedlingSuggested from './SeedlingSuggested';
 
-const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loading, t }: { selectedData: Subvariety, fruitData: FruitData, selected: string, setSelected: (value: string) => void, loading: boolean,  t: Translation }) => {
+const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loading, t }: { selectedData: Subvariety, fruitData: FruitData, selected: string, setSelected: (value: string) => void, loading: boolean, t: Translation }) => {
     return (
         <div className='flex flex-row max-lsw:flex-col gap-4 '>
             {/* Desktop side nav*/}
             <div className='h-full bg-secondary shadow-2xl rounded-t-2xl max-lsw:hidden' >
-                <aside className="w-48  ">
+                <aside className="w-48">
                     <ul>
                         {fruitData &&
                             <li>
@@ -114,6 +115,12 @@ const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loadi
                             ))}
                         </div>
 
+                    </div>
+                    <div className='flex flex-col gap-8 my-16'>
+                        <h1 className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
+                            { t.seedling.suggested }
+                        </h1>
+                        {selectedData?.suggested  && <SeedlingSuggested suggestedFruits={selectedData?.suggested}/>}
                     </div>
                 </main>
             }
