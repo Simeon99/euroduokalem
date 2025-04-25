@@ -902,6 +902,297 @@
           "suggested": [1,3,4]
         }
       ]
+    },
+    "sweet-cherry": {
+      "title": "Trešnja",
+      "subvarietys": [
+        {
+          "subvariety": "Bing",
+          "about": "Bing je jedna od najpoznatijih sorti trešanja, cenjena zbog svog atraktivnog izgleda i izuzetno sočnog, slatkog ukusa. Potiče iz Sjedinjenih Američkih Država i široko je rasprostranjena zbog svojih visokih prinosa i vrhunskog kvaliteta plodova. Idealna je za svežu konzumaciju, ali se koristi i za preradu u džemove i sokove. Plodovi su krupni, sjajni, tamnocrvene boje i s karakterističnim aromatičnim ukusom.",
+          "main": [
+            "Tamnocrveni plod",
+            "Izuzetno slatka",
+            "Srednje kasna berba",
+            "Pogodna za tržište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi sorte Bing su srednje do krupni, sa glatkom, tamnocrvenom pokožicom koja se pri potpunoj zrelosti može približiti gotovo crnoj boji. Meso je sočno, hrskavo, veoma slatko i aromatično, sa blagim kiselkastim notama koje ga čine vrlo prijatnim za konzumaciju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Bing sazreva sredinom jula, što je čini jednom od najranijih sorti trešanja za tržište. Ova sorta je cenjena i zbog svoje izdržljivosti u skladištenju, zadržavajući kvalitet tokom transporta i na tržištu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Za optimalan rast, Bing zahteva plodna, dobro drenirana zemljišta. Takođe, dobro podnosi sunčane uslove, što je čini idealnom za regije sa toplijom klimom. Redovno navodnjavanje je preporučeno za najbolje rezultate."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Bigarreau Burlat",
+          "about": "Bigarreau Burlat je jedna od najranijih sorti trešanja, cenjena zbog svog visokog kvaliteta, krupnih plodova i slatkog ukusa. Potiče iz Francuske i jedna je od najvažnijih sorti u proizvodnji trešanja na globalnom nivou. Plodovi ove sorte su svetlocrvene boje, čvrsti i sočni, sa bogatim, slatkim ukusom. Bigarreau Burlat je popularna zbog svoje otpornosti i odličnih tržišnih svojstava, idealna za svežu konzumaciju i preradu.",
+          "main": [
+            "Svetlocrven plod",
+            "Bogat ukus",
+            "Rana berba",
+            "Plodno zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi sorte Bigarreau Burlat su krupni, svetlocrvene boje sa glatkom, sjajnom pokožicom. Meso je sočno, čvrsto i slatko, sa blagim voćnim aromama. Ova sorta je poznata po svom karakterističnom slatkom ukusu i hrskavoj teksturi."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Bigarreau Burlat sazreva veoma rano, obično već početkom juna. Ova sorta je popularna zbog svoje ranosti i sposobnosti da zadovolji tržište još pre nego što mnoge druge sorte trešanja dođu do zrelosti."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Za optimalan rast, Bigarreau Burlat zahteva plodna, dobro drenirana zemljišta. Preferira sunčane lokacije, a redovno navodnjavanje doprinosi boljem razvoju plodova."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Early Lyons (Lionska rana)",
+          "about": "Early Lyons, poznata i kao Lionska rana, je rana sorta trešanja koja se odlikuje krupnim, crvenim plodovima i bogatim, slatko-kiselkastim ukusom. Ova sorta je idealna za tržište jer sazreva među prvim trešnjama u sezoni. Early Lyons je poznata po svojoj ranosti, stabilnom prinosu i otpornosti na bolesti, što je čini pogodnom za ekološki uzgoj. Zbog svog atraktivnog izgleda i izuzetnih organoleptičkih svojstava, često se koristi za svežu konzumaciju i preradu. ",
+          "main": [
+            "Svetlocrveni plod",
+            "Slatko-kiselkast ukus",
+            "Vrlo rana berba",
+            "Pogodna za sve vrste zemljišta "
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi Early Lyons su srednje krupni, svetlocrvene boje, sa glatkom, sjajnom pokožicom. Meso je sočno, čvrsto i ima blag, slatko-kiselkast ukus koji je prijatan i osvežavajući. Ova sorta je poznata po svom aromatičnom ukusu koji zadovoljava i najzahtevnije potrošače."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Early Lyons je vrlo rana sorta koja sazreva već početkom juna, što je čini veoma traženom na tržištu trešanja. Ova sorta je idealna za one koji žele brzi prinos i pristup trešnjama u ranim mesecima."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Za optimalan rast, Early Lyons preferira plodna, dobro drenirana zemljišta. Najbolje rezultate postiže na sunčanim parcelama sa redovnim navodnjavanjem koje doprinosi većim i kvalitetnijim plodovima."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Ferrovia",
+          "about": "Ferrovia je srednje kasna sorta trešanja koja se odlikuje velikim, tamnocrvenim plodovima i odličnim kvalitetom. Ova sorta je poznata po svojoj otpornosti na bolesti, visokim prinosima i dobroj transportabilnosti, što je čini idealnom za tržište. Ferrovia plodovi su sočni, sa bogatim, slatko-kiselkastim ukusom, idealni za konzumaciju u svežem stanju i preradu. Sorta je pogodna za različite klimatske uslove i tipove zemljišta, čineći je popularnim izborom među proizvođačima trešanja.",
+          "main": [
+            "Tamnocrveni plodovi",
+            "Slatko-kiselkast ukus",
+            "Kasna berba",
+            "Dobra transportabilnost"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi Ferrovia sorte su krupni, tamnocrvene boje, sa glatkom, čvrstom pokožicom. Meso je sočno, hrskavo i veoma ukusno, sa blagim slatko-kiselkastim balansiranim ukusom koji je veoma prijatan za konzumaciju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Ferrovia sazreva sredinom jula, što je čini srednje kasnom sortom. Plodovi dostižu punu zrelost u periodu kada je potražnja za trešnjama još uvek visoka, pružajući optimalne uslove za tržište."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Ova sorta preferira plodna, dobro drenirana zemljišta. Najbolje rezultate daje u sunčanim predelima sa redovnim navodnjavanjem, čime se osigurava visok kvalitet plodova i stabilan prinos."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Grosse Germersdorfer",
+          "about": "Grosse Germersdorfer je poznata kasna sorta trešnje poreklom iz Nemačke, cenjena zbog svojih izuzetno krupnih, tamnocrvenih plodova. Plodovi imaju čvrsto meso, bogat i pun ukus, a sorta je naročito popularna zbog dugog perioda berbe i dobrog čuvanja nakon berbe. Pogodna je za komercijalnu proizvodnju i direktnu prodaju, zahvaljujući atraktivnom izgledu i visokoj tržišnoj vrednosti.",
+          "main": [
+            "Vrlo krupan plod",
+            "Bogat ukus",
+            "Kasna berba",
+            "Visoka tržišna vrednost "
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su izuzetno krupni, srcolikog oblika, tamnocrvene boje sa sjajnom pokožicom. Meso je čvrsto, hrskavo i bogato aromom, što sortu čini izuzetno privlačnom za svežu konzumaciju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Grosse Germersdorfer se bere krajem juna ili početkom jula, kao jedna od poslednjih sorti u sezoni. Produženi period berbe omogućava fleksibilnost u plasmanu i prodaji."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Sorta najbolje uspeva na toplim, sunčanim terenima sa dobro dreniranom i plodnom zemljom. Preporučuje se umereno navodnjavanje i zaštita od prolećnih mrazeva zbog kasnog cvetanja."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Hedelfingen",
+          "about": "Hedelfingen je stara i cenjena sorta trešnje nemačkog porekla, poznata po svojoj pouzdanosti, otpornosti i kvalitetnim plodovima. Zahvaljujući velikim, tamnocrvenim plodovima i čvrstom, sočnom mesu, često se koristi kako za svežu upotrebu, tako i za preradu. Sorta je pogodna za komercijalne zasade zbog stabilnog prinosa i dobre transportabilnosti.",
+          "main": [
+            "Krupni tamnocrveni plod",
+            "Sočna I čvrsta",
+            "Kasna berba",
+            "Stabilni i redovni prinosi"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su krupni, tamnocrveni i sjajni. Meso je čvrsto, sočno i prijatnog, blago slatkastog ukusa. Koštica se lako odvaja, što olakšava konzumaciju i obradu."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Hedelfingen sazreva krajem juna ili početkom jula, kao kasna sorta. Produženi period berbe čini je pogodnom za plasman u različitim vremenskim uslovima."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dubokim, umereno plodnim i dobro dreniranima zemljištima. Zahteva sunčane položaje i umerenu vlagu."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Kordia",
+          "about": "Kordia je visokokvalitetna češka sorta trešnje, poznata po velikim, tamnocrvenim plodovima izuzetnog ukusa i čvrstoće. Smatra se jednom od najcenjenijih sorti na tržištu svežeg voća, zbog atraktivnog izgleda i dugog roka trajanja. Idealna je za komercijalne zasade jer kombinuje estetiku, otpornost i odličnu tržišnu vrednost.",
+          "main": [
+            "Aromatičan ukus",
+            "Kasna berba",
+            "Zahteva sunčani položaj",
+            "Visoka tržišna vrednost"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su vrlo krupni, srcastog oblika, tamnocrvene do gotovo crne boje. Meso je čvrsto, sočno i veoma aromatično, sa skladnim odnosom slatkoće i kiselosti."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem juna do početka jula. Kasna berba omogućava dobru distribuciju u vremenu kada su druge sorte već završile sezonu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Uspeva najbolje na plodnim, srednje lakim i dobro dreniranima zemljištima, uz obavezno dobar pristup suncu. Preporučuje se za zasade u umerenim i toplijim krajevima."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Regina",
+          "about": "Regina je nemačka kasna sorta trešnje, poznata po velikim, tamnocrvenim plodovima i izuzetnoj otpornosti na pucanje. Veoma cenjena u komercijalnoj proizvodnji, posebno u regionima sa više padavina. Njena čvrstina i bogat ukus čine je odličnim izborom za svežu konzumaciju i transport.",
+          "main": [
+            "Krupan plod",
+            "Aromatičan usus",
+            "Otpornost na pucanje plodova",
+            "Dobro drenirano i plodno zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su krupni, atraktivni, sa čvrstom pokožicom i izraženom aromom. Meso je tamno, čvrsto i vrlo sočno, prijatnog balansa između slatkoće i kiselosti."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Regina sazreva u poslednjoj dekadi juna do početka jula, što je čini idealnom za produžetak sezone branja trešanja."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dobro dreniranim zemljištima. Preporučuje se u oblastima sa većom količinom padavina jer je otporna na pucanje."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Sunburst",
+          "about": "Sunburst je moderna, samoplodna sorta trešnje poreklom iz Kanade. Poznata je po krupnim, tamnocrvenim plodovima i izuzetnoj otpornosti na pucanje plodova. Zahvaljujući bogatom ukusu i jednostavnom uzgoju, sve češće se bira za plantažnu i amatersku proizvodnju. Idealna je za svežu konzumaciju, ali i za kraće skladištenje i lokalnu prodaju.",
+          "main": [
+            "Sladak kus",
+            "Samoplodna sorta",
+            "Srednje rana berba",
+            "Otporna na pucanje plodova"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su krupni do vrlo krupni, sjajne tamnocrvene boje, sa čvrstim, sočnim i vrlo slatkim mesom. Koštica se lako odvaja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva u drugoj polovini juna. Berba se može obavljati u nekoliko navrata zbog ujednačenog sazrevanja."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dubokim, plodnim i propusnim zemljištima, na sunčanim i dobro provetrenim položajima. Prilagođena različitim klimatskim uslovima."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Summit",
+          "about": "Summit je kanadska sorta trešnje koja se odlikuje krupnim, srcolikim plodovima i izuzetnim ukusom. Iako delimično samoplodna, daje najbolje rezultate u kombinaciji sa oprašivačima. Zbog visokog prinosa i otpornosti na pucanje plodova, često se gaji i u komercijalnim zasadima. Cenjena je i zbog atraktivnog izgleda i dobre transportabilnosti.",
+          "main": [
+            "Srcoliki plod",
+            "Slatko-kiselkast ukus",
+            "Otpornost na pucanje",
+            "Dobro podnosi transport"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su krupni, crvene do tamnocrvene boje, sa čvrstim, sočnim mesom prijatnog, osvežavajućeg ukusa. Srcolikog oblika i vrlo atraktivni za tržište."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem juna, neposredno posle sorti srednje rane epohe. Pogodna za mehanizovanu i ručnu berbu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje rezultate daje na osunčanim i umereno plodnim zemljištima, sa dobrom drenažom. Zahteva redovno navodnjavanje za pun rod."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Starking Hardy Giant",
+          "about": "Starking Hardy Giant je američka kasna sorta trešnje poznata po izuzetno krupnim plodovima i čvrstoj, hrskavoj teksturi. Zahvaljujući svom atraktivnom izgledu i izvrsnom ukusu, veoma je tražena na tržištu svežeg voća. Sorta je otporna na niske temperature i pogodna za gajenje u različitim klimatskim uslovima.",
+          "main": [
+            "Veoma krupan plod",
+            "Izbalansiran slatko-kiseli ukus",
+            "Otpornost na mrazeve",
+            "Umereno do plodno zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su vrlo krupni, tamnocrvene do gotovo crne boje u punoj zrelosti. Meso je čvrsto, sočno, osvežavajuće, idealno za svežu upotrebu."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva početkom jula, spada u kasnije sorte trešanja. Prikladna za profesionalne zasade zbog visokog prinosa."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dobro dreniranom, umereno plodnom zemljištu. Dobro podnosi kontintentalne uslove, posebno niske zimske temperature."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
     }
   },
   "en": {
@@ -1600,6 +1891,297 @@
           "suggested": [1,3,4]
         }
       ]
+    },
+    "sweet-cherry": {
+      "title": "Sweet cherry",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
     }
   },
   "ru": {
@@ -2141,6 +2723,297 @@
     "sour-cherry": {
       "title": "Вишня",
       "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "sweet-cherry": {
+      "title": "Черешня",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
         {
           "subvariety": "",
           "about": "",
