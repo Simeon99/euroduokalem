@@ -24,18 +24,22 @@ export default function ImageCarousel() {
     const [ref, instanceRef] = useKeenSlider<HTMLDivElement>({
         loop: true,
         slides: { perView: 1 },
+        slideChanged() {
+            setProgressKey(prev => prev + 1); // restart progress bar
+            startAutoplay(); // restart timer
+          },
     })
 
     const goNext = () => {
         instanceRef.current?.next();
-        setProgressKey(prev => prev + 1);
-        startAutoplay();
+        // setProgressKey(prev => prev + 1);
+        // startAutoplay();
 
     };
     const goPrev = () => {
         instanceRef.current?.prev();
-        setProgressKey(prev => prev + 1);
-        startAutoplay();
+        // setProgressKey(prev => prev + 1);
+        // startAutoplay();
     };
 
     const startAutoplay = () => {

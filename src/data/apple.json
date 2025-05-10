@@ -1193,6 +1193,458 @@
           "suggested": [1,3,4]
         }
       ]
+    },
+    "apricot": {
+      "title": "Kajsija",
+      "subvarietys": [
+        {
+          "subvariety": "Hungary best",
+          "about": "Hungary Best je srednje rana sorta kajsije poreklom iz Mađarske, veoma popularna zbog svoje otpornosti i stabilnog prinosa. Plodovi su krupni, atraktivne narandžaste boje sa crvenkastim nijansama, a meso je čvrsto, sočno i slatko-kiselkastog ukusa. Ova sorta se odlično pokazala kako u svežoj potrošnji, tako i u industrijskoj preradi.",
+          "main": [
+            "Krupan plod",
+            "Slatko-kiselkast ukus",
+            "Srednja rana sorta",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su krupni i ovalnog oblika, sa glatkom narandžastom pokožicom koja često ima crvenkast preliv sa sunčane strane. Meso je čvrsto, fine teksture, sočno i prijatnog slatko-kiselkastog ukusa, pogodno za konzumaciju i preradu."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Hungary Best sazreva sredinom jula. Sorta spada u srednje rane kajsije i obezbeđuje stabilan prinos čak i u nepovoljnijim godinama."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na toplim i sunčanim terenima, sa umereno plodnim, dobro dreniranim zemljištem. Ne podnosi zadržavanje vode, pa se preporučuje sadnja na blago povišenim parcelama."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Kečkemetska ruža",
+          "about": "Kečkemetska ruža je rana mađarska sorta kajsije, poznata po svom dekorativnom izgledu i osvežavajućem ukusu. Zahvaljujući lepoj ružičasto-narandžastoj boji ploda i izraženoj aromi, često se koristi kako za svežu konzumaciju, tako i za preradu. Ova sorta je cenjena među proizvođačima zbog ranog ploda, dobre rodnosti i atraktivnosti za tržište.",
+          "main": [
+            "Srednje krupan plod",
+            "Aromatičan ukus",
+            "Rana sorta",
+            "Pogodna za tržišnu prodaju"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan, ovalnog oblika. Pokožica je narandžasta s blagim ružičastim prelivima, glatka i tanka. Meso je svetložute boje, čvrsto, izuzetno sočno i aromatično, sa blagim kiselkastim osveženjem – odlično za svežu upotrebu i preradu."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem juna ili početkom jula. Spada u rane sorte kajsije, što omogućava ranu ponudu na tržištu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najviše joj odgovaraju osunčane pozicije, sa lakšim, rastresitim i plodnim zemljištem koje ima dobru drenažu. Ne podnosi zadržavanje vode i previše vlažne terene."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "New Jersey 19",
+          "about": "New Jersey 19 je američka sorta kajsije poznata po krupnim, atraktivnim plodovima i odličnom balansu između slatkoće i blage kiselosti. Cenjena je zbog stabilnog i ranog prinosa, kao i dobrog komercijalnog potencijala. Pogodna je kako za svežu potrošnju, tako i za preradu.",
+          "main": [
+            "Krupan plod",
+            "Izrazito slatka",
+            "Rana berba",
+            "Odlična tržišna vrednost"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su veliki, blago ovalni, narandžaste pokožice s diskretnim crvenilom na osunčanoj strani. Meso je čvrsto, sočno i aromatično, prijatnog, osvežavajućeg ukusa."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem juna i ubraja se među rane sorte."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na sunčanim položajima s dobro dreniranim, umereno plodnim zemljištem. Ne podnosi previše vlažna i zbijena tla."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Novosadska rodna",
+          "about": "Novosadska rodna je domaća sorta kajsije razvijena u Novom Sadu, poznata po redovnim i obilnim prinosima. Izuzetno je cenjena među voćarima zbog dobre otpornosti na bolesti, ujednačenih plodova i pogodnosti za industrijsku preradu. Zbog svoje prilagođenosti lokalnim uslovima, predstavlja pouzdan izbor u kontinentalnim krajevima.",
+          "main": [
+            "Blago slatka",
+            "Otporna na prolećne mrazeve",
+            "Srednje rana berba",
+            "Plodno zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni, okruglasti do blago ovalni, narandžaste pokožice sa diskretnim crvenilom. Meso je svetlonarandžasto, sočno, srednje čvrsto, sa prijatnim, blago slatkastim ukusom."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem juna do početka jula, što je svrstava među sorte srednje rane epohe."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje rezultate daje na dubokim, rastresitim i dobro dreniranim zemljištima sa dobrom izloženošću suncu. Dobro podnosi umereno kontinentalne uslove."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "NS 4",
+          "about": "NS 4 je domaća sorta kajsije koja se odlikuje izuzetnim prinosima i dobrom otpornošću na bolesti. Razvijena u Institutu za voćarstvo u Novom Sadu, ova sorta je vrlo cenjena zbog svoje adaptabilnosti i odličnih karakteristika za komercijalnu proizvodnju. NS 4 se odlikuje kvalitetnim plodovima koji su pogodni kako za svežu konzumaciju, tako i za industrijsku preradu.",
+          "main": [
+            "Sladak, prijatan ukus",
+            "Otpornost na bolesti u sušu",
+            "Srednje rana berba",
+            "Visok i redovan prinos"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su krupni, ovalni, svetlije narandžaste boje sa blagim crvenilom. Meso je sočno, čvrsto i srednje vlaknasto, sa bogatim, slatkim ukusom."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva sredinom juna, što je čini sortom sa srednje ranom berbom."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "NS 4 najbolje uspeva na dubokim, rastresitim zemljištima sa dobrom drenažom. Ova sorta podnosi i sušnije uslove, pa je pogodna za regiona sa nešto nižim padavinama."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "NS 6",
+          "about": "NS 6 je domaća sorta kajsije koja je poznata po svojim izuzetnim prinosima i otpornosti na nepovoljne vremenske uslove. Razvijena u Institutu za voćarstvo u Novom Sadu, ova sorta je vrlo cenjena zbog svog kvalitetnog ploda i odlične prilagodljivosti na različite vrste zemljišta. Idealna je za komercijalnu proizvodnju i industrijsku preradu, jer se dobro čuva i zadržava kvalitet tokom transporta.",
+          "main": [
+            "Krupan plod",
+            "Sočan I sladak ukus",
+            "Srednje rana berba",
+            "Otpornost na bolesti i sušu"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni do veliki, sa glatkom, svetlo narandžastom pokožicom. Meso je sočno, čvrsto i aromatično, sa slatkim i prijatnim ukusom."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva sredinom juna, što je čini srednje ranom sortom kajsije."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "NS 6 najbolje uspeva na plodnim, dobro dreniranim zemljištima. Sorta je otpornija na sušu, ali je preporučljivo obezbediti joj optimalne uslove za rast uz redovno navodnjavanje."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "NS Kasnocvetna",
+          "about": "NS Kasnocvetna je sorta kajsije razvijena u Institutu za voćarstvo u Novom Sadu. Kako joj i ime sugeriše, ova sorta je poznata po kasnijem cvetanju, što je čini pogodnom za oblasti gde su mrazovi u proleće česta pojava. Zbog svog kasnijeg cvetanja, NS Kasnocvetna ima veću otpornost na prolećne mrazeve, čime se smanjuje rizik od gubitka roda. Plodovi su srednje do krupni, sočni i odličnog kvaliteta, idealni za svežu konzumaciju i preradu.",
+          "main": [
+            "Kasnije cvetanje",
+            "Sladak ukus",
+            "Srednje kasna berba",
+            "Otpornost na mraz"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi NS Kasnocvetne su srednje krupni, sa glatkom, narandžastom pokožicom koja se povremeno prekriva crvenkastim nijansama. Meso je sočno, čvrsto i sladakog, prijatnog ukusa."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Ova sorta sazreva kasnije u sezoni, obično krajem jula ili početkom avgusta, što je čini srednje kasnom sortom kajsije."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "NS Kasnocvetna najbolje uspeva na plodnim, dobro dreniranim zemljištima. Iako je otpornija na mraz, za optimalan rast potrebno je obezbediti joj stabilno i vlažno zemljište."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Rocsana",
+          "about": "Rocsana je moderna sorta kajsije, koja je postala popularna zbog svog izuzetnog kvaliteta plodova i visoke produktivnosti. Ova sorta je posebno cenjena zbog svoje otpornosti na bolesti i stabilnog prinosa. Plodovi su srednje do krupni, sa jarkom narandžastom bojom i prijatnim slatkim ukusom. Rocsana se često koristi za svežu konzumaciju, ali i za preradu u džemove i sokove. Zbog svoje otpornosti na mraz i bolesti, pogodna je za različite klimatske uslove i može se gajiti u većem delu zemlje.",
+          "main": [
+            "Krupan plod",
+            "Sladak i sočan ukus",
+            "Srednje rana berba",
+            "Pogodna za plodna zemljišta"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi Rocsane su krupni, sa glatkom, narandžasto-zlatnom pokožicom. Meso je sočno, čvrsto i izuzetno slatko, sa blagim voćnim aromama."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Rocsana sazreva sredinom jula, što je čini srednje ranom sortom kajsije."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Za optimalan rast, Rocsana najbolje uspeva na plodnim, dobro dreniranim zemljištima. Sorta je vrlo otporna na bolesti i štetočine, što je čini pogodnom za ekološki uzgoj."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "peach": {
+      "title": "Breskv",
+      "subvarietys": [
+        {
+          "subvariety": "Dixired",
+          "about": "Dixired je rana američka sorta breskve, veoma popularna zbog svoje atraktivne spoljašnosti, odličnog ukusa i rane zrelosti. Plodovi su krupni, sa crvenkasto-žutom pokožicom i čvrstim, aromatičnim mesom. Ova sorta se ističe stabilnim prinosima i odličnom tržišnom vrednošću, što je čini pogodnom za komercijalnu proizvodnju.",
+          "main": [
+            "Slatkog ukase",
+            "Rani letnji plodovi",
+            "Stabilan prinos",
+            "Zaštićeni i topli položaji"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni do krupni, okrugli, prekriveni crvenkastom pokožicom preko žute osnove. Meso je čvrsto, sočno i aromatično, slatko-kiselkastog ukusa, i delimično se odvaja od koštice."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva vrlo rano – najčešće krajem juna i početkom jula, što je čini idealnom za početak sezone svežih breskvi."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Dixired najbolje uspeva na plodnim, propusnim i dobro dreniranima zemljištima. Ne podnosi teška, vlažna zemljišta i zahteva osunčane i tople lokalitete, zaštićene od poznih mrazeva."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Early Redhaven",
+          "about": "Early Redhaven je rana američka sorta breskve, poznata po ranom sazrevanju, lepom izgledu i uravnoteženom ukusu. Pripada grupi žutomesnatih breskvi, a često se koristi kao jedna od prvih sorti u sezoni. Pogodna je kako za svežu potrošnju, tako i za industrijsku preradu. Ceni se zbog dobrog prinosa i ujednačenosti plodova.",
+          "main": [
+            "Slatko-kiselkast ukus",
+            "Vrlo rana berba",
+            "Dobar kvalitet prilikom transporta",
+            "Ujednačen prinos"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje veličine, zaobljeni, sa privlačnom crveno-narandžastom pokožicom. Meso je žute boje, čvrsto, sočno i prijatnog, osvežavajućeg slatko-kiselkastog ukusa. Koštica se delimično odvaja od mesa."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva vrlo rano – već početkom jula, što je čini izuzetno traženom kao početna sorta u ponudi svežeg voća."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na toplim, dobro osunčanim i umereno plodnim zemljištima, sa dobrom drenažom. Ne podnosi stagnaciju vode i kasne prolećne mrazeve."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Fayyete",
+          "about": "Fayette je srednje rana američka sorta breskve, cenjena zbog visokog kvaliteta plodova, odličnog ukusa i izražene aromatičnosti. Spada u sorte sa čvrstim žutim mesom i lako odvojivom košticom, što je čini pogodnom kako za svežu potrošnju, tako i za industrijsku preradu. Sorta je poznata po redovnoj i obilnoj rodnosti, kao i dobroj otpornosti na transport.",
+          "main": [
+            "Krupan plod",
+            "Srednje rana berba",
+            "Dobar kvalitet prilikom skladištenja",
+            "Pogodna za sve tipove zemljišta"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su krupni, okruglasti, sa atraktivnom crvenkastom prevlakom preko osnovne žute pokožice. Meso je žuto, čvrsto, sočno i izrazito aromatično, sa prijatnim slatko-kiselkastim ukusom. Koštica se lako odvaja od mesa."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva sredinom avgusta, u periodu kada je velika potražnja za kvalitetnim plodovima srednje sezone."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Uspeva na umerenim, dobro dreniranim zemljištima bogatim organskom materijom. Dobro podnosi sunčane ekspozicije i umerenu sušu, uz odgovarajuće navodnjavanje."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Flavorcrest",
+          "about": "Flavorcrest je rana američka sorta breskve, poznata po izuzetno atraktivnom izgledu i odličnom balansu između slatkoće i kiselosti. Zbog ranog sazrevanja i dobrog kvaliteta plodova, jedna je od najzastupljenijih sorti za početak sezone. Plodovi su kompaktni, ujednačeni i pogodni za transport, što je čini veoma traženom na tržištu svežeg voća.",
+          "main": [
+            "Slatko-kiselkast ukus",
+            "Rana berba",
+            "Stabilna transportnost",
+            "Poluodvojiva koštica"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni do krupni, pravilnog oblika, sa crvenom pokožicom preko žute osnove. Meso je žuto, sočno i čvrsto, sa osvežavajućim ukusom koji kombinuje slatkoću i blagu kiselost. Koštica je poluodvojiva."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem jula, među prvim kvalitetnim sortama breskve u sezoni, što omogućava rani izlazak na tržište."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, umerenim zemljištima sa dobrom propustljivošću. Voli sunčane položaje i zahteva redovno navodnjavanje u sušnim periodima."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "J. H. Hale",
+          "about": "J. H. Hale je poznata američka sorta breskve, cenjena zbog svoje izuzetne krupnoće, prijatnog ukusa i komercijalne vrednosti. Spada u srednje kasne sorte i najviše se koristi za tržišnu prodaju, ali i za industrijsku preradu. Ova sorta je samoneplodna, pa joj je neophodan oprašivač. Zbog atraktivnog izgleda i dobre transportabilnosti, rado je viđena na pijacama i u trgovinama.",
+          "main": [
+            "Veoma krupan plod",
+            "Prijatan ukus",
+            "Zahteva opračivača",
+            "Pogodna za toplije krajeve"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su izuzetno krupni, okruglog oblika, sa žutom pokožicom i jarkocrvenim prelivima po sunčanoj strani. Meso je čvrsto, žute boje, slatko i aromatično. Koštica se lako odvaja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem avgusta, u srednje kasnom periodu, kada tržište traži breskve vrhunskog kvaliteta."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dobro dreniranim zemljištima, uz mnogo sunčeve svetlosti. Zahteva položaje sa umerenim klimatskim uslovima i redovno navodnjavanje tokom sušnih perioda."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Redhaven",
+          "about": "Redhaven je jedna od najrasprostranjenijih i najpouzdanijih sorti breskve u svetu, poznata po svojoj otpornosti, ranijem sazrevanju i odličnom kvalitetu plodova. Ova američka sorta se gaji širom Evrope i idealna je za konzumaciju u svežem stanju, ali i za industrijsku preradu. Redhaven je samoplodna i redovno donosi visok prinos, što je čini omiljenim izborom među proizvođačima.",
+          "main": [
+            "Sočan I sladak plod",
+            "Lako odvajanje koštica",
+            "Dobra transportabilnost",
+            "Umereno plodno zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni do krupni, okruglasti, sa intenzivno crvenom pokožicom preko žute osnove. Meso je žuto, čvrsto, sočno i slatko, sa blagom aromom. Koštica se lako odvaja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Redhaven sazreva u drugoj polovini jula, svrstava se u rane sorte i često predstavlja početak glavne sezone breskvi."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na lakim, propusnim, peskovito-ilovastim zemljištima, sa dobrom izloženošću suncu i redovnim navodnjavanjem u sušnim periodima."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Red Top",
+          "about": "Red Top je rana sorta breskve poznata po atraktivnom izgledu i izrazito dobrom ukusu. Potekla je iz SAD-a i vrlo je cenjena među proizvođačima zbog dobrog prinosa, ujednačenih plodova i mogućnosti uspešnog transporta. Plodovi su veoma privlačni za tržište, a sorta se odlikuje redovnim i ranim rađanjem.",
+          "main": [
+            "Jarko crvena boja",
+            "Sladak i osvežavajuć ukus",
+            "Rana berba",
+            "Pogodna za sunčane položaje"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan, okruglast, sa glatkom, jarko crvenom pokožicom. Meso je žuto, čvrsto, slatko i osvežavajuće, prijatne arome. Koštica se lako odvaja kod zrelih plodova."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem jula, nešto posle sorte Redhaven. Spada u rane sorte i pogodna je za tržišnu proizvodnju."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dobro dreniranim, plodnim zemljištima sa punom osunčanošću. Preporučuje se umereno navodnjavanje tokom sušnih dana."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Springcrest",
+          "about": "Springcrest je jedna od najranijih sorti breskve koja se uzgaja za tržišnu proizvodnju. Potiče iz SAD-a i prepoznatljiva je po ranom sazrevanju, intenzivnoj crvenoj boji plodova i osvežavajućem ukusu. Zahvaljujući ranoj berbi i atraktivnom izgledu, često je prvi izbor potrošača na početku sezone.",
+          "main": [
+            "Slatko-kiselkast ukus",
+            "Veoma rana berba",
+            "Pogodna za kratkotrajni transport",
+            "Najbolje uspeva na sunčanim položajima"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje veličine, prekriveni crvenom pokožicom sa žutim tonovima. Meso je žuto, sočno, prijatno osvežavajuće, sa blagom kiselošću i izraženim aromatičnim notama."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Springcrest sazreva krajem juna do početka jula, što je čini jednom od prvih breskvi koje dospevaju na tržište."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje rezultate daje na lakim, dobro dreniranim zemljištima sa južnim ekspozicijama. Zahteva toplu klimu i umereno navodnjavanje radi očuvanja kvaliteta ploda."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Suncrest",
+          "about": "Suncrest je poznata američka sorta breskve, cenjena zbog krupnih, atraktivnih plodova i izuzetnog ukusa. Ova srednje rana sorta kombinuje otpornost i estetsku privlačnost, što je čini pogodnom za komercijalnu proizvodnju i prodaju na svežem tržištu. Plodovi se lako odvajaju od koštice, što dodatno povećava njenu upotrebnu vrednost.",
+          "main": [
+            "Krupan plod",
+            "Srednje rana berba",
+            "Dobra transportabilnost",
+            "Pogodna plodna, rastresita zemljišta"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su veoma krupni, okruglog oblika, sa intenzivno crvenom pokožicom koja prekriva veći deo ploda. Meso je žuto, čvrsto, slatko i aromatično, sa izraženom sočnošću i lako se odvaja od koštice."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Suncrest sazreva u drugoj polovini jula, nešto kasnije od Redhavena, i spada u srednje rane sorte."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dubokim, rastresitim i dobro dreniranim zemljištima sa dobrom osunčanošću. Zahteva redovno navodnjavanje u sušnim periodima kako bi plodovi postigli optimalan kvalitet."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
     }
   },
   "en": {
@@ -2182,6 +2634,458 @@
           "suggested": [1,3,4]
         }
       ]
+    },
+    "apricot": {
+      "title": "Kajsija",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "peach": {
+      "title": "Peach",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
     }
   },
   "ru": {
@@ -2936,6 +3840,458 @@
           "url": "apples-image.webp",
           "suggested": [1,3,4]
         },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "apricot": {
+      "title": "Kajsija",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "peach": {
+      "title": "Персик",
+      "subvarietys": [
         {
           "subvariety": "",
           "about": "",

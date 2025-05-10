@@ -1,35 +1,47 @@
 'use client';
 
+import { BlogPost } from '@/pages/api/suggestedBlogs';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-type BlogPost = {
-    title: string;
-    description: string;
-    imageUrl: string;
-    link: string;
-};
-
-type Props = {
-    posts: BlogPost[];
-};
-
-const HomeBlog: React.FC<Props> = ({ posts }) => {
+const HomeBlog = () => {
     const params = useParams();
     const lang = params?.lang as string;
-    
+
+    const [suggested, setSuggested] = useState<BlogPost[] | null>();
+
+    async function fetchBlogPost() {
+        try {
+            const res = await fetch(`/api/suggestedBlogs?lang=${lang}&blogIds=1,2,3`);
+            const suggestedRes = await res.json();
+            setSuggested(suggestedRes);
+            console.log(suggested)
+        } catch (e) {
+            console.log("Error: ", e)
+        }
+        finally {
+
+        }
+
+    }
+
+    useEffect(() => {
+        fetchBlogPost();
+    }, [])
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
-            {posts.map((post, index) => (
+            
+            {suggested && suggested.map((post, index) => (
                 <Link
                     key={index}
                     href={`${lang}/blog/1`}
                     className="hover:scale-101 transform   block rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition duration-300 bg-secondary-light"
                 >
                     <Image
-                        src={post.imageUrl}
+                        src={'/images/home'+ post.imageUrl}
                         alt={post.title}
                         width={200}
                         height={48}

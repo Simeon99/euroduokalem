@@ -221,9 +221,9 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                     onTouchMove={handleTouchMove}
                     onTouchEnd={handleTouchEnd}
                     style={{
-                        left: -currentCard * (carouselSize.width + 29)
+                        left: -currentCard * (carouselSize.width + 16)
                     }}
-                    className='w-full h-full absolute flex gap-[29px] transition-all  duration-300  xsw:hidden'>
+                    className='w-full h-full absolute flex gap-[16px] transition-all  duration-300  xsw:hidden'>
                     {
                         cardItems.map((i, index) => {
                             return (
