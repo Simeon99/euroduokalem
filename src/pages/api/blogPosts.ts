@@ -22,9 +22,11 @@ function isValidLang(value: unknown): value is Lang {
 
 
 export default function handler(req: NextApiRequest, res: NextApiResponse<IBlogPost[]>) {
-    const { lang } = req.query;
+    const { lang, offset, limit  } = req.query;
 
     const selectedLang: Lang = isValidLang(lang) ? lang : 'en';
+    const offsetNum = parseInt(offset as string) || 0;
+    const limitNum = parseInt(limit as string) || 5;
 
     const localized = blogPostsData.blogPosts.map((i) => ({
         id: i.id,
@@ -35,6 +37,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<IBlogP
         recomended: i.recomended,
     }))
 
-    res.status(200).json(localized);
+    const paginated = localized.slice(offsetNum, offsetNum + limitNum);
+
+    res.status(200).json(paginated);
 
 }

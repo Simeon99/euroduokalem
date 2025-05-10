@@ -146,7 +146,10 @@ Zalivanje, đubrenje i zaštita od štetočina su ključni za uspešan razvoj.
                     Prilikom same sadnje, veoma je važno da mesto kalemljenja ostane iznad zemlje, jer njegovo zatrpavanje može dovesti do truljenja ili razvoja neželjenih izdanaka. Takođe, zalivanje odmah nakon sadnje pomaže da se zemlja slegne i da koren uspostavi dobar kontakt sa tlom.
                     Ne zaboravite na redovno orezivanje i zaštitu od bolesti, jer samo zdrava biljka može dati kvalitetan plod. Uz malo znanja i prave savete, vaš voćnjak može postati ne samo izvor ponosa, već i odličan izvor prinosa.
                 </p> */}
+                <div className='w-full'>
+
                 <BlogSuggested />
+                </div>
             </div>
         </div>
     )

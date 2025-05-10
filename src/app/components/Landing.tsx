@@ -34,7 +34,7 @@ const Landing = ({ t }: { t: Translation }) => {
             <div>
                 <Image
                     src="/images/home/landing.png"
-                    alt="Hero"
+                    alt="Landing"
                     fill
                     className="object-cover w-[100px] h-[100px]"
                     priority

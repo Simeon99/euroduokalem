@@ -1645,6 +1645,281 @@
           "suggested": [1,3,4]
         }
       ]
+    },
+    "columnar-apple": {
+      "title": "Stubasta jabuka",
+      "subvarietys": [
+        {
+          "subvariety": "Đerdan",
+          "about": "Đerdan je domaća stubasta sorta jabuke nastala selekcijom u Institutu za voćarstvo u Čačku. Ova sorta se odlikuje kompaktnim, uspravnim rastom bez razvijanja bočnih grana, što je čini idealnom za sadnju na manjim površinama, okućnicama i u saksijama. Namenjena je kako intenzivnoj proizvodnji, tako i hobistima koji žele atraktivnu i rodnu voćku u svom dvorištu.",
+          "main": [
+            "Stubast rast",
+            "Rana I redovna rodnost",
+            "Minimalna potreba za rezidbom",
+            "Idealna za uzgoj u saksijama"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni do krupni, okruglastog oblika, prekriveni svetlocrvenim prelivom preko žute osnove. Meso je sočno, čvrsto, prijatnog slatkokiselkastog ukusa, vrlo osvežavajuće i aromatično."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sazreva krajem avgusta i početkom septembra. Plodovi su pogodni za svežu potrošnju, ali se dobro čuvaju i kraće skladište."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na umereno plodnim, dobro dreniranima zemljištima. Zahteva sunčan položaj i redovno navodnjavanje, posebno ako se uzgaja u saksijama."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Kraljica Čardaša",
+          "about": "Kraljica čardaša je domaća stubasta sorta jabuke sa uspravnim rastom i dekorativnim izgledom, pogodna za gajenje u manjim vrtovima, dvorištima, terasama i saksijama. Namenjena je i za hobi uzgoj i za plantažnu proizvodnju na manjim površinama. Sorta je poznata po obilnoj i redovnoj rodnosti, kao i po visokoj estetskoj i nutritivnoj vrednosti plodova.",
+          "main": [
+            "Uspravan rast",
+            "Sočna i osvežavajuća",
+            "Sazreva u ranu jesen",
+            "Prilagođena uzgoju u saksijama"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje krupni, pravilnog oblika, sa žutozelenom osnovom i izraženim crvenim rumenilom. Meso je čvrsto, sočno i osvežavajuće, prijatnog, blago kiselkastog ukusa."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Krajem avgusta do početka septembra. Plodovi su odlični za svežu potrošnju i kraće čuvanje u frižideru."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Uspeva na umereno plodnim, dobro dreniranima zemljištima. Pogodna je za različite klimatske uslove, ali najbolje rezultate daje na toplim, sunčanim položajima, uz redovno zalivanje."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Rumeno vreteno",
+          "about": "Rumeno vreteno je domaća stubasta sorta jabuke, prepoznatljiva po kompaktnom, stubastom rastu i obilnim prinosima. Idealna je za gajenje u manjim baštama, dvorištima ili u saksijama na terasama. Kombinuje ukrasnu vrednost sa kvalitetnim plodovima, što je čini pogodnom za hobi, ali i za profesionalni uzgoj na malim površinama.",
+          "main": [
+            "Stubast rast",
+            "Redovno i obilno rađa",
+            "Sazreva sredinom septembra",
+            "Sočan i aromatičan plod"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje do krupni, intenzivno crvene boje, glatke i sjajne pokožice. Meso je kremasto, sočno i prijatno osvežavajuće, sa blagom aromom i finom ravnotežom slatkoće i kiselosti."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Sredina septembra. Plodovi su pogodni za svežu potrošnju, ali i za kraće čuvanje i preradu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Dobro uspeva na humusnim, rastresitim i umereno plodnim zemljištima, ali zahvaljujući otpornosti i prilagodljivosti, uspeva i na manje idealnim lokacijama, ako se redovno zaliva."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Smaragd",
+          "about": "Smaragd je atraktivna zelena stubasta sorta jabuke, razvijena za male prostore i uzgoj bez potrebe za intenzivnim rezidbama. Zahvaljujući svom kompaktnom rastu i dekorativnom izgledu, idealna je za sadnju u dvorištima, vrtovima i posudama, a plodovi se odlikuju dugim periodom čuvanja i osvežavajućim ukusom.",
+          "main": [
+            "Kompaktan rast",
+            "Berba krajem septembra",
+            "Dug rok čuvanja",
+            "Blago vlažno i rastresito zemljište"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje krupan do krupan, svetlozelene do žutozelene boje. Meso je čvrsto, sočno, sa osvežavajućim, blago kiselkastim ukusom i prijatnom aromom. Pogodan je za svežu potrošnju, salate i kolače."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Kraj septembra. Plodovi se mogu čuvati u hladnim uslovima više nedelja bez gubitka kvaliteta."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na rastresitim, dobro dreniranim zemljištima, sa umerenom vlažnošću. Važno je obezbediti dovoljno svetlosti kako bi plodovi razvili pun ukus i boju."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Vesna",
+          "about": "Vesna je rana stubasta sorta jabuke, cenjena zbog ranog sazrevanja i prijatno osvežavajućih plodova. Njeno kompaktno stablo čini je idealnim izborom za gajenje u manjim vrtovima, uz terase ili u saksijama. Odlikuje se redovnim prinosima i lakim održavanjem bez klasične rezidbe.",
+          "main": [
+            "Uspravan rast",
+            "Ukusan plod",
+            "Veoma rana berba",
+            "Lagana za održavanje"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plod je srednje veličine, sa glatkom pokožicom crvenkaste do ružičaste nijanse. Meso je svetlo, sočno i blago slatkasto-kiselkastog ukusa, veoma osvežavajuće i prijatno za svežu konzumaciju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Početak avgusta – spada među najranije stubaste sorte. Plodovi se konzumiraju odmah nakon berbe jer nisu predviđeni za duže skladištenje."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dobro dreniranima zemljištima sa umerenom vlagom. Pogodna je za ekološki i urbani uzgoj zbog svoje male forme i jednostavnosti održavanja."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "quince": {
+      "title": "Dunja",
+      "subvarietys": [
+        {
+          "subvariety": "Champion",
+          "about": "Champion je strana sorta dunje poreklom iz SAD-a, cenjena zbog svoje prilagodljivosti, redovnog rađanja i kvalitetnih plodova. Zahvaljujući svojoj otpornosti i stabilnom prinosu, često se koristi i kao podloga za kalemljenje drugih voćnih vrsta. Plodovi su nešto sitniji u odnosu na domaće sorte, ali vrlo pogodni za razne vidove prerade.",
+          "main": [
+            "Srednje krupan plod",
+            "Berba krajem septembra",
+            "Izražena aroma",
+            "Višenamenska upotreba"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje veličine, rebrasti, zlatnožute boje u zrelosti. Meso je čvrsto, sočno, izražene arome i karakterističnog kiselkastog ukusa, pogodno za džemove, kompote, sokove i rakije."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Champion sazreva krajem septembra do početka oktobra. Plodovi se dobro čuvaju i zadržavaju svežinu tokom skladištenja."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Uspeva na različitim tipovima zemljišta, ali najbolje rezultate daje na umereno plodnim i dobro dreniranim zemljištima. Otporna je na slabije uslove, što je čini pogodnom za širi uzgoj."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Leskovačka",
+          "about": "Leskovačka dunja je najrasprostranjenija i najpoznatija sorta dunje na našem prostoru. Poznata je po izuzetno krupnim, jabukasto-oblikovanim plodovima intenzivne arome. Ceni se zbog visokog sadržaja pektina, što je čini odličnim izborom za različite oblike prerade – od kompota i slatkog do rakije i džemova.",
+          "main": [
+            "Jabukasti plodoci",
+            "Intenzivan miris i aroma",
+            "Berba krajem septembra",
+            "Visok sadržaj pektina"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su veliki, široko-jabukasti, sa jasno izraženim rebrima. Pokožica je zlatnožuta, čvrsta i hrapava, a meso je kremasto-bele boje, veoma aromatično, ali tvrdo i suvo u svežem stanju."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Leskovačka dunja sazreva krajem septembra i početkom oktobra, a bere se kada pokožica dobije žutu boju i plod počne da oslobađa karakterističan miris."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na plodnim, dobro dreniranim zemljištima sa umerenim do visokim sadržajem vlage. Potrebna joj je dobra osvetljenost i zaklonjenost od jakih vetrova."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Vranjska",
+          "about": "Vranjska dunja je autohtona i visoko cenjena sorta poreklom iz juga Srbije. Poznata je po izuzetno krupnim, aromatičnim plodovima koji su idealni za konzumaciju u prerađenom obliku. Njena atraktivnost, visok prinos i kvalitet čine je vodećim izborom među plantažnim zasadima dunje.",
+          "main": [
+            "Veoma krupni plodovi",
+            "Blago kiselkast ukus",
+            "Berba tokom oktobra",
+            "Odlična za preradu"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su vrlo krupni (često preko 500 g), kruškastog oblika, sa glatkom zlatnožutom pokožicom. Meso je svetložute boje, čvrsto, aromatično i blago kiselkasto – odličan izbor za rakije, džemove i pečenje."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Vranjska dunja sazreva u prvoj polovini oktobra, a bere se pažljivo zbog veličine ploda i osetljivosti na udarce."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dubokim, rastresitim i plodnim zemljištima, sa dobrom drenažom i umerenim sadržajem vlage. Preferira tople, sunčane lokalitete sa blagim nagibom."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "medlar": {
+      "title": "Mušmula",
+      "subvarietys": [
+        {
+          "subvariety": "Domaća",
+          "about": "Domaća mušmula je tradicionalna i najrasprostranjenija sorta na našim prostorima, poznata po otpornosti, dugovečnosti i specifičnom ukusu plodova koji sazrevaju tek nakon omekšavanja. Izuzetno cenjena u seoskim domaćinstvima i sve traženija na tržištu prirodnih i funkcionalnih proizvoda.",
+          "main": [
+            "Rustični i čvrsti plodovi",
+            "Kasna berba u novembru",
+            "Odlična za džemove i rakiju",
+            "Otpornost na hladne zime"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su srednje veličine, smeđe boje i hrapave površine. Nakon omekšavanja postaju prijatno slatki, blago kiselkasti i izuzetno aromatični."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Berba se obavlja krajem oktobra ili početkom novembra, a plodovi se konzumiraju nakon odležavanja od nekoliko nedelja."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Prilagodljiva različitim uslovima – uspeva čak i na siromašnim zemljištima. Pogodna za ekstenzivan i organski uzgoj, bez velike potrebe za zaštitom."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "Royal",
+          "about": "Royal je selekcionisana sorta mušmule modernijeg izgleda i poboljšanih osobina u odnosu na tradicionalne vrste. Karakterišu je krupniji plodovi, izraženija slast i bolja konzistencija mesa. Zbog atraktivnog izgleda i prijatnog ukusa, sve je popularnija kako za svežu potrošnju, tako i za preradu.",
+          "main": [
+            "Krupni I simetrični plodovi",
+            "Kasna jesenja berba",
+            "Sladak i blago kiselkast ukus",
+            "Otpornost na niske temperature"
+          ],
+          "characteristics": [
+            {
+              "title": "Izgled i ukus:",
+              "text": "Plodovi su veći od domaće mušmule, zaobljenijeg oblika i ujednačene braon boje. Meso je čvrsto, sočno i prijatno slatko, bez preterane otporosti, posebno nakon sazrevanja."
+            },
+            {
+              "title": "Sezona berbe:",
+              "text": "Berba se vrši krajem oktobra ili početkom novembra. Plodovi se najčešće konzumiraju nakon omekšavanja u skladištu."
+            },
+            {
+              "title": "Pogodno zemljište:",
+              "text": "Najbolje uspeva na dobro dreniranim, umereno plodnim zemljištima. Dobro podnosi sušu i hladnoću, a pogodna je i za niže održive voćarske sisteme."
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
     }
   },
   "en": {
@@ -3086,6 +3361,333 @@
           "suggested": [1,3,4]
         }
       ]
+    },
+    "columnar-apple": {
+      "title": "Columnar Apple",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "quince": {
+      "title": "Quince",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "medlar": {
+      "title": "Medlar",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
     }
   },
   "ru": {
@@ -4474,6 +5076,281 @@
           "url": "apples-image.webp",
           "suggested": [1,3,4]
         },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "columnar-apple": {
+      "title": "Колонновидная яблоня",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "quince": {
+      "title": "Айва",
+      "subvarietys": [
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        },
+        {
+          "subvariety": "",
+          "about": "",
+          "main": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "characteristics": [
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            },
+            {
+              "title": "",
+              "text": ""
+            }
+          ],
+          "url": "apples-image.webp",
+          "suggested": [1,3,4]
+        }
+      ]
+    },
+    "medlar": {
+      "title": "АйвМушмулаа",
+      "subvarietys": [
         {
           "subvariety": "",
           "about": "",

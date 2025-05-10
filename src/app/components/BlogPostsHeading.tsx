@@ -13,31 +13,36 @@ const BlogPostsHeading = () => {
     const lang = params?.lang as string;
     const router = useRouter();
 
-    const [blogPosts, setBlogPosts] = useState<IBlogPost[] | null>();
+    const [posts, setPosts] = useState<IBlogPost[]>([]);
+    const [primaryPost, setPrimaryPost] = useState<IBlogPost>();
+    const [offset, setOffset] = useState(0);
+    const [hasMore, setHasMore] = useState(true);
+    const limit = 5;
 
     const handleClick = () => {
         router.push(`/${lang}/blog/1`)
     }
-    async function fetchBlogPosts() {
 
-        try {
-            const res = await fetch(`/api/blogPosts?lang=${lang}`);
-            const blogPostsData = await res.json();
-            setBlogPosts(blogPostsData);
-            console.log(blogPosts)
-        } catch (e) {
-            console.log("Error: ", e)
-        }
-        finally {
+    const fetchPosts = async () => {
+        const res = await fetch(`/api/blogPosts?lang=${lang}&offset=${offset}&limit=${limit}`);
+        const newPosts: IBlogPost[] = await res.json();
 
-        }
+        if (newPosts.length < limit) setHasMore(false);
 
+        const primary = newPosts.find(p => p?.primary === true);
+        const filtered = newPosts.filter(p => p?.primary !== true);
 
-    }
+        if (primary) setPrimaryPost(primary);
+        setPosts((prev) => [...prev, ...filtered]);
+
+        setOffset((prev) => prev + limit); console.log("AAA");
+    };
 
     useEffect(() => {
-        fetchBlogPosts();
-    }, [])
+        fetchPosts();
+
+    }, []);
+
 
     return (
         <>
@@ -47,7 +52,7 @@ const BlogPostsHeading = () => {
                         <div className='max-w-screen-sw  w-full flex flex-row max-lsw:flex-col gap-8 justify-between'>
                             <div className='w-1/2 max-lsw:w-full  flex flex-col gap-8'>
                                 <h1 className='font-heading text-6xl text-primary  max-lsw:text-5xl max-md:text-4xl font-bold line'>
-                                    11 Stvari koje bi trebalo da znate o sadjenju vocnih sadnica
+                                    {primaryPost?.title}
                                 </h1>
                                 <div>
                                     <Button variant='secondary' onClick={handleClick} label='Procitaj artikal' />
@@ -76,8 +81,12 @@ const BlogPostsHeading = () => {
                     </div>
                 </div>
             </div>
-
-            <BlogPosts />
+            <BlogPosts blogPosts={posts} />
+            {hasMore && (
+                <button onClick={fetchPosts} className="mt-4 px-4 py-2 bg-black text-white rounded">
+                    Show More
+                </button>
+            )}
         </>
     )
 }

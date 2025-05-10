@@ -3,16 +3,21 @@
         {
             "id": 1,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "11 Things You Should Know About Planting Fruit Seedlings",
+                "sr": "11 Stvari koje bi trebalo da znate o sadjenju vocnih sadnica",
+                "ru": "11 вещей, которые вы должны знать о посадке саженцев фруктов"
+            },
+            "markdown": {
+                "en": "**Apple** is a popular fruit.\n\n- Sweet\n- Crunchy",
+                "sr": "**Jabuka** je popularno voće.\n\n- Slatka\n- Hrštava",
+                "ru": "**Яблоня** — популярный фрукт.\n\n- Сладкий\n- Хрустящий"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
-            "imageUrl": "/carousel1.jpg",
+            "imageUrl": "/images/seedling/ajdared.jpg`",
             "primary": true,
             "recomended": [
                 2,
@@ -23,17 +28,22 @@
         {
             "id": 2,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "How to Prepare Soil for Planting Trees",
+                "sr": "Kako pripremiti zemlju za sadnju drveća",
+                "ru": "Как подготовить почву для посадки деревьев"
+            },
+            "markdown": {
+                "en": "**Soil preparation** is the foundation for healthy growth.\n\n- Remove weeds\n- Loosen the soil\n- Add compost",
+                "sr": "**Priprema zemljišta** je osnova za zdrav rast.\n\n- Uklonite korov\n- Otpustite zemlju\n- Dodajte kompost",
+                "ru": "**Подготовка почвы** — основа здорового роста.\n\n- Удалите сорняки\n- Разрыхлите почву\n- Добавьте компост"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
             "imageUrl": "/carousel3.jpg",
-            "primary": true,
+            "primary": false,
             "recomended": [
                 2,
                 3,
@@ -43,17 +53,22 @@
         {
             "id": 3,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "When Is the Best Time to Plant Seedlings?",
+                "sr": "Kada je najbolje vreme za sadnju sadnica?",
+                "ru": "Когда лучше всего сажать саженцы?"
+            },
+            "markdown": {
+                "en": "The **best time** depends on the plant.\n\n- Spring: Ideal for most fruit trees\n- Fall: Great for root development",
+                "sr": "**Najbolje vreme** zavisi od biljke.\n\n- Proleće: Idealno za većinu voćaka\n- Jesen: Dobra za razvoj korena",
+                "ru": "**Лучшее время** зависит от растения.\n\n- Весна: Идеально для большинства плодовых деревьев\n- Осень: Отлично для корневого развития"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
             "imageUrl": "/carousel2.jpg",
-            "primary": true,
+            "primary": false,
             "recomended": [
                 2,
                 3,
@@ -63,17 +78,22 @@
         {
             "id": 4,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Watering Tips for Young Fruit Trees",
+                "sr": "Saveti za zalivanje mladih voćaka",
+                "ru": "Советы по поливу молодых фруктовых деревьев"
+            },
+            "markdown": {
+                "en": "Young trees need **consistent watering**.\n\n- Water early in the morning\n- Avoid wetting the leaves\n- Deep, slow watering is best",
+                "sr": "Mlade voćke zahtevaju **redovno zalivanje**.\n\n- Zalivajte rano ujutru\n- Izbegavajte kvašenje lišća\n- Sporo i duboko zalivanje je najbolje",
+                "ru": "Молодые деревья нуждаются в **регулярном поливе**.\n\n- Поливайте рано утром\n- Избегайте попадания воды на листья\n- Лучше использовать глубокий, медленный полив"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
             "imageUrl": "/apple.jpg",
-            "primary": true,
+            "primary": false,
             "recomended": [
                 2,
                 3,
@@ -83,17 +103,22 @@
         {
             "id": 5,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Choosing the Right Location for Your Orchard",
+                "sr": "Kako odabrati pravu lokaciju za voćnjak",
+                "ru": "Как выбрать правильное место для сада"
+            },
+            "markdown": {
+                "en": "The **right location** makes a big difference.\n\n- Good sunlight\n- Wind protection\n- Access to water\n- Fertile soil",
+                "sr": "**Prava lokacija** pravi veliku razliku.\n\n- Dobra osvetljenost\n- Zaštita od vetra\n- Pristup vodi\n- Plodno zemljište",
+                "ru": "**Правильное место** имеет большое значение.\n\n- Хорошее освещение\n- Защита от ветра\n- Доступ к воде\n- Плодородная почва"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
             "imageUrl": "/apple.jpg",
-            "primary": true,
+            "primary": false,
             "recomended": [
                 2,
                 3,
@@ -103,17 +128,22 @@
         {
             "id": 6,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "How to Recognize Healthy Fruit Seedlings",
+                "sr": "Kako prepoznati zdravu voćnu sadnicu",
+                "ru": "Как распознать здоровый фруктовый саженец"
+            },
+            "markdown": {
+                "en": "Look for these **signs of healthy seedlings**:\n\n- Green, flexible stems\n- No visible pests\n- Moist, fibrous roots\n- Balanced growth",
+                "sr": "Obratite pažnju na ove **znake zdravih sadnica**:\n\n- Zelene i savitljive stabljike\n- Bez vidljivih štetočina\n- Vlažni, vlaknasti koreni\n- Ujednačen rast",
+                "ru": "Ищите эти **признаки здоровых саженцев**:\n\n- Зеленые, гибкие стебли\n- Отсутствие вредителей\n- Влажные, волокнистые корни\n- Равномерный рост"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
             "imageUrl": "/apple.jpg",
-            "primary": true,
+            "primary": false,
             "recomended": [
                 2,
                 3,
@@ -123,17 +153,22 @@
         {
             "id": 7,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Choosing the Right Location for Your Orchard",
+                "sr": "Kako odabrati pravu lokaciju za voćnjak",
+                "ru": "Как выбрать правильное место для сада"
+            },
+            "markdown": {
+                "en": "The **right location** makes a big difference.\n\n- Good sunlight\n- Wind protection\n- Access to water\n- Fertile soil",
+                "sr": "**Prava lokacija** pravi veliku razliku.\n\n- Dobra osvetljenost\n- Zaštita od vetra\n- Pristup vodi\n- Plodno zemljište",
+                "ru": "**Правильное место** имеет большое значение.\n\n- Хорошее освещение\n- Защита от ветра\n- Доступ к воде\n- Плодородная почва"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
             "imageUrl": "/apple.jpg",
-            "primary": true,
+            "primary": false,
             "recomended": [
                 2,
                 3,
@@ -143,17 +178,22 @@
         {
             "id": 8,
             "title": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Benefits of Mulching Around Fruit Trees",
+                "sr": "Prednosti malčiranja oko voćaka",
+                "ru": "Преимущества мульчирования вокруг плодовых деревьев"
+            },
+            "markdown": {
+                "en": "**Mulching** improves tree health:\n\n- Retains moisture\n- Prevents weeds\n- Regulates temperature\n- Adds nutrients",
+                "sr": "**Malčiranje** poboljšava zdravlje drveća:\n\n- Zadržava vlagu\n- Sprečava rast korova\n- Reguliše temperaturu\n- Dodaje hranljive materije",
+                "ru": "**Мульчирование** улучшает здоровье дерева:\n\n- Удерживает влагу\n- Предотвращает рост сорняков\n- Регулирует температуру\n- Обогащает почву"
             },
             "text": {
-                "en": "Apple",
-                "sr": "Jabuka",
-                "ru": "Яблоня"
+                "en": "Apple is a popular fruit. Sweet. Crunchy.",
+                "sr": "Jabuka je popularno voće. Slatka. Hršatva.",
+                "ru": "Яблоня — популярный фрукт. Сладкий. Хрустящий."
             },
             "imageUrl": "/apple.jpg",
-            "primary": true,
+            "primary": false,
             "recomended": [
                 2,
                 3,

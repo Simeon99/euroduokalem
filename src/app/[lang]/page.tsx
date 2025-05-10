@@ -43,7 +43,7 @@ export default async function Home({ params }: PageProps) {
 
   return (
     <div className="">
-      <div className=" top-0 w-full h-[100vh]">
+      <div className=" top-0 w-full h-[100dvh]">
         <Landing t={t} />
       </div>
       <div className="">
