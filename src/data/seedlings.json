@@ -147,9 +147,9 @@
       "id": 14,
       "name": { "en": "Grapevine", "sr": "Vinova loza", "ru": "Виноградная лоза" },
       "description": {
-        "en": ["34 varieties", "Ideal for wine production and fresh consumption", "Resistant to diseases and drought, adaptable to different soil types"],
-        "sr": ["34 sorti", "Idealna za proizvodnju vina i svežu konzumaciju", "Otpornost na bolesti i sušu, pogodne za različite tipove zemljišta"],
-        "ru": ["34 сорта", "Подходит для виноделия и свежего потребления", "Устойчив к болезням и засухе, адаптируется к разным типам почв"]
+        "en": ["25 varieties", "Ideal for wine production and fresh consumption", "Resistant to diseases and drought, adaptable to different soil types"],
+        "sr": ["25 sorti", "Idealna za proizvodnju vina i svežu konzumaciju", "Otpornost na bolesti i sušu, pogodne za različite tipove zemljišta"],
+        "ru": ["25 сорта", "Подходит для виноделия и свежего потребления", "Устойчив к болезням и засухе, адаптируется к разным типам почв"]
       },
       "imageUrl": ["", "/purple.jpg"],
       "url": "grapevine"
@@ -180,9 +180,9 @@
       "id": 17,
       "name": { "en": "Blackberry", "sr": "Kupina", "ru": "Ежевика" },
       "description": {
-        "en": ["1 variety", "Čačanska Bestrna", "Stable yield and excellent adaptability to various climates"],
-        "sr": ["1 sorta", "Čačanska bestrna", "Stabilan prinos i odlična adaptacija na različite klimatske uslove"],
-        "ru": ["1 сорт", "Чачанская бесшипная", "Стабильный урожай и отличная адаптация к различным климатическим условиям "]
+        "en": ["4 variety", "Čačanska Bestrna", "Stable yield and excellent adaptability to various climates"],
+        "sr": ["4 sorta", "Čačanska bestrna", "Stabilan prinos i odlična adaptacija na različite klimatske uslove"],
+        "ru": ["4 сорт", "Чачанская бесшипная", "Стабильный урожай и отличная адаптация к различным климатическим условиям "]
       },
       "imageUrl": ["", "/berry.jpg"],
       "url": "blackberry"
