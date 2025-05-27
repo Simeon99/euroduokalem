@@ -17,13 +17,16 @@ const BlogPostsHeading = () => {
     const [primaryPost, setPrimaryPost] = useState<IBlogPost>();
     const [offset, setOffset] = useState(0);
     const [hasMore, setHasMore] = useState(true);
+    const [loading, setLoading] =useState<boolean>(false);
     const limit = 5;
+
 
     const handleClick = () => {
         router.push(`/${lang}/blog/1`)
     }
 
     const fetchPosts = async () => {
+        setLoading(true)
         const res = await fetch(`/api/blogPosts?lang=${lang}&offset=${offset}&limit=${limit}`);
         const newPosts: IBlogPost[] = await res.json();
 
@@ -35,7 +38,8 @@ const BlogPostsHeading = () => {
         if (primary) setPrimaryPost(primary);
         setPosts((prev) => [...prev, ...filtered]);
 
-        setOffset((prev) => prev + limit); console.log("AAA");
+        setOffset((prev) => prev + limit); 
+        setLoading(false)
     };
 
     useEffect(() => {
@@ -82,11 +86,11 @@ const BlogPostsHeading = () => {
                 </div>
             </div>
             <BlogPosts blogPosts={posts} />
-            {hasMore && (
-                <button onClick={fetchPosts} className="mt-4 px-4 py-2 bg-black text-white rounded">
-                    Show More
-                </button>
-            )}
+            <div className='flex flex-col items-center pb-36'>
+                {hasMore && (
+                    <Button onClick={fetchPosts} label='Show More' isLoading={loading}/>
+                )}
+            </div>
         </>
     )
 }

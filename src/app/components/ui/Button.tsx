@@ -5,9 +5,10 @@ import React from 'react';
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
   variant?: 'primary' | 'secondary';
+  isLoading?: boolean;
 }
 
-export default function Button({ label, variant = 'primary', ...props }: ButtonProps) {
+export default function Button({ label, variant = 'primary', isLoading = false, ...props }: ButtonProps) {
   const baseClasses = `px-10 py-4 rounded-xl text-[20px] font-semibold transition-all hover:cursor-pointer duration-300 active:scale-95`;
 
   const variants = {
@@ -20,7 +21,16 @@ export default function Button({ label, variant = 'primary', ...props }: ButtonP
       className={`${baseClasses} ${variants[variant]} `}
       {...props}
     >
-      {label}
+      <div className='flex flex-row gap-2'>
+        {label}
+        {isLoading ?
+          <div className="flex items-center justify-center">
+            <div className="w-7 h-7 border-4 border-t-transparent border-white rounded-full animate-spin"></div>
+          </div> :
+          ""
+        }
+      </div>
+
     </button>
   );
 }
