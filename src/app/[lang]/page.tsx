@@ -20,27 +20,6 @@ export default async function Home({ params }: PageProps) {
   const { lang } = await params;
   const t = await getDictionary(lang);
 
-  // const blogPosts = [
-  //   {
-  //     title: "Climate Change",
-  //     description: "Climate change is beginning to have a devastating impact on forests across the world Climate change is beginning to have a devastating Climate change is beginning to have a devastating impact on forests across the world Climate change is beginning to have a devastating impact on Climate change is beginning to have a devastating impact on forests across the world forests across the world",
-  //     imageUrl: "/images/home/carousel1.jpg",
-  //     link: ""
-  //   },
-  //   {
-  //     title: "Climate Change",
-  //     description: "Climate change is beginning to have a devastating impact on forests across the world",
-  //     imageUrl: "/images/home/carousel7.jpg",
-  //     link: ""
-  //   },
-  //   {
-  //     title: "Climate Change",
-  //     description: "Climate change is beginning to have a devastating impact on forests across the world",
-  //     imageUrl: "/images/home/carousel8.jpg",
-  //     link: ""
-  //   },
-  // ]
-
   return (
     <div className="">
       <div className=" top-0 w-full h-[100dvh]">

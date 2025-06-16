@@ -1,7 +1,7 @@
 import React from 'react'
-import { FruitData } from './Seedling'
+import { FruitData, Subvariety } from './Seedling'
 
-const SeedlingPresentMenu = ({fruitData, setSelected, selected}: {fruitData: FruitData, setSelected: (value: string) => void, selected: string}) => {
+const SeedlingPresentMenu = ({fruitData, setSelected, selected}: {fruitData: FruitData, setSelected: (value: Subvariety) => void, selected: Subvariety}) => {
     return (
         <>
             {/* Desktop side nav*/}
@@ -16,8 +16,8 @@ const SeedlingPresentMenu = ({fruitData, setSelected, selected}: {fruitData: Fru
                                     {fruitData && fruitData.subvarietys.map((item, index) => (
                                         <li
                                             key={index}
-                                            onClick={() => setSelected(item.subvariety)} // ⚠ make sure setSelected & selected exist
-                                            className={`px-4 py-2 cursor-pointer transition-colors text-[20px] font-heading ${selected === item.subvariety
+                                            onClick={() => setSelected(item)} // ⚠ make sure setSelected & selected exist
+                                            className={`px-4 py-2 cursor-pointer transition-colors text-[20px] font-heading ${selected.subvariety === item.subvariety
                                                 ? `bg-primary text-white ${index === 0 && 'rounded-t-2xl'}`
                                                 : `${index === 0
                                                     ? 'rounded-t-2xl  '
@@ -39,8 +39,8 @@ const SeedlingPresentMenu = ({fruitData, setSelected, selected}: {fruitData: Fru
                 {fruitData && fruitData.subvarietys.map((item, index) => (
                     <div
                         key={index}
-                        onClick={() => setSelected(item.subvariety)}
-                        className={`px-4 py-2 shadow-md cursor-pointer rounded-2xl transition text-lg font-heading ${selected === item.subvariety
+                        onClick={() => setSelected(item)}
+                        className={`px-4 py-2 shadow-md cursor-pointer rounded-2xl transition text-lg font-heading ${selected.subvariety === item.subvariety
                             ? `bg-primary text-white ${index === 0 && 'rounded-t-2xl'}`
                             : ' hover:scale-103 hover:shadow-lg duration-300 bg-secondary text-primary'
                             }`}

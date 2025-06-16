@@ -45,13 +45,11 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
     // const { lang } = await params;
     // const fruit = fruitsData[params.seedling];
     const [fruitData, setFruitData] = useState<FruitData | null>(null);
-    const [selectedData, setSelectedData] = useState<Subvariety | null>(null);
+    // const [selectedData, setSelectedData] = useState<Subvariety | null>(null);
     const [selectedDataRosesGrapevine, setSelectedDataRosesGrapevine] = useState<SubvarietyRoseGrapevine | null>(null);
     const [fruitDataRosesGrapevine, setFruitDataRosesGrapevine] = useState<FruitDataRoseGrapevine | null>(null);
-    const [selected, setSelected] = useState('');
-    const [loadingSelected, setLoadingSelected] = useState(false);
+    const [selected, setSelected] = useState<Subvariety | null>(null);
     const [loading, setLoading] = useState<boolean | null>();
-    const [loaded, setLoaded] = useState(0)
 
     async function fetchSeedling() {
         setLoading(true);
@@ -59,44 +57,44 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
             const res = await fetch(`/api/seedling?lang=${lang}&fruit=${fruit}`);
             const seedlings = await res.json();
             setFruitData(seedlings);
-            setSelected(seedlings.subvarietys[0].subvariety)
-            setLoading(false);
+            setSelected(seedlings.subvarietys[0])
+            
         } catch (e) {
             console.error('Error fetching seedlings:', e);
-            setLoading(false);
+            
         } finally {
             setLoading(false);
         }
     }
 
-    async function fetchSelected() {
-        setLoadingSelected(true);
-        try {
-            const res = await fetch(`/api/seedling?lang=${lang}&fruit=${fruit}&subvariety=${selected}`);
-            const seedling = await res.json();
-            setSelectedData(seedling);
-            setLoadingSelected(false);
-        } catch (e) {
-            console.error('Error fetching seedlings:', e);
-            setLoadingSelected(false);
-        } finally {
-            setLoadingSelected(false);
-            setLoaded(loaded + 1);
-        }
-    }
+    // async function fetchSelected() {
+    //     setLoadingSelected(true);
+    //     try {
+    //         const res = await fetch(`/api/seedling?lang=${lang}&fruit=${fruit}&subvariety=${selected}`);
+    //         const seedling = await res.json();
+    //         setSelectedData(seedling);
+    //         setLoadingSelected(false);
+    //     } catch (e) {
+    //         console.error('Error fetching seedlings:', e);
+    //         setLoadingSelected(false);
+    //     } finally {
+    //         setLoadingSelected(false);
+    //         setLoaded(loaded + 1);
+    //     }
+    // }
 
     async function fetchSeedlingRosesGrapevine() {
         setLoading(true);
         try {
             const res = await fetch(`/api/seedlingGrapevineRoses?lang=${lang}&fruit=${fruit}`);
             const seedlings = await res.json();
-        
+
             setFruitDataRosesGrapevine(seedlings);
             setSelectedDataRosesGrapevine(seedlings.subvarietys[0])
-            setLoading(false);
+            
         } catch (e) {
             console.error('Error fetching seedlings:', e);
-            setLoading(false);
+            
         } finally {
             setLoading(false);
         }
@@ -106,23 +104,25 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
 
     useEffect(() => {
         if (fruit && lang) {
-            if (fruit !== "grapevine" && fruit !== "roses" ) {
+            if (fruit !== "grapevine" && fruit !== "roses") {
                 fetchSeedling();
             }
             else {
                 fetchSeedlingRosesGrapevine();
             }
         }
+        window.scrollTo({ top: 0 });
 
     }, [fruit, lang]);
 
-    useEffect(() => {
-        if (selected && fruit && lang) {
-            if (fruit !== "grapevine" && fruit !== "roses") {
-                fetchSelected();
-            }
-        }
-    }, [selected, fruit, lang])
+    // useEffect(() => {
+    //     if (selected && fruit && lang) {
+    //         if (fruit !== "grapevine" && fruit !== "roses") {
+    //             // fetchSelected();
+    //         }
+    //     }
+    // }, [selected, fruit, lang])
+
     // if (!fruit) return <div>Fruit not found</div>;
 
     // const subspecies = fruit.subspecies;
@@ -133,7 +133,7 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
         <div className="flex flex-col  mt-4 h-full">
             {/* Sidebar */}
             {
-                (loading || loadingSelected) && loaded < 1 ?
+                (loading) ?
                     <LoadingSideBar /> :
 
                     <div className='bg-none'>
@@ -148,12 +148,12 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
             {/* {/* Main Content */}
             {/* {fruit ==="grapevine" || fruit ==="roses" ? " " :} */}
             {
-                selectedDataRosesGrapevine &&
-                selectedDataRosesGrapevine && fruitDataRosesGrapevine && <SeedlingPresentGrapevineRoses selectedData={selectedDataRosesGrapevine} fruitData={fruitDataRosesGrapevine} setSelected={setSelectedDataRosesGrapevine} loading={loadingSelected} t={t} />
+                selected &&
+                selected && fruitData && <SeedlingPresent selectedData={selected} fruitData={fruitData}  setSelected={setSelected} t={t} />
             }
             {
-                selectedData &&
-                selectedData && fruitData && <SeedlingPresent selectedData={selectedData} fruitData={fruitData} selected={selected} setSelected={setSelected} loading={loadingSelected} t={t} />
+                selectedDataRosesGrapevine &&
+                selectedDataRosesGrapevine && fruitDataRosesGrapevine && <SeedlingPresentGrapevineRoses selectedData={selectedDataRosesGrapevine} fruitData={fruitDataRosesGrapevine} setSelected={setSelectedDataRosesGrapevine}  t={t} />
             }
         </div >
     );

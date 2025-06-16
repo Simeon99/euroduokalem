@@ -1,20 +1,16 @@
 import React from 'react'
 import { FruitData, Subvariety } from './Seedling'
-import LoadingSeedling from './ui/LoadingSeedling';
 import { Translation } from '../[lang]/dictionaries';
 import SeedlingPresentationTipe1 from './SeedlingPresentationTipe1';
 import SeedlingPresentMenu from './SeedlingPresentMenu';
 
-const SeedlingPresent = ({ selectedData, fruitData, selected, setSelected, loading, t }: { selectedData: Subvariety, fruitData: FruitData, selected: string, setSelected: (value: string) => void, loading: boolean, t: Translation }) => {
+const SeedlingPresent = ({ selectedData, fruitData, setSelected, t }: { selectedData: Subvariety, fruitData: FruitData, setSelected: (value: Subvariety) => void, t: Translation }) => {
     return (
         <div className='flex flex-row max-lsw:flex-col gap-4 '>
             {/* Desktop side nav*/}
-            <SeedlingPresentMenu selected={selected} setSelected={setSelected} fruitData={fruitData} />
-            {fruitData.title}
-            {loading ?
-                <LoadingSeedling /> :
+            <SeedlingPresentMenu selected={selectedData} setSelected={setSelected} fruitData={fruitData} />
+ 
                 <SeedlingPresentationTipe1 selectedData={selectedData} t={t}/>
-            }
         </div>
     )
 }
