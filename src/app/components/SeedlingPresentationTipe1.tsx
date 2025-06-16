@@ -1,22 +1,36 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaCheck } from 'react-icons/fa6'
 import SeedlingSuggested from './SeedlingSuggested'
 import { Subvariety } from './Seedling'
 import { Translation } from '../[lang]/dictionaries'
 
-const SeedlingPresentationTipe1 = ({selectedData, t}:{selectedData: Subvariety, t: Translation}) => {
+const SeedlingPresentationTipe1 = ({ selectedData, t }: { selectedData: Subvariety, t: Translation }) => {
+
+    const [isImageLoading, setIsImageLoading] = useState(true);
+
+    useEffect(() => {
+        setIsImageLoading(true); // Trigger loading state on every new src
+    }, [selectedData.url]);
+
     return (
         <main className="flex-1 ">
             <div className='flex flex-col gap-4 mb-8'>
                 <div className='flex flex-row max-md:flex-col gap-8'>
                     <div className='w-1/2 max-md:pt-16 max-md:w-full flex justify-center'>
+                        {isImageLoading && (
+                            <div
+                                className="relative   w-full h-[400px] bg-gray-300 animate-pulse rounded-2xl">
+
+                            </div>
+                        )}
                         <Image
                             src={`/images/seedling/${selectedData?.url}` || ''}
                             alt={selectedData?.subvariety || ''}
                             width={600}
                             height={400}
-                            className="rounded-2xl mb-4 object-cover w-full h-[400px] max-xsw:h-[250px] max-w-[600px]"
+                            className={`rounded-2xl ${isImageLoading ? 'hidden':'block'} mb-4 object-cover w-full h-[400px] max-xsw:h-[250px] max-w-[600px]`}
+                            onLoadingComplete={() => setIsImageLoading(false)}
                         />
 
                     </div>
