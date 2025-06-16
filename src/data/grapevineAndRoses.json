@@ -7,43 +7,43 @@
                     "name": "Vinske sorte - bela",
                     "subvarietys": [
                         {
-                            "name":"Muscat Ottonel",
+                            "name": "Muscat Ottonel",
                             "url": "grapevine/muscat ottonel.jpg"
                         },
                         {
-                            "name":"Pinot Blanc",
+                            "name": "Pinot Blanc",
                             "url": "grapevine/pinot blanc.jpg"
                         },
                         {
-                            "name":"Chardonnay",
+                            "name": "Chardonnay",
                             "url": "grapevine/chardonnay.jpg"
                         },
                         {
-                            "name":"Pinot Gris",
+                            "name": "Pinot Gris",
                             "url": "grapevine/pinot gris.jpg"
                         },
                         {
-                            "name":"Riesling Italico",
+                            "name": "Riesling Italico",
                             "url": "grapevine/riesling italico.jpg"
                         },
                         {
-                            "name":"Rkaciteli",
+                            "name": "Rkaciteli",
                             "url": "grapevine/rkaciteli.jpg"
                         },
                         {
-                            "name":"Sauvignon Blanc",
+                            "name": "Sauvignon Blanc",
                             "url": "grapevine/sauvignon blanc.webp"
                         },
                         {
-                            "name":"Smederevka",
+                            "name": "Smederevka",
                             "url": "grapevine/smederevka.jpg"
                         },
                         {
-                            "name":"Tamjanika",
+                            "name": "Tamjanika",
                             "url": "grapevine/tamjanika.jpg"
                         },
                         {
-                            "name":"Žilavka",
+                            "name": "Žilavka",
                             "url": "grapevine/zilavka.jpg"
                         }
                     ],
@@ -53,32 +53,32 @@
                     "name": "Vinske sorte - crvena",
                     "subvarietys": [
                         {
-                            "name":"Frankovka KT 1",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Frankovka KT 1",
+                            "url": "grapevine/frankovka.jpg"
                         },
                         {
-                            "name":"Cabernet Sauvignon",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Cabernet Sauvignon",
+                            "url": "grapevine/cabernet sauvignon.jpg"
                         },
                         {
-                            "name":"Merlot Noir",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Merlot Noir",
+                            "url": "grapevine/merlot noir.jpg"
                         },
                         {
-                            "name":"Pinot Noir",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Pinot Noir",
+                            "url": "grapevine/pinot noir.jpg"
                         },
                         {
-                            "name":"Prokupac",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Prokupac",
+                            "url": "grapevine/prokupac.jpg"
                         },
                         {
-                            "name":"Vranac",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Vranac",
+                            "url": "grapevine/vranac.jpg"
                         },
                         {
-                            "name":"Merlot",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Merlot",
+                            "url": "grapevine/merlot.jpg"
                         }
                     ],
                     "about": "Crvene vinske sorte iz ove grupe koriste se za proizvodnju vina intenzivne boje, bogatog tela i izražene arome. U zavisnosti od sorte i tehnologije prerade, mogu davati kako sveža i voćna vina, tako i kompleksna, zrela vina pogodna za dugo odležavanje u drvetu i boci.\nCabernet Sauvignon i Merlot su najpoznatije međunarodne sorte koje se često koriste u kupažama, dok sorte poput Prokupca i Vranca imaju autentično poreklo i sve veći značaj u brendiranju vina sa geografskim poreklom. Uz redovnu negu i odgovarajuće uslove, ove sorte daju stabilan prinos i visok potencijal u kvalitetnoj vinskoj proizvodnji. "
@@ -87,24 +87,24 @@
                     "name": "Stone sorte - bela zrna",
                     "subvarietys": [
                         {
-                            "name":"Victoria",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Victoria",
+                            "url": "grapevine/viktoria.jpg"
                         },
                         {
-                            "name":"Afus Ali",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Afus Ali",
+                            "url": "grapevine/afus ali.jpg"
                         },
                         {
-                            "name":"Moldava",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Moldava",
+                            "url": "grapevine/Moldova.jpeg"
                         },
                         {
-                            "name":"Michele Parlieri",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Michele Parlieri",
+                            "url": "grapevine/michele palieri.webp"
                         },
                         {
-                            "name":"Beogradska besemena",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Beogradska besemena",
+                            "url": "grapevine/beogradska besemena.jpg"
                         }
                     ],
                     "about": "Ova grupa obuhvata stone sorte sa belim i svetloružičastim bobicama koje se gaje pretežno za konzumaciju u svežem stanju. Karakterišu ih izuzetno krupni grozdovi, sočne bobice, ujednačen ukus i atraktivan izgled - osobine koje ih čine vrlo traženim na tržištu, posebno u segmentu rane prodaje. Sorta poput Afus Ali poznata je po velikim i dugovečnim grozdovima, dok je Victoria izuzetna po ranom zrenju i krupnoći ploda. Ove sorte dobro uspevaju na plodnim i osunčanim položajima, a zahvaljujući svojoj privlačnosti pogodne su i za izvoz."
@@ -113,20 +113,20 @@
                     "name": "Stone sorte - crna zrna",
                     "subvarietys": [
                         {
-                            "name":"Ribier",
+                            "name": "Ribier",
+                            "url": "grapevine/ribier.jpg"
+                        },
+                        {
+                            "name": "Cardinal",
                             "url": "grapevine/ajdared.jpg"
                         },
                         {
-                            "name":"Cardinal",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Muscat de Hambourg",
+                            "url": "grapevine/muscat de Hambourg.jpg"
                         },
                         {
-                            "name":"Muscat de Hambourg",
-                            "url": "grapevine/ajdared.jpg"
-                        },
-                        {
-                            "name":"Muscat Italy",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Muscat Italy",
+                            "url": "grapevine/muscat italy.jpg"
                         }
                     ],
                     "about": "Ove sorte sa tamnim bobicama često imaju izraženu muskatnu aromu, slatkoću i dekorativan izgled. Pogodne su za svežu konzumaciju, ali se koriste i za preradu u sokove, rakije ili sušeno grožđe. Muscat de Hambourg i Muscat Italy poznate su po karakterističnoj aromi i prijatnoj teksturi, dok sorte poput Cardinala imaju rano zrenje i krupne bobice, što ih čini popularnim na tržištu. Zbog zahteva u pogledu orezivanja i zaštite, traže pažljiv uzgoj i posvećenost kako bi dale kvalitetan plod."
@@ -135,35 +135,164 @@
                     "name": "Autohtone i regionalne sorte",
                     "subvarietys": [
                         {
-                            "name":"Plovdina",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Plovdina",
+                            "url": "grapevine/plovdina.webp"
                         },
                         {
-                            "name":"Smederevka",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Smederevka",
+                            "url": "grapevine/smederevka.jpg"
                         },
                         {
-                            "name":"Tamjanika",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Tamjanika",
+                            "url": "grapevine/tamjanika.jpg"
                         },
                         {
-                            "name":"Žilavka",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Žilavka",
+                            "url": "grapevine/zilavka.jpg"
                         },
                         {
-                            "name":"Prokupac",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Prokupac",
+                            "url": "grapevine/prokupac.jpg"
                         },
                         {
-                            "name":"Vranac",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Vranac",
+                            "url": "grapevine/vranac.jpg"
                         },
                         {
-                            "name":"Beogradska besemena",
-                            "url": "grapevine/ajdared.jpg"
+                            "name": "Beogradska besemena",
+                            "url": "grapevine/beogradska besemena.jpg"
                         }
                     ],
                     "about": "Ove sorte predstavljaju značajno regionalno nasleđe i važne su za očuvanje autentičnog karaktera domaće vinogradarske i vinarske tradicije. Prilagođene su lokalnim klimatskim i zemljišnim uslovima, otporne su i ekonomične za uzgoj. Sorta Tamjanika je sinonim za aromatična bela vina iz Srbije, dok je Prokupac sve popularniji u savremenim vinskim konceptima kao lokalna crvena sorta sa velikim potencijalom. Vranac i Žilavka imaju duboke korene u balkanskoj tradiciji i često se koriste za vina sa geografskom oznakom porekla. Pored vinske upotrebe, neke od ovih sorti koriste se i kao stone, što ih čini višenamenskim i vrlo atraktivnim za različite vidove proizvodnje."
+                }
+            ]
+        },
+        "roses": {
+            "title": "Ruža",
+            "subvarietys": [
+                {
+                    "name": "Čajevke",
+                    "subvarietys": [
+                        {
+                            "name": "Big Purple",
+                            "url": "rose/Big Purple.jpg"
+                        },
+                        {
+                            "name": "Brandy",
+                            "url": "rose/brandy.jpeg"
+                        },
+                        {
+                            "name": "Charley",
+                            "url": "rose/charley.jpg"
+                        },
+                        {
+                            "name": "England",
+                            "url": "rose/england.jpg"
+                        },
+                        {
+                            "name": "Jelica",
+                            "url": "rose/jelica.jpg"
+                        },
+                        {
+                            "name": "Josefine Bruche",
+                            "url": "rose/josephina bruche .jpg"
+                        },
+                        {
+                            "name": "Landora",
+                            "url": "rose/landora.jpg"
+                        },
+                        {
+                            "name": "Paskali",
+                            "url": "rose/paskali.png"
+                        },
+                        {
+                            "name": "Red Dance",
+                            "url": "rose/red dance.jpeg"
+                        }
+                    ],
+                    "about": "Ove klasične ruže poznate su po krupnim, raskošnim cvetovima i intenzivnom mirisu. Idealne su za gajenje u vrtovima i kao rezano cveće. Odlikuju se elegancijom, raznolikošću boja i ponovljenim cvetanjem tokom sezone. Svaka sorta ima svoj karakter – od raskošne ljubičaste (Big Purple) do nežnih pastelnih nijansi (Josefine Bruche, Landora)."
+                },
+                {
+                    "name": "Puzavice",
+                    "subvarietys": [
+                        {
+                            "name": "New Yorker",
+                            "url": "rose/new yorker.jpg"
+                        },
+                        {
+                            "name": "Blaze Superior",
+                            "url": "rose/blaze superior.jpg"
+                        },
+                        {
+                            "name": "Don Juan",
+                            "url": "rose/don juan.jpg"
+                        },
+                        {
+                            "name": "Golden Dawn",
+                            "url": "rose/golden dawn.jpg"
+                        },
+                        {
+                            "name": "Handel",
+                            "url": "rose/handel.jpg"
+                        }
+                    ],
+                    "about": "Ove sorte ruža rastu u visinu i zahtevaju oslonac poput pergola, ograda ili zidova. Obiluju mirisnim cvetovima koji se pojavljuju u talasima tokom sezone. Idealne su za formiranje romantičnih vertikalnih akcenata u baštama. Don Juan i Blaze Superior su posebno poznati po dubokim crvenim nijansama."
+                },
+                {
+                    "name": "Mini ruže",
+                    "subvarietys": [
+                        {
+                            "name": "Dic Dic",
+                            "url": "rose/dicdic.jpg"
+                        },
+                        {
+                            "name": "Edelweiss",
+                            "url": "rose/edelweiss.webp"
+                        },
+                        {
+                            "name": "Orange Juwel",
+                            "url": "rose/orange juwel.jpg"
+                        },
+                        {
+                            "name": "Snow White",
+                            "url": "rose/snow white.jpg"
+                        }
+                    ],
+                    "about": "Kompaktne, niskog rasta i veoma dekorativne, mini ruže su savršene za saksije, balkone i rubove staza. Iako sitnije, imaju bogato i često cvetanje, uz dobru otpornost. Edelweiss i Snow White krase bele nijanse, dok Orange Juwel unosi vedrinu u prostoru."
+                },
+                {
+                    "name": "Polijante ruže",
+                    "subvarietys": [
+                        {
+                            "name": "Cin Cin",
+                            "url": "rose/cin cin.jpg"
+                        },
+                        {
+                            "name": "Du Capo",
+                            "url": "rose/da capo.jpg"
+                        },
+                        {
+                            "name": "Royal Minuetto",
+                            "url": "rose/royal minuetto.jpg"
+                        },
+                        {
+                            "name": "Nina Weibul",
+                            "url": "rose/nina weibul.jpg"
+                        },
+                        {
+                            "name": "Old Gold",
+                            "url": "rose/old gold.jpg"
+                        },
+                        {
+                            "name": "Punch",
+                            "url": "rose/punch.jpg"
+                        },
+                        {
+                            "name": "Satchmo",
+                            "url": "rose/satchmo.jpg"
+                        }
+                    ],
+                    "about": "Polijante ruže su prepoznatljive po obilnom i dugotrajnom cvetanju u gustim cvastima koje prekrivaju čitavu biljku. Njihovi cvetovi su manji, ali se javljaju u velikom broju, čineći ih idealnim za sadnju u gredicama, parkovima i urbanim zasadima. Otporne su na bolesti, zahtevaju minimalno održavanje i pružaju intenzivan vizuelni efekat tokom cele sezone. Zbog svoje robusnosti i raskošnog izgleda, često se koriste u javnim i privatnim zelenim površinama."
                 }
             ]
         }

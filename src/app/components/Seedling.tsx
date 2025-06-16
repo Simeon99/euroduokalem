@@ -27,7 +27,7 @@ export interface Subvariety {
 export interface SubvarietyRoseGrapevine {
     name: string;
     about: string;
-    subvarietys:SubSubvarietyRoseGrapevine[];
+    subvarietys: SubSubvarietyRoseGrapevine[];
 }
 export interface SubSubvarietyRoseGrapevine {
     name: string;
@@ -90,6 +90,7 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
         try {
             const res = await fetch(`/api/seedlingGrapevineRoses?lang=${lang}&fruit=${fruit}`);
             const seedlings = await res.json();
+        
             setFruitDataRosesGrapevine(seedlings);
             setSelectedDataRosesGrapevine(seedlings.subvarietys[0])
             setLoading(false);
@@ -101,11 +102,11 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
         }
     }
 
-    
+
 
     useEffect(() => {
-        if (fruit && lang ) {
-            if (fruit !== "grapevine") {
+        if (fruit && lang) {
+            if (fruit !== "grapevine" && fruit !== "roses" ) {
                 fetchSeedling();
             }
             else {
@@ -117,7 +118,7 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
 
     useEffect(() => {
         if (selected && fruit && lang) {
-            if (fruit !== "grapevine") {
+            if (fruit !== "grapevine" && fruit !== "roses") {
                 fetchSelected();
             }
         }
@@ -136,26 +137,23 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
                     <LoadingSideBar /> :
 
                     <div className='bg-none'>
-                        <h2 className="text-6xl font-bold text-primary max-lsw:text-5xl max-md:text-4xl  font-heading px-4 max-md:px-0 py-4 line-clamp-non">{fruit ==="grapevine" || fruit ==="roses" ? fruitDataRosesGrapevine?.title : fruitData?.title}</h2>
-
+                        <h2 className="text-6xl font-bold text-primary max-lsw:text-5xl max-md:text-4xl  font-heading px-4 max-md:px-0 py-4 line-clamp-non">{fruit === "grapevine" || fruit === "roses" ? fruitDataRosesGrapevine?.title : fruitData?.title}</h2>
                     </div>
 
             }
-            {/* {fruitDataRosesGrapevine?.subvarietys.map(i => 
+            {/* {fruitDataRosesGrapevine?.subvarietys.map(i =>
                 <div key={i.name}>{i.name}</div>
             )}
-        {fruit} */}
-
-
+            {fruit} */}
             {/* {/* Main Content */}
             {/* {fruit ==="grapevine" || fruit ==="roses" ? " " :} */}
             {
-                selectedData &&
-                selectedData && fruitData && <SeedlingPresent selectedData={selectedData} fruitData={fruitData} selected={selected} setSelected={setSelected} loading={loadingSelected} t={t} />
-            }
-            {
                 selectedDataRosesGrapevine &&
                 selectedDataRosesGrapevine && fruitDataRosesGrapevine && <SeedlingPresentGrapevineRoses selectedData={selectedDataRosesGrapevine} fruitData={fruitDataRosesGrapevine} setSelected={setSelectedDataRosesGrapevine} loading={loadingSelected} t={t} />
+            }
+            {
+                selectedData &&
+                selectedData && fruitData && <SeedlingPresent selectedData={selectedData} fruitData={fruitData} selected={selected} setSelected={setSelected} loading={loadingSelected} t={t} />
             }
         </div >
     );
