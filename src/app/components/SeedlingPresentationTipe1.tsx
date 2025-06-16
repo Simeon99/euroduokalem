@@ -17,10 +17,10 @@ const SeedlingPresentationTipe1 = ({ selectedData, t }: { selectedData: Subvarie
         <main className="flex-1 ">
             <div className='flex flex-col gap-4 mb-8'>
                 <div className='flex flex-row max-md:flex-col gap-8'>
-                    <div className='w-1/2 max-md:pt-16 max-md:w-full flex justify-center'>
+                    <div className='w-1/2 relative max-md:pt-16 max-md:w-full flex justify-center'>
                         {isImageLoading && (
                             <div
-                                className="relative   w-full h-[400px] bg-gray-300 animate-pulse rounded-2xl">
+                                className="absolute   w-full h-[400px] bg-gray-300 animate-pulse rounded-2xl">
 
                             </div>
                         )}
@@ -29,7 +29,7 @@ const SeedlingPresentationTipe1 = ({ selectedData, t }: { selectedData: Subvarie
                             alt={selectedData?.subvariety || ''}
                             width={600}
                             height={400}
-                            className={`rounded-2xl ${isImageLoading ? 'hidden':'block'} mb-4 object-cover w-full h-[400px] max-xsw:h-[250px] max-w-[600px]`}
+                            className={`rounded-2xl mb-4 object-cover w-full h-[400px] ${isImageLoading ? 'opacity-0' : 'opacity-100'} max-xsw:h-[250px] max-w-[600px]`}
                             onLoadingComplete={() => setIsImageLoading(false)}
                         />
 
