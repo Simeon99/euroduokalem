@@ -20,7 +20,7 @@ const SeedlingPresentationTipe1 = ({ selectedData, t }: { selectedData: Subvarie
                     <div className='w-1/2 relative max-md:pt-16 max-md:w-full flex justify-center'>
                         {isImageLoading && (
                             <div
-                                className="absolute   w-full h-[400px] bg-gray-300 animate-pulse rounded-2xl">
+                                className="absolute   w-full h-[400px] max-xsw:h-[250px] max-w-[600px] bg-gray-300 animate-pulse rounded-2xl">
 
                             </div>
                         )}
