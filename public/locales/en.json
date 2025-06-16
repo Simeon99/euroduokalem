@@ -71,7 +71,8 @@
   },
   "seedling": {
     "characteristics": "Variety characteristics",
-    "suggested": "Suggested for you"
+    "suggested": "Suggested for you",
+    "about": "About varieties"
   },
   "aboutUs": {
     "title": "Who We Are, and What Makes Us Different",

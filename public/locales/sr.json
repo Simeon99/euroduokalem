@@ -71,7 +71,8 @@
   },
   "seedling": {
     "characteristics": "Karakteristike sorte",
-    "suggested": "Preporučeno za vas"
+    "suggested": "Preporučeno za vas",
+    "about": "O sortama"
   },
   "aboutUs": {
     "title": "Ko smo mi i šta nas čini drugačijima",

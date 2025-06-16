@@ -6,6 +6,7 @@ export interface IBlogPost {
     id: number;
     title: string;
     text: string;
+    markdown: string;
     imageUrl: string;
     primary: boolean;
     recomended: number[];
@@ -32,6 +33,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<IBlogP
         id: i.id,
         title: i.title[selectedLang] || i.title.sr,
         text: i.text[selectedLang] || i.text.sr,
+        markdown: i.markdown[selectedLang] || i.markdown.sr,
         imageUrl: i.imageUrl,
         primary: i.primary,
         recomended: i.recomended,

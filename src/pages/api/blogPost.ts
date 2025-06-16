@@ -32,6 +32,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<IBlogP
         id: post.id,
         title: post.title[selectedLang] || post.title.sr,
         text: post.text[selectedLang] || post.text.sr,
+        markdown: post.markdown[selectedLang] || post.markdown.sr,
         imageUrl: post.imageUrl,
         primary: post.primary,
         recomended: post.recomended,

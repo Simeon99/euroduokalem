@@ -35,60 +35,12 @@ const BlogPost = ({ blogId }: { blogId: number }) => {
         fetchBlogPost();
     }, [])
 
-    const markdown = `
-# 🌳 11 stvari koje bi trebalo da znate o sađenju voćnih sadnica
-
-Sadnja voćnih sadnica je **prvi korak ka zdravom i plodonosnom voćnjaku**.  
-Bilo da ste hobi baštovan ili ozbiljan proizvođač, **pravilna priprema i sadnja** čine ogromnu razliku.
-
----
-
-### 1️⃣ **Izaberite pravu sortu za svoje područje**  
-Nisu sve sadnice pogodne za svaku klimu. Informišite se koje sorte najbolje uspevaju u vašem regionu.
-
-### 2️⃣ **Proverite kvalitet sadnice**  
-Sadnica treba da ima zdrav koren, čvrsto stablo i da ne pokazuje znake bolesti.
-
-### 3️⃣ **Pripremite zemljište**  
-Zemljište mora biti rastresito i bogato hranljivim materijama. Po potrebi uradite analizu pH vrednosti.
-
-### 4️⃣ **Poštujte razmak sadnje**  
-Pravilni razmaci obezbeđuju zdrav razvoj korena i krošnje.
-
-### 5️⃣ **Sadite u odgovarajuće vreme**  
-Najbolje vreme za sadnju je jesen ili rano proleće.
-
-### 6️⃣ **Potopite koren u glinenu kašu pre sadnje**  
-Ova praksa poboljšava prijem korena u zemljištu.
-
-### 7️⃣ **Iskopajte rupu dovoljne veličine**  
-Rupa treba da bude veća od korenovog sistema kako se koren ne bi savijao.
-
-### 8️⃣ **Ne zatrpavajte mesto kalemljenja**  
-Kalem mesto mora ostati iznad površine tla.
-
-### 9️⃣ **Obavezno zalivanje nakon sadnje**  
-Voda pomaže da se zemlja slegne i obavije koren.
-
-### 🔟 **Postavite potporni kolac**  
-Kolac pruža stabilnost sadnici u vetrovitim danima.
-
-### 🔁 **Redovna nega sadnice**  
-Zalivanje, đubrenje i zaštita od štetočina su ključni za uspešan razvoj.
-
----
-
-> 💡 **Ukoliko planirate da zasadite svoj voćnjak**, ove smernice će vam pomoći da izbegnete greške i postignete bogat rod.  
-> Za **kvalitetne sadnice i stručne savete**, obratite nam se s poverenjem!
-
-
-`;
 
     return (
         <div className='flex flex-col gap-16 py-36'>
             <div>
                 <h1 className='font-heading text-6xl text-primary text-center  max-lsw:text-5xl max-md:text-4xl font-bold line'>
-                    11 Stvari koje bi trebalo da znate o sadjenju vocnih sadnica
+                    {blogPost?.title}
                 </h1>
             </div>
             <div className='flex flex-col items-center gap-16'>
@@ -138,7 +90,7 @@ Zalivanje, đubrenje i zaštita od štetočina su ključni za uspešan razvoj.
                         ),
                     }}
                 >
-                    {markdown}
+                    {blogPost?.markdown}
                 </ReactMarkdown>
                 {/* <p className='text-justify text-[24px] max-md:text-[20px] max-md:max-w-full'>
                     Sadnja voćnih sadnica zahteva pažljivu pripremu i razumevanje osnovnih koraka kako bi se obezbedio zdrav i dugovečan zasad. Prvi i najvažniji korak je izbor sorte koja odgovara klimatskim uslovima vašeg regiona. Sorte koje nisu prilagođene lokalnim uslovima često ne daju očekivane prinose i zahtevaju dodatnu negu.

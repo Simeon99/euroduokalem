@@ -1,0 +1,173 @@
+{
+    "sr": {
+        "grapevine": {
+            "title": "Vinova loza",
+            "subvarietys": [
+                {
+                    "name": "Vinske sorte - bela",
+                    "subvarietys": [
+                        {
+                            "name":"Muscat Ottonel",
+                            "url": "grapevine/muscat ottonel.jpg"
+                        },
+                        {
+                            "name":"Pinot Blanc",
+                            "url": "grapevine/pinot blanc.jpg"
+                        },
+                        {
+                            "name":"Chardonnay",
+                            "url": "grapevine/chardonnay.jpg"
+                        },
+                        {
+                            "name":"Pinot Gris",
+                            "url": "grapevine/pinot gris.jpg"
+                        },
+                        {
+                            "name":"Riesling Italico",
+                            "url": "grapevine/riesling italico.jpg"
+                        },
+                        {
+                            "name":"Rkaciteli",
+                            "url": "grapevine/rkaciteli.jpg"
+                        },
+                        {
+                            "name":"Sauvignon Blanc",
+                            "url": "grapevine/sauvignon blanc.webp"
+                        },
+                        {
+                            "name":"Smederevka",
+                            "url": "grapevine/smederevka.jpg"
+                        },
+                        {
+                            "name":"Tamjanika",
+                            "url": "grapevine/tamjanika.jpg"
+                        },
+                        {
+                            "name":"Žilavka",
+                            "url": "grapevine/zilavka.jpg"
+                        }
+                    ],
+                    "about": "Ove sorte su namenjene proizvodnji belih vina, od suvih do aromatičnih i desertnih. Prepoznatljive su po izraženim aromama i kompleksnosti ukusa. Muscat Ottonel donosi intenzivne cvetno-voćne note, dok Sauvignon Blanc i Riesling nude svežinu i izraženu kiselost. Chardonnay i Pinot Blanc su veoma cenjene za proizvodnju vrhunskih vina. Rkaciteli, poreklom iz Gruzije, sve češće se nalazi i u našim vinogradima. Prepoznaje se po dobroj otpornosti, redovnom rodu i izraženoj kiselosti, što ga čini pogodnim za vina sa potencijalom za duže odležavanje. Smederevka i Tamjanika su autohtone sorte, poznate po karakterističnoj aromi i otpornosti. Žilavka je dominantna u toplijim podnebljima, s velikim potencijalom za mineralna bela vina. Dobro uspevaju na osunčanim, dobro dreniranima terenima. Posebno se cene za vina visokog kvaliteta sa izraženim sortnim karakterom."
+                },
+                {
+                    "name": "Vinske sorte - crvena",
+                    "subvarietys": [
+                        {
+                            "name":"Frankovka KT 1",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Cabernet Sauvignon",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Merlot Noir",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Pinot Noir",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Prokupac",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Vranac",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Merlot",
+                            "url": "grapevine/ajdared.jpg"
+                        }
+                    ],
+                    "about": "Crvene vinske sorte iz ove grupe koriste se za proizvodnju vina intenzivne boje, bogatog tela i izražene arome. U zavisnosti od sorte i tehnologije prerade, mogu davati kako sveža i voćna vina, tako i kompleksna, zrela vina pogodna za dugo odležavanje u drvetu i boci.\nCabernet Sauvignon i Merlot su najpoznatije međunarodne sorte koje se često koriste u kupažama, dok sorte poput Prokupca i Vranca imaju autentično poreklo i sve veći značaj u brendiranju vina sa geografskim poreklom. Uz redovnu negu i odgovarajuće uslove, ove sorte daju stabilan prinos i visok potencijal u kvalitetnoj vinskoj proizvodnji. "
+                },
+                {
+                    "name": "Stone sorte - bela zrna",
+                    "subvarietys": [
+                        {
+                            "name":"Victoria",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Afus Ali",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Moldava",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Michele Parlieri",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Beogradska besemena",
+                            "url": "grapevine/ajdared.jpg"
+                        }
+                    ],
+                    "about": "Ova grupa obuhvata stone sorte sa belim i svetloružičastim bobicama koje se gaje pretežno za konzumaciju u svežem stanju. Karakterišu ih izuzetno krupni grozdovi, sočne bobice, ujednačen ukus i atraktivan izgled - osobine koje ih čine vrlo traženim na tržištu, posebno u segmentu rane prodaje. Sorta poput Afus Ali poznata je po velikim i dugovečnim grozdovima, dok je Victoria izuzetna po ranom zrenju i krupnoći ploda. Ove sorte dobro uspevaju na plodnim i osunčanim položajima, a zahvaljujući svojoj privlačnosti pogodne su i za izvoz."
+                },
+                {
+                    "name": "Stone sorte - crna zrna",
+                    "subvarietys": [
+                        {
+                            "name":"Ribier",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Cardinal",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Muscat de Hambourg",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Muscat Italy",
+                            "url": "grapevine/ajdared.jpg"
+                        }
+                    ],
+                    "about": "Ove sorte sa tamnim bobicama često imaju izraženu muskatnu aromu, slatkoću i dekorativan izgled. Pogodne su za svežu konzumaciju, ali se koriste i za preradu u sokove, rakije ili sušeno grožđe. Muscat de Hambourg i Muscat Italy poznate su po karakterističnoj aromi i prijatnoj teksturi, dok sorte poput Cardinala imaju rano zrenje i krupne bobice, što ih čini popularnim na tržištu. Zbog zahteva u pogledu orezivanja i zaštite, traže pažljiv uzgoj i posvećenost kako bi dale kvalitetan plod."
+                },
+                {
+                    "name": "Autohtone i regionalne sorte",
+                    "subvarietys": [
+                        {
+                            "name":"Plovdina",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Smederevka",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Tamjanika",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Žilavka",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Prokupac",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Vranac",
+                            "url": "grapevine/ajdared.jpg"
+                        },
+                        {
+                            "name":"Beogradska besemena",
+                            "url": "grapevine/ajdared.jpg"
+                        }
+                    ],
+                    "about": "Ove sorte predstavljaju značajno regionalno nasleđe i važne su za očuvanje autentičnog karaktera domaće vinogradarske i vinarske tradicije. Prilagođene su lokalnim klimatskim i zemljišnim uslovima, otporne su i ekonomične za uzgoj. Sorta Tamjanika je sinonim za aromatična bela vina iz Srbije, dok je Prokupac sve popularniji u savremenim vinskim konceptima kao lokalna crvena sorta sa velikim potencijalom. Vranac i Žilavka imaju duboke korene u balkanskoj tradiciji i često se koriste za vina sa geografskom oznakom porekla. Pored vinske upotrebe, neke od ovih sorti koriste se i kao stone, što ih čini višenamenskim i vrlo atraktivnim za različite vidove proizvodnje."
+                }
+            ]
+        }
+    },
+    "en": {},
+    "ru": {}
+}
