@@ -3,6 +3,7 @@ import { SubvarietyRoseGrapevine } from './Seedling'
 import Image from 'next/image'
 import { Translation } from '../[lang]/dictionaries'
 import { renderWithBold } from './ui/RenderWithBold'
+import SeedlingSuggested from './SeedlingSuggested'
 
 const SeedlingPresentationTipe2 = ({ selectedData, t }: { selectedData: SubvarietyRoseGrapevine, t: Translation }) => {
   return (
@@ -36,6 +37,12 @@ const SeedlingPresentationTipe2 = ({ selectedData, t }: { selectedData: Subvarie
       <div>
         <h2 className="text-4xl max-lsw:text-3xl text-primary font-bold font-heading">{t.seedling.about}</h2>
         <p className="text-lg text-gray-700 text-justify">{renderWithBold(selectedData.about)}</p>
+      </div>
+      <div className='flex flex-col gap-8 my-16'>
+        <h1 className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
+          {t.seedling.suggested}
+        </h1>
+        {selectedData?.suggested && <SeedlingSuggested suggestedFruits={selectedData?.suggested} />}
       </div>
     </div>
   )

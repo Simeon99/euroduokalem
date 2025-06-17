@@ -3811,6 +3811,311 @@
         }
       ]
     },
+    "pear": {
+      "title": "Pear",
+      "subvarietys": [
+        {
+          "subvariety": "Abate Fetel",
+          "about": "A highly valued autumn pear variety, recognizable for its characteristically elongated shape and distinctly sweet, aromatic taste. Originally from France, it is now one of the leading varieties in commercial production, especially in Italy and other European countries. Thanks to its exceptional appearance and top-quality fruit, it is among the most sought-after varieties for fresh consumption.",
+          "main": [
+            "Elongated fruit shape",
+            "Late harvest",
+            "High-quality variety",
+            "Good shelf life"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "Fruits have a characteristically elongated shape with smooth green-yellow skin, often speckled with brown. Juicy and very sweet, with a pleasant texture and refreshing aroma."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Abate Fetel is harvested in early September and can be stored for several months without significant quality loss."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Thrives best in fertile, moderate, and well-drained soils. Adequate irrigation is necessary, especially in dry periods, to achieve maximum quality and yield."
+            }
+          ],
+          "url": "pear/abate fetel.webp",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Beurre Hardy",
+          "about": "Beurré Hardy is an old French pear variety prized for its exceptional aroma, fine texture, and juiciness. The fruit is medium to large, with green-brown skin. Very juicy and sweet, with a strong muscat aroma, making it popular both for fresh consumption and premium processing. This variety is suitable for cultivation in various climates and provides a regular, high-quality yield.",
+          "main": [
+            "Juicy, aromatic fruit",
+            "Mid-season harvest",
+            "Long shelf life",
+            "Excellent for consumption and processing"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "Beurré Hardy fruits are known for their rustic skin and high juiciness. The flesh is white, melt-in-your-mouth, rich in aroma, and pleasantly sweet."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Ripens in late August or early September, depending on the climate."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Best grown in deep, fertile soils with good sun exposure. Regular pruning is recommended to maintain fruit quality."
+            }
+          ],
+          "url": "pear/buerre hardy .jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Bosc Pear",
+          "about": "Originating from England, this variety is characterized by its distinctive bottle-like shape, excellent aroma, and juicy, fine flesh. Ideal for fresh consumption but equally used for processing, especially for brandy and juice production. It produces early and abundant yields, making it very desirable in commercial orchards.",
+          "main": [
+            "Distinctive shape",
+            "Early harvest",
+            "Excellent for processing",
+            "High and regular yields"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "The fruit is medium to large, green-yellow with a reddish blush. The flesh is white, extremely juicy, delicate, and aromatic, with a distinctive fragrance."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Ripens in late August and early September. Its early harvest and fast ripening make it suitable for quick sale and use."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Thrives in fertile, well-drained soils. Prefers sunny positions and regular watering."
+            }
+          ],
+          "url": "pear/boskova bocica.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Butira",
+          "about": "Butira is an early summer pear variety of French origin, valued for its early ripening and excellent fruit quality. The fruits are medium-sized, slightly rounded, with thin skin and a refreshing, mildly sweet taste. Thanks to its early yield and stable production, Butira is an excellent choice for growers looking to offer fresh fruit early in the season.",
+          "main": [
+            "Medium-sized fruit",
+            "Early harvest",
+            "Ideal for fresh consumption",
+            "Stable yield"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "The fruit is light green to yellowish, smooth and pleasant to the touch. Juicy and sweet, with a mild aroma, making it very refreshing and suitable for fresh consumption."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "One of the earliest varieties – ripens from late July to early August, allowing for early market availability."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Best grown in lighter, well-drained soils, with sufficient sunlight and regular irrigation during dry periods."
+            }
+          ],
+          "url": "pear/butira .webp",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "June Beauty",
+          "about": "June Beauty is an early pear variety, highly valued for its attractive appearance and exceptional juiciness. This variety is known for its slightly elongated fruit, golden-yellow color, and perfect balance between sweetness and refreshing acidity. It fits perfectly into fresh fruit production, and due to its rapid ripening, it is a favorite among consumers in early summer.",
+          "main": [
+            "Elongated fruit shape",
+            "Early harvest",
+            "Exceptional drought resistance",
+            "Stable yield"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "The fruits are medium-sized, elongated, with smooth light-yellow skin gradually turning golden. Slightly sweet with a pleasant tart note, making it refreshing."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Ripens at the beginning of June, making this variety very popular in the fresh fruit market during early summer months."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Although it thrives in various soil types, it achieves the best results in nutrient-rich and well-drained soils. Regular watering is key for high yield."
+            }
+          ],
+          "url": "pear/junska lepotica.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Kaludjerka",
+          "about": "Kaludjerka is one of the oldest and most well-known indigenous pear varieties in the region. It is prized for its exceptional aroma and specific flesh texture. This autumn variety is ideal for fresh consumption, but also for brandy production and traditional processing. Its durability, resistance, and distinctive taste make it a valuable choice for growers and fans of local varieties.",
+          "main": [
+            "Indigenous variety",
+            "Medium-sized and symmetrical fruits",
+            "Late harvest",
+            "Resistance to local conditions"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "The fruit is medium-sized, symmetrical pear-shaped, with light green to yellowish skin. The flesh is white, fine, juicy, and aromatic, with a slightly grainy texture that melts in the mouth."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Kaludjerka ripens at the end of September and can be stored in cool spaces for an extended period."
+            },
+            {
+              "title": "Resistance and Cultivation:",
+              "text": "Excellent adaptability to various climatic and soil conditions. Tolerates drought well and does not require intensive protection, making it suitable for ecological cultivation."
+            }
+          ],
+          "url": "pear/kaludjerka.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Conference",
+          "about": "Conference is one of the most widespread and appreciated pear varieties in Europe, known for its elongated shape, juicy flesh, and mild, aromatic flavor. Originating from England, it is now extremely popular due to its reliable yield, good storability, and broad application. Thanks to its remarkable resistance and long harvest season, it is an excellent choice for commercial orchards.",
+          "main": [
+            "Elongated and elegant fruit",
+            "Late harvest",
+            "Long storage period",
+            "Consistent yield"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "Conference pears are medium to large, characteristically elongated with greenish skin. The flesh is light-colored, very juicy, soft, and aromatic, with a mild sweetness."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Ripens at the end of September. After harvest, it can be stored for a long time without quality loss, under proper conditions."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "The Conference variety thrives best in fertile, deep, and moderately moist soils with good drainage. Slightly acidic to neutral soils rich in organic matter are ideal."
+            }
+          ],
+          "url": "pear/konferens.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Santa Maria",
+          "about": "Santa Maria is an early summer pear variety originating from Italy. The fruits are medium to large, regularly shaped, with smooth yellow-green skin and a slight red blush on the sunny side. The flesh is firm, juicy, and sweet-sour in taste. Due to its firmness and durability, it is excellent for fresh consumption, as well as for short storage and transport.",
+          "main": [
+            "Firm and juicy fruits",
+            "Early yields",
+            "Ripens at the end of July",
+            "Ideal for fresh consumption"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "Santa Maria pears are visually appealing and uniform, with smooth skin and a light reddish tint. Juicy, firm, and refreshing – perfect for consumption during the summer months."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Ripens at the end of July or beginning of August, depending on climate conditions."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Performs best on moderately fertile, loose, and well-drained soils. Prefers sunny locations and slightly acidic to neutral soils rich in organic matter."
+            }
+          ],
+          "url": "pear/santa maria.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Starkrimson",
+          "about": "Starkrimson is a striking autumn pear variety known for its intense red color and exceptionally juicy, sweet taste. Originating from the USA, it is recognized for its decorative appearance, which makes it attractive on the fresh fruit market. Its smooth skin and soft, pleasantly aromatic flesh are especially appreciated by consumers. It is ideal for fresh consumption but also used in various types of processing.",
+          "main": [
+            "Intense red color",
+            "Sweet, juicy taste",
+            "Late harvest",
+            "Ideal for fresh consumption"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "The fruits are medium to large, pear-shaped, with smooth, intensely red skin. The flesh is white, soft, very juicy and sweet, with a pleasant aroma."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Starkrimson ripens from early to mid-September. The best fruit quality is achieved when harvested at optimal ripeness."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Thrives best in fertile, deep, and well-drained soils. Requires sunny locations to develop full color and aroma."
+            }
+          ],
+          "url": "pear/starkrimson .webp",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Williams",
+          "about": "Williams is the most well-known and widely cultivated pear variety in the world. It originates from England and is extremely popular in our region both for fresh consumption and processing – especially for brandy production. It is recognized by its smooth yellow fruit and intense aroma. It begins to bear fruit early and provides stable yields year after year.",
+          "main": [
+            "Distinctive aroma and taste",
+            "Mid-early harvest",
+            "Ideal for brandy and processing",
+            "Stable yields"
+          ],
+          "characteristics": [
+            {
+              "title": "Appearance and Taste:",
+              "text": "The fruit is medium to large, with a regular pear shape and smooth, light yellow skin when fully ripe. The flesh is white, very juicy, sweet, and aromatic – highly valued by consumers and processors alike."
+            },
+            {
+              "title": "Harvest Season:",
+              "text": "Williams ripens from late August to early September. Fruits are harvested when firm, as they ripen quickly after picking."
+            },
+            {
+              "title": "Suitable Soil:",
+              "text": "Requires deep, fertile, moderately moist, and well-drained soils. Prefers sunny and sheltered locations that support optimal ripening and aroma development."
+            }
+          ],
+          "url": "pear/viljamovka.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        }
+      ]
+    },
     "plum": {
       "title": "Plum",
       "subvarietys": [
@@ -6983,64 +7288,304 @@
       ]
     },
     "pear": {
-      "title": "Kruska",
+      "title": "Pear",
       "subvarietys": [
         {
-          "subvariety": "Kruska1",
-          "about": "Ajdared je američka sorta jabuke nastala ukrštanjem sorti Jonathan i Wagner...",
+          "subvariety": "Abate Fetel",
+          "about": "Высоко ценимый осенний сорт груши, узнаваемый по характерной удлинённой форме и выраженному сладкому, ароматному вкусу. Родом из Франции, сегодня является одним из ведущих сортов в коммерческом производстве, особенно в Италии и других европейских странах. Благодаря превосходному внешнему виду и высокому качеству плодов, он входит в число самых востребованных сортов для употребления в свежем виде.",
           "main": [
-            "Blago kiselkast ukus",
-            "Kasna berba",
-            "Dug rok čuvanja",
-            "Višenamenska upotreba"
+            "Удлинённая форма плода",
+            "Поздний сбор урожая",
+            "Сорт высокого качества",
+            "Хорошая лёжкость"
           ],
           "characteristics": [
             {
-              "title": "Izgled i ukus:",
-              "text": "Plod je srednje krupan do krupan, sa glatkom i sjajnom pokožicom..."
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды имеют характерную удлинённую форму с гладкой зелёно-жёлтой кожицей, часто с коричневыми пятнышками. Сочные и очень сладкие, с приятной текстурой и освежающим ароматом."
             },
             {
-              "title": "Sezona berbe:",
-              "text": "Ajdared sazreva krajem septembra ili početkom oktobra."
+              "title": "Сезон сбора урожая:",
+              "text": "Abate Fetel собирают в начале сентября, и он может храниться несколько месяцев без значительной потери качества."
             },
             {
-              "title": "Pogodno zemljište:",
-              "text": "Najbolje uspeva na plodnim, dubokim i rastresitim zemljištima..."
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растёт на плодородных, умеренно влажных и хорошо дренированных почвах. Необходимо обеспечить достаточный полив, особенно в засушливые периоды, чтобы добиться максимального качества и урожайности."
             }
           ],
-          "url": "apples-image.webp",
+          "url": "pear/abate fetel.webp",
           "suggested": [
-            2,
+            1,
             3,
             4
           ]
         },
         {
-          "subvariety": "Kruska2",
-          "about": "Breburn je poreklom sa Novog Zelanda i predstavlja jednu od najznačajnijih sorti...",
+          "subvariety": "Beurre Hardy",
+          "about": "Beurré Hardy — старинный французский сорт груши, ценимый за исключительный аромат, тонкую текстуру и сочность. Плоды среднего и крупного размера, с зелёно-коричневой кожицей. Очень сочные и сладкие, с выраженным мускатным ароматом, благодаря чему популярны как для потребления в свежем виде, так и для качественной переработки. Этот сорт подходит для выращивания в различных климатических условиях и обеспечивает стабильный, качественный урожай.",
           "main": [
-            "Blago kiselkast ukus",
-            "Kasna berba",
-            "Dug rok čuvanja",
-            "Višenamenska upotreba"
+            "Сочные, ароматные плоды",
+            "Средний срок сбора урожая",
+            "Длительное хранение",
+            "Отличный выбор для потребления и переработки"
           ],
           "characteristics": [
             {
-              "title": "Izgled i ukus:",
-              "text": "Plod je čvrst i krupan, sa glatkom pokožicom crvenkastih nijansi..."
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды сорта Beurré Hardy отличаются грубой кожицей и высокой сочностью. Мякоть белая, тающая во рту, насыщенная ароматом и приятной сладостью."
             },
             {
-              "title": "Sezona berbe:",
-              "text": "Breburn se bere u drugoj polovini oktobra..."
+              "title": "Сезон сбора урожая:",
+              "text": "Созревает в конце августа или начале сентября, в зависимости от климатических условий."
             },
             {
-              "title": "Pogodno zemljište:",
-              "text": "Najbolje uspeva na dobro dreniranom, plodnom zemljištu..."
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растёт на глубоких, плодородных почвах с хорошим солнечным освещением. Рекомендуется регулярная обрезка для поддержания качества плодов."
             }
           ],
-          "url": "apples-image.webp",
+          "url": "pear/buerre hardy .jpg",
           "suggested": [
-            2,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Груша Боска",
+          "about": "Происходит из Англии, этот сорт отличается характерной формой в виде бутылки, превосходным ароматом и сочной, тонкой мякотью. Идеален для употребления в свежем виде, но также широко используется для переработки, особенно для производства бренди и соков. Даёт ранние и обильные урожаи, что делает его очень востребованным в коммерческих садах.",
+          "main": [
+            "Характерная форма",
+            "Ранний сбор урожая",
+            "Отлично подходит для переработки",
+            "Высокая и стабильная урожайность"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плод средний или крупный, зелёно-жёлтого цвета с красноватым румянцем. Мякоть белая, очень сочная, нежная и ароматная, с характерным запахом."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Созревает в конце августа и начале сентября. Благодаря раннему сбору и быстрому созреванию, подходит для быстрой продажи и использования."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растёт на плодородных, хорошо дренированных почвах. Предпочитает солнечные участки и регулярный полив."
+            }
+          ],
+          "url": "pear/boskova bocica.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Бютира",
+          "about": "Бютира — ранний летний сорт груши французского происхождения, ценится за раннее созревание и высокое качество плодов. Плоды среднего размера, слегка округлой формы, с тонкой кожицей и освежающим, слегка сладким вкусом. Благодаря быстрому вступлению в плодоношение и стабильным урожаям, Бютира — отличный выбор для производителей, желающих предложить свежие фрукты в начале сезона.",
+          "main": [
+            "Плод среднего размера",
+            "Ранний сбор урожая",
+            "Идеально подходит для потребления в свежем виде",
+            "Стабильный урожай"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды светло-зелёного до желтоватого цвета, гладкие и приятные на ощупь. Сочные и сладкие, с мягким ароматом, очень освежающие и подходят для потребления в свежем виде."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Один из самых ранних сортов — созревает с конца июля до начала августа, что позволяет ранний выход на рынок."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растёт на лёгких, хорошо дренированных почвах, с достаточным солнечным светом и регулярным поливом в засушливые периоды."
+            }
+          ],
+          "url": "pear/butira .webp",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "June Beauty",
+          "about": "June Beauty — это ранний сорт груши, высоко ценимый за привлекательный внешний вид и исключительную сочность. Этот сорт известен слегка удлинёнными плодами, золотисто-жёлтым цветом и идеальным балансом между сладостью и освежающей кислотностью. Прекрасно подходит для производства свежих фруктов, а благодаря быстрому созреванию особенно любим потребителями в начале лета.",
+          "main": [
+            "Удлинённая форма плода",
+            "Ранний сбор урожая",
+            "Исключительная засухоустойчивость",
+            "Стабильная урожайность"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды среднего размера, удлинённые, с гладкой светло-жёлтой кожицей, которая постепенно становится золотистой. Слегка сладкие, с приятной кислинкой, что делает их освежающими."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Созревает в начале июня, благодаря чему сорт очень популярен на рынке свежих фруктов в первые летние месяцы."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Хотя сорт успешно растёт на различных типах почв, наилучшие результаты достигаются на питательных и хорошо дренированных почвах. Регулярный полив имеет ключевое значение для высокого урожая."
+            }
+          ],
+          "url": "pear/junska lepotica.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Kaludjerka",
+          "about": "Kaludjerka — один из самых старых и известных автохтонных сортов груши в регионе. Ценится за исключительный аромат и специфическую текстуру мякоти. Этот осенний сорт идеально подходит как для употребления в свежем виде, так и для производства ракии и традиционной переработки. Его устойчивость, надёжность и характерный вкус делают его ценным выбором для садоводов и любителей местных сортов.",
+          "main": [
+            "Автохтонный сорт",
+            "Средние и симметричные плоды",
+            "Поздний сбор урожая",
+            "Устойчивость к местным условиям"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды среднего размера, симметричной грушевидной формы, с кожицей от светло-зелёной до желтоватой. Мякоть белая, мелкая, сочная и ароматная, с лёгкой зернистой текстурой, тающей во рту."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Kaludjerka созревает в конце сентября и может храниться в прохладных помещениях длительное время."
+            },
+            {
+              "title": "Устойчивость и выращивание:",
+              "text": "Отлично адаптируется к различным климатическим и почвенным условиям. Хорошо переносит засуху и не требует интенсивной защиты, благодаря чему подходит для экологического выращивания."
+            }
+          ],
+          "url": "pear/kaludjerka.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Conference",
+          "about": "Conference — один из самых распространённых и популярных сортов груши в Европе, известный своей удлинённой формой, сочной мякотью и мягким, ароматным вкусом. Родом из Англии, сегодня чрезвычайно популярен благодаря стабильной урожайности, хорошей лёжкости и широкому применению. Благодаря высокой устойчивости и длительному периоду сбора урожая, является отличным выбором для коммерческих посадок.",
+          "main": [
+            "Удлинённый и элегантный плод",
+            "Поздний сбор урожая",
+            "Длительный срок хранения",
+            "Стабильная урожайность"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Груши сорта Conference среднего и крупного размера, характерно удлинённые, с зеленоватой кожицей. Мякоть светлая, очень сочная, мягкая и ароматная, с лёгкой сладостью."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Созревает в конце сентября. После сбора может храниться длительное время без потери качества при правильных условиях."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Сорт Conference лучше всего растёт на плодородных, глубоких и умеренно влажных почвах с хорошим дренажем. Идеальны слабокислые до нейтральных почвы, богатые органическими веществами."
+            }
+          ],
+          "url": "pear/konferens.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Santa Maria",
+          "about": "Santa Maria — раннелетний сорт груши родом из Италии. Плоды среднего и крупного размера, правильной формы, с гладкой жёлто-зелёной кожицей и лёгким румянцем со стороны солнца. Мякоть плотная, сочная и со сладко-кислым вкусом. Благодаря своей твёрдости и стойкости отлично подходит для потребления в свежем виде, а также для кратковременного хранения и транспортировки.",
+          "main": [
+            "Плотные и сочные плоды",
+            "Ранние урожаи",
+            "Созревает в конце июля",
+            "Идеальна для свежего потребления"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Груши сорта Santa Maria визуально привлекательны и однородны, с гладкой кожицей и лёгким красноватым оттенком. Сочные, плотные и освежающие — идеально подходят для употребления в летние месяцы."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Созревает в конце июля или начале августа, в зависимости от климатических условий."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучшие результаты достигаются на умеренно плодородных, рыхлых и хорошо дренированных почвах. Предпочитает солнечные участки и слабокислые до нейтральных почвы, богатые органикой."
+            }
+          ],
+          "url": "pear/santa maria.jpg",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Starkrimson",
+          "about": "Starkrimson — это яркий осенний сорт груши, известный своим насыщенным красным цветом и исключительно сочным, сладким вкусом. Родом из США, этот сорт отличается декоративным внешним видом, что делает его привлекательным на рынке свежих фруктов. Его гладкая кожица и мягкая, приятно ароматная мякоть особенно ценятся потребителями. Идеален для употребления в свежем виде, но также используется для различных видов переработки.",
+          "main": [
+            "Насыщенный красный цвет",
+            "Сладкий, сочный вкус",
+            "Поздний сбор урожая",
+            "Идеален для свежего потребления"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды средние или крупные, грушевидной формы, с гладкой, интенсивно красной кожицей. Мякоть белая, мягкая, очень сочная и сладкая, с приятным ароматом."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Starkrimson созревает с начала до середины сентября. Лучшее качество плодов достигается при сборе в оптимальной стадии зрелости."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Лучше всего растёт на плодородных, глубоких и хорошо дренированных почвах. Требует солнечные участки для полного развития цвета и аромата."
+            }
+          ],
+          "url": "pear/starkrimson .webp",
+          "suggested": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "subvariety": "Williams",
+          "about": "Williams — это самый известный и широко выращиваемый сорт груши в мире. Родом из Англии, он чрезвычайно популярен в нашем регионе как для свежего потребления, так и для переработки — особенно для производства ракии. Узнаваем по гладким жёлтым плодам и насыщенному аромату. Рано вступает в плодоношение и даёт стабильные урожаи из года в год.",
+          "main": [
+            "Характерный аромат и вкус",
+            "Среднеранний сбор урожая",
+            "Идеален для ракии и переработки",
+            "Стабильные урожаи"
+          ],
+          "characteristics": [
+            {
+              "title": "Внешний вид и вкус:",
+              "text": "Плоды средние или крупные, правильной грушевидной формы, с гладкой светло-жёлтой кожицей в полной зрелости. Мякоть белая, очень сочная, сладкая и ароматная — высоко ценится как потребителями, так и переработчиками."
+            },
+            {
+              "title": "Сезон сбора урожая:",
+              "text": "Williams созревает с конца августа до начала сентября. Плоды собираются в твёрдом состоянии, так как быстро дозревают после сбора."
+            },
+            {
+              "title": "Подходящая почва:",
+              "text": "Требует глубокие, плодородные, умеренно влажные и хорошо дренированные почвы. Предпочитает солнечные и защищённые участки, способствующие оптимальному созреванию и развитию аромата."
+            }
+          ],
+          "url": "pear/viljamovka.jpg",
+          "suggested": [
+            1,
             3,
             4
           ]

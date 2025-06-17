@@ -28,6 +28,7 @@ export interface SubvarietyRoseGrapevine {
     name: string;
     about: string;
     subvarietys: SubSubvarietyRoseGrapevine[];
+    suggested?: number[];
 }
 export interface SubSubvarietyRoseGrapevine {
     name: string;
