@@ -2,6 +2,7 @@ import React from 'react'
 import { SubvarietyRoseGrapevine } from './Seedling'
 import Image from 'next/image'
 import { Translation } from '../[lang]/dictionaries'
+import { renderWithBold } from './ui/RenderWithBold'
 
 const SeedlingPresentationTipe2 = ({ selectedData, t }: { selectedData: SubvarietyRoseGrapevine, t: Translation }) => {
   return (
@@ -34,7 +35,7 @@ const SeedlingPresentationTipe2 = ({ selectedData, t }: { selectedData: Subvarie
 
       <div>
         <h2 className="text-4xl max-lsw:text-3xl text-primary font-bold font-heading">{t.seedling.about}</h2>
-        <p className="text-lg text-gray-700 text-justify">{selectedData.about}</p>
+        <p className="text-lg text-gray-700 text-justify">{renderWithBold(selectedData.about)}</p>
       </div>
     </div>
   )

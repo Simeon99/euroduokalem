@@ -95,14 +95,6 @@
                             "url": "grapevine/afus ali.jpg"
                         },
                         {
-                            "name": "Moldava",
-                            "url": "grapevine/Moldova.jpeg"
-                        },
-                        {
-                            "name": "Michele Parlieri",
-                            "url": "grapevine/michele palieri.webp"
-                        },
-                        {
                             "name": "Beogradska besemena",
                             "url": "grapevine/beogradska besemena.jpg"
                         }
@@ -118,18 +110,26 @@
                         },
                         {
                             "name": "Cardinal",
-                            "url": "grapevine/ajdared.jpg"
+                            "url": "grapevine/kardinal.jpg"
                         },
                         {
                             "name": "Muscat de Hambourg",
                             "url": "grapevine/muscat de Hambourg.jpg"
                         },
                         {
+                            "name": "Moldava",
+                            "url": "grapevine/Moldova.jpeg"
+                        },
+                        {
+                            "name": "Michele Parlieri",
+                            "url": "grapevine/michele palieri.webp"
+                        },
+                        {
                             "name": "Muscat Italy",
                             "url": "grapevine/muscat italy.jpg"
                         }
                     ],
-                    "about": "Ove sorte sa tamnim bobicama često imaju izraženu muskatnu aromu, slatkoću i dekorativan izgled. Pogodne su za svežu konzumaciju, ali se koriste i za preradu u sokove, rakije ili sušeno grožđe. Muscat de Hambourg i Muscat Italy poznate su po karakterističnoj aromi i prijatnoj teksturi, dok sorte poput Cardinala imaju rano zrenje i krupne bobice, što ih čini popularnim na tržištu. Zbog zahteva u pogledu orezivanja i zaštite, traže pažljiv uzgoj i posvećenost kako bi dale kvalitetan plod."
+                    "about": "Ove sorte sa tamnim bobicama često imaju izraženu muskatnu aromu, slatkoću i dekorativan izgled. Pogodne su za svežu konzumaciju, ali se koriste i za preradu u sokove, rakije ili sušeno grožđe. Muscat de Hambourg i Muscat Italy poznate su po karakterističnoj aromi i prijatnoj teksturi, dok sorte poput Cardinala imaju rano zrenje i krupne bobice, što ih čini popularnim na tržištu. Zbog zahteva u pogledu orezivanja i zaštite, traže pažljiv uzgoj i posvećenost kako bi dale kvalitetan plod. Moldava je poznata po intenzivnoj boji i otpornosti, dok Michele Parlieri donosi izuzetnu krupnoću i čvrstu strukturu bobice, pogodnu za svežu konzumaciju i transport."
                 },
                 {
                     "name": "Autohtone i regionalne sorte",
@@ -210,7 +210,7 @@
                             "url": "rose/red dance.jpeg"
                         }
                     ],
-                    "about": "Ove klasične ruže poznate su po krupnim, raskošnim cvetovima i intenzivnom mirisu. Idealne su za gajenje u vrtovima i kao rezano cveće. Odlikuju se elegancijom, raznolikošću boja i ponovljenim cvetanjem tokom sezone. Svaka sorta ima svoj karakter – od raskošne ljubičaste (Big Purple) do nežnih pastelnih nijansi (Josefine Bruche, Landora)."
+                    "about": "Ove klasične ruže poznate su po krupnim, raskošnim cvetovima i intenzivnom mirisu. Idealne su za gajenje u vrtovima i kao rezano cveće. Odlikuju se elegancijom, raznolikošću boja i ponovljenim cvetanjem tokom sezone. Svaka sorta ima svoj karakter - od raskošne ljubičaste (Big Purple) do nežnih pastelnih nijansi (Charley, Landora). **Visina ruži čajevki se kreće između 0,8 i 1 metra**, što ih čini pogodnim za centralne delove cvetnih leja i dekoraciju terasa."
                 },
                 {
                     "name": "Puzavice",
@@ -236,7 +236,7 @@
                             "url": "rose/handel.jpg"
                         }
                     ],
-                    "about": "Ove sorte ruža rastu u visinu i zahtevaju oslonac poput pergola, ograda ili zidova. Obiluju mirisnim cvetovima koji se pojavljuju u talasima tokom sezone. Idealne su za formiranje romantičnih vertikalnih akcenata u baštama. Don Juan i Blaze Superior su posebno poznati po dubokim crvenim nijansama."
+                    "about": "Ove sorte ruža rastu u visinu i zahtevaju oslonac poput pergola, ograda ili zidova. Obiluju mirisnim cvetovima koji se pojavljuju u talasima tokom sezone. Idealne su za formiranje romantičnih vertikalnih akcenata u baštama. Don Juan i New Yorker su posebno poznati po dubokim crvenim nijansama. **Njihova visina dostiže od 1 do 3 metra**, što ih čini idealnim za prekrivanje vertikalnih površina."
                 },
                 {
                     "name": "Mini ruže",
@@ -258,7 +258,7 @@
                             "url": "rose/snow white.jpg"
                         }
                     ],
-                    "about": "Kompaktne, niskog rasta i veoma dekorativne, mini ruže su savršene za saksije, balkone i rubove staza. Iako sitnije, imaju bogato i često cvetanje, uz dobru otpornost. Edelweiss i Snow White krase bele nijanse, dok Orange Juwel unosi vedrinu u prostoru."
+                    "about": "Kompaktne, niskog rasta i veoma dekorativne, mini ruže su savršene za saksije, balkone i rubove staza. Iako sitnije, imaju bogato i često cvetanje, uz dobru otpornost. Edelweiss i Snow White krase nežne boje, dok Orange Juwel unosi vedrinu u prostoru. **Mini ruže dostižu visinu do 0,4 metra**, zbog čega su idealne za ograničene prostore i dekoraciju u malim kompozicijama."
                 },
                 {
                     "name": "Polijante ruže",
@@ -292,11 +292,605 @@
                             "url": "rose/satchmo.jpg"
                         }
                     ],
-                    "about": "Polijante ruže su prepoznatljive po obilnom i dugotrajnom cvetanju u gustim cvastima koje prekrivaju čitavu biljku. Njihovi cvetovi su manji, ali se javljaju u velikom broju, čineći ih idealnim za sadnju u gredicama, parkovima i urbanim zasadima. Otporne su na bolesti, zahtevaju minimalno održavanje i pružaju intenzivan vizuelni efekat tokom cele sezone. Zbog svoje robusnosti i raskošnog izgleda, često se koriste u javnim i privatnim zelenim površinama."
+                    "about": "Polijante ruže su prepoznatljive po obilnom i dugotrajnom cvetanju u gustim cvastima koje prekrivaju čitavu biljku. Njihovi cvetovi su manji, ali se javljaju u velikom broju, čineći ih idealnim za sadnju u gredicama, parkovima i urbanim zasadima. Otporne su na bolesti, zahtevaju minimalno održavanje i pružaju intenzivan vizuelni efekat tokom cele sezone. Zbog svoje robusnosti i raskošnog izgleda, često se koriste u javnim i privatnim zelenim površinama. **Visina ovih ruža obično se kreće između 0,4 i 0,6 metara**, što ih čini pogodnim za široku i nisku sadnju."
                 }
             ]
         }
     },
-    "en": {},
-    "ru": {}
+    "en": {
+        "grapevine": {
+            "title": "Grapevine",
+            "subvarietys": [
+                {
+                    "name": "Wine Grapes – White",
+                    "subvarietys": [
+                        {
+                            "name": "Muscat Ottonel",
+                            "url": "grapevine/muscat ottonel.jpg"
+                        },
+                        {
+                            "name": "Pinot Blanc",
+                            "url": "grapevine/pinot blanc.jpg"
+                        },
+                        {
+                            "name": "Chardonnay",
+                            "url": "grapevine/chardonnay.jpg"
+                        },
+                        {
+                            "name": "Pinot Gris",
+                            "url": "grapevine/pinot gris.jpg"
+                        },
+                        {
+                            "name": "Riesling Italico",
+                            "url": "grapevine/riesling italico.jpg"
+                        },
+                        {
+                            "name": "Rkaciteli",
+                            "url": "grapevine/rkaciteli.jpg"
+                        },
+                        {
+                            "name": "Sauvignon Blanc",
+                            "url": "grapevine/sauvignon blanc.webp"
+                        },
+                        {
+                            "name": "Smederevka",
+                            "url": "grapevine/smederevka.jpg"
+                        },
+                        {
+                            "name": "Tamjanika",
+                            "url": "grapevine/tamjanika.jpg"
+                        },
+                        {
+                            "name": "Žilavka",
+                            "url": "grapevine/zilavka.jpg"
+                        }
+                    ],
+                    "about": "These varieties are intended for the production of white wines, ranging from dry to aromatic and dessert types. They are recognizable for their pronounced aromas and complex flavors. Muscat Ottonel delivers intense floral-fruity notes, while Sauvignon Blanc and Riesling offer freshness and pronounced acidity. Chardonnay and Pinot Blanc are highly valued for the production of premium wines. Rkaciteli, originating from Georgia, is increasingly found in our vineyards. It is known for its good resistance, consistent yield, and high acidity, making it suitable for wines with aging potential. Smederevka and Tamjanika are indigenous varieties known for their characteristic aroma and resistance. Žilavka dominates in warmer regions and has great potential for mineral white wines. They thrive on sunny, well-drained soils and are especially appreciated for high-quality wines with distinct varietal character."
+                },
+                {
+                    "name": "Wine Grapes – Red",
+                    "subvarietys": [
+                        {
+                            "name": "Frankovka KT 1",
+                            "url": "grapevine/frankovka.jpg"
+                        },
+                        {
+                            "name": "Cabernet Sauvignon",
+                            "url": "grapevine/cabernet sauvignon.jpg"
+                        },
+                        {
+                            "name": "Merlot Noir",
+                            "url": "grapevine/merlot noir.jpg"
+                        },
+                        {
+                            "name": "Pinot Noir",
+                            "url": "grapevine/pinot noir.jpg"
+                        },
+                        {
+                            "name": "Prokupac",
+                            "url": "grapevine/prokupac.jpg"
+                        },
+                        {
+                            "name": "Vranac",
+                            "url": "grapevine/vranac.jpg"
+                        },
+                        {
+                            "name": "Merlot",
+                            "url": "grapevine/merlot.jpg"
+                        }
+                    ],
+                    "about": "These red wine grape varieties are used for producing wines with intense color, rich body, and pronounced aromas. Depending on the variety and processing technology, they can produce both fresh, fruity wines and complex, mature wines suitable for long aging in barrels and bottles. Cabernet Sauvignon and Merlot are the most well-known international varieties, often used in blends, while varieties like Prokupac and Vranac have authentic origins and are gaining importance in branding wines with geographical origin. With proper care and suitable conditions, these varieties provide stable yields and high potential in quality wine production."
+                },
+                {
+                    "name": "Table Grapes – White Berries",
+                    "subvarietys": [
+                        {
+                            "name": "Victoria",
+                            "url": "grapevine/viktoria.jpg"
+                        },
+                        {
+                            "name": "Afus Ali",
+                            "url": "grapevine/afus ali.jpg"
+                        },
+                        {
+                            "name": "Beogradska Besemena",
+                            "url": "grapevine/beogradska besemena.jpg"
+                        }
+                    ],
+                    "about": "This group includes table grape varieties with white and light pink berries, mainly cultivated for fresh consumption. They are characterized by exceptionally large clusters, juicy berries, uniform taste, and attractive appearance – traits that make them highly sought after on the market, especially in the early sales segment. Afus Ali is known for its large and long-lasting clusters, while Victoria is exceptional for its early ripening and large fruits. These varieties perform well in fertile, sunny locations and, thanks to their appeal, are also suitable for export."
+                },
+                {
+                    "name": "Table Grapes – Black Berries",
+                    "subvarietys": [
+                        {
+                            "name": "Ribier",
+                            "url": "grapevine/ribier.jpg"
+                        },
+                        {
+                            "name": "Cardinal",
+                            "url": "grapevine/kardinal.jpg"
+                        },
+                        {
+                            "name": "Muscat de Hambourg",
+                            "url": "grapevine/muscat de Hambourg.jpg"
+                        },
+                        {
+                            "name": "Moldava",
+                            "url": "grapevine/Moldova.jpeg"
+                        },
+                        {
+                            "name": "Michele Parlieri",
+                            "url": "grapevine/michele palieri.webp"
+                        },
+                        {
+                            "name": "Muscat Italy",
+                            "url": "grapevine/muscat italy.jpg"
+                        }
+                    ],
+                    "about": "These varieties with dark berries often have a pronounced muscat aroma, sweetness, and a decorative appearance. They are suitable for fresh consumption but are also used for processing into juices, brandy, or dried grapes. Muscat de Hambourg and Muscat Italy are known for their characteristic aroma and pleasant texture, while varieties such as Cardinal have early ripening and large berries, making them popular on the market. Due to pruning and protection requirements, they demand careful cultivation and dedication to produce quality fruit. Moldava is known for its intense color and resistance, while Michele Parlieri offers exceptional berry size and firm structure, suitable for fresh use and transport."
+                },
+                {
+                    "name": "Autochthonous and Regional Varieties",
+                    "subvarietys": [
+                        {
+                            "name": "Plovdina",
+                            "url": "grapevine/plovdina.webp"
+                        },
+                        {
+                            "name": "Smederevka",
+                            "url": "grapevine/smederevka.jpg"
+                        },
+                        {
+                            "name": "Tamjanika",
+                            "url": "grapevine/tamjanika.jpg"
+                        },
+                        {
+                            "name": "Žilavka",
+                            "url": "grapevine/zilavka.jpg"
+                        },
+                        {
+                            "name": "Prokupac",
+                            "url": "grapevine/prokupac.jpg"
+                        },
+                        {
+                            "name": "Vranac",
+                            "url": "grapevine/vranac.jpg"
+                        },
+                        {
+                            "name": "Beogradska besemena",
+                            "url": "grapevine/beogradska besemena.jpg"
+                        }
+                    ],
+                    "about": "These varieties represent significant regional heritage and are important for preserving the authentic character of local viticulture and winemaking traditions. They are adapted to local climate and soil conditions, resistant, and economical to grow. Tamjanika is a synonym for aromatic white wines from Serbia, while Prokupac is gaining popularity in modern wine concepts as a local red variety with great potential. Vranac and Žilavka have deep roots in Balkan tradition and are often used for wines with a geographical designation of origin. In addition to winemaking, some of these varieties are also used as table grapes, making them versatile and very attractive for different types of production."
+                }
+            ]
+        },
+        "roses": {
+            "title": "Roses",
+            "subvarietys": [
+                {
+                    "name": "Hybrid Tea Roses",
+                    "subvarietys": [
+                        {
+                            "name": "Big Purple",
+                            "url": "rose/Big Purple.jpg"
+                        },
+                        {
+                            "name": "Brandy",
+                            "url": "rose/brandy.jpeg"
+                        },
+                        {
+                            "name": "Charley",
+                            "url": "rose/charley.jpg"
+                        },
+                        {
+                            "name": "England",
+                            "url": "rose/england.jpg"
+                        },
+                        {
+                            "name": "Jelica",
+                            "url": "rose/jelica.jpg"
+                        },
+                        {
+                            "name": "Josefine Bruche",
+                            "url": "rose/josephina bruche .jpg"
+                        },
+                        {
+                            "name": "Landora",
+                            "url": "rose/landora.jpg"
+                        },
+                        {
+                            "name": "Paskali",
+                            "url": "rose/paskali.png"
+                        },
+                        {
+                            "name": "Red Dance",
+                            "url": "rose/red dance.jpeg"
+                        }
+                    ],
+                    "about": "These classic roses are known for their large, lush blooms and intense fragrance. Ideal for garden growing and as cut flowers. They stand out for their elegance, wide range of colors, and repeat blooming throughout the season. Each variety has its own character – from rich purple (Big Purple) to soft pastel tones (Charley, Landora). **The height of hybrid tea roses ranges between 0.8 and 1 meter**, making them suitable for central parts of flower beds and terrace decoration."
+                },
+                {
+                    "name": "Climbing Roses",
+                    "subvarietys": [
+                        {
+                            "name": "New Yorker",
+                            "url": "rose/new yorker.jpg"
+                        },
+                        {
+                            "name": "Blaze Superior",
+                            "url": "rose/blaze superior.jpg"
+                        },
+                        {
+                            "name": "Don Juan",
+                            "url": "rose/don juan.jpg"
+                        },
+                        {
+                            "name": "Golden Dawn",
+                            "url": "rose/golden dawn.jpg"
+                        },
+                        {
+                            "name": "Handel",
+                            "url": "rose/handel.jpg"
+                        }
+                    ],
+                    "about": "These rose varieties grow vertically and require support such as pergolas, fences, or walls. They abound with fragrant flowers that appear in waves throughout the season. Perfect for creating romantic vertical accents in gardens. Don Juan and New Yorker are especially known for their deep red shades. **Their height ranges from 1 to 3 meters**, making them ideal for covering vertical surfaces."
+                },
+                {
+                    "name": "Mini Roses",
+                    "subvarietys": [
+                        {
+                            "name": "Dic Dic",
+                            "url": "rose/dicdic.jpg"
+                        },
+                        {
+                            "name": "Edelweiss",
+                            "url": "rose/edelweiss.webp"
+                        },
+                        {
+                            "name": "Orange Juwel",
+                            "url": "rose/orange juwel.jpg"
+                        },
+                        {
+                            "name": "Snow White",
+                            "url": "rose/snow white.jpg"
+                        }
+                    ],
+                    "about": "Compact, low-growing, and highly decorative, mini roses are perfect for pots, balconies, and path edges. Though small, they bloom abundantly and frequently, with good resistance. Edelweiss and Snow White feature delicate colors, while Orange Juwel adds brightness to the space. **Mini roses reach a height of up to 0.4 meters**, making them ideal for limited spaces and decoration in small arrangements."
+                },
+                {
+                    "name": "Polyantha Roses",
+                    "subvarietys": [
+                        {
+                            "name": "Cin Cin",
+                            "url": "rose/cin cin.jpg"
+                        },
+                        {
+                            "name": "Du Capo",
+                            "url": "rose/da capo.jpg"
+                        },
+                        {
+                            "name": "Royal Minuetto",
+                            "url": "rose/royal minuetto.jpg"
+                        },
+                        {
+                            "name": "Nina Weibul",
+                            "url": "rose/nina weibul.jpg"
+                        },
+                        {
+                            "name": "Old Gold",
+                            "url": "rose/old gold.jpg"
+                        },
+                        {
+                            "name": "Punch",
+                            "url": "rose/punch.jpg"
+                        },
+                        {
+                            "name": "Satchmo",
+                            "url": "rose/satchmo.jpg"
+                        }
+                    ],
+                    "about": "Polyantha roses are known for their abundant and long-lasting blooming in dense clusters that cover the entire plant. Their flowers are smaller but appear in large numbers, making them ideal for planting in flower beds, parks, and urban landscapes. They are disease-resistant, require minimal maintenance, and provide an intense visual effect throughout the season. Due to their hardiness and lush appearance, they are often used in both public and private green areas. **Their height usually ranges between 0.4 and 0.6 meters**, making them suitable for wide and low plantings."
+                }
+            ]
+        }
+    },
+    "ru": {
+        "grapevine": {
+            "title": "Виноградная лоза",
+            "subvarietys": [
+                {
+                    "name": "Винные сорта – белые",
+                    "subvarietys": [
+                        {
+                            "name": "Мускат Оттонель",
+                            "url": "grapevine/muscat ottonel.jpg"
+                        },
+                        {
+                            "name": "Пино Блан",
+                            "url": "grapevine/pinot blanc.jpg"
+                        },
+                        {
+                            "name": "Шардоне",
+                            "url": "grapevine/chardonnay.jpg"
+                        },
+                        {
+                            "name": "Пино Гри",
+                            "url": "grapevine/pinot gris.jpg"
+                        },
+                        {
+                            "name": "Рислинг Италико",
+                            "url": "grapevine/riesling italico.jpg"
+                        },
+                        {
+                            "name": "Ркацители",
+                            "url": "grapevine/rkaciteli.jpg"
+                        },
+                        {
+                            "name": "Совиньон Блан",
+                            "url": "grapevine/sauvignon blanc.webp"
+                        },
+                        {
+                            "name": "Смедеревка",
+                            "url": "grapevine/smederevka.jpg"
+                        },
+                        {
+                            "name": "Тамьяника",
+                            "url": "grapevine/tamjanika.jpg"
+                        },
+                        {
+                            "name": "Жилавка",
+                            "url": "grapevine/zilavka.jpg"
+                        }
+                    ],
+                    "about": "Эти сорта предназначены для производства белых вин – от сухих до ароматных и десертных. Они отличаются ярко выраженными ароматами и сложным вкусом. Мускат Оттонель даёт интенсивные цветочно-фруктовые ноты, а Совиньон Блан и Рислинг – свежесть и выраженную кислотность. Шардоне и Пино Блан высоко ценятся для производства премиальных вин. Ркацители, происходящий из Грузии, всё чаще встречается в наших виноградниках. Он известен своей хорошей устойчивостью, стабильной урожайностью и высокой кислотностью, что делает его подходящим для вин с потенциалом выдержки. Смедеревка и Тамьяника — автохтонные сорта, известные своим характерным ароматом и устойчивостью. Жилавка преобладает в тёплых регионах и обладает большим потенциалом для минеральных белых вин. Хорошо растёт на солнечных и хорошо дренированных почвах и особенно ценится за высококачественные вина с выраженным сортовым характером."
+                },
+                {
+                    "name": "Винные сорта – красные",
+                    "subvarietys": [
+                        {
+                            "name": "Франковка КТ 1",
+                            "url": "grapevine/frankovka.jpg"
+                        },
+                        {
+                            "name": "Каберне Совиньон",
+                            "url": "grapevine/cabernet sauvignon.jpg"
+                        },
+                        {
+                            "name": "Мерло Нуар",
+                            "url": "grapevine/merlot noir.jpg"
+                        },
+                        {
+                            "name": "Пино Нуар",
+                            "url": "grapevine/pinot noir.jpg"
+                        },
+                        {
+                            "name": "Прокупац",
+                            "url": "grapevine/prokupac.jpg"
+                        },
+                        {
+                            "name": "Вранац",
+                            "url": "grapevine/vranac.jpg"
+                        },
+                        {
+                            "name": "Мерло",
+                            "url": "grapevine/merlot.jpg"
+                        }
+                    ],
+                    "about": "Эти красные винные сорта используются для производства вин с насыщенным цветом, плотной структурой и выраженным ароматом. В зависимости от сорта и технологии переработки, они могут давать как свежие фруктовые вина, так и сложные выдержанные вина, пригодные для долгого хранения в бочках и бутылках. Каберне Совиньон и Мерло — самые известные международные сорта, часто используемые в купажах, тогда как Прокупац и Вранац имеют аутентичное происхождение и набирают всё большее значение при брендинге вин с географическим указанием. При надлежащем уходе и подходящих условиях эти сорта обеспечивают стабильный урожай и высокий потенциал в производстве качественных вин."
+                },
+                {
+                    "name": "Столовые сорта – белые ягоды",
+                    "subvarietys": [
+                        {
+                            "name": "Виктория",
+                            "url": "grapevine/viktoria.jpg"
+                        },
+                        {
+                            "name": "Афус Али",
+                            "url": "grapevine/afus ali.jpg"
+                        },
+                        {
+                            "name": "Белградская бессемянная",
+                            "url": "grapevine/beogradska besemena.jpg"
+                        }
+                    ],
+                    "about": "Эта группа включает столовые сорта с белыми и светло-розовыми ягодами, которые преимущественно выращиваются для употребления в свежем виде. Они характеризуются чрезвычайно крупными гроздьями, сочными ягодами, равномерным вкусом и привлекательным внешним видом — качествами, которые делают их очень востребованными на рынке, особенно в сегменте ранней продажи. Афус Али известен своими крупными и долго хранящимися гроздьями, а Виктория — ранним созреванием и крупными плодами. Эти сорта хорошо растут на плодородных и солнечных участках, а благодаря своей привлекательности подходят и для экспорта."
+                },
+                {
+                    "name": "Столовые сорта – чёрные ягоды",
+                    "subvarietys": [
+                        {
+                            "name": "Рибье",
+                            "url": "grapevine/ribier.jpg"
+                        },
+                        {
+                            "name": "Кардинал",
+                            "url": "grapevine/kardinal.jpg"
+                        },
+                        {
+                            "name": "Мускат де Гамбург",
+                            "url": "grapevine/muscat de Hambourg.jpg"
+                        },
+                        {
+                            "name": "Молдава",
+                            "url": "grapevine/Moldova.jpeg"
+                        },
+                        {
+                            "name": "Микеле Пальери",
+                            "url": "grapevine/michele palieri.webp"
+                        },
+                        {
+                            "name": "Мускат Италия",
+                            "url": "grapevine/muscat italy.jpg"
+                        }
+                    ],
+                    "about": "Эти сорта с тёмными ягодами часто имеют выраженный мускатный аромат, сладость и декоративный внешний вид. Они подходят для употребления в свежем виде, но также используются для переработки в соки, бренди или изюм. Мускат де Гамбург и Мускат Италия известны своим характерным ароматом и приятной текстурой, а такие сорта, как Кардинал, отличаются ранним созреванием и крупными ягодами, что делает их популярными на рынке. Из-за требований к обрезке и защите они требуют тщательного ухода и внимания для получения качественного урожая. Молдава известна своим интенсивным цветом и устойчивостью, а Микеле Пальери отличается исключительным размером ягод и плотной структурой, что делает его подходящим для свежего потребления и транспортировки."
+                },
+                {
+                    "name": "Автохтонные и региональные сорта",
+                    "subvarietys": [
+                        {
+                            "name": "Пловдина",
+                            "url": "grapevine/plovdina.webp"
+                        },
+                        {
+                            "name": "Смедеревка",
+                            "url": "grapevine/smederevka.jpg"
+                        },
+                        {
+                            "name": "Тамьяника",
+                            "url": "grapevine/tamjanika.jpg"
+                        },
+                        {
+                            "name": "Жилавка",
+                            "url": "grapevine/zilavka.jpg"
+                        },
+                        {
+                            "name": "Прокупац",
+                            "url": "grapevine/prokupac.jpg"
+                        },
+                        {
+                            "name": "Вранац",
+                            "url": "grapevine/vranac.jpg"
+                        },
+                        {
+                            "name": "Белградская бессемянная",
+                            "url": "grapevine/beogradska besemena.jpg"
+                        }
+                    ],
+                    "about": "Эти сорта представляют собой важное региональное наследие и имеют большое значение для сохранения аутентичного характера местных виноградарских и винодельческих традиций. Они адаптированы к местным климатическим и почвенным условиям, устойчивы и экономичны в выращивании. Тамьяника является синонимом ароматных белых вин из Сербии, а Прокупац набирает популярность в современных винных концепциях как местный красный сорт с большим потенциалом. Вранац и Жилавка имеют глубокие корни в балканской традиции и часто используются для вин с географическим обозначением происхождения. Помимо виноделия, некоторые из этих сортов используются и как столовые, что делает их универсальными и очень привлекательными для различных видов производства."
+                }
+            ]
+        },
+        "roses": {
+            "title": "Розы",
+            "subvarietys": [
+                {
+                    "name": "Чайно-гибридные розы",
+                    "subvarietys": [
+                        {
+                            "name": "Big Purple",
+                            "url": "rose/Big Purple.jpg"
+                        },
+                        {
+                            "name": "Brandy",
+                            "url": "rose/brandy.jpeg"
+                        },
+                        {
+                            "name": "Charley",
+                            "url": "rose/charley.jpg"
+                        },
+                        {
+                            "name": "England",
+                            "url": "rose/england.jpg"
+                        },
+                        {
+                            "name": "Jelica",
+                            "url": "rose/jelica.jpg"
+                        },
+                        {
+                            "name": "Josefine Bruche",
+                            "url": "rose/josephina bruche .jpg"
+                        },
+                        {
+                            "name": "Landora",
+                            "url": "rose/landora.jpg"
+                        },
+                        {
+                            "name": "Paskali",
+                            "url": "rose/paskali.png"
+                        },
+                        {
+                            "name": "Red Dance",
+                            "url": "rose/red dance.jpeg"
+                        }
+                    ],
+                    "about": "Эти классические розы известны своими крупными, пышными цветами и насыщенным ароматом. Идеальны для выращивания в саду и использования в качестве срезанных цветов. Отличаются элегантностью, разнообразием окраски и повторным цветением в течение сезона. Каждому сорту присущ свой характер — от насыщенного фиолетового (Big Purple) до нежных пастельных оттенков (Charley, Landora). **Высота чайно-гибридных роз составляет от 0,8 до 1 метра**, что делает их подходящими для центральных частей цветников и оформления террас."
+                },
+                {
+                    "name": "Плетистые розы",
+                    "subvarietys": [
+                        {
+                            "name": "New Yorker",
+                            "url": "rose/new yorker.jpg"
+                        },
+                        {
+                            "name": "Blaze Superior",
+                            "url": "rose/blaze superior.jpg"
+                        },
+                        {
+                            "name": "Don Juan",
+                            "url": "rose/don juan.jpg"
+                        },
+                        {
+                            "name": "Golden Dawn",
+                            "url": "rose/golden dawn.jpg"
+                        },
+                        {
+                            "name": "Handel",
+                            "url": "rose/handel.jpg"
+                        }
+                    ],
+                    "about": "Эти сорта роз растут вертикально и требуют опоры, такой как перголы, заборы или стены. Они обильно цветут ароматными цветами, которые появляются волнами в течение всего сезона. Идеальны для создания романтических вертикальных акцентов в саду. Don Juan и New Yorker особенно известны своими насыщенно-красными оттенками. **Их высота варьируется от 1 до 3 метров**, что делает их отличным выбором для декора вертикальных поверхностей."
+                },
+                {
+                    "name": "Миниатюрные розы",
+                    "subvarietys": [
+                        {
+                            "name": "Dic Dic",
+                            "url": "rose/dicdic.jpg"
+                        },
+                        {
+                            "name": "Edelweiss",
+                            "url": "rose/edelweiss.webp"
+                        },
+                        {
+                            "name": "Orange Juwel",
+                            "url": "rose/orange juwel.jpg"
+                        },
+                        {
+                            "name": "Snow White",
+                            "url": "rose/snow white.jpg"
+                        }
+                    ],
+                    "about": "Компактные, низкорослые и очень декоративные, мини-розы идеально подходят для горшков, балконов и краев дорожек. Несмотря на небольшой размер, они обильно и часто цветут, обладая хорошей устойчивостью. Edelweiss и Snow White отличаются нежными оттенками, а Orange Juwel добавляет яркости в пространство. **Мини-розы достигают высоты до 0,4 метра**, что делает их идеальными для ограниченных пространств и оформления в небольших композициях."
+                },
+                {
+                    "name": "Полиантовые розы",
+                    "subvarietys": [
+                        {
+                            "name": "Cin Cin",
+                            "url": "rose/cin cin.jpg"
+                        },
+                        {
+                            "name": "Du Capo",
+                            "url": "rose/da capo.jpg"
+                        },
+                        {
+                            "name": "Royal Minuetto",
+                            "url": "rose/royal minuetto.jpg"
+                        },
+                        {
+                            "name": "Nina Weibul",
+                            "url": "rose/nina weibul.jpg"
+                        },
+                        {
+                            "name": "Old Gold",
+                            "url": "rose/old gold.jpg"
+                        },
+                        {
+                            "name": "Punch",
+                            "url": "rose/punch.jpg"
+                        },
+                        {
+                            "name": "Satchmo",
+                            "url": "rose/satchmo.jpg"
+                        }
+                    ],
+                    "about": "Полиантовые розы известны своим обильным и продолжительным цветением в густых соцветиях, покрывающих всё растение. Их цветки меньше по размеру, но появляются в большом количестве, что делает их идеальными для посадки в клумбах, парках и городском озеленении. Они устойчивы к болезням, требуют минимального ухода и создают сильный визуальный эффект в течение всего сезона. Благодаря своей выносливости и пышному виду часто используются в общественных и частных зелёных зонах. **Высота таких роз обычно составляет от 0,4 до 0,6 метра**, что делает их подходящими для широкой и низкой посадки."
+                }
+            ]
+        }
+    }
 }
