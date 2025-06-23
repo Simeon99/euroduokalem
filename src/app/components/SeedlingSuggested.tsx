@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react'
 import { GoDotFill } from 'react-icons/go';
 
 const SeedlingSuggested = ({suggestedFruits}: {suggestedFruits: number[] }) => {
-    // const suggIds = [1, 2, 3]
+    
     const params = useParams();
     const lang = params?.lang as string;
 

@@ -12,7 +12,7 @@ const SeedlingPresentGrapevineRoses = ({ selectedData, fruitData, setSelected, t
 
             <div className='flex flex-col gap-8 w-full mb-8'>
                 <div className='flex justify-end'>
-                    <h1 className="text-4xl max-lsw:text-3xl text-primary font-bold font-heading">{selectedData?.name}</h1>
+                    <h1 className="text-4xl max-lsw:text-3xl text-primary font-bold font-heading max-md:hidden">{selectedData?.name}</h1>
 
                 </div>
                     <SeedlingPresentationTipe2 selectedData={selectedData} t={t}/>

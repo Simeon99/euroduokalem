@@ -6,6 +6,7 @@ import HomeMessage from "../components/HomeMessage";
 import HomeProducts from "../components/HomeProducts";
 import HomeSeedlings from "../components/HomeSeedlings";
 import Landing from "../components/Landing";
+import SlowCarousel from "../components/ui/SlowCarousel";
 import YouTubeVideo from "../components/YouTubeVideo";
 
 import { getDictionary, Locale } from "./dictionaries";
@@ -37,6 +38,9 @@ export default async function Home({ params }: PageProps) {
       </div>
       <div className="pt-[140px] pb-[140px] bg-white">
         <HomeMessage t={t} />
+      </div>
+      <div className=" pb-[140px] bg-white">
+        <SlowCarousel />
       </div>
       <div className="pb-[140px] bg-white">
         <YouTubeVideo />

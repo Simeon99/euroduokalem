@@ -10,7 +10,7 @@ const HomeMessage = ({ t }: { t: Translation }) => {
 
                 <div className=" relative w-full h-[685px] max-md:h-[394px] overflow-hidden rounded-xl ">
                     <Image
-                        src="/images/home/carousel2.jpg"
+                        src="/images/home/message-image.jpg"
                         alt="Example"
                         fill
                         className="object-cover"
