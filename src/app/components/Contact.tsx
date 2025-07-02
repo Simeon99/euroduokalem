@@ -12,9 +12,6 @@ import { IoLocationSharp } from 'react-icons/io5';
 
 const Contact = ({ t }: { t: Translation }) => {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [status, setStatus] = useState('');
     const searchParams = useSearchParams();
