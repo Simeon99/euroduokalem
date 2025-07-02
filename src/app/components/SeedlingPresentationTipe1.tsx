@@ -66,7 +66,7 @@ const SeedlingPresentationTipe1 = ({ selectedData, t }: { selectedData: Subvarie
                 {/* <div
                             className={`h-[2px] w-full bg-primary md:hidden`}
                         /> */}
-                <div className='flex flex-col gap-4 mt-16'>
+                <div className='flex flex-col gap-4 mt-8'>
                     <h1 className="text-[25px]  font-bold text-primary font-heading">{t.seedling.characteristics}</h1>
                     {selectedData && selectedData?.characteristics?.map((i, index) => (
                         <div key={index} className='flex flex-row gap-2 '>

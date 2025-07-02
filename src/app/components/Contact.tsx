@@ -15,8 +15,32 @@ const Contact = ({ t }: { t: Translation }) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+    const [status, setStatus] = useState('');
     const searchParams = useSearchParams();
     const scrollTo = searchParams?.get('scrollTo');
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+    const handleSubmit = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setStatus('Sending...');
+
+        const res = await fetch('/api/sendEmail', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData),
+        });
+
+        if (res.ok) {
+            setStatus('Message sent!');
+            setFormData({ name: '', email: '', message: '' });
+        } else {
+            setStatus('Failed to send. Try again later.');
+        }
+    };
 
     useEffect(() => {
         if (scrollTo) {
@@ -37,27 +61,33 @@ const Contact = ({ t }: { t: Translation }) => {
                             <h2 className='font-heading text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>Posaljite nam poruku</h2>
                             <Input
                                 label={t.home.contact.name}
+                                name="name"
                                 // placeholder="Unesite ime i prezime"
-                                value={name}
-                                onChange={(e) => setName(e.target.value)}
+                                value={formData.name}
+                                onChange={handleChange}
                             />
                             <Input
                                 label={t.home.contact.email}
+                                name="email"
                                 // placeholder="Unesite email adresu"
-                                value={email}
+                                value={formData.email}
                                 type="email"
-                                onChange={(e) => setEmail(e.target.value)}
+                                onChange={handleChange}
                             />
                             <Input
                                 label={t.home.contact.message}
+                                name="message"
                                 // placeholder="Unesite email adresu"
-                                value={message}
+                                value={formData.message}
                                 type="text"
-                                onChange={(e) => setMessage(e.target.value)}
+                                onChange={handleChange}
                                 isTextarea
                             />
                             <div className='w-full pt-8'>
-                                <Button label={t.home.contact.button} />
+                                <Button label={t.home.contact.button} onClick={handleSubmit}/>
+                            </div>
+                            <div>
+                                {status}
                             </div>
                         </div>
                         <div className='h-[500px] w-[1px] bg-gray-300 max-md:hidden'></div>
@@ -78,8 +108,8 @@ const Contact = ({ t }: { t: Translation }) => {
                                 <p className='text-gray-500'>Imate pitanja o našim voćnim sadnicama ili želite naručiti veće količine? Pišite nam, rado ćemo vam odgovoriti i poslati ponudu u najkraćem roku.</p>
                                 <div className='flex flex-row items-center gap-4'>
                                     <div className='rounded-full p-2.5 bg-secondary flex flex-col items-center justify-center' >
-                                        <MdEmail color='#0E3A27' className='max-md:hidden'  size={28} />
-                                        <MdEmail color='#0E3A27' className='md:hidden'  size={24} />
+                                        <MdEmail color='#0E3A27' className='max-md:hidden' size={28} />
+                                        <MdEmail color='#0E3A27' className='md:hidden' size={24} />
                                     </div>
                                     <span className='font-heading font-bold text-primary text-[24px] max-md:text-[18px] '>euroduokalem@yahoo.com</span>
                                 </div>
