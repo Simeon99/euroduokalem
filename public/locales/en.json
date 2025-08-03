@@ -60,7 +60,7 @@
       "message": "Message",
       "button": "Send message "
     },
-    "blog":{
+    "blog": {
       "title": "Our blog"
     }
   },
@@ -90,5 +90,475 @@
     "address": "Address",
     "addressOf": "Village Lazarevac, Kruševac, Serbia",
     "social": "Networks"
+  },
+  "seo": {
+    "home": {
+      "title": "Euro duo kalem | Fruite seedlings",
+      "description": "High-quality fruit tree seedlings from Serbia - apples, pears, plums, sour cherries, hazelnuts, and other varieties suitable for consumption, processing, and export. Our seedlings are certified, virus-free, and available for delivery across Europe, Russia, and worldwide. Contact us for a professional offer and collaboration.",
+      "keywords": [
+        "fruit seedlings",
+        "wholesale fruit seedlings",
+        "apple seedlings",
+        "pear seedlings",
+        "plum seedlings",
+        "sour cherry seedlings",
+        "sweet cherry seedlings",
+        "fruit seedling import",
+        "seedling export",
+        "seedlings from Serbia",
+        "seedlings for Russia",
+        "seedlings for the EU",
+        "seedlings worldwide",
+        "certified seedlings",
+        "virus-free fruit seedlings",
+        "labeled seedlings"
+      ]
+    },
+    "seedlings": {
+      "title": "Seedling Offer",
+      "description": "Explore our extensive selection of fruit tree seedlings: apples, pears, plums, apricots, peaches, and other varieties suitable for consumption, processing, and export. All seedlings are high-quality, certified, and available for delivery across Europe, Russia, and worldwide.",
+      "keywords": [
+        "fruit seedlings",
+        "apple seedlings",
+        "pear seedlings",
+        "plum seedlings",
+        "cherry seedlings",
+        "sour cherry seedlings",
+        "hazelnut seedlings",
+        "grapevine seedlings",
+        "apricot seedlings",
+        "peach seedlings",
+        "columnar apple seedlings",
+        "quince seedlings",
+        "medlar seedlings",
+        "currant seedlings",
+        "gooseberry seedlings",
+        "blackberry seedlings",
+        "raspberry seedlings",
+        "rose seedlings",
+        "seedlings for export",
+        "certified seedlings"
+      ]
+    },
+    "seedling": {
+      "apple": {
+        "title": "Apple seedlings - varieties for export and planting",
+        "description": "Certified apple seedlings: Idared, Fuji, Gala, Braeburn, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "apple seedlings",
+          "apple seedlings from Serbia",
+          "Idared variety",
+          "Braeburn variety",
+          "Fuji variety",
+          "Gala variety",
+          "Gloster variety",
+          "Granny Smith variety",
+          "Jonagold variety",
+          "Red Spur Delicious variety",
+          "Summer Red variety",
+          "Top Red variety",
+          "Golden Delicious variety",
+          "apple seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Apple Seedlings - Euro Duo Kalem",
+          "description": "View our seedling offer: Idared, Gala, Fuji, and other varieties. High quality, declaration, export-ready."
+        }
+      },
+      "pear": {
+        "title": "Pear seedlings - varieties for export and planting",
+        "description": "Certified pear seedlings: Williams, Abate Fetel, Santa Maria, Conference, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "pear seedlings",
+          "pear seedlings from Serbia",
+          "Abate Fetel variety",
+          "Beurre Hardy variety",
+          "Bosc pear variety",
+          "Butira variety",
+          "June Beauty variety",
+          "Kaluđerka variety",
+          "Conference variety",
+          "Santa Maria variety",
+          "Starkrimson variety",
+          "Williams variety",
+          "pear seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Pear Seedlings - Euro Duo Kalem",
+          "description": "Explore our pear seedlings: Williams, Santa Maria, Abate Fetel, and more. High quality, declaration, export-ready."
+        }
+      },
+      "plum": {
+        "title": "Plum seedlings - varieties for export and planting",
+        "description": "Certified plum seedlings: Čačanska Lepotica, Čačanska Rodna, Stanley, Požegača, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "plum seedlings",
+          "plum seedlings from Serbia",
+          "Čačanska Lepotica variety",
+          "Čačanska Rodna variety",
+          "Čačanska Najbolja variety",
+          "Stanley variety",
+          "Požegača variety",
+          "Ruth Gerstetter variety",
+          "Topfirst variety",
+          "President variety",
+          "plum seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Plum Seedlings - Euro Duo Kalem",
+          "description": "Check out our offer: Stanley, Čačanska Rodna, Požegača, and other varieties. High quality, declaration, export-ready."
+        }
+      },
+      "cherry": {
+        "title": "Cherry seedlings - varieties for export and planting",
+        "description": "Certified cherry seedlings: Bing, Bigarreau Burlat, Ferrovia, Kordia, Regina, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "cherry seedlings",
+          "cherry seedlings from Serbia",
+          "Bing variety",
+          "Bigarreau Burlat variety",
+          "Early Lyons variety",
+          "Ferrovia variety",
+          "Grosse Germersdorfer variety",
+          "Hedelfingen variety",
+          "Kordia variety",
+          "Regina variety",
+          "Sunburst variety",
+          "Summit variety",
+          "Starking Hardy Giant variety",
+          "cherry seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Cherry Seedlings - Euro Duo Kalem",
+          "description": "Explore our cherry seedling selection: Bing, Ferrovia, Kordia, Regina, and more. High quality, declaration, export-ready."
+        }
+      },
+      "sourCherry": {
+        "title": "Sour cherry seedlings - varieties for export and planting",
+        "description": "Certified sour cherry seedlings: Heimann’s Canning, Kelleris 14, Kelleris 16, Montmorency, Oblačinska, Šumadinka, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "sour cherry seedlings",
+          "sour cherry seedlings from Serbia",
+          "Heimann’s Canning variety",
+          "Kelleris 14 variety",
+          "Kelleris 16 variety",
+          "Montmorency variety",
+          "Oblačinska variety",
+          "Šumadinka variety",
+          "sour cherry seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Sour Cherry Seedlings - Euro Duo Kalem",
+          "description": "Browse our offer: Oblačinska, Šumadinka, Montmorency, and other varieties. High quality, declaration, export-ready."
+        }
+      },
+      "apricot": {
+        "title": "Apricot seedlings - varieties for export and planting",
+        "description": "Certified apricot seedlings: Hungary Best, Kecskemét Rose, New Jersey 19, Novosadska Rodna, NS 4, NS 6, NS Late Blooming, Rocsana, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "apricot seedlings",
+          "apricot seedlings from Serbia",
+          "Hungary Best variety",
+          "Kecskemét Rose variety",
+          "New Jersey 19 variety",
+          "Novosadska Rodna variety",
+          "NS 4 variety",
+          "NS 6 variety",
+          "NS Late Blooming variety",
+          "Rocsana variety",
+          "apricot seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Apricot Seedlings - Euro Duo Kalem",
+          "description": "Browse our apricot varieties: Hungary Best, Rocsana, NS series, and more. High quality, declaration, export-ready."
+        }
+      },
+      "peach": {
+        "title": "Peach seedlings - varieties for export and planting",
+        "description": "Certified peach seedlings: Dixired, Early Redhaven, Fayete, Flavorcrest, J.H. Hale, Redhaven, Red Top, Springcrest, Suncrest, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "peach seedlings",
+          "peach seedlings from Serbia",
+          "Dixired variety",
+          "Early Redhaven variety",
+          "Fayete variety",
+          "Flavorcrest variety",
+          "J.H. Hale variety",
+          "Redhaven variety",
+          "Red Top variety",
+          "Springcrest variety",
+          "Suncrest variety",
+          "peach seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Peach Seedlings - Euro Duo Kalem",
+          "description": "Browse our offer: Dixired, Redhaven, Springcrest, and other peach varieties. High quality, declaration, export-ready."
+        }
+      },
+      "columnarApple": {
+        "title": "Columnar apple seedlings - varieties for export and planting",
+        "description": "Certified columnar apple seedlings: Đerdan, Queen of Czardas, Reddish Spindle, Emerald, Vesna - ideal for growing in small areas and urban environments. Suitable for consumption and export.",
+        "keywords": [
+          "columnar apple seedlings",
+          "columnar apples from Serbia",
+          "Đerdan variety",
+          "Queen of Czardas variety",
+          "Reddish Spindle variety",
+          "Emerald variety",
+          "Vesna variety",
+          "columnar apple seedlings for export",
+          "certified columnar seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Columnar Apple Seedlings - Euro Duo Kalem",
+          "description": "Explore our columnar varieties: Đerdan, Emerald, Vesna, and others. High quality and perfect for small spaces."
+        }
+      },
+      "quince": {
+        "title": "Quince seedlings - Leskovac and Vranje varieties",
+        "description": "Buy certified quince seedlings: Leskovac and Vranje varieties. Suitable for processing, consumption, planting across Serbia, and export.",
+        "keywords": [
+          "quince seedlings",
+          "Leskovac quince",
+          "Vranje quince",
+          "Champion quince variety",
+          "quince for brandy",
+          "quince for processing",
+          "quince planting",
+          "certified quince seedlings",
+          "fruit seedlings quince",
+          "quince for export"
+        ],
+        "openGraph": {
+          "title": "Quince Seedlings - Euro Duo Kalem",
+          "description": "Leskovac and Vranje varieties available for planting and processing. Premium quinces for households and professional growers."
+        }
+      },
+      "medlar": {
+        "title": "Medlar seedlings - Hardy and decorative fruit tree",
+        "description": "Buy high-quality medlar seedlings. Ideal for autumn harvest, resistant to low temperatures, suitable for small orchards and home gardens.",
+        "keywords": [
+          "medlar seedlings",
+          "medlar fruit",
+          "medlar planting",
+          "hardy fruit tree",
+          "medlar fruit seedlings",
+          "medlar for autumn harvest",
+          "decorative fruit",
+          "medlar for sale",
+          "how to plant medlar",
+          "frost-resistant medlar"
+        ],
+        "openGraph": {
+          "title": "Medlar Seedlings - Exceptional Resilience and Taste - Euro Duo Kalem",
+          "description": "Medlar is ideal for small orchards and lovers of traditional fruits. Explore our seedling offer and order online."
+        }
+      },
+      "nectarine": {
+        "title": "Nectarine seedlings - varieties for export and planting",
+        "description": "Buy premium quality nectarine seedlings - Fantasia, Flavortop, Independence, Nectared 4, and Stark Redgold. Proven varieties for commercial production and export.",
+        "keywords": [
+          "nectarine seedlings",
+          "Fantasia nectarine",
+          "Flavortop nectarine",
+          "Independence nectarine",
+          "Nectared 4 nectarine",
+          "Stark Redgold nectarine",
+          "nectarine for export",
+          "commercial nectarine planting",
+          "varietal nectarine seedlings",
+          "nectarine fruit seedlings"
+        ],
+        "openGraph": {
+          "title": "Nectarine Seedlings - Varieties for Export and Planting - Euro Duo Kalem",
+          "description": "Fantasia, Flavortop, Independence, Nectared 4, and Stark Redgold - choose proven nectarine varieties for successful planting and market placement."
+        }
+      },
+      "hazelnut": {
+        "title": "Hazelnut seedlings - Varieties for export and planting",
+        "description": "Buy high-quality hazelnut seedlings: Hall’s Giant, Istrian Long, Istrian Round, Ludolph’s Zellernuss, Roman Zellernuss, Tonda Gentile Romana, Tonda Gentile delle Langhe. Ideal varieties for planting and commercial production.",
+        "keywords": [
+          "hazelnut seedlings",
+          "Hall’s Giant hazelnut",
+          "Istrian Long hazelnut",
+          "Istrian Round hazelnut",
+          "Ludolph’s Zellernuss hazelnut",
+          "Roman Zellernuss hazelnut",
+          "Tonda Gentile Romana hazelnut",
+          "Tonda Gentile delle Langhe hazelnut",
+          "hazelnut planting varieties",
+          "hazelnut for export"
+        ],
+        "openGraph": {
+          "title": "Hazelnut Seedlings - Varieties for Export and Planting - Euro Duo Kalem",
+          "description": "Top hazelnut varieties - Hall’s Giant, Tonda Gentile, and more. Suitable for professional orchards and export markets."
+        }
+      },
+      "walnut": {
+        "title": "Walnut seedlings - Varieties for export and planting",
+        "description": "Choose premium walnut seedlings: Chandler, Geinsehem 139, Junglans regia (local), Lara, Mire, Novosadski Late, Rasna, Šejnovo. Suitable for plantations and commercial production.",
+        "keywords": [
+          "walnut seedlings",
+          "Chandler walnut",
+          "Geinsehem 139 walnut",
+          "Junglans regia local walnut",
+          "Lara walnut",
+          "Mire walnut",
+          "Novosadski Late walnut",
+          "Rasna walnut",
+          "Šejnovo walnut",
+          "walnut planting varieties",
+          "walnut for export"
+        ],
+        "openGraph": {
+          "title": "Walnut Seedlings - Varieties for Export and Planting - Euro Duo Kalem",
+          "description": "Top walnut varieties for planting and commercial production - including Chandler and local Serbian cultivars. Suitable for professional orchards."
+        }
+      },
+      "grapevine": {
+        "title": "Grapevine seedlings - wine and table varieties",
+        "description": "Premium grapevine seedlings for white and red wine, as well as table varieties for fresh consumption. Choose from Chardonnay, Merlot, Tamjanika, Muscat Italy, and many more.",
+        "keywords": [
+          "grapevine seedlings",
+          "wine grape varieties",
+          "table grape varieties",
+          "white wine grape",
+          "red wine grape",
+          "Chardonnay seedlings",
+          "Merlot seedlings",
+          "Muscat Italy grape",
+          "Tamjanika grapevine",
+          "Prokupac grapevine",
+          "Smederevka grapevine"
+        ],
+        "openGraph": {
+          "title": "Grapevine Seedlings - Wine and Table Varieties | Euro Duo Kalem",
+          "description": "Best grapevine varieties for white and red wines, as well as for fresh consumption. Ideal for professional winemakers and fruit growers."
+        }
+      },
+      "gooseberry": {
+        "title": "Gooseberry seedlings - varieties for planting and export",
+        "description": "Certified gooseberry seedlings: Hinnonmäki Grün, Invicta, Whinham’s Industry, and other varieties suitable for consumption and processing. Delivery across Europe and worldwide.",
+        "keywords": [
+          "gooseberry seedlings",
+          "gooseberry seedlings from Serbia",
+          "Hinnonmäki Grün variety",
+          "Hinnonmäki Gul variety",
+          "Hinnonmäki Röd variety",
+          "Invicta variety",
+          "Whinham’s Industry variety",
+          "gooseberry seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Gooseberry Seedlings - Euro Duo Kalem",
+          "description": "Explore our offer of gooseberry seedlings: Hinnonmäki, Invicta, Whinham’s Industry, and more. High quality, certification, export."
+        }
+      },
+      "currant": {
+        "title": "Currant seedlings - black, red, and white varieties for planting and export",
+        "description": "Certified currant seedlings: Jonkheer van Tets, Rolan, Rovada, Titana, Triton, and other varieties. Suitable for planting, consumption, and processing. Delivery across Europe and worldwide.",
+        "keywords": [
+          "currant seedlings",
+          "red currant seedlings",
+          "white currant seedlings",
+          "black currant seedlings",
+          "Jonkheer van Tets variety",
+          "Rolan variety",
+          "Rovada variety",
+          "Triton variety",
+          "Titana variety",
+          "Beli biser variety",
+          "currant seedlings for export",
+          "certified seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Currant Seedlings - Euro Duo Kalem",
+          "description": "Check out our currant seedling offer: red, white, and black varieties for export. High quality, certification, delivery."
+        }
+      },
+      "blackberry": {
+        "title": "Blackberry seedlings - varieties for planting and export",
+        "description": "Certified blackberry seedlings: Čačanska Bestrna, Loch Ness, Thornfree, Triple Crown, and others. Suitable for planting, fresh consumption, and processing. Delivery across Europe and worldwide.",
+        "keywords": [
+          "blackberry seedlings",
+          "thornless blackberry seedlings",
+          "Čačanska Bestrna variety",
+          "Loch Ness variety",
+          "Thornfree variety",
+          "Triple Crown variety",
+          "blackberry for export",
+          "certified blackberry seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Blackberry Seedlings - Euro Duo Kalem",
+          "description": "Thornless blackberry and other varieties for planting and export: Čačanska Bestrna, Loch Ness, Triple Crown. High quality and delivery across Europe."
+        }
+      },
+      "raspberry": {
+        "title": "Raspberry seedlings - varieties for planting and export",
+        "description": "Certified raspberry seedlings: Meeker, Willamette, and other varieties. Suitable for fresh consumption, processing, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "raspberry seedlings",
+          "raspberry seedlings from Serbia",
+          "Meeker variety",
+          "Willamette variety",
+          "raspberry for export",
+          "certified raspberry seedlings",
+          "fruit seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Raspberry Seedlings - Euro Duo Kalem",
+          "description": "Meeker and Willamette - raspberry varieties for planting and export. High quality, certification, delivery across Europe."
+        }
+      },
+      "roses": {
+        "title": "Rose seedlings - hybrid teas, climbers, miniatures, and polyanthas",
+        "description": "Certified rose seedlings: hybrid teas, climbing roses, miniature roses, and polyantha roses. Ideal for garden decoration, planting, and export. Delivery across Europe and worldwide.",
+        "keywords": [
+          "rose seedlings",
+          "rose seedlings from Serbia",
+          "hybrid tea roses",
+          "climbing roses",
+          "miniature roses",
+          "polyantha roses",
+          "roses for planting",
+          "roses for decoration",
+          "roses for export",
+          "certified seedlings",
+          "ornamental seedlings Serbia"
+        ],
+        "openGraph": {
+          "title": "Rose Seedlings - Euro Duo Kalem",
+          "description": "Wide selection: hybrid teas, climbing, miniature, and polyantha roses. Ideal for garden design and export."
+        }
+      }
+    },
+    "about": {
+      "title": "O nama | Euro Duo Kalem",
+      "description": "Saznajte više o našem timu, iskustvu i kvalitetu sadnica koje nudimo više od decenije."
+    },
+    "blog": {
+      "title": "Blog - Saveti i novosti o sadnicama",
+      "description": "Čitajte korisne savete, vodiče i zanimljivosti iz sveta voćarstva i sadnje."
+    }
   }
 }

@@ -60,7 +60,7 @@
       "message": "Poruka",
       "button": "Pošalji poruku"
     },
-    "blog":{
+    "blog": {
       "title": "Naš blog"
     }
   },
@@ -90,5 +90,475 @@
     "address": "Adresa",
     "addressOf": "Selo Lazarevac, Kruševac, Srbija",
     "social": "Mreže"
+  },
+  "seo": {
+    "home": {
+      "title": "Euro duo kalem | Sadnice voća",
+      "description": "Voćne sadnice visokog kvaliteta iz Srbije - jabuke, kruške, šljive, višnje, lešnik i druge sorte namenjene za konzumaciju, preradu i izvoz. Naše sadnice su sertifikovane, bezvirusne i dostupne za isporuku širom Evrope, Rusije i sveta. Kontaktirajte nas za profesionalnu ponudu i saradnju.",
+      "keywords": [
+        "sadnice voća",
+        "sadnice voća na veliko",
+        "sadnice jabuke",
+        "sadnice kruške",
+        "sadnice šljive",
+        "sadnice višnje",
+        "sadnice trešnje",
+        "uvoz sadnica voća",
+        "izvoz sadnica",
+        "sadnice iz Srbije",
+        "sadnice za Rusiju",
+        "sadnice za EU",
+        "sadnice širom sveta",
+        "sertifikovane sadnice",
+        "bezvirusne sadnice voća",
+        "sadnice sa deklaracijom"
+      ]
+    },
+    "seedlings": {
+      "title": "Ponuda sadnica",
+      "description": "Pogledajte našu bogatu ponudu voćnih sadnica: jabuka, krušaka, šljiva, kajsija, breskvi i drugih sorti, pogodnih za konzumaciju, preradu i izvoz. Sve sadnice su visokog kvaliteta, sa sertifikatom i dostupne za isporuku širom Evrope, Rusije i sveta.",
+      "keywords": [
+        "sadnice voća",
+        "sadnice jabuka",
+        "sadnice krušaka",
+        "sadnice šljiva",
+        "sadnice trešanja",
+        "sadnice višanja",
+        "sadnice lešnika",
+        "sadnice vinove loze",
+        "sadnice kajsija",
+        "sadnice breskvi",
+        "sadnice stubaste jabuke",
+        "sadnice dunja",
+        "sadnice mušmula",
+        "sadnice ribizle",
+        "sadnice ogrozda",
+        "sadnice kupina",
+        "sadnice malina",
+        "sadnice ruža",
+        "sadnice za izvoz",
+        "sertifikovane sadnice"
+      ]
+    },
+    "seedling": {
+      "apple": {
+        "title": "Sadnice jabuke - sorte za izvoz i sadnju",
+        "description": "Sertifikovane sadnice jabuke: Ajdared, Fudži, Gala, Breburn i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice jabuke",
+          "sadnice jabuke iz Srbije",
+          "sorta Ajdared",
+          "sorta Breburn",
+          "sorta Fudži",
+          "sorta Gala",
+          "sorta Gloster",
+          "sorta Greni smit",
+          "sorta Jonagold",
+          "sorta Red spur delišes",
+          "sorta Summer red",
+          "sorta Top red",
+          "sorta Zlatni delišes",
+          "sadnice jabuke za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice jabuke - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica: Ajdared, Gala, Fudži i druge sorte. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "pear": {
+        "title": "Sadnice kruške - sorte za izvoz i sadnju",
+        "description": "Sertifikovane sadnice kruške: Viljamovka, Abate Fetel, Santa Maria, Konferens i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice kruške",
+          "sadnice kruške iz Srbije",
+          "sorta Abate Fetel",
+          "sorta Beurre Hardy",
+          "sorta Boskova bočica",
+          "sorta Butira",
+          "sorta Junska lepotica",
+          "sorta Kaludjerka",
+          "sorta Konferens",
+          "sorta Santa Maria",
+          "sorta Starkrimson",
+          "sorta Viljamovka",
+          "sadnice kruške za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice kruške - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica: Viljamovka, Santa Maria, Abate Fetel i druge sorte. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "plum": {
+        "title": "Sadnice šljive - sorte za izvoz i sadnju",
+        "description": "Sertifikovane sadnice šljive: Čačanska lepotica, Čačanska rodna, Stanley, Požegača i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice šljive",
+          "sadnice šljive iz Srbije",
+          "sorta Čačanska lepotica",
+          "sorta Čačanska rodna",
+          "sorta Čačanska najbolja",
+          "sorta Stanley",
+          "sorta Požegača",
+          "sorta Ruth Gerstetter",
+          "sorta Topfirst",
+          "sorta President",
+          "sadnice šljive za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice šljive - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica: Stanley, Čačanska rodna, Požegača i druge sorte. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "cherry": {
+        "title": "Sadnice trešnje - sorte za izvoz i sadnju",
+        "description": "Sertifikovane sadnice trešnje: Bing, Bigarreau Burlat, Ferrovia, Kordia, Regina i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice trešnje",
+          "sadnice trešnje iz Srbije",
+          "sorta Bing",
+          "sorta Bigarreau Burlat",
+          "sorta Early Lyons (Lionska rana)",
+          "sorta Ferrovia",
+          "sorta Grosse Germersdorfer",
+          "sorta Hedelfingen",
+          "sorta Kordia",
+          "sorta Regina",
+          "sorta Sunburst",
+          "sorta Summit",
+          "sorta Starking Hardy Giant",
+          "sadnice trešnje za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice trešnje - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica: Bing, Ferrovia, Kordia, Regina i druge sorte. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "sourCherry": {
+        "title": "Sadnice višnje - sorte za izvoz i sadnju",
+        "description": "Sertifikovane sadnice višnje: Hajmanova konzervna, Keleris 14, Keleris 16, Montmorency, Oblačinska, Šumadinka i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice višnje",
+          "sadnice višnje iz Srbije",
+          "sorta Hajmanova konzervna",
+          "sorta Keleris 14",
+          "sorta Keleris 16",
+          "sorta Montmorency",
+          "sorta Oblačinska",
+          "sorta Šumadinka",
+          "sadnice višnje za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice višnje - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica: Oblačinska, Šumadinka, Montmorency i druge sorte. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "apricot": {
+        "title": "Sadnice kajsije - sorte za izvoz i sadnju",
+        "description": "Sertifikovane sadnice kajsije: Hungary Best, Kečkemetska ruža, New Jersey 19, Novosadska rodna, NS 4, NS 6, NS Kasnocvetna, Rocsana i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice kajsije",
+          "sadnice kajsije iz Srbije",
+          "sorta Hungary Best",
+          "sorta Kečkemetska ruža",
+          "sorta New Jersey 19",
+          "sorta Novosadska rodna",
+          "sorta NS 4",
+          "sorta NS 6",
+          "sorta NS Kasnocvetna",
+          "sorta Rocsana",
+          "sadnice kajsije za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice kajsije - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica: Hungary Best, Rocsana, NS sorte i druge. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "peach": {
+        "title": "Sadnice breskve - sorte za izvoz i sadnju ",
+        "description": "Sertifikovane sadnice breskve: Dixired, Early Redhaven, Fayete, Flavorcrest, J. H. Hale, Redhaven, Red Top, Springcrest, Suncrest i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice breskve",
+          "sadnice breskve iz Srbije",
+          "sorta Dixired",
+          "sorta Early Redhaven",
+          "sorta Fayete",
+          "sorta Flavorcrest",
+          "sorta J. H. Hale",
+          "sorta Redhaven",
+          "sorta Red Top",
+          "sorta Springcrest",
+          "sorta Suncrest",
+          "sadnice breskve za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice breskve - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica: Dixired, Redhaven, Springcrest i druge sorte breskvi. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "columnarApple": {
+        "title": "Stubaste sadnice jabuke - sorte za izvoz i sadnju",
+        "description": "Sertifikovane stubaste sadnice jabuke: Đerdan, Kraljica Čardaša, Rumeno vreteno, Smaragd, Vesna - idealne za gajenje u manjim prostorima i urbanim sredinama. Pogodne za konzumaciju i izvoz.",
+        "keywords": [
+          "stubaste sadnice jabuke",
+          "stubaste jabuke iz Srbije",
+          "sorta Đerdan",
+          "sorta Kraljica Čardaša",
+          "sorta Rumeno vreteno",
+          "sorta Smaragd",
+          "sorta Vesna",
+          "sadnice stubaste jabuke za izvoz",
+          "sertifikovane stubaste sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Stubaste sadnice jabuke - Euro Duo Kalem",
+          "description": "Pogledajte ponudu stubastih sadnica: Đerdan, Smaragd, Vesna i druge sorte. Visok kvalitet i pogodnost za male prostore."
+        }
+      },
+      "quince": {
+        "title": "Sadnice dunje - Leskovačka i Vranjska sorta",
+        "description": "Kupite sertifikovane sadnice dunje: Leskovačka i Vranjska. Pogodne za preradu, konzumaciju i sadnju u svim krajevima Srbije i za izvoz.",
+        "keywords": [
+          "sadnice dunje",
+          "Leskovačka dunja",
+          "Vranjska dunja",
+          "dunja sorta Champion",
+          "dunja za rakiju",
+          "dunja za preradu",
+          "sadnja dunje",
+          "sertifikovane sadnice dunje",
+          "voćne sadnice dunje",
+          "dunja za izvoz"
+        ],
+        "openGraph": {
+          "title": "Sadnice dunje - Euro Duo Kalem",
+          "description": "Sorte Leskovačka i Vranjska dostupne za sadnju i preradu. Kvalitetne dunje za domaćinstva i profesionalne voćare."
+        }
+      },
+      "medlar": {
+        "title": "Sadnice mušmule - Otporna i dekorativna voćka",
+        "description": "Kupite kvalitetne sadnice mušmule. Idealna za jesenju berbu, otporna na niske temperature, pogodna za manje voćnjake i dvorišta.",
+        "keywords": [
+          "sadnice mušmule",
+          "mušmula voće",
+          "mušmula sadnja",
+          "otporna voćka",
+          "voćne sadnice mušmule",
+          "mušmula za jesenju berbu",
+          "dekorativno voće",
+          "mušmula prodaja",
+          "kako saditi mušmulu",
+          "mušmula otporna na mraz"
+        ],
+        "openGraph": {
+          "title": "Sadnice mušmule - Izuzetna otpornost i ukus - Euro Duo Kalem",
+          "description": "Mušmula je idealna za manje voćnjake i ljubitelje tradicionalnog voća. Pogledajte ponudu sadnica i poručite online."
+        }
+      },
+      "nectarine": {
+        "title": "Sadnice nektarine - sorte za izvoz i sadnju",
+        "description": "Kupite sadnice nektarine vrhunskog kvaliteta - Fantasia, Flavortop, Independence, Nectared 4 i Stark Redgold. Proverene sorte za komercijalnu proizvodnju i izvoz.",
+        "keywords": [
+          "sadnice nektarine",
+          "nektarina Fantasia",
+          "nektarina Flavortop",
+          "nektarina Independence",
+          "nektarina Nectared 4",
+          "nektarina Stark Redgold",
+          "nektarina za izvoz",
+          "komercijalna sadnja nektarine",
+          "sortne sadnice nektarine",
+          "voćne sadnice nektarina"
+        ],
+        "openGraph": {
+          "title": "Sadnice nektarine - Sorte za izvoz i sadnju - Euro Duo Kalem",
+          "description": "Fantasia, Flavortop, Independence, Nectared 4 i Stark Redgold - izaberite proverene sorte nektarine za uspešnu sadnju i plasman."
+        }
+      },
+      "hazelnut": {
+        "title": "Sadnice lešnika - Sorte za izvoz i sadnju",
+        "description": "Kupite kvalitetne sadnice lešnika: Hall’s Giant, Istarski dugi, Istarski okrugli, Ludolphs Zellernus, Römische Zellernus, Tonda Gentile Romana, Tonda Gentile delle Langhe. Idealne sorte za sadnju i komercijalnu proizvodnju.",
+        "keywords": [
+          "sadnice lešnika",
+          "lešnik Hall’s Giant",
+          "lešnik Istarski dugi",
+          "lešnik Istarski okrugli",
+          "lešnik Ludolphs Zellernus",
+          "lešnik Römische Zellernus",
+          "lešnik Tonda Gentile Romana",
+          "lešnik Tonda Gentile delle Langhe",
+          "sorte lešnika za sadnju",
+          "lešnik za izvoz"
+        ],
+        "openGraph": {
+          "title": "Sadnice lešnika - Sorte za izvoz i sadnju - Euro Duo Kalem",
+          "description": "Najtraženije sorte lešnika - Hall’s Giant, Tonda Gentile i druge. Pogodne za profesionalne zasade i izvozno tržište."
+        }
+      },
+      "walnut": {
+        "title": "Sadnice oraha - Sorte za izvoz i sadnju",
+        "description": "Izaberite vrhunske sadnice oraha: Chandler, Geinsehem 139, Junglans regia-domaći, Lara, Mire, Novosadski kasni, Rasna, Šejnovo. Pogodne za zasade i komercijalnu proizvodnju.",
+        "keywords": [
+          "sadnice oraha",
+          "orah Chandler",
+          "orah Geinsehem 139",
+          "orah Junglans regia domaći",
+          "orah Lara",
+          "orah Mire",
+          "orah Novosadski kasni",
+          "orah Rasna",
+          "orah Šejnovo",
+          "sorte oraha za sadnju",
+          "orah za izvoz"
+        ],
+        "openGraph": {
+          "title": "Sadnice oraha - Sorte za izvoz i sadnju - Euro Duo Kalem",
+          "description": "Najbolje sorte oraha za sadnju i komercijalnu proizvodnju - uključujući Chandler i domaće sorte. Pogodno za profesionalne voćnjake."
+        }
+      },
+      "grapevine": {
+        "title": "Sadnice vinove loze - vinske i stone sorte",
+        "description": "Vrhunske sadnice vinove loze za crna i bela vina, kao i stone sorte za svežu potrošnju. Izaberite sorte kao što su Chardonnay, Merlot, Tamjanika, Muscat Italy i mnoge druge.",
+        "keywords": [
+          "sadnice vinove loze",
+          "vinske sorte loze",
+          "stone sorte vinove loze",
+          "bela vina loza",
+          "crna vina loza",
+          "Chardonnay sadnice",
+          "Merlot sadnice",
+          "Muscat Italy loza",
+          "Tamjanika vinova loza",
+          "Prokupac vinova loza",
+          "Smederevka vinova loza"
+        ],
+        "openGraph": {
+          "title": "Sadnice vinove loze - vinske i stone sorte | Euro Duo Kalem",
+          "description": "Najbolje sorte vinove loze za bela i crna vina, kao i za konzumaciju. Idealno za profesionalne vinogradare i voćare."
+        }
+      },
+      "gooseberry": {
+        "title": "Sadnice ogrozda - sorte za sadnju i izvoz",
+        "description": "Sertifikovane sadnice ogrozda: Hinnonmäki Grün, Invicta, Whinham’s Industry i druge sorte pogodne za konzumaciju i preradu. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice ogrozda",
+          "sadnice ogrozda iz Srbije",
+          "sorta Hinnonmäki Grün",
+          "sorta Hinnonmäki Gul",
+          "sorta Hinnonmäki Röd",
+          "sorta Invicta",
+          "sorta Whinham’s Industry",
+          "sadnice ogrozda za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice ogrozda - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica ogrozda: Hinnonmäki, Invicta, Whinham’s Industry i druge. Visok kvalitet, deklaracija, izvoz."
+        }
+      },
+      "currant": {
+        "title": "Sadnice ribizle - crna, crvena i bela sorta za sadnju i izvoz",
+        "description": "Sertifikovane sadnice ribizle: Jonkheer van Tets, Rolan, Rovada, Titana, Triton i druge sorte. Pogodne za sadnju, konzumaciju i preradu. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice ribizle",
+          "sadnice crvene ribizle",
+          "sadnice bele ribizle",
+          "sadnice crne ribizle",
+          "sorta Jonkheer van Tets",
+          "sorta Rolan",
+          "sorta Rovada",
+          "sorta Triton",
+          "sorta Titana",
+          "sorta Beli biser",
+          "sadnice ribizle za izvoz",
+          "sertifikovane sadnice",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice ribizle - Euro Duo Kalem",
+          "description": "Pogledajte ponudu sadnica ribizle: crvene, bele i crne sorte za izvoz. Visok kvalitet, deklaracija, dostava."
+        }
+      },
+      "blackberry": {
+        "title": "Sadnice kupine - sorte za sadnju i izvoz",
+        "description": "Sertifikovane sadnice kupine: Čačanska bestrna, Loch Ness, Thornfree, Triple Crown i druge. Pogodne za sadnju, svežu potrošnju i preradu. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice kupine",
+          "sadnice kupine bez trna",
+          "sorta Čačanska bestrna",
+          "sorta Loch Ness",
+          "sorta Thornfree",
+          "sorta Triple Crown",
+          "kupina za izvoz",
+          "sertifikovane sadnice kupine",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice kupine - Euro Duo Kalem",
+          "description": "Kupina bez trna i druge sorte za sadnju i izvoz: Čačanska bestrna, Loch Ness, Triple Crown. Visok kvalitet i dostava širom Evrope."
+        }
+      },
+      "raspberry": {
+        "title": "Sadnice maline - sorte za sadnju i izvoz",
+        "description": "Sertifikovane sadnice maline: Meeker, Willamette i druge sorte. Pogodne za svežu potrošnju, preradu i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice maline",
+          "sadnice maline iz Srbije",
+          "sorta Meeker",
+          "sorta Willamette",
+          "malina za izvoz",
+          "sertifikovane sadnice maline",
+          "voćne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice maline - Euro Duo Kalem",
+          "description": "Meeker i Willamette - sorte maline za sadnju i izvoz. Visok kvalitet, deklaracija, dostava širom Evrope."
+        }
+      },
+      "roses": {
+        "title": "Sadnice ruža - čajevke, puzavice, mini i polijante",
+        "description": "Sertifikovane sadnice ruža: čajevke, puzavice, mini ruže i polijante. Idealne za dekoraciju dvorišta, sadnju i izvoz. Dostava širom Evrope i sveta.",
+        "keywords": [
+          "sadnice ruža",
+          "sadnice ruža iz Srbije",
+          "čajevke ruže",
+          "puzavice ruže",
+          "mini ruže",
+          "polijante ruže",
+          "ruže za sadnju",
+          "ruže za dekoraciju",
+          "ruže za izvoz",
+          "sertifikovane sadnice",
+          "ukrasne sadnice Srbija"
+        ],
+        "openGraph": {
+          "title": "Sadnice ruža - Euro Duo Kalem",
+          "description": "Bogat izbor: čajevke, puzavice, mini i polijante ruže. Idealne za uređenje vrtova i izvoz."
+        }
+      }
+    },
+    "about": {
+      "title": "O nama | Euro Duo Kalem",
+      "description": "Saznajte više o našem timu, iskustvu i kvalitetu sadnica koje nudimo više od decenije."
+    },
+    "blog": {
+      "title": "Blog - Saveti i novosti o sadnicama",
+      "description": "Čitajte korisne savete, vodiče i zanimljivosti iz sveta voćarstva i sadnje."
+    }
   }
 }

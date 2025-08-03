@@ -33,7 +33,7 @@ const About = ({ t }: { t: Translation }) => {
                 {/* Desktop */}
                 <div className='max-md:hidden'>
                     <div className='flex justify-center'>
-                        <div className='flex flex-row justify-between h-[1300px] mt-36 max-w-screen-sw  w-full '>
+                        <div className='flex flex-row justify-between h-[1100px] mt-36 max-w-screen-sw  w-full '>
                             <div className='w-1/3 h-full flex flex-col justify-between'>
                                 <div className='w-full h-[500px]'>
                                     <Image
