@@ -18,7 +18,7 @@ const BlogPostsHeading = () => {
     const [offset, setOffset] = useState(0);
     const [hasMore, setHasMore] = useState(true);
     const [loading, setLoading] = useState<boolean>(false);
-    const limit = 5;
+    const limit = 7;
 
 
     const handleClick = (id: number) => {
