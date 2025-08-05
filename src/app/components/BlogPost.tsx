@@ -63,36 +63,44 @@ const BlogPost = ({ blogId }: { blogId: number }) => {
                         />
                     </div>
                 </div>
-                <ReactMarkdown
-                    components={{
-                        p: ({ ...props }) => (
-                            <p
-                                className="text-[24px] max-md:text-[20px] max-md:max-w-full mb-4 leading-relaxed"
-                                {...props}
-                            />
-                        ),
-                        h1: ({ ...props }) => (
-                            <h3
-                                className="text-[28px] max-md:text-[22px] font-semibold mt-8 mb-4"
-                                {...props}
-                            />
-                        ),
-                        h3: ({ ...props }) => (
-                            <h3
-                                className="text-[28px] max-md:text-[22px] font-semibold mt-8 mb-4"
-                                {...props}
-                            />
-                        ),
-                        h2: ({ ...props }) => (
-                            <h2
-                                className="text-[32px] max-md:text-[24px] font-bold mt-10 mb-5"
-                                {...props}
-                            />
-                        ),
-                    }}
-                >
-                    {blogPost?.markdown}
-                </ReactMarkdown>
+                <div className='flex flex-col'>
+                    <ReactMarkdown
+                        components={{
+                            p: ({ ...props }) => (
+                                <p
+                                    className="text-[24px] max-md:text-[20px] max-md:max-w-full mb-4 leading-relaxed"
+                                    {...props}
+                                />
+                            ),
+                            li: ({ ...props }) => (
+                                <li
+                                    className="text-[24px] max-md:text-[20px] max-md:max-w-full mb-4 leading-relaxed"
+                                    {...props}
+                                />
+                            ),
+                            h1: ({ ...props }) => (
+                                <h3
+                                    className="text-[28px] max-md:text-[22px] font-semibold mt-8 mb-4"
+                                    {...props}
+                                />
+                            ),
+                            h3: ({ ...props }) => (
+                                <h3
+                                    className="text-[28px] max-md:text-[22px] font-semibold mt-8 mb-4"
+                                    {...props}
+                                />
+                            ),
+                            h2: ({ ...props }) => (
+                                <h2
+                                    className="text-[32px] max-md:text-[24px] font-bold mt-10 mb-5"
+                                    {...props}
+                                />
+                            ),
+                        }}
+                    >
+                        {blogPost?.markdown}
+                    </ReactMarkdown>
+                </div>
                 {/* <p className='text-justify text-[24px] max-md:text-[20px] max-md:max-w-full'>
                     Sadnja voćnih sadnica zahteva pažljivu pripremu i razumevanje osnovnih koraka kako bi se obezbedio zdrav i dugovečan zasad. Prvi i najvažniji korak je izbor sorte koja odgovara klimatskim uslovima vašeg regiona. Sorte koje nisu prilagođene lokalnim uslovima često ne daju očekivane prinose i zahtevaju dodatnu negu.
                     Pre sadnje, zemljište mora biti pripremljeno – to znači dobro usitnjeno, đubreno i po potrebi korigovano u pogledu kiselosti (pH vrednosti). Analiza zemljišta može vam uštedeti vreme i novac jer ćete tačno znati koje elemente treba dodati za optimalan rast biljaka.
