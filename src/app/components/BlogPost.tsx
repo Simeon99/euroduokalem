@@ -43,7 +43,7 @@ const BlogPost = ({ blogId }: { blogId: number }) => {
                     {blogPost?.title}
                 </h1>
             </div>
-            <div className='flex flex-col items-center gap-16'>
+            <div className='flex flex-col gap-16'>
                 {/* <div className='relative w-[80%] max-lsw:hidden h-[500px]'>
                     <Image
                         src={`/images/seedling/ajdared.jpg`}
@@ -52,37 +52,38 @@ const BlogPost = ({ blogId }: { blogId: number }) => {
                         className="object-cover rounded-2xl"
                     />
                 </div> */}
-                <div className='w-[80%] max-md:w-full'>
-                    <Image
-                        src={`/images/seedling/ajdared.jpg`}
-                        alt={'apple'}
-                        width={600}
-                        height={400}
-                        className="rounded-2xl object-cover w-full h-auto"
-                    />
-
+                <div className='w-full flex flex-col items-center'>
+                    <div className='w-[80%] max-md:w-full '>
+                        <Image
+                            src={`/images/seedling/ajdared.jpg`}
+                            alt={'apple'}
+                            width={600}
+                            height={400}
+                            className="rounded-2xl object-cover w-full h-auto"
+                        />
+                    </div>
                 </div>
                 <ReactMarkdown
                     components={{
-                        p: ({  ...props }) => (
+                        p: ({ ...props }) => (
                             <p
                                 className="text-[24px] max-md:text-[20px] max-md:max-w-full mb-4 leading-relaxed"
                                 {...props}
                             />
                         ),
-                        h1: ({  ...props }) => (
+                        h1: ({ ...props }) => (
                             <h3
                                 className="text-[28px] max-md:text-[22px] font-semibold mt-8 mb-4"
                                 {...props}
                             />
                         ),
-                        h3: ({  ...props }) => (
+                        h3: ({ ...props }) => (
                             <h3
                                 className="text-[28px] max-md:text-[22px] font-semibold mt-8 mb-4"
                                 {...props}
                             />
                         ),
-                        h2: ({  ...props }) => (
+                        h2: ({ ...props }) => (
                             <h2
                                 className="text-[32px] max-md:text-[24px] font-bold mt-10 mb-5"
                                 {...props}
@@ -100,7 +101,7 @@ const BlogPost = ({ blogId }: { blogId: number }) => {
                 </p> */}
                 <div className='w-full'>
 
-                <BlogSuggested />
+                    <BlogSuggested />
                 </div>
             </div>
         </div>

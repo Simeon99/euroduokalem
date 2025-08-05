@@ -15,7 +15,7 @@ const SlowCarousel = () => {
         {[...cards, ...cards].map((text, index) => (
           <div
             key={index}
-            className="min-w-[250px] mx-4 p-6 bg-green-100 rounded-xl shadow-md text-center text-gray-800 font-semibold text-lg"
+            className="min-w-[250px] mx-4 p-6 bg-secondary rounded-xl shadow-md text-center text-primary font-semibold text-lg"
           >
             {text}
           </div>

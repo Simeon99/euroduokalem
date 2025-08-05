@@ -7,8 +7,8 @@ import { Translation } from '../[lang]/dictionaries';
 
 const HeaderLabel = ({ t }: { t: Translation }) => {
     return (
-        <div className='bg-secondary flex justify-center'>
-            <div className=' max-w-screen-sw  w-full px-4 py-6 shadow-xl'>
+        <div className='bg-secondary flex justify-center shadow-xl'>
+            <div className=' max-w-screen-sw  w-full px-4 py-6 '>
                 <div className='grid grid-cols-4 max-md:grid-cols-2 gap-x-4 gap-y-6  content-center text-primary max-md:text-[16px] text-[20px] justify-between'>
                     <div className=' flex flex-row items-center gap-2 '>
                         <div>

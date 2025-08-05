@@ -17,12 +17,12 @@ const BlogPostsHeading = () => {
     const [primaryPost, setPrimaryPost] = useState<IBlogPost>();
     const [offset, setOffset] = useState(0);
     const [hasMore, setHasMore] = useState(true);
-    const [loading, setLoading] =useState<boolean>(false);
+    const [loading, setLoading] = useState<boolean>(false);
     const limit = 5;
 
 
-    const handleClick = () => {
-        router.push(`/${lang}/blog/1`)
+    const handleClick = (id: number) => {
+        router.push(`/${lang}/blog/${id}`)
     }
 
     const fetchPosts = async () => {
@@ -38,7 +38,7 @@ const BlogPostsHeading = () => {
         if (primary) setPrimaryPost(primary);
         setPosts((prev) => [...prev, ...filtered]);
 
-        setOffset((prev) => prev + limit); 
+        setOffset((prev) => prev + limit);
         setLoading(false)
     };
 
@@ -59,7 +59,9 @@ const BlogPostsHeading = () => {
                                     {primaryPost?.title}
                                 </h1>
                                 <div>
-                                    <Button variant='secondary' onClick={handleClick} label='Procitaj artikal' />
+                                    {primaryPost?.id !== undefined && (
+                                        <Button variant='secondary' onClick={() => handleClick(primaryPost?.id)} label='Procitaj artikal' />
+                                    )}
                                 </div>
 
                             </div>
@@ -88,7 +90,7 @@ const BlogPostsHeading = () => {
             <BlogPosts blogPosts={posts} />
             <div className='flex flex-col items-center pb-36'>
                 {hasMore && (
-                    <Button onClick={fetchPosts} label='Show More' isLoading={loading}/>
+                    <Button onClick={fetchPosts} label='Show More' isLoading={loading} />
                 )}
             </div>
         </>
