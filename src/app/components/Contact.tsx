@@ -90,8 +90,8 @@ const Contact = ({ t }: { t: Translation }) => {
                         <div className='h-[500px] w-[1px] bg-gray-300 max-md:hidden'></div>
                         <div className='flex-1 md:pl-8 max-md:order-1 flex flex-col max-md:gap-16 gap-8'>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>Pozovite nas</h2>
-                                <p className='text-gray-500'>Naš tim je tu da vam pruži profesionalne savete i pomogne u odabiru idealnih voćnih sadnica za vaš posao. Slobodno nas kontaktirajte za bilo kakva pitanja ili porudžbine.</p>
+                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.callUs}</h2>
+                                <p className='text-gray-500'>{t.home.contact.callUsText}</p>
                                 <div className='flex flex-row items-center gap-4'>
                                     <div className='rounded-full p-2.5 bg-secondary flex flex-col items-center justify-center' >
                                         <FaPhone color='#0E3A27' className='max-md:hidden' size={28} />
@@ -101,8 +101,8 @@ const Contact = ({ t }: { t: Translation }) => {
                                 </div>
                             </div>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>Pošaljite nam email</h2>
-                                <p className='text-gray-500'>Imate pitanja o našim voćnim sadnicama ili želite naručiti veće količine? Pišite nam, rado ćemo vam odgovoriti i poslati ponudu u najkraćem roku.</p>
+                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.sendEmail}</h2>
+                                <p className='text-gray-500'>{t.home.contact.sendEmailText}</p>
                                 <div className='flex flex-row items-center gap-4'>
                                     <div className='rounded-full p-2.5 bg-secondary flex flex-col items-center justify-center' >
                                         <MdEmail color='#0E3A27' className='max-md:hidden' size={28} />
@@ -112,8 +112,8 @@ const Contact = ({ t }: { t: Translation }) => {
                                 </div>
                             </div>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>Posetite nas</h2>
-                                <p className='text-gray-500'>Dođite na našu lokaciju i uverite se u kvalitet voćnih sadnica iz prve ruke. Rado ćemo vam pokazati asortiman, pružiti stručne savete i dogovoriti najpovoljniju ponudu za vaše potrebe.</p>
+                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.visitUs}</h2>
+                                <p className='text-gray-500'>{t.home.contact.visitUsText}</p>
                                 <div className='flex flex-row items-center gap-4'>
                                     <div className='rounded-full p-2.5 bg-secondary flex flex-col items-center justify-center' >
                                         <IoLocationSharp color='#0E3A27' className='max-md:hidden' size={28} />
@@ -122,7 +122,7 @@ const Contact = ({ t }: { t: Translation }) => {
                                     <a
                                         href="https://www.google.com/maps/place/Euro+Duo+Kalem+Rasadnik/data=!4m2!3m1!1s0x0:0xb2577c11a9e5618d?sa=X&ved=1t:2428&ictx=111"
                                         target="_blank"
-                                        rel="noopener noreferrer" className='font-heading font-bold text-primary text-[24px] max-md:text-[18px] hover:underline'>Selo Lazarevac, Kruševac, Srbija</a>
+                                        rel="noopener noreferrer" className='font-heading font-bold text-primary text-[24px] max-md:text-[18px] hover:underline'>{t.home.contact.location}</a>
 
                                 </div>
 

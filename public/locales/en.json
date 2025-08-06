@@ -58,7 +58,14 @@
       "name": "Full name",
       "email": "Email",
       "message": "Message",
-      "button": "Send message "
+      "button": "Send message ",
+      "callUs": "Call us",
+      "callUsText": "Our team is here to provide professional advice and help you choose the ideal fruit seedlings for your business. Feel free to contact us with any questions or orders.",
+      "sendEmail": "Send us an email",
+      "sendEmailText": "Have questions about our fruit seedlings or want to place a bulk order? Write to us — we’ll be happy to respond and send you an offer as soon as possible.",
+      "visitUs": "Visit us",
+      "visitUsText": "Come to our location and see the quality of our fruit seedlings firsthand. We’ll gladly show you the range, offer expert advice, and arrange the best deal for your needs.",
+      "location": "Village Lazarevac, Kruševac, Serbia"
     },
     "blog": {
       "title": "Our blog"

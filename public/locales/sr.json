@@ -58,7 +58,14 @@
       "name": "Ime i prezime",
       "email": "Email",
       "message": "Poruka",
-      "button": "Pošalji poruku"
+      "button": "Pošalji poruku",
+      "callUs": "Pozovite nas",
+      "callUsText": "Naš tim je tu da vam pruži profesionalne savete i pomogne u odabiru idealnih voćnih sadnica za vaš posao. Slobodno nas kontaktirajte za bilo kakva pitanja ili porudžbine.",
+      "sendEmail": "Pošaljite nam email",
+      "sendEmailText": "Imate pitanja o našim voćnim sadnicama ili želite naručiti veće količine? Pišite nam, rado ćemo vam odgovoriti i poslati ponudu u najkraćem roku.",
+      "visitUs": "Posetite nas",
+      "visitUsText": "Dođite na našu lokaciju i uverite se u kvalitet voćnih sadnica iz prve ruke. Rado ćemo vam pokazati asortiman, pružiti stručne savete i dogovoriti najpovoljniju ponudu za vaše potrebe.",
+      "location": "Selo Lazarevac, Kruševac, Srbija"
     },
     "blog": {
       "title": "Naš blog"
