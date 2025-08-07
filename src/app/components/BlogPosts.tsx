@@ -28,8 +28,8 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
                         <Link href={`/${lang}/blog/${firstThree[0]?.id}`}>
                             <div className='relative w-full h-[500px] '>
                                 <Image
-                                    src={`/images/seedling/ajdared.jpg`}
-                                    alt={'apple'}
+                                    src={firstThree[0]?.imageUrl}
+                                    alt={firstThree[0]?.title + " image"}
                                     fill
                                     className="object-cover rounded-2xl "
                                 />
@@ -50,8 +50,8 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
                                         <Link href={`/${lang}/blog/${post?.id}`}>
                                             <div className='relative w-full h-[200px] '>
                                                 <Image
-                                                    src={`/images/seedling/breburn.jpg`}
-                                                    alt={'apple'}
+                                                    src={post.imageUrl}
+                                                    alt={post.title + " image"}
                                                     fill
                                                     className="object-cover rounded-2xl"
                                                 />
@@ -75,8 +75,8 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
                             <Link href={`/${lang}/blog/${post.id}`}>
                                 <div className='relative w-full h-[250px]'>
                                     <Image
-                                        src={`/images/seedlings/plum.jpg`}
-                                        alt={'apple'}
+                                        src={post.imageUrl}
+                                        alt={post.title + " image"}
                                         fill
                                         className="object-cover rounded-2xl"
                                     />
@@ -99,8 +99,8 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
                             <Link href={`/${lang}/blog/${post.id}`}>
                                 <div className='relative w-full h-[250px]'>
                                     <Image
-                                        src={`/images/seedlings/plum.jpg`}
-                                        alt={'apple'}
+                                        src={post.imageUrl}
+                                        alt={post.title + " image"}
                                         fill
                                         className="object-cover rounded-2xl"
                                     />

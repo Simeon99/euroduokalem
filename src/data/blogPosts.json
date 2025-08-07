@@ -17,7 +17,7 @@
                 "sr": "Sadite voćnjak? Ne dozvolite da vam sadnice propadnu zbog ovih grešaka! Pročitajte kako da ih izbegnete i obezbedite uspešan start.",
                 "ru": "Собираетесь сажать фруктовый сад? Не испортите даже лучшие саженцы этими ошибками. Узнайте, как посадить правильно!"
             },
-            "imageUrl": "/images/seedling/planting-mistakes.jpg",
+            "imageUrl": "/images/blog/greskeTokomSadnje.PNG",
             "primary": true,
             "recomended": [
                 1,
@@ -67,7 +67,7 @@
                 "sr": "Naučite kako da prepoznate i lečite najčešće bolesti voćaka – i obezbedite zdrav i plodonosan zasad.",
                 "ru": "Узнайте, как распознать и лечить самые распространённые болезни деревьев — защитите урожай вовремя."
             },
-            "imageUrl": "/images/seedling/disease-care.jpg",
+            "imageUrl": "/images/blog/bolesti.PNG",
             "primary": false,
             "recomended": [
                 1,
@@ -92,7 +92,7 @@
                 "sr": "Klimatske promene menjaju voćarstvo. Saznajte kako da se pametno prilagodite i zaštitite zasad.",
                 "ru": "Климат меняется — адаптируйте ваш сад. Узнайте, как выращивать фрукты в новых условиях."
             },
-            "imageUrl": "/images/seedling/climate-adapt.jpg",
+            "imageUrl": "/images/blog/klimatskePromene.png",
             "primary": false,
             "recomended": [
                 1,
@@ -117,7 +117,7 @@
                 "sr": "Kupovina sadnica na veliko direktno od rasadnika znači bolju cenu, svežije sadnice i sigurnog partnera.",
                 "ru": "Оптовая покупка напрямую из питомника — это экономия, свежесть и надежное партнёрство."
             },
-            "imageUrl": "/images/seedling/wholesale-benefits.jpg",
+            "imageUrl": "/images/blog/sadniceNaVeliko.png",
             "primary": false,
             "recomended": [
                 1,
@@ -142,7 +142,7 @@
                 "sr": "Saznajte koje su sorte voća bile najtraženije poslednjih godina – i kako da izaberete pravu za svoj zasad.",
                 "ru": "Какие сорта фруктов были самыми востребованными за последние 5 лет? Узнайте, какие из них лидируют на рынке и почему."
             },
-            "imageUrl": "/images/seedling/top-fruit-varieties.jpg",
+            "imageUrl": "/images/blog/najtrazenije.png",
             "primary": false,
             "recomended": [
                 1,

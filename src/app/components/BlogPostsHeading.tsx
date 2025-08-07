@@ -66,22 +66,27 @@ const BlogPostsHeading = () => {
 
                             </div>
                             <div className='relative w-1/2 max-lsw:hidden h-[400px]'>
-                                <Image
-                                    src={`/images/seedling/ajdared.jpg`}
-                                    alt={'apple'}
-                                    fill
-                                    className="object-cover rounded-2xl"
-                                />
+                                {
+                                    primaryPost?.imageUrl &&
+                                    <Image
+                                        src={primaryPost?.imageUrl}
+                                        alt={primaryPost?.title ?? 'Image'}
+                                        fill
+                                        className="object-cover rounded-2xl"
+                                    />
+                                }
                             </div>
                             <div className='w-full lsw:hidden '>
-                                <Image
-                                    src={`/images/seedling/ajdared.jpg`}
-                                    alt={'apple'}
-                                    width={600}
-                                    height={400}
-                                    className="rounded-2xl object-cover w-full h-auto"
-                                />
-
+                                {
+                                    primaryPost?.imageUrl &&
+                                    <Image
+                                        src={primaryPost?.imageUrl}
+                                        alt={primaryPost.title?? 'Image'}
+                                        width={600}
+                                        height={400}
+                                        className="rounded-2xl object-cover w-full h-auto"
+                                    />
+                                }
                             </div>
                         </div>
                     </div>

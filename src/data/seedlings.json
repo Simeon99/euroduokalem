@@ -114,9 +114,9 @@
       "id": 11,
       "name": { "en": "Nectarine", "sr": "Nektarina", "ru": "Нектарин" },
       "description": {
-        "en": ["7 varieties", "High-yielding varieties with excellent fruit quality", "Perfect for sunny and warm climate conditions"],
-        "sr": ["7 sorti", "Sorte sa visokim prinosima i odličnim kvalitetom plodova", "Savršene za sunčane i tople klimatske uslove"],
-        "ru": ["7 сортов", "Сорта с высоким урожаем и отличным качеством плодов", "Идеальны для тёплого и солнечного климата"]
+        "en": ["6 varieties", "High-yielding varieties with excellent fruit quality", "Perfect for sunny and warm climate conditions"],
+        "sr": ["6 sorti", "Sorte sa visokim prinosima i odličnim kvalitetom plodova", "Savršene za sunčane i tople klimatske uslove"],
+        "ru": ["6 сортов", "Сорта с высоким урожаем и отличным качеством плодов", "Идеальны для тёплого и солнечного климата"]
       },
       "imageUrl": ["", "/nectarine.jpg"],
       "url": "nectarine"

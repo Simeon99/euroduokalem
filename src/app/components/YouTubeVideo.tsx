@@ -3,12 +3,16 @@
 import Image from 'next/image';
 import React, { useState } from 'react'
 import { FaPlay } from 'react-icons/fa6';
+import { Translation } from '../[lang]/dictionaries';
 
-const YouTubeVideo = () => {
+const YouTubeVideo = ({ t }: { t: Translation }) => {
     const [isPlaying, setIsPlaying] = useState(false);
 
     return (
         <div className='flex flex-col px-4'>
+            <div className='max-w-screen-sw w-full mx-auto'>
+                <h1 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.videoTitle}</h1>
+            </div>
             <div className="max-w-screen-sw w-full mx-auto aspect-video rounded-xl overflow-hidden shadow-lg">
                 {!isPlaying ? (
                     <div

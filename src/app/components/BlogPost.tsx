@@ -44,23 +44,17 @@ const BlogPost = ({ blogId }: { blogId: number }) => {
                 </h1>
             </div>
             <div className='flex flex-col gap-16'>
-                {/* <div className='relative w-[80%] max-lsw:hidden h-[500px]'>
-                    <Image
-                        src={`/images/seedling/ajdared.jpg`}
-                        alt={'apple'}
-                        fill
-                        className="object-cover rounded-2xl"
-                    />
-                </div> */}
                 <div className='w-full flex flex-col items-center'>
                     <div className='w-[80%] max-md:w-full '>
-                        <Image
-                            src={`/images/seedling/ajdared.jpg`}
-                            alt={'apple'}
-                            width={600}
-                            height={400}
-                            className="rounded-2xl object-cover w-full h-auto"
-                        />
+                        {blogPost?.imageUrl &&
+                            <Image
+                                src={blogPost?.imageUrl}
+                                alt={blogPost?.title + "image"}
+                                width={600}
+                                height={400}
+                                className="rounded-2xl object-cover w-full h-auto"
+                            />
+                        }
                     </div>
                 </div>
                 <div className='flex flex-col'>
