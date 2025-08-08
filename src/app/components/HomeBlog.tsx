@@ -14,7 +14,7 @@ const HomeBlog = () => {
 
     async function fetchBlogPost() {
         try {
-            const res = await fetch(`/api/suggestedBlogs?lang=${lang}&blogIds=1,2,3`);
+            const res = await fetch(`/api/suggestedBlogs?lang=${lang}&blogIds=2,3,4`);
             const suggestedRes = await res.json();
             setSuggested(suggestedRes);
             console.log(suggested)
@@ -41,11 +41,11 @@ const HomeBlog = () => {
                     className="hover:scale-101 transform   block rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition duration-300 bg-secondary-light"
                 >
                     <Image
-                        src={'/images/home'+ post.imageUrl}
+                        src={post.imageUrl}
                         alt={post.title}
                         width={200}
-                        height={48}
-                        className="w-full h-48 object-cover"
+                        height={240}
+                        className="w-full h-60 object-cover"
                     />
                     <div className="p-4">
                         <h3 className="text-lg font-semibold text-primary mb-2">{post.title}</h3>

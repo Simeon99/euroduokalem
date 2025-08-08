@@ -1,6 +1,7 @@
 import React from 'react'
 import { getDictionary, Locale } from '../dictionaries';
 import Seedlings from '@/app/components/Seedlings';
+import SeedlingsFooter from '@/app/components/SeedlingsFooter';
 
 interface PageProps {
     params: Promise<{
@@ -45,6 +46,7 @@ const page = async ({ params }: PageProps) => {
         <div className='flex justify-center px-4'>
             <div className='max-w-screen-sw  w-full '>
                 <Seedlings lang={lang} t={t} />
+                <SeedlingsFooter />
             </div>
         </div>
     )
