@@ -244,7 +244,7 @@ const About = ({ t }: { t: Translation }) => {
 
                                 </div>
                             </div>
-                             <div className='w-full '>
+                             <div className='w-full'>
                                 <VerticalVideoGallery
                                     videos={videos}
                                     viewAllHref="/videos"

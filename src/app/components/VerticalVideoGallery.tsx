@@ -19,7 +19,7 @@ export default function VerticalVideoGallery({
     const current = videos[active];
 
     return (
-        <section className="w-full flex justify-center max-[1441px]:px-4">
+        <section className="w-full flex justify-center max-[768px]:px-0 max-[1441px]:px-4">
             {/* two-tone bg */}
             <div className="relative  max-w-screen-sw  w-full  py-16">
                 <div className="rounded-3xl  bg-secondary backdrop-blur-xl p-6 ring-1 ring-white/10 shadow-2xl">
