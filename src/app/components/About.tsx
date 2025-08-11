@@ -37,7 +37,7 @@ const About = ({ t }: { t: Translation }) => {
                             <div className='w-1/3 h-full flex flex-col justify-between'>
                                 <div className='w-full h-[500px]'>
                                     <Image
-                                        src="/images/about/kruske.jpg"         // path to your image in the /public folder
+                                        src="/images/about/procvetaleSadnice.jpeg"         // path to your image in the /public folder
                                         alt="Apple"
                                         width={400}              // required
                                         height={300}             // required
@@ -122,7 +122,7 @@ const About = ({ t }: { t: Translation }) => {
                         <div className='max-w-screen-sw w-full flex flex-col items-center'>
                             <div className='w-1/3 h-[500px]'>
                                 <Image
-                                    src="/images/about/kruske.jpg"         // path to your image in the /public folder
+                                    src="/images/about/sadnice.jpeg"         // path to your image in the /public folder
                                     alt="Apple"
                                     width={400}              // required
                                     height={300}             // required

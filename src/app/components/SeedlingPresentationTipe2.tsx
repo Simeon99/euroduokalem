@@ -5,7 +5,8 @@ import { Translation } from '../[lang]/dictionaries'
 import { renderWithBold } from './ui/RenderWithBold'
 import SeedlingSuggested from './SeedlingSuggested'
 
-const SeedlingPresentationTipe2 = ({ selectedData, t }: { selectedData: SubvarietyRoseGrapevine, t: Translation }) => {
+const SeedlingPresentationTipe2 = ({ selectedData, frutiName, t }: { selectedData: SubvarietyRoseGrapevine, frutiName: string, t: Translation }) => {
+
   return (
     <div className='w-full flex flex-col gap-8'>
       <div className='mb-16 flex flex-col gap-4'>
@@ -44,7 +45,10 @@ const SeedlingPresentationTipe2 = ({ selectedData, t }: { selectedData: Subvarie
         <h1 className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
           {t.seedling.suggested}
         </h1>
-        {selectedData?.suggested && <SeedlingSuggested suggestedFruits={selectedData?.suggested} />}
+        <SeedlingSuggested
+          key={`${frutiName}-${selectedData.name}`}
+          frutiName={frutiName}
+        />
       </div>
     </div>
   )

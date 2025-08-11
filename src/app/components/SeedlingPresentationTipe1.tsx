@@ -5,7 +5,7 @@ import SeedlingSuggested from './SeedlingSuggested'
 import { Subvariety } from './Seedling'
 import { Translation } from '../[lang]/dictionaries'
 
-const SeedlingPresentationTipe1 = ({ selectedData, t }: { selectedData: Subvariety, t: Translation }) => {
+const SeedlingPresentationTipe1 = ({ selectedData, frutiName, t }: { selectedData: Subvariety, frutiName:string, t: Translation }) => {
 
     const [isImageLoading, setIsImageLoading] = useState(true);
 
@@ -84,7 +84,7 @@ const SeedlingPresentationTipe1 = ({ selectedData, t }: { selectedData: Subvarie
                 <h1 className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
                     {t.seedling.suggested}
                 </h1>
-                {selectedData?.suggested && <SeedlingSuggested suggestedFruits={selectedData?.suggested} />}
+                {selectedData?.suggested && <SeedlingSuggested key={`${selectedData.subvariety}-${selectedData.suggested.join(',')}`} frutiName={frutiName}/>}
             </div>
         </main>
     )

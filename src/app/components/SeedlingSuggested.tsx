@@ -6,18 +6,27 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import { GoDotFill } from 'react-icons/go';
+import seedlingsData from "@/data/seedlings.json"
 
-const SeedlingSuggested = ({suggestedFruits}: {suggestedFruits: number[] }) => {
-    
+const SeedlingSuggested = ({ frutiName }: { frutiName: string, }) => {
+
+    const seedlingId = seedlingsData.seedlings.filter(s =>
+        Object.values(s.name).some(value =>
+            value.toLowerCase() === frutiName.toLowerCase()
+        )
+    )
+        .map(s => s.id);
+
     const params = useParams();
     const lang = params?.lang as string;
 
     const [suggested, setSuggested] = useState<ISuggestedFruit[] | null>();
 
     async function fetchBlogPost() {
+        const suggestRandom = generateRandom(1, 19, seedlingId[0]);
 
         try {
-            const res = await fetch(`/api/suggestedSeedlings?lang=${lang}&fruitIds=${suggestedFruits[0]},${suggestedFruits[1]},${suggestedFruits[2]}`);
+            const res = await fetch(`/api/suggestedSeedlings?lang=${lang}&fruitIds=${suggestRandom[0]},${suggestRandom[1]},${suggestRandom[2]}`);
             const suggestedRes = await res.json();
             setSuggested(suggestedRes);
             console.log(suggested)
@@ -29,6 +38,18 @@ const SeedlingSuggested = ({suggestedFruits}: {suggestedFruits: number[] }) => {
         }
 
 
+    }
+
+    function generateRandom(from: number, to: number, exclude: number) {
+        const numbers: number[] = []
+
+        while (numbers.length < 4) {
+            const rand = Math.floor(Math.random() * (to - from + 1)) + from;
+            if (rand !== exclude && !numbers.includes(rand)) {
+                numbers.push(rand);
+            }
+        }
+        return numbers;
     }
 
     useEffect(() => {

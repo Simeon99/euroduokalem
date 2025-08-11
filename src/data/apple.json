@@ -58,9 +58,9 @@
           ],
           "url": "apple/breburn.jpg",
           "suggested": [
-            2,
-            3,
-            4
+            5,
+            6,
+            7
           ]
         },
         {
@@ -88,9 +88,9 @@
           ],
           "url": "apple/fudzi.jpg",
           "suggested": [
-            2,
-            3,
-            4
+            8,
+            9,
+            10
           ]
         },
         {
@@ -118,9 +118,9 @@
           ],
           "url": "apple/gala.jpg",
           "suggested": [
-            2,
-            3,
-            4
+            11,
+            12,
+            13
           ]
         },
         {
@@ -148,9 +148,9 @@
           ],
           "url": "apple/gloster.jpg",
           "suggested": [
-            2,
-            3,
-            4
+            14,
+            15,
+            16
           ]
         },
         {
@@ -178,9 +178,9 @@
           ],
           "url": "apple/greni-smit.jpg",
           "suggested": [
-            2,
-            3,
-            4
+            17,
+            18,
+            19
           ]
         },
         {
@@ -209,8 +209,8 @@
           "url": "apple/jonagold.jpg",
           "suggested": [
             2,
-            3,
-            4
+            5,
+            8
           ]
         },
         {
@@ -238,9 +238,9 @@
           ],
           "url": "apple/red-spur-delises.jpg",
           "suggested": [
-            2,
             3,
-            4
+            6,
+            9
           ]
         },
         {
@@ -268,9 +268,9 @@
           ],
           "url": "apple/summer-red.jpg",
           "suggested": [
-            2,
-            3,
-            4
+            4,
+            7,
+            10
           ]
         },
         {
@@ -298,9 +298,9 @@
           ],
           "url": "apple/top red.jpg",
           "suggested": [
-            2,
-            3,
-            4
+            11,
+            14,
+            17
           ]
         },
         {
@@ -328,15 +328,15 @@
           ],
           "url": "apple/zlatni delises .jpg",
           "suggested": [
-            2,
-            3,
-            4
+            12,
+            15,
+            18
           ]
         }
       ]
     },
     "pear": {
-      "title": "Kruska",
+      "title": "Kruška",
       "subvarietys": [
         {
           "subvariety": "Abate Fetel",
@@ -362,11 +362,7 @@
             }
           ],
           "url": "pear/abate fetel.webp",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [1, 3, 4]
         },
         {
           "subvariety": "Beurre Hardy",
@@ -392,11 +388,7 @@
             }
           ],
           "url": "pear/buerre hardy .jpg",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [5, 6, 7]
         },
         {
           "subvariety": "Boskova bočica",
@@ -422,11 +414,7 @@
             }
           ],
           "url": "pear/boskova bocica.jpg",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [8, 9, 10]
         },
         {
           "subvariety": "Butira",
@@ -452,11 +440,7 @@
             }
           ],
           "url": "pear/butira .webp",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [11, 12, 13]
         },
         {
           "subvariety": "Junska lepotica",
@@ -482,11 +466,7 @@
             }
           ],
           "url": "pear/junska lepotica.jpg",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [14, 15, 16]
         },
         {
           "subvariety": "Kaluđerka",
@@ -513,9 +493,9 @@
           ],
           "url": "pear/kaludjerka.jpg",
           "suggested": [
-            1,
-            3,
-            4
+            17,
+            18,
+            19
           ]
         },
         {
@@ -543,9 +523,9 @@
           ],
           "url": "pear/konferens.jpg",
           "suggested": [
-            1,
-            3,
-            4
+            2,
+            5,
+            8
           ]
         },
         {
@@ -573,9 +553,9 @@
           ],
           "url": "pear/santa maria.jpg",
           "suggested": [
-            1,
             3,
-            4
+            6,
+            9
           ]
         },
         {
@@ -603,9 +583,9 @@
           ],
           "url": "pear/starkrimson .webp",
           "suggested": [
-            1,
-            3,
-            4
+            4,
+            7,
+            10
           ]
         },
         {
@@ -633,9 +613,9 @@
           ],
           "url": "pear/viljamovka.jpg",
           "suggested": [
-            1,
-            3,
-            4
+            11,
+            14,
+            17
           ]
         }
       ]
@@ -668,7 +648,7 @@
           ],
           "url": "plum/cacanska-lepotica.webp",
           "suggested": [
-            1,
+            2,
             3,
             4
           ]
@@ -696,11 +676,7 @@
             }
           ],
           "url": "plum/cacanska najbolja.webp",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [5, 6, 7]
         },
         {
           "subvariety": "Čačanska rana",
@@ -726,11 +702,7 @@
             }
           ],
           "url": "plum/čačanska rana.webp",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [8, 9, 10]
         },
         {
           "subvariety": "Čačanska rodna",
@@ -756,11 +728,7 @@
             }
           ],
           "url": "plum/čačanska rodna.jpg",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [11, 12, 13]
         },
         {
           "subvariety": "Grosse Di Felicio",
@@ -786,11 +754,7 @@
             }
           ],
           "url": "plum/grosse di felicia.jpg",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [14, 15, 16]
         },
         {
           "subvariety": "President",
@@ -816,11 +780,7 @@
             }
           ],
           "url": "plum/president.jpg",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [17, 18, 19]
         },
         {
           "subvariety": "Stenly",
@@ -846,11 +806,7 @@
             }
           ],
           "url": "plum/stenlej.jpg",
-          "suggested": [
-            1,
-            3,
-            4
-          ]
+          "suggested": [2, 5, 8]
         }
       ]
     },

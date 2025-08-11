@@ -15,7 +15,7 @@ const SeedlingPresentGrapevineRoses = ({ selectedData, fruitData, setSelected, t
                     <h1 className="text-4xl max-lsw:text-3xl text-primary font-bold font-heading max-md:hidden">{selectedData?.name}</h1>
 
                 </div>
-                    <SeedlingPresentationTipe2 selectedData={selectedData} t={t}/>
+                    <SeedlingPresentationTipe2 selectedData={selectedData} frutiName={fruitData.title} t={t}/>
             </div>
 
         </div>

@@ -27,12 +27,17 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
                     <article className='flex flex-col gap-4 w-2/3 hover:scale-101 hover:cursor-pointer transform  duration-300'>
                         <Link href={`/${lang}/blog/${firstThree[0]?.id}`}>
                             <div className='relative w-full h-[500px] '>
-                                <Image
-                                    src={firstThree[0]?.imageUrl}
-                                    alt={firstThree[0]?.title + " image"}
-                                    fill
-                                    className="object-cover rounded-2xl "
-                                />
+                                {
+                                    firstThree[0]?.imageUrl && 
+
+                                    <Image
+                                        src={firstThree[0]?.imageUrl}
+                                        alt={firstThree[0]?.title + " image"}
+                                        fill
+                                        className="object-cover rounded-2xl "
+                                    />
+
+                                }
 
                             </div>
                             <div className=' '>
