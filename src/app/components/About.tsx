@@ -5,6 +5,12 @@ import { TbChecks } from 'react-icons/tb'
 import { PiTreeThin } from 'react-icons/pi'
 import { LuEarth } from 'react-icons/lu'
 import { GoPerson } from 'react-icons/go'
+import VerticalVideoGallery from './VerticalVideoGallery'
+
+const videos = [
+    { id: "lyF7cPUOs9U", title: "From Seedling to Juicy Pear", poster:'/images/about/thubnail1.png' },
+                                        { id: "gQ350ueXsH0", title: "Blooming Orchard Walkthrough", poster:'/images/about/thubnail2.png' },
+]
 
 const About = ({ t }: { t: Translation }) => {
     return (
@@ -46,7 +52,7 @@ const About = ({ t }: { t: Translation }) => {
                                 </div>
                                 <div className='w-full h-[500px]'>
                                     <Image
-                                        src="/images/about/tresnje.jpg"         // path to your image in the /public folder
+                                        src="/images/about/grozdje.jpeg"         // path to your image in the /public folder
                                         alt="Apple"
                                         width={400}              // required
                                         height={300}             // required
@@ -120,7 +126,7 @@ const About = ({ t }: { t: Translation }) => {
                     </div>
                     <div className='flex justify-center'>
                         <div className='max-w-screen-sw w-full flex flex-col items-center'>
-                            <div className='w-1/3 h-[500px]'>
+                            {/* <div className='w-1/3 h-[500px]'>
                                 <Image
                                     src="/images/about/sadnice.jpeg"         // path to your image in the /public folder
                                     alt="Apple"
@@ -128,6 +134,14 @@ const About = ({ t }: { t: Translation }) => {
                                     height={300}             // required
                                     className="rounded-b-2xl w-full h-full object-cover"   // optional Tailwind class
                                 />
+                            </div> */}
+                            <div className='w-full '>
+                                <VerticalVideoGallery
+                                    videos={videos}
+                                    viewAllHref="/videos"
+                                />
+                                {/* <VerticalYouTube title='Kalemljenje iz ruke' id='lyF7cPUOs9U' poster='/images/about/thubnail1.png' />
+                                <VerticalYouTube title='Kalemljenje iz ruke' id='gQ350ueXsH0' poster='/images/about/thubnail2.png' /> */}
                             </div>
                             <div className='w-full px-4 mt-36 flex flex-col gap-4 mb-36'>
                                 <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>Saznajte sve o nama</h1>
@@ -138,6 +152,7 @@ const About = ({ t }: { t: Translation }) => {
                             </div>
                         </div>
                     </div>
+
                 </div>
                 {/* Mobile */}
                 <div className='flex justify-center px-4 mt-16 md:hidden'>
@@ -154,7 +169,7 @@ const About = ({ t }: { t: Translation }) => {
                             <div className='w-full flex justify-center mt-4'>
                                 <div className='w-[80%] h-[300px] xsw:h-[400px]'>
                                     <Image
-                                        src="/images/about/kruske.jpg"         // path to your image in the /public folder
+                                        src="/images/about/procvetaleSadnice.jpeg"         // path to your image in the /public folder
                                         alt="Apple"
                                         width={400}              // required
                                         height={600}             // required
@@ -198,7 +213,7 @@ const About = ({ t }: { t: Translation }) => {
                             <div className='w-full flex justify-center mt-4'>
                                 <div className='w-[80%] h-[300px] xsw:h-[400px]'>
                                     <Image
-                                        src="/images/about/tresnje.jpg"         // path to your image in the /public folder
+                                        src="/images/about/kruske.jpg"         // path to your image in the /public folder
                                         alt="Apple"
                                         width={400}              // required
                                         height={300}             // required
@@ -220,7 +235,7 @@ const About = ({ t }: { t: Translation }) => {
                             <div className='w-full flex justify-center mt-4'>
                                 <div className='w-[80%] h-[300px] xsw:h-[400px]'>
                                     <Image
-                                        src="/images/about/kruske.jpg"         // path to your image in the /public folder
+                                        src="/images/about/sadnice.jpeg"         // path to your image in the /public folder
                                         alt="Apple"
                                         width={400}              // required
                                         height={300}             // required
@@ -228,6 +243,14 @@ const About = ({ t }: { t: Translation }) => {
                                     />
 
                                 </div>
+                            </div>
+                             <div className='w-full '>
+                                <VerticalVideoGallery
+                                    videos={videos}
+                                    viewAllHref="/videos"
+                                />
+                                {/* <VerticalYouTube title='Kalemljenje iz ruke' id='lyF7cPUOs9U' poster='/images/about/thubnail1.png' />
+                                <VerticalYouTube title='Kalemljenje iz ruke' id='gQ350ueXsH0' poster='/images/about/thubnail2.png' /> */}
                             </div>
                             <div className='w-full mt-16 flex flex-col gap-4 mb-36'>
                                 <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>Saznajte sve o nama</h1>
