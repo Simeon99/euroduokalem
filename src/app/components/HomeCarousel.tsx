@@ -64,14 +64,14 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
         },
         {
             src: '/images/home/sour-cherry.png',
-            tittle: t.home.mostWanted.sourCherry.title,
-            text: t.home.mostWanted.sourCherry.text,
+            tittle: t.home.mostWanted['sour-cherry'].title,
+            text: t.home.mostWanted['sour-cherry'].text,
             url: `/${lang}/seedlings/sour-cherry`
         },
         {
             src: '/images/home/cherry.png',
-            tittle: t.home.mostWanted.cherry.title,
-            text: t.home.mostWanted.cherry.text,
+            tittle: t.home.mostWanted['sweet-cherry'].title,
+            text: t.home.mostWanted['sweet-cherry'].text,
             url: `/${lang}/seedlings/sweet-cherry`
         },
 

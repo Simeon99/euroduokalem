@@ -3,8 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useParams } from 'next/navigation';
 import React from 'react'
+import { Translation } from '../[lang]/dictionaries';
 
-const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
+const BlogPosts = ({ blogPosts, t }: { blogPosts: IBlogPost[], t: Translation }) => {
 
     const params = useParams();
     const lang = params?.lang as string;
@@ -12,15 +13,19 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
     //     return <p>No blog posts available.</p>;
     //   }
 
-    const firstThree = blogPosts?.blogPosts.slice(0, 3);
-    const remaining = blogPosts?.blogPosts.slice(3);
+    if (!blogPosts || blogPosts.length === 0) {
+        return <p>No blog posts available.</p>;
+    }
+
+    const firstThree = blogPosts.slice(0, 3);
+    const remaining = blogPosts.slice(3);
 
 
     return (
         <div className='bg-secondary-light flex  justify-center px-4 max-md:py-16 py-36'>
             <div className='max-w-screen-sw  w-full flex flex-col gap-8'>
                 <h1 className='font-heading  text-6xl text-primary  max-lsw:text-5xl max-md:text-4xl font-bold line'>
-                    Najnovije objave
+                    {t.blog.title}
                 </h1>
                 {/* Desktop */}
                 <div className='flex flex-row gap-8 max-lsw:hidden'>
@@ -28,7 +33,7 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
                         <Link href={`/${lang}/blog/${firstThree[0]?.id}`}>
                             <div className='relative w-full h-[500px] '>
                                 {
-                                    firstThree[0]?.imageUrl && 
+                                    firstThree[0]?.imageUrl &&
 
                                     <Image
                                         src={firstThree[0]?.imageUrl}
@@ -99,7 +104,7 @@ const BlogPosts = (blogPosts: { blogPosts: IBlogPost[] }) => {
 
                 {/* Mobile  */}
                 <div className='grid grid-cols-2 max-md:grid-cols-1 gap-x-8 gap-y-16 lsw:hidden'>
-                    {blogPosts.blogPosts.map(post =>
+                    {blogPosts.map(post =>
                         <article key={post.id} className='flex flex-col gap-4 hover:scale-101 hover:cursor-pointer transform  duration-300'>
                             <Link href={`/${lang}/blog/${post.id}`}>
                                 <div className='relative w-full h-[250px]'>

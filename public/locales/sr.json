@@ -29,11 +29,11 @@
         "title": "šljiva",
         "text": "Otporne i plodne sorte šljive, savršene za sveže konzumiranje, sušenje ili preradu. Naše sadnice garantuju visok prinos i stabilan kvalitet plodova, uz izuzetnu prilagodljivost zemljištu i klimi..."
       },
-      "sourCherry": {
+      "sour-cherry": {
         "title": "višnja",
         "text": "Višnje bogate aromom, odlične za preradu, sokove i džemove, sa stabilnim prinosima. Naše sadnice su otporne na bolesti i prilagođene različitim uslovima gajenja, pružajući sigurnu i kvalitetnu berbu..."
       },
-      "cherry": {
+      "sweet-cherry": {
         "title": "trešnja",
         "text": "Slatke i sočne trešnje iz naših zasada, poznate po izuzetnoj krupnoći i ukusu. Birane sorte sa odličnim oprašivanjem i visokim prinosom osiguravaju dugotrajan i kvalitetan rod..."
       },
@@ -98,6 +98,11 @@
     "address": "Adresa",
     "addressOf": "Selo Lazarevac, Kruševac, Srbija",
     "social": "Mreže"
+  },
+  "blog": {
+    "title": "Najnovije objave",
+    "button": "Pročitaj artikal",
+    "showMore": "Prikaži više"
   },
   "seo": {
     "home": {
@@ -223,7 +228,7 @@
           "description": "Pogledajte ponudu sadnica: Stanley, Čačanska rodna, Požegača i druge sorte. Visok kvalitet, deklaracija, izvoz."
         }
       },
-      "cherry": {
+      "sweet-cherry": {
         "title": "Sadnice trešnje - sorte za izvoz i sadnju",
         "description": "Sertifikovane sadnice trešnje: Bing, Bigarreau Burlat, Ferrovia, Kordia, Regina i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
         "keywords": [
@@ -249,7 +254,7 @@
           "description": "Pogledajte ponudu sadnica: Bing, Ferrovia, Kordia, Regina i druge sorte. Visok kvalitet, deklaracija, izvoz."
         }
       },
-      "sourCherry": {
+      "sour-cherry": {
         "title": "Sadnice višnje - sorte za izvoz i sadnju",
         "description": "Sertifikovane sadnice višnje: Hajmanova konzervna, Keleris 14, Keleris 16, Montmorency, Oblačinska, Šumadinka i druge sorte pogodne za konzumaciju, preradu i izvoz. Dostava širom Evrope i sveta.",
         "keywords": [
@@ -317,7 +322,7 @@
           "description": "Pogledajte ponudu sadnica: Dixired, Redhaven, Springcrest i druge sorte breskvi. Visok kvalitet, deklaracija, izvoz."
         }
       },
-      "columnarApple": {
+      "columnar-apple": {
         "title": "Stubaste sadnice jabuke - sorte za izvoz i sadnju",
         "description": "Sertifikovane stubaste sadnice jabuke: Đerdan, Kraljica Čardaša, Rumeno vreteno, Smaragd, Vesna - idealne za gajenje u manjim prostorima i urbanim sredinama. Pogodne za konzumaciju i izvoz.",
         "keywords": [

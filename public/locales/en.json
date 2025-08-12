@@ -29,11 +29,11 @@
         "title": "plum",
         "text": "Resistant and fruitful plum varieties, perfect for fresh consumption, drying, or processing. Our seedlings guarantee high yields and stable fruit quality, with exceptional adaptability to soil and climate..."
       },
-      "sourCherry": {
+      "sour-cherry": {
         "title": "sour cherry",
         "text": "Cherries with rich flavor, perfect for processing, juices, and jams, with stable yields. Our seedlings are resistant to diseases and adapted to various growing conditions, providing a secure and high-quality harvest..."
       },
-      "cherry": {
+      "sweet-cherry": {
         "title": "sweet cherry",
         "text": "Sweet and juicy cherries from our orchards, known for their exceptional size and flavor. Selected varieties with excellent pollination and high yields ensure long-lasting and high-quality crops..."
       },
@@ -98,6 +98,11 @@
     "address": "Address",
     "addressOf": "Village Lazarevac, Kruševac, Serbia",
     "social": "Networks"
+  },
+  "blog": {
+    "title": "Latest posts",
+    "button": "Read the article",
+    "showMore": "Show More"
   },
   "seo": {
     "home": {
@@ -223,7 +228,7 @@
           "description": "Check out our offer: Stanley, Čačanska Rodna, Požegača, and other varieties. High quality, declaration, export-ready."
         }
       },
-      "cherry": {
+      "sweet-cherry": {
         "title": "Cherry seedlings - varieties for export and planting",
         "description": "Certified cherry seedlings: Bing, Bigarreau Burlat, Ferrovia, Kordia, Regina, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
         "keywords": [
@@ -249,7 +254,7 @@
           "description": "Explore our cherry seedling selection: Bing, Ferrovia, Kordia, Regina, and more. High quality, declaration, export-ready."
         }
       },
-      "sourCherry": {
+      "sour-cherry": {
         "title": "Sour cherry seedlings - varieties for export and planting",
         "description": "Certified sour cherry seedlings: Heimann’s Canning, Kelleris 14, Kelleris 16, Montmorency, Oblačinska, Šumadinka, and other varieties suitable for consumption, processing, and export. Delivery across Europe and worldwide.",
         "keywords": [
@@ -317,7 +322,7 @@
           "description": "Browse our offer: Dixired, Redhaven, Springcrest, and other peach varieties. High quality, declaration, export-ready."
         }
       },
-      "columnarApple": {
+      "columnar-apple": {
         "title": "Columnar apple seedlings - varieties for export and planting",
         "description": "Certified columnar apple seedlings: Đerdan, Queen of Czardas, Reddish Spindle, Emerald, Vesna - ideal for growing in small areas and urban environments. Suitable for consumption and export.",
         "keywords": [

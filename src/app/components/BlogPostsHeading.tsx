@@ -6,8 +6,9 @@ import Image from 'next/image'
 import BlogPosts from './BlogPosts'
 import { useParams, useRouter } from 'next/navigation'
 import { IBlogPost } from '@/pages/api/blogPosts'
+import { Translation } from '../[lang]/dictionaries'
 
-const BlogPostsHeading = () => {
+const BlogPostsHeading = ({t}: {t: Translation}) => {
 
     const params = useParams();
     const lang = params?.lang as string;
@@ -60,7 +61,7 @@ const BlogPostsHeading = () => {
                                 </h1>
                                 <div>
                                     {primaryPost?.id !== undefined && (
-                                        <Button variant='secondary' onClick={() => handleClick(primaryPost?.id)} label='Procitaj artikal' />
+                                        <Button variant='secondary' onClick={() => handleClick(primaryPost?.id)} label={t.blog.button} />
                                     )}
                                 </div>
 
@@ -92,10 +93,10 @@ const BlogPostsHeading = () => {
                     </div>
                 </div>
             </div>
-            <BlogPosts blogPosts={posts} />
+            <BlogPosts blogPosts={posts} t={t} />
             <div className='flex flex-col items-center pb-36'>
                 {hasMore && (
-                    <Button onClick={fetchPosts} label='Show More' isLoading={loading} />
+                    <Button onClick={fetchPosts} label={t.blog.showMore} isLoading={loading} />
                 )}
             </div>
         </>
