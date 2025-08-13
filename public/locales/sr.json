@@ -58,8 +58,16 @@
       "title": "Kontaktirajte nas",
       "name": "Ime i prezime",
       "email": "Email",
+      "phone": "Telefon",
       "message": "Poruka",
       "button": "Pošalji poruku",
+      "status": {
+        "sending": "Slanje...",
+        "success": "Poruka je poslata!",
+        "error": "Slanje neuspešno. Pokušajte ponovo kasnije.",
+        "validationEmailError": "Molimo unesite validnu email adresu.",
+        "validationError": "Molimo popunite sva polja."
+      },
       "callUs": "Pozovite nas",
       "callUsText": "Naš tim je tu da vam pruži profesionalne savete i pomogne u odabiru idealnih voćnih sadnica za vaš posao. Slobodno nas kontaktirajte za bilo kakva pitanja ili porudžbine.",
       "sendEmail": "Pošaljite nam email",
@@ -78,7 +86,7 @@
     "button": "Saznaj više",
     "footer": {
       "title": "Kako izabrati pravu voćnu sadnicu - saveti iz našeg rasadnika",
-      "texts" : [
+      "texts": [
         "Kada birate voćne sadnice, važno je da obratite pažnju na kvalitet, sortu i podlogu, jer upravo od tih faktora zavisi prinos, otpornost i dugovečnost zasada. U našem rasadniku nudimo sertifikovane sadnice <strong>jabuka, krušaka, šljiva, trešanja, višanja, kajsija, breskvi, nektarina, dunja, lešnika, oraha, vinove loze i drugih voćnih vrsta</strong>, koje potiču iz kontrolisane proizvodnje i pažljivo odabranih podloga.",
         "Sve sadnice poseduju <strong>sertifikat o poreklu, zdravstvenoj ispravnosti i sortnoj čistoći</strong>, što garantuje stabilan prinos i ujednačen rast. Naši stručnjaci su tu da vam pomognu pri izboru sorte koja najbolje odgovara vašem zemljištu, klimi i tržištu.",
         "Pored same prodaje sadnica, nudimo i <strong>stručne savete, preporuke za sadnju i negu</strong>, kao i mogućnost isporuke sadnica širom Srbije i inostranstva.",
@@ -133,10 +141,22 @@
       "title": "Od rasadnika do vas - put sadnice",
       "text": "U našem rasadniku proizvodimo sertifikovane voćne sadnice vrhunskog kvaliteta, namenjene isključivo profesionalnim i komercijalnim zasadima.<br /><br />Svaka sadnica poseduje sertifikat o poreklu, zdravstvenoj ispravnosti i sortnoj čistoći, što garantuje stabilan prinos, ujednačen rast i dug vek zasada.<br /><br />📦 <b>Isporuka širom sveta</b> - organizujemo bezbedan transport većih količina sadnica do vaše lokacije, uz poštovanje optimalnih uslova čuvanja i prevoza.<br /><br />🌱 <b>Stručna podrška</b> - savetujemo vas pri odabiru sorti i podloga koje najbolje odgovaraju vašem tržištu, klimatskim uslovima i proizvodnim ciljevima.<br /><br />Kao pouzdan partner u voćarskoj proizvodnji, obezbeđujemo vam kvalitetan sadni materijal i sigurnost od prve sadnje do berbe.",
       "cards": [
-        {"title": "Proizvodnja", "text": "📍 U našem rasadniku gajimo sadnice od pažljivo odabranih podloga i plemki, u kontrolisanim uslovima."},
-        {"title": "Kontrola kvaliteta", "text": "🔍 Svaka sadnica prolazi kroz sertifikovanu kontrolu zdravlja i sortne čistoće."},
-        {"title": "Pakovanje", "text": "📦 Sadnice se stručno pakuju kako bi ostale sveže i zaštićene tokom transporta."},
-        {"title": "Isporuka", "text": "🚚 Dostavljamo sadnice širom Srbije i sveta, spremne za sadnju."}
+        {
+          "title": "Proizvodnja",
+          "text": "📍 U našem rasadniku gajimo sadnice od pažljivo odabranih podloga i plemki, u kontrolisanim uslovima."
+        },
+        {
+          "title": "Kontrola kvaliteta",
+          "text": "🔍 Svaka sadnica prolazi kroz sertifikovanu kontrolu zdravlja i sortne čistoće."
+        },
+        {
+          "title": "Pakovanje",
+          "text": "📦 Sadnice se stručno pakuju kako bi ostale sveže i zaštićene tokom transporta."
+        },
+        {
+          "title": "Isporuka",
+          "text": "🚚 Dostavljamo sadnice širom Srbije i sveta, spremne za sadnju."
+        }
       ]
     }
   },

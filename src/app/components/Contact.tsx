@@ -9,33 +9,53 @@ import { useSearchParams } from 'next/navigation';
 import { FaPhone } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
 import { IoLocationSharp } from 'react-icons/io5';
+import CountryCodeSelector from './ui/CountryCodeSelector';
 
 const Contact = ({ t }: { t: Translation }) => {
 
-    const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+    const [formData, setFormData] = useState({ name: '', email: '', message: '', phone: '' });
     const [status, setStatus] = useState('');
     const searchParams = useSearchParams();
     const scrollTo = searchParams?.get('scrollTo');
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        setStatus('Sending...');
 
-        const res = await fetch('/api/sendEmail', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(formData),
-        });
+        // Validacija — proveri da sva polja imaju vrednost
+        if (!formData.name.trim() || !formData.email.trim() || !formData.phone.trim() || !formData.message.trim()) {
+            setStatus(t.home.contact.status.error);
+            return;
+        }
 
-        if (res.ok) {
-            setStatus('Message sent!');
-            setFormData({ name: '', email: '', message: '' });
-        } else {
-            setStatus('Failed to send. Try again later.');
+        // Validacija e-maila
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(formData.email)) {
+            setStatus(t.home.contact.status.validationEmailError);
+            return;
+        }
+
+        setStatus(t.home.contact.status.sending);
+
+        try {
+            const res = await fetch('/api/sendEmail', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
+
+            if (res.ok) {
+                setStatus(t.home.contact.status.success);
+                setFormData({ name: '', email: '', message: '', phone: '' });
+            } else {
+                setStatus(t.home.contact.status.error);
+            }
+        } catch (error) {
+            console.log(error)
+            setStatus(t.home.contact.status.error);
         }
     };
 
@@ -54,7 +74,7 @@ const Contact = ({ t }: { t: Translation }) => {
                 <div className='max-w-screen-sw  w-full  mx-auto'>
                     <h1 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.contact.title}</h1>
                     <div className='flex flex-row  max-md:flex-col max-md:gap-16' >
-                        <div className='flex flex-col max-md:order-2 w-1/2 max-md:w-full pr-8'>
+                        <div className='flex flex-col max-md:order-2 w-1/2 max-md:w-full md:pr-8'>
                             <h2 className='font-heading text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>Posaljite nam poruku</h2>
                             <Input
                                 label={t.home.contact.name}
@@ -71,6 +91,23 @@ const Contact = ({ t }: { t: Translation }) => {
                                 type="email"
                                 onChange={handleChange}
                             />
+                            <div className='flex flex-row gap-4 items-end justify-center'>
+                                <CountryCodeSelector
+                                    onSelect={(code) =>
+                                        setFormData((prev) => ({
+                                            ...prev,
+                                            phone: code + ' ' // adds country code prefix
+                                        }))
+                                    }
+                                />
+                                <Input
+                                    label={t.home.contact.phone}
+                                    name="phone"
+                                    value={formData.phone}
+                                    type="tel"
+                                    onChange={handleChange}
+                                />
+                            </div>
                             <Input
                                 label={t.home.contact.message}
                                 name="message"
@@ -81,11 +118,47 @@ const Contact = ({ t }: { t: Translation }) => {
                                 isTextarea
                             />
                             <div className='w-full pt-8'>
-                                <Button label={t.home.contact.button} onClick={handleSubmit}/>
+                                <Button label={t.home.contact.button} onClick={handleSubmit} disabled={! (formData.name.trim() !== '' &&
+                                    formData.email.trim() !== '' &&
+                                    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email) &&
+                                    formData.phone.trim() !== '' &&
+                                    formData.message.trim() !== '') || status === t.home.contact.status.sending}/>
                             </div>
-                            <div>
-                                {status}
-                            </div>
+                            {status && (
+                                <div
+                                    className={`mt-4 flex items-center gap-2 rounded-lg border px-4 py-3 text-sm font-medium
+                                            ${status === t.home.contact.status.sending
+                                            ? 'border-blue-200 bg-blue-50 text-blue-800'
+                                            : status.toLowerCase().includes('sent') || status.toLowerCase().includes('poslata') || status.toLowerCase().includes('отправлено')
+                                                ? 'border-green-200 bg-green-50 text-green-800'
+                                                : 'border-red-200 bg-red-50 text-red-800'
+                                        }`}
+                                >
+                                    {/* Ikona */}
+                                    {status === t.home.contact.status.sending ? (
+                                        <span className="h-4 w-4 animate-spin rounded-full border-2 border-current border-b-transparent" />
+                                    ) : status.toLowerCase().includes('sent') || status.toLowerCase().includes('poslata') || status.toLowerCase().includes('отправлено') ? (
+                                        <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                            <path
+                                                fillRule="evenodd"
+                                                d="M16.707 5.293a1 1 0 010 1.414l-7.071 7.071a1 1 0 01-1.414 0L3.293 9.85a1 1 0 111.414-1.414l3.1 3.1 6.364-6.364a1 1 0 011.536.121z"
+                                                clipRule="evenodd"
+                                            />
+                                        </svg>
+                                    ) : (
+                                        <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                            <path
+                                                fillRule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5a1 1 0 112 0 1 1 0 01-2 0zm1-8a1 1 0 00-1 1v5a1 1 0 002 0V6a1 1 0 00-1-1z"
+                                                clipRule="evenodd"
+                                            />
+                                        </svg>
+                                    )}
+
+                                    {/* Tekst poruke */}
+                                    <span>{status}</span>
+                                </div>
+                            )}
                         </div>
                         <div className='h-[500px] w-[1px] bg-gray-300 max-md:hidden'></div>
                         <div className='flex-1 md:pl-8 max-md:order-1 flex flex-col max-md:gap-16 gap-8'>

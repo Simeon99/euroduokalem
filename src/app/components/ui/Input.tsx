@@ -11,6 +11,7 @@ type FloatingInputProps = {
   name?: string;
   isTextarea?: boolean;
   rows?: number;
+  required?: boolean;
 };
 
 const FloatingInput: React.FC<FloatingInputProps> = ({
@@ -21,6 +22,7 @@ const FloatingInput: React.FC<FloatingInputProps> = ({
   name,
   isTextarea = false,
   rows = 4,
+  required = false,
 }) => {
   const sharedClasses =
     'peer w-full border-0 border-b-2 border-gray-300 focus:border-[#0E3A27] bg-transparent text-gray-900 placeholder-transparent focus:outline-none transition';
@@ -43,6 +45,7 @@ const FloatingInput: React.FC<FloatingInputProps> = ({
           placeholder={label}
           rows={rows}
           className={sharedClasses + ' resize-none mt-6'}
+          required={required}
         />
       ) : (
         <input
@@ -52,6 +55,7 @@ const FloatingInput: React.FC<FloatingInputProps> = ({
           onChange={onChange}
           placeholder={label}
           className={sharedClasses + ' pt-6'}
+          required={required}
         />
       )}
       <label className={labelClasses}>{label}</label>

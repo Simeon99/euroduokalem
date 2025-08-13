@@ -6,7 +6,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(405).json({ message: 'Only POST requests allowed' });
   }
 
-  const { name, email, message } = req.body;
+  const { name, email, message, phone } = req.body;
 
   const transporter = nodemailer.createTransport({
     host: 'mailcluster.loopia.se',
@@ -23,7 +23,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       from: `<${process.env.EMAIL}>`,
       to: `${process.env.EMAIL}`, // tvoja adresa primaoca
       subject: 'Upit sa sajta',
-      text: `Ime: ${name} \nEmail: ${email} \n\n${message}`,
+      text: `Ime: ${name} \nEmail: ${email} \nPhone: ${phone} \n\n${message}`,
     });
 
     return res.status(200).json({ success: true });

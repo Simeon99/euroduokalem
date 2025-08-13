@@ -58,8 +58,16 @@
       "title": "Contact us",
       "name": "Full name",
       "email": "Email",
+      "phone": "Phone",
       "message": "Message",
       "button": "Send message ",
+      "status": {
+        "sending": "Sending...",
+        "success": "Message sent!",
+        "error": "Failed to send. Try again later.",
+        "validationEmailError": "Please enter a valid email address.",
+        "validationError": "Please fill in all fields."
+      },
       "callUs": "Call us",
       "callUsText": "Our team is here to provide professional advice and help you choose the ideal fruit seedlings for your business. Feel free to contact us with any questions or orders.",
       "sendEmail": "Send us an email",
