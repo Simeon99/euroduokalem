@@ -33,7 +33,7 @@ const Landing = ({ t }: { t: Translation }) => {
         <div className='w-full relative -mt-[69.35px] top-0 h-full'>
             <div>
                 <Image
-                    src="/images/home/landing_photo.jpg"
+                    src="/images/home/landing-photo.jpg"
                     alt="Landing"
                     fill
                     className="object-cover w-[100px] h-[100px]"
