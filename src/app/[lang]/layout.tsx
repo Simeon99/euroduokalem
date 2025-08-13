@@ -44,7 +44,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
       type: 'website',
       images: [
         {
-          url: `https://euroduokalem.com/images/seo/thumbnail.png`, // 1200x630 or larger
+          url: `https://euroduokalem.com/images/seo/thumbnail.jpg`,
+          secureUrl: 'https://euroduokalem.com/images/seo/thumbnail.jpg',
           width: 1200,
           height: 630,
           alt: t.seo.home.title,
