@@ -41,6 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
       description: t.seo.home.description,
       locale: lang,
       url: `https://euroduokalem.com/${lang}`,
+      siteName: 'Euro duo kalem',
       type: 'website',
       images: [
         {
