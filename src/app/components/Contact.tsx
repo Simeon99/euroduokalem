@@ -181,7 +181,7 @@ const Contact = ({ t }: { t: Translation }) => {
                                         <MdEmail color='#0E3A27' className='max-md:hidden' size={28} />
                                         <MdEmail color='#0E3A27' className='md:hidden' size={24} />
                                     </div>
-                                    <span className='font-heading font-bold text-primary text-[24px] max-md:text-[18px] '>euroduokalem@yahoo.com</span>
+                                    <span className='font-heading font-bold text-primary text-[24px] max-md:text-[18px] '>info@euroduokalem.com</span>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-4'>
