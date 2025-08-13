@@ -86,7 +86,7 @@
     "button": "Learn more",
     "footer": {
       "title": "How to Choose the Right Fruit Seedling - Tips from Our Nursery",
-      "texts" : [
+      "texts": [
         "When choosing fruit seedlings, it is important to pay attention to quality, variety, and rootstock, as these factors determine yield, resistance, and the longevity of the orchard. In our nursery, we offer certified seedlings of <strong>apples, pears, plums, sweet cherries, sour cherries, apricots, peaches, nectarines, quinces, hazelnuts, walnuts, grapevines, and other fruit species</strong>, grown through controlled production and carefully selected rootstocks.",
         "All seedlings come with a <strong>certificate of origin, phytosanitary approval, and varietal purity</strong>, ensuring stable yields and uniform growth. Our experts are here to help you choose the variety that best suits your soil, climate, and market.",
         "In addition to selling seedlings, we also provide <strong>expert advice, planting and care recommendations</strong>, as well as the option to deliver seedlings across Serbia and abroad.",
@@ -141,10 +141,22 @@
       "title": "From the nursery to you - the journey of a seedling",
       "text": "In our nursery, we produce certified, premium-quality fruit seedlings, intended exclusively for professional and commercial orchards. Each seedling comes with a certificate of origin, phytosanitary approval, and varietal purity, ensuring stable yields, uniform growth, and a long orchard lifespan.<br /><br />📦 <b>Worldwide delivery</b> - we organize safe transport of large quantities of seedlings to your location, following optimal storage and shipping conditions.<br /><br />🌱 <b>Expert support</b> - we provide guidance in selecting the varieties and rootstocks best suited to your market, climate, and production goals.<br /><br />As a reliable partner in fruit production, we guarantee you high-quality planting material and security from the first planting to harvest.",
       "cards": [
-        {"title": "Production", "text": "📍 In our nursery, we cultivate seedlings from carefully selected rootstocks and scions, under controlled conditions."},
-        {"title": "Quality control", "text": "🔍 Each seedling undergoes certified health and varietal purity inspection."},
-        {"title": "Packaging", "text": "📦 Seedlings are professionally packaged to remain fresh and protected during transport."},
-        {"title": "Delivery", "text": "🚚 We deliver seedlings across Serbia and worldwide, ready for planting."}
+        {
+          "title": "Production",
+          "text": "📍 In our nursery, we cultivate seedlings from carefully selected rootstocks and scions, under controlled conditions."
+        },
+        {
+          "title": "Quality control",
+          "text": "🔍 Each seedling undergoes certified health and varietal purity inspection."
+        },
+        {
+          "title": "Packaging",
+          "text": "📦 Seedlings are professionally packaged to remain fresh and protected during transport."
+        },
+        {
+          "title": "Delivery",
+          "text": "🚚 We deliver seedlings across Serbia and worldwide, ready for planting."
+        }
       ]
     }
   },
@@ -626,12 +638,46 @@
       }
     },
     "about": {
-      "title": "O nama | Euro Duo Kalem",
-      "description": "Saznajte više o našem timu, iskustvu i kvalitetu sadnica koje nudimo više od decenije."
+      "title": "About Us | Euro Duo Kalem",
+      "description": "Learn more about our team, experience, and the quality seedlings we have been offering for over a decade.",
+      "keywords": [
+        "fruit seedlings",
+        "fruit seedling production",
+        "certified seedlings",
+        "fruit nursery",
+        "apple seedlings",
+        "pear seedlings",
+        "plum seedlings",
+        "sweet cherry seedlings",
+        "sour cherry seedlings",
+        "peach seedlings",
+        "grapevine seedlings",
+        "rose seedlings",
+        "fruit seedlings for sale",
+        "fruit seedlings export",
+        "high quality fruit seedlings"
+      ]
     },
     "blog": {
-      "title": "Blog - Saveti i novosti o sadnicama",
-      "description": "Čitajte korisne savete, vodiče i zanimljivosti iz sveta voćarstva i sadnje."
+      "title": "Blog - Tips and News about Seedlings",
+      "description": "Read useful tips, guides, and interesting facts from the world of fruit growing and planting.",
+      "keywords": [
+        "fruit seedlings blog",
+        "fruit tree planting tips",
+        "how to care for fruit seedlings",
+        "best fruit varieties",
+        "fruit growing",
+        "orchard cultivation",
+        "fruit growing advice",
+        "fruit tree planting",
+        "fruit tree diseases and protection",
+        "seasonal orchard work",
+        "soil preparation for planting",
+        "fruit tree pruning",
+        "fruit growing in Serbia",
+        "beginner fruit growing tips",
+        "choosing fruit seedlings"
+      ]
     }
   }
 }

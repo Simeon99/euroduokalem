@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
   const t = await getDictionary(lang);
 
   return {
+    metadataBase: new URL("https://euroduokalem.com"),
     title: {
       default: t.seo.home.title,
       template: '%s | Euro duo kalem',
@@ -22,11 +23,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
     description: t.seo.home.description,
     keywords: t.seo.home.keywords,
     alternates: {
-      canonical: `https://euroduokalem.com/${lang}`,
+       canonical: `/${lang}`,
       languages: {
-        sr: 'https://euroduokalem.com/sr',
-        en: 'https://euroduokalem.com/en',
-        ru: 'https://euroduokalem.com/ru',
+        sr: '/sr',
+        en: '/en',
+        ru: '/ru',
       },
     },
     robots: {
@@ -40,16 +41,17 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
       title: t.seo.home.title,
       description: t.seo.home.description,
       locale: lang,
-      url: `https://euroduokalem.com/${lang}`,
+      url: `/${lang}`,
       siteName: 'Euro duo kalem',
       type: 'website',
       images: [
         {
-          url: `https://euroduokalem.com/images/seo/thumbnail.jpg`,
-          secureUrl: 'https://euroduokalem.com/images/seo/thumbnail.jpg',
+          url: `/images/seo/thumbnail.jpg`,
+          secureUrl: '/images/seo/thumbnail.jpg',
           width: 1200,
           height: 630,
           alt: t.seo.home.title,
+          type: "image/jpeg",
         },
       ],
     },

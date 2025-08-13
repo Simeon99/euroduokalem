@@ -639,11 +639,45 @@
     },
     "about": {
       "title": "O nama | Euro Duo Kalem",
-      "description": "Saznajte više o našem timu, iskustvu i kvalitetu sadnica koje nudimo više od decenije."
+      "description": "Saznajte više o našem timu, iskustvu i kvalitetu sadnica koje nudimo više od decenije.",
+      "keywords": [
+        "voćne sadnice",
+        "proizvodnja voćnih sadnica",
+        "sertifikovane sadnice",
+        "rasadnik voća",
+        "sadnice jabuke",
+        "sadnice kruške",
+        "sadnice šljive",
+        "sadnice trešnje",
+        "sadnice višnje",
+        "sadnice breskve",
+        "sadnice vinove loze",
+        "sadnice ruža",
+        "prodaja voćnih sadnica",
+        "izvoz voćnih sadnica",
+        "sadnice voća vrhunskog kvaliteta"
+      ]
     },
     "blog": {
       "title": "Blog - Saveti i novosti o sadnicama",
-      "description": "Čitajte korisne savete, vodiče i zanimljivosti iz sveta voćarstva i sadnje."
+      "description": "Čitajte korisne savete, vodiče i zanimljivosti iz sveta voćarstva i sadnje.",
+      "keywords": [
+        "blog o voćnim sadnicama",
+        "saveti za sadnju voćaka",
+        "kako negovati voćne sadnice",
+        "najbolje sorte voća",
+        "voćarstvo",
+        "uzgoj voćaka",
+        "voćarski saveti",
+        "sadnja voćaka",
+        "bolesti voćaka i zaštita",
+        "sezonski radovi u voćnjaku",
+        "priprema zemljišta za sadnju",
+        "rezidba voćaka",
+        "gajenje voćaka u Srbiji",
+        "saveti za voćare početnike",
+        "odabir sadnica voća"
+      ]
     }
   }
 }
