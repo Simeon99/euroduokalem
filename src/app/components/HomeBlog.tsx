@@ -37,7 +37,7 @@ const HomeBlog = () => {
             {suggested && suggested.map((post, index) => (
                 <Link
                     key={index}
-                    href={`${lang}/blog/1`}
+                    href={`/${lang}/blog/${post.id}`}
                     className="hover:scale-101 transform   block rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition duration-300 bg-secondary-light"
                 >
                     <Image

@@ -6,13 +6,16 @@ import { PiTreeThin } from 'react-icons/pi'
 import { LuEarth } from 'react-icons/lu'
 import { GoPerson } from 'react-icons/go'
 import VerticalVideoGallery from './VerticalVideoGallery'
+import { formatTextWithBreaks } from './ui/SplitText'
+import SeedlingsPath from './SeedlingsPath'
 
-const videos = [
-    { id: "lyF7cPUOs9U", title: "From Seedling to Juicy Pear", poster:'/images/about/thubnail1.png' },
-                                        { id: "gQ350ueXsH0", title: "Blooming Orchard Walkthrough", poster:'/images/about/thubnail2.png' },
-]
 
 const About = ({ t }: { t: Translation }) => {
+    const videos = [
+        { id: "lyF7cPUOs9U", title: t.aboutUs.ytVideos[0].title, poster: '/images/about/thubnail1.png' },
+        { id: "9SCulActjY8", title: t.aboutUs.ytVideos[1].title, poster: '/images/about/thubnail3.png' },
+        { id: "gQ350ueXsH0", title: t.aboutUs.ytVideos[2].title, poster: '/images/about/thubnail2.png' },
+    ]
     return (
         <>
             <div className=''>
@@ -67,36 +70,36 @@ const About = ({ t }: { t: Translation }) => {
                                         <TbChecks size={40} />
 
                                     </div>
-                                    <h3 className='text-[25px] font-bold'>Kvalitet iznad svega</h3>
+                                    <h3 className='text-[25px] font-bold font-heading'>{t.aboutUs.benefiti.benegit1.title}</h3>
                                     <p>
-                                        Nudimo samo provjerene i zdrave sadnice, uzgojene po najvišim standardima. Svaka biljka prolazi strogu kontrolu kvaliteta kako bismo osigurali vaš uspjeh.
+                                        {t.aboutUs.benefiti.benegit1.text}
                                     </p>
                                 </div>
                                 <div>
                                     <div>
                                         <PiTreeThin size={40} />
                                     </div>
-                                    <h3 className='text-[25px] font-bold'>Širok asortiman</h3>
+                                    <h3 className='text-[25px] font-bold font-heading'>{t.aboutUs.benefiti.benegit2.title}</h3>
                                     <p>
-                                        Naša ponuda obuhvata preko X vrsta sadnica – od voćaka poput jabuka, krušaka i trešanja do ukrasnog bilja i drveća. Imamo sve što vam treba za vaš projekat.
+                                        {t.aboutUs.benefiti.benegit2.text}
                                     </p>
                                 </div>
                                 <div>
                                     <div>
                                         <LuEarth size={40} />
                                     </div>
-                                    <h3 className='text-[25px] font-bold'>Stručna podrška</h3>
+                                    <h3 className='text-[25px] font-bold'>{t.aboutUs.benefiti.benegit3.title}</h3>
                                     <p>
-                                        Praktikujemo održive metode uzgoja kako bismo zaštitili prirodu i osigurali dugoročnu kvalitetu. Naše sadnice su dio budućnosti koju gradimo zajedno.
+                                        {t.aboutUs.benefiti.benegit3.text}
                                     </p>
                                 </div>
                                 <div>
                                     <div>
                                         <GoPerson size={40} />
                                     </div>
-                                    <h3 className='text-[25px] font-bold'>Kvalitet iznad svega</h3>
+                                    <h3 className='text-[25px] font-bold'>{t.aboutUs.benefiti.benegit4.title}</h3>
                                     <p>
-                                        Naš tim stručnjaka stoji vam na raspolaganju za savjete o uzgoju, zaštiti bilja i optimizaciji prinosa. Vaš uspjeh je i naš uspjeh.
+                                        {t.aboutUs.benefiti.benegit4.text}
                                     </p>
                                 </div>
                             </div>
@@ -139,19 +142,22 @@ const About = ({ t }: { t: Translation }) => {
                                 <VerticalVideoGallery
                                     videos={videos}
                                     viewAllHref="/videos"
+                                    t={t}
                                 />
                                 {/* <VerticalYouTube title='Kalemljenje iz ruke' id='lyF7cPUOs9U' poster='/images/about/thubnail1.png' />
                                 <VerticalYouTube title='Kalemljenje iz ruke' id='gQ350ueXsH0' poster='/images/about/thubnail2.png' /> */}
                             </div>
-                            <div className='w-full px-4 mt-36 flex flex-col gap-4 mb-36'>
-                                <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>Saznajte sve o nama</h1>
+                            <SeedlingsPath t={t}/>
+                            <div className='w-full max-[1441px]:px-4  mt-36 flex flex-col gap-4 mb-36'>
+                                <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.sveOnamaTitle}</h1>
                                 <div className='flex flex-col gap-4'>
-                                    <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>Praktikujemo održive metode uzgoja kako bismo zaštitili prirodu i osigurali dugoročnu kvalitetu. Naše sadnice su dio budućnosti koju gradimo zajedno. Naš tim stručnjaka stoji vam na raspolaganju za savjete o uzgoju, zaštiti bilja i optimizaciji prinosa. Vaš uspjeh je i naš uspjeh.</p>
-                                    <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>Naša ponuda obuhvata preko X vrsta sadnica – od voćaka poput jabuka, krušaka i trešanja do ukrasnog bilja i drveća. Imamo sve što vam treba za vaš projekat. Nudimo samo provjerene i zdrave sadnice, uzgojene po najvišim standardima. Svaka biljka prolazi strogu kontrolu kvaliteta kako bismo osigurali vaš uspjeh.</p>
+                                    <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>{formatTextWithBreaks(t.aboutUs.sveOnamaText)}{ }</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    
 
                 </div>
                 {/* Mobile */}
@@ -162,9 +168,9 @@ const About = ({ t }: { t: Translation }) => {
                                 <TbChecks size={40} />
 
                             </div>
-                            <h3 className='text-[25px] font-bold'>Kvalitet iznad svega</h3>
+                            <h3 className='text-[25px] font-bold font-heading'>{t.aboutUs.benefiti.benegit1.title}</h3>
                             <p>
-                                Nudimo samo provjerene i zdrave sadnice, uzgojene po najvišim standardima. Svaka biljka prolazi strogu kontrolu kvaliteta kako bismo osigurali vaš uspjeh.
+                                {t.aboutUs.benefiti.benegit1.text}
                             </p>
                             <div className='w-full flex justify-center mt-4'>
                                 <div className='w-[80%] h-[300px] xsw:h-[400px]'>
@@ -184,9 +190,9 @@ const About = ({ t }: { t: Translation }) => {
                                 <PiTreeThin size={40} />
 
                             </div>
-                            <h3 className='text-[25px] font-bold'>Širok asortiman</h3>
+                            <h3 className='text-[25px] font-bold font-heading'>{t.aboutUs.benefiti.benegit2.title}</h3>
                             <p>
-                                Naša ponuda obuhvata preko X vrsta sadnica – od voćaka poput jabuka, krušaka i trešanja do ukrasnog bilja i drveća. Imamo sve što vam treba za vaš projekat.
+                                {t.aboutUs.benefiti.benegit2.text}
                             </p>
                             <div className='w-full flex justify-center mt-4'>
                                 <div className='w-[80%] h-[300px] xsw:h-[400px]'>
@@ -206,9 +212,9 @@ const About = ({ t }: { t: Translation }) => {
                                 <LuEarth size={40} />
 
                             </div>
-                            <h3 className='text-[25px] font-bold'>Stručna podrška</h3>
+                            <h3 className='text-[25px] font-bold font-heading'>{t.aboutUs.benefiti.benegit3.title}</h3>
                             <p>
-                                Praktikujemo održive metode uzgoja kako bismo zaštitili prirodu i osigurali dugoročnu kvalitetu. Naše sadnice su dio budućnosti koju gradimo zajedno.
+                                {t.aboutUs.benefiti.benegit3.text}
                             </p>
                             <div className='w-full flex justify-center mt-4'>
                                 <div className='w-[80%] h-[300px] xsw:h-[400px]'>
@@ -228,9 +234,9 @@ const About = ({ t }: { t: Translation }) => {
                                 <GoPerson size={40} />
 
                             </div>
-                            <h3 className='text-[25px] font-bold'>Kvalitet iznad svega</h3>
+                            <h3 className='text-[25px] font-bold font-heading'>{t.aboutUs.benefiti.benegit4.title}</h3>
                             <p>
-                                Naš tim stručnjaka stoji vam na raspolaganju za savjete o uzgoju, zaštiti bilja i optimizaciji prinosa. Vaš uspjeh je i naš uspjeh.
+                                {t.aboutUs.benefiti.benegit4.text}
                             </p>
                             <div className='w-full flex justify-center mt-4'>
                                 <div className='w-[80%] h-[300px] xsw:h-[400px]'>
@@ -244,19 +250,20 @@ const About = ({ t }: { t: Translation }) => {
 
                                 </div>
                             </div>
-                             <div className='w-full'>
+                            <div className='w-full'>
                                 <VerticalVideoGallery
                                     videos={videos}
                                     viewAllHref="/videos"
+                                    t={t}
                                 />
                                 {/* <VerticalYouTube title='Kalemljenje iz ruke' id='lyF7cPUOs9U' poster='/images/about/thubnail1.png' />
                                 <VerticalYouTube title='Kalemljenje iz ruke' id='gQ350ueXsH0' poster='/images/about/thubnail2.png' /> */}
                             </div>
+                            <SeedlingsPath t={t}/>
                             <div className='w-full mt-16 flex flex-col gap-4 mb-36'>
-                                <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>Saznajte sve o nama</h1>
+                                <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.sveOnamaTitle}</h1>
                                 <div className='flex flex-col gap-4'>
-                                    <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>Praktikujemo održive metode uzgoja kako bismo zaštitili prirodu i osigurali dugoročnu kvalitetu. Naše sadnice su dio budućnosti koju gradimo zajedno. Naš tim stručnjaka stoji vam na raspolaganju za savjete o uzgoju, zaštiti bilja i optimizaciji prinosa. Vaš uspjeh je i naš uspjeh.</p>
-                                    <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>Naša ponuda obuhvata preko X vrsta sadnica – od voćaka poput jabuka, krušaka i trešanja do ukrasnog bilja i drveća. Imamo sve što vam treba za vaš projekat. Nudimo samo provjerene i zdrave sadnice, uzgojene po najvišim standardima. Svaka biljka prolazi strogu kontrolu kvaliteta kako bismo osigurali vaš uspjeh.</p>
+                                    <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>{formatTextWithBreaks(t.aboutUs.sveOnamaText)}</p>
                                 </div>
                             </div>
                         </div>

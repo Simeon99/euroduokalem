@@ -75,7 +75,16 @@
   "seedlings": {
     "title": "Our seedlings",
     "search": "Search seedlings...",
-    "button": "Learn more"
+    "button": "Learn more",
+    "footer": {
+      "title": "How to Choose the Right Fruit Seedling - Tips from Our Nursery",
+      "texts" : [
+        "When choosing fruit seedlings, it is important to pay attention to quality, variety, and rootstock, as these factors determine yield, resistance, and the longevity of the orchard. In our nursery, we offer certified seedlings of <strong>apples, pears, plums, sweet cherries, sour cherries, apricots, peaches, nectarines, quinces, hazelnuts, walnuts, grapevines, and other fruit species</strong>, grown through controlled production and carefully selected rootstocks.",
+        "All seedlings come with a <strong>certificate of origin, phytosanitary approval, and varietal purity</strong>, ensuring stable yields and uniform growth. Our experts are here to help you choose the variety that best suits your soil, climate, and market.",
+        "In addition to selling seedlings, we also provide <strong>expert advice, planting and care recommendations</strong>, as well as the option to deliver seedlings across Serbia and abroad.",
+        "👉 Check out our recommended products and equipment for planting, protection, and orchard maintenance - <strong>find everything you need in one place</strong>."
+      ]
+    }
   },
   "seedling": {
     "characteristics": "Variety characteristics",
@@ -83,10 +92,53 @@
     "about": "About varieties"
   },
   "aboutUs": {
-    "title": "Who We Are, and What Makes Us Different",
-    "text": "We specialize in high-quality fruit seedlings, grown with care and expertise, to help you build orchards that last for generations.",
+    "title": "Who We Are and What Makes Us Different",
+    "text": "We specialize in producing premium-quality fruit seedlings, grown with care and expertise, for orchards that will bear fruit for generations. Our advantage lies in the combination of decades of experience, a wide assortment, and dedication to quality at every step.",
     "subtitle1": "What are the benefits",
-    "subtitle2": "of our seedlings?"
+    "subtitle2": "of our seedlings?",
+    "benefiti": {
+      "benegit1": {
+        "title": "Quality Above All",
+        "text": "We offer only tested and healthy seedlings, grown to the highest standards. We carefully select varieties and monitor every step of production to ensure healthy and vigorous plants."
+      },
+      "benegit2": {
+        "title": "Wide Assortment",
+        "text": "Our offer includes various types and varieties of seedlings, tailored to both professional orchardists and smaller producers."
+      },
+      "benegit3": {
+        "title": "Expert Support",
+        "text": "Our team is here to provide advice and recommendations for the best selection and care of seedlings."
+      },
+      "benegit4": {
+        "title": "Traditional Commitment and Innovation",
+        "text": "The combination of many years of experience and modern methods enables us to produce seedlings that deliver long-term results."
+      }
+    },
+    "sveOnamaTitle": "Learn All About Us",
+    "sveOnamaText": "We are engaged in the production of top-quality fruit seedlings, adapted to different climatic conditions and customer needs. Our wide assortment includes more than 15 types of seedlings - from fruit trees such as apples, pears, and cherries, to grapevines and roses - to ensure that every client finds the right plant for their space and preferred growing method.\n\nWe combine traditional expertise with modern cultivation methods, guaranteeing the quality and longevity of our seedlings. All are produced according to the highest standards and regularly undergo health and quality inspections. In addition, our seedlings are recognized on the international market, with exports to over 20 countries, confirming the reliability and high standard of our production.\n\nWe are committed to your success as well, so our team provides expert advice on planting, care, and cultivation, while fast and secure delivery ensures that the seedlings arrive in perfect condition. With us, you choose quality, expertise, and long-term reliability for your orchard.",
+    "ytVideoTitle": "Watch Our Videos",
+    "ytVideoText": "From hand-grafting and blossoming orchards, to harvest, packing, and preparing our fruit trees for export. See our seedlings in full bloom, laden with fruit.",
+    "ytVideos": [
+      {
+        "title": "Hand-Grafting & Packing Export-Ready Fruit Seedlings"
+      },
+      {
+        "title": "How We Harvest and Prepare Seedlings for Export"
+      },
+      {
+        "title": "From Seedling to Juicy Pear"
+      }
+    ],
+    "seedlingsPath": {
+      "title": "From the nursery to you - the journey of a seedling",
+      "text": "In our nursery, we produce certified, premium-quality fruit seedlings, intended exclusively for professional and commercial orchards. Each seedling comes with a certificate of origin, phytosanitary approval, and varietal purity, ensuring stable yields, uniform growth, and a long orchard lifespan.<br /><br />📦 <b>Worldwide delivery</b> - we organize safe transport of large quantities of seedlings to your location, following optimal storage and shipping conditions.<br /><br />🌱 <b>Expert support</b> - we provide guidance in selecting the varieties and rootstocks best suited to your market, climate, and production goals.<br /><br />As a reliable partner in fruit production, we guarantee you high-quality planting material and security from the first planting to harvest.",
+      "cards": [
+        {"title": "Production", "text": "📍 In our nursery, we cultivate seedlings from carefully selected rootstocks and scions, under controlled conditions."},
+        {"title": "Quality control", "text": "🔍 Each seedling undergoes certified health and varietal purity inspection."},
+        {"title": "Packaging", "text": "📦 Seedlings are professionally packaged to remain fresh and protected during transport."},
+        {"title": "Delivery", "text": "🚚 We deliver seedlings across Serbia and worldwide, ready for planting."}
+      ]
+    }
   },
   "footer": {
     "nav": "Quick Links",

@@ -8,7 +8,7 @@ const HeadingHome = ({ t }: { t: Translation }) => {
             <div className='max-w-screen-sw  w-full'>
             <div className='flex flex-col gap-[32px] items-center pt-[140px] max-md:pt-[96px] px-[16px]'>
                 <h1 className='font-heading text-6xl text-primary  py-8 max-lsw:text-5xl max-md:text-4xl font-bold text-center line max-w-[700px]'>{t.home.heading}</h1>
-                <p className='text-center text-[24px] max-md:text-[20px] max-w-[70%] max-md:max-w-full'>
+                <p className='text-center max-ssw:text-justify text-[24px] max-md:text-[20px] max-w-[70%] max-md:max-w-full'>
                     {t.home.desc}
                 </p>
             </div>

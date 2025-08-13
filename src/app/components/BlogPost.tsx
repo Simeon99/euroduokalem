@@ -1,4 +1,4 @@
-'use state'
+'use client'
 
 import { IBlogPost } from '@/pages/api/blogPosts';
 import Image from 'next/image';
@@ -6,8 +6,9 @@ import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown';
 import BlogSuggested from './BlogSuggested';
+import { Translation } from '../[lang]/dictionaries';
 
-const BlogPost = ({ blogId }: { blogId: number }) => {
+const BlogPost = ({ blogId, t }: { blogId: number, t: Translation }) => {
 
     const params = useParams();
     const lang = params?.lang as string;
@@ -103,7 +104,7 @@ const BlogPost = ({ blogId }: { blogId: number }) => {
                 </p> */}
                 <div className='w-full'>
 
-                    <BlogSuggested />
+                    <BlogSuggested t={t}/>
                 </div>
             </div>
         </div>

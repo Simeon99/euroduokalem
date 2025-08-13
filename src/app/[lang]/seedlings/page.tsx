@@ -46,7 +46,7 @@ const page = async ({ params }: PageProps) => {
         <div className='flex justify-center px-4'>
             <div className='max-w-screen-sw  w-full '>
                 <Seedlings lang={lang} t={t} />
-                <SeedlingsFooter />
+                <SeedlingsFooter t={t}/>
             </div>
         </div>
     )

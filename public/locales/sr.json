@@ -75,7 +75,16 @@
   "seedlings": {
     "title": "Naše sadnice",
     "search": "Pretražite sadnice...",
-    "button": "Saznaj više"
+    "button": "Saznaj više",
+    "footer": {
+      "title": "Kako izabrati pravu voćnu sadnicu - saveti iz našeg rasadnika",
+      "texts" : [
+        "Kada birate voćne sadnice, važno je da obratite pažnju na kvalitet, sortu i podlogu, jer upravo od tih faktora zavisi prinos, otpornost i dugovečnost zasada. U našem rasadniku nudimo sertifikovane sadnice <strong>jabuka, krušaka, šljiva, trešanja, višanja, kajsija, breskvi, nektarina, dunja, lešnika, oraha, vinove loze i drugih voćnih vrsta</strong>, koje potiču iz kontrolisane proizvodnje i pažljivo odabranih podloga.",
+        "Sve sadnice poseduju <strong>sertifikat o poreklu, zdravstvenoj ispravnosti i sortnoj čistoći</strong>, što garantuje stabilan prinos i ujednačen rast. Naši stručnjaci su tu da vam pomognu pri izboru sorte koja najbolje odgovara vašem zemljištu, klimi i tržištu.",
+        "Pored same prodaje sadnica, nudimo i <strong>stručne savete, preporuke za sadnju i negu</strong>, kao i mogućnost isporuke sadnica širom Srbije i inostranstva.",
+        "👉 Pogledajte i naše preporučene proizvode i opremu za sadnju, zaštitu i održavanje voćnjaka – <strong>pronađite sve što vam je potrebno na jednom mestu</strong>."
+      ]
+    }
   },
   "seedling": {
     "characteristics": "Karakteristike sorte",
@@ -84,9 +93,52 @@
   },
   "aboutUs": {
     "title": "Ko smo mi i šta nas čini drugačijima",
-    "text": "Specijalizovani smo za sadnice voća vrhunskog kvaliteta, uzgajane sa pažnjom i znanjem — za zasade koje traju generacijama.",
+    "text": "Specijalizovani smo za proizvodnju voćnih sadnica vrhunskog kvaliteta, uzgojenih sa pažnjom i stručnim znanjem, za zasade koji će donositi plodove generacijama. Naša prednost je kombinacija dugogodišnjeg iskustva, širokog asortimana i posvećenosti kvalitetu na svakom koraku.",
     "subtitle1": "Koji su benefiti",
-    "subtitle2": "naših sadnica?"
+    "subtitle2": "naših sadnica?",
+    "benefiti": {
+      "benegit1": {
+        "title": "Kvalitet iznad svega",
+        "text": "Nudimo samo proverene i zdrave sadnice, uzgojene po najvišim standardima. Pažljivo biramo sorte i pratimo svaki korak proizvodnje kako bismo osigurali zdrave i vitalne sadnice. "
+      },
+      "benegit2": {
+        "title": "Širok asortiman ",
+        "text": "Naša ponuda obuhvata različite vrste I sorte sadnica, prilagođene kako profesionalnim voćarima, tako i manjim proizvođačima. "
+      },
+      "benegit3": {
+        "title": "Stručna podrška ",
+        "text": "Naš tim je tu da vam pomogne sa savetima i preporukama za najbolji izbor i negu sadnica."
+      },
+      "benegit4": {
+        "title": "Tradicionalna posvećenost i inovacija ",
+        "text": "Spoj dugogodišnjeg iskustva i savremenih metoda omogućava nam da proizvodimo sadnice koje donose dugoročne rezultate."
+      }
+    },
+    "sveOnamaTitle": "Saznajte sve o nama",
+    "sveOnamaText": "Bavimo se proizvodnjom vrhunskih voćnih sadnica, prilagođenih različitim klimatskim uslovima i potrebama korisnika Naš širok asortiman uključuje više od 15 vrsta sadnica, od voćaka poput jabuka, krušaka i trešanja, do vinove loze i ruža, kako bismo svakom klijentu omogućili da pronađe pravu sadnicu za svoj prostor i željeni način uzgoja. \n\nKombinujemo tradicionalno iskustvo sa savremenim metodama uzgoja, čime garantujemo kvalitet i dugovečnost naših sadnica. Sve su proizvedene po najvišim standardima i redovno prolaze kontrole zdravlja i kvaliteta. Pored toga, naše sadnice su prepoznate i na međunarodnom tržištu, sa izvozom u preko 20 zemalja, što potvrđuje pouzdanost i visok standard proizvodnje. \n\nPosvećeni smo i vašem uspehu, pa naš tim pruža stručne savete o sadnji, nezi i uzgoju, dok brza i sigurna isporuka osigurava da sadnice stignu u savršenom stanju. Sa nama birate kvalitet, stručnost i dugoročnu pouzdanost za svoj voćnjak.",
+    "ytVideoTitle": "Pogledajte naše video snimke",
+    "ytVideoText": "Od ručnog kalemljenja i cvetanja voćnjaka, preko berbe, pakovanja i pripreme naših voćaka za izvoz. Pogledajte naše sadnice u punom cvetu i prepune najkvalitetnijih plodova.",
+    "ytVideos": [
+      {
+        "title": "Ručno kalemljenje i pakovanje sadnica voća spremnih za izvoz"
+      },
+      {
+        "title": "Kako vadimo i pripremamo sadnice za izvoz"
+      },
+      {
+        "title": "Od sadnice do sočne kruške"
+      }
+    ],
+    "seedlingsPath": {
+      "title": "Od rasadnika do vas - put sadnice",
+      "text": "U našem rasadniku proizvodimo sertifikovane voćne sadnice vrhunskog kvaliteta, namenjene isključivo profesionalnim i komercijalnim zasadima.<br /><br />Svaka sadnica poseduje sertifikat o poreklu, zdravstvenoj ispravnosti i sortnoj čistoći, što garantuje stabilan prinos, ujednačen rast i dug vek zasada.<br /><br />📦 <b>Isporuka širom sveta</b> - organizujemo bezbedan transport većih količina sadnica do vaše lokacije, uz poštovanje optimalnih uslova čuvanja i prevoza.<br /><br />🌱 <b>Stručna podrška</b> - savetujemo vas pri odabiru sorti i podloga koje najbolje odgovaraju vašem tržištu, klimatskim uslovima i proizvodnim ciljevima.<br /><br />Kao pouzdan partner u voćarskoj proizvodnji, obezbeđujemo vam kvalitetan sadni materijal i sigurnost od prve sadnje do berbe.",
+      "cards": [
+        {"title": "Proizvodnja", "text": "📍 U našem rasadniku gajimo sadnice od pažljivo odabranih podloga i plemki, u kontrolisanim uslovima."},
+        {"title": "Kontrola kvaliteta", "text": "🔍 Svaka sadnica prolazi kroz sertifikovanu kontrolu zdravlja i sortne čistoće."},
+        {"title": "Pakovanje", "text": "📦 Sadnice se stručno pakuju kako bi ostale sveže i zaštićene tokom transporta."},
+        {"title": "Isporuka", "text": "🚚 Dostavljamo sadnice širom Srbije i sveta, spremne za sadnju."}
+      ]
+    }
   },
   "footer": {
     "nav": "Brza navigacija",
