@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 import { getDictionary, Locale } from "./dictionaries";
 import ClientLayout from "./ClientLayout";
+import Script from "next/script";
 
 interface PageProps {
   params: Promise<{
@@ -67,6 +68,25 @@ export default async function RootLayout({ children, params }: PageProps) {
 
   return (
     <html lang={lang}>
+      <head>
+        {/* Google tag (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-G2Y2T899PT`} // 👈 zameni svojim Measurement ID-jem
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-G2Y2T899PT', { page_path: window.location.pathname });
+            `,
+          }}
+        />
+      </head>
       <body className="antialiased">
         <ClientLayout t={t}>
           {children}
@@ -75,3 +95,4 @@ export default async function RootLayout({ children, params }: PageProps) {
     </html>
   );
 }
+
