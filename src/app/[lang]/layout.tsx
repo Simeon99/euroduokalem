@@ -22,17 +22,34 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
     description: t.seo.home.description,
     keywords: t.seo.home.keywords,
     alternates: {
-      canonical: `https://euroduokalem/${lang}`,
+      canonical: `https://euroduokalem.com/${lang}`,
       languages: {
-        sr: 'https://euroduokalem/sr',
-        en: 'https://euroduokalem/en',
-        ru: 'https://euroduokalem/ru',
+        sr: 'https://euroduokalem.com/sr',
+        en: 'https://euroduokalem.com/en',
+        ru: 'https://euroduokalem.com/ru',
+      },
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        'max-image-preview': 'large',
       },
     },
     openGraph: {
       title: t.seo.home.title,
       description: t.seo.home.description,
       locale: lang,
+      url: `https://euroduokalem.com/${lang}`,
+      type: 'website',
+      images: [
+        {
+          url: `https://euroduokalem.com/${lang}/thumbnail.png`, // 1200x630 or larger
+          width: 1200,
+          height: 630,
+          alt: t.seo.home.title,
+        },
+      ],
     },
   };
 }

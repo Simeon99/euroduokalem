@@ -21,11 +21,11 @@ export async function generateMetadata({ params }: PageProps) {
         description: t.seo.seedlings.description,
         keywords: t.seo.seedlings.keywords,
         alternates: {
-            canonical: `https://euroduokalem/${lang}/seedlings`,
+            canonical: `https://euroduokalem.com/${lang}/seedlings`,
             languages: {
-                sr: 'https://euroduokalem/sr/seedlings',
-                en: 'https://euroduokalem/en/seedlings',
-                ru: 'https://euroduokalem/ru/seedlings',
+                sr: 'https://euroduokalem.com/sr/seedlings',
+                en: 'https://euroduokalem.com/en/seedlings',
+                ru: 'https://euroduokalem.com/ru/seedlings',
             },
         },
         openGraph: {

@@ -8,9 +8,6 @@ interface PageProps {
     }>;
 }
 
-
-
-
 const page = async ({ params }: PageProps) => {
 
     const { lang } = await params;
@@ -18,8 +15,7 @@ const page = async ({ params }: PageProps) => {
 
     return (
         <div className=''>
-            
-                <About t={t} />
+            <About t={t} />
         </div>
     )
 }
