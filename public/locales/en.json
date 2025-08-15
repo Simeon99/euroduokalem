@@ -60,6 +60,7 @@
       "email": "Email",
       "phone": "Phone",
       "message": "Message",
+      "sendMessage": "Send us a message",
       "button": "Send message ",
       "status": {
         "sending": "Sending...",

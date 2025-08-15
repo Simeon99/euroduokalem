@@ -60,6 +60,7 @@
       "email": "Email",
       "phone": "Telefon",
       "message": "Poruka",
+      "sendMessage": "Pošaljite nam poruku",
       "button": "Pošalji poruku",
       "status": {
         "sending": "Slanje...",

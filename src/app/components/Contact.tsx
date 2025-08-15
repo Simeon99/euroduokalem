@@ -75,7 +75,7 @@ const Contact = ({ t }: { t: Translation }) => {
                     <h1 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.contact.title}</h1>
                     <div className='flex flex-row  max-md:flex-col max-md:gap-16' >
                         <div className='flex flex-col max-md:order-2 w-1/2 max-md:w-full md:pr-8'>
-                            <h2 className='font-heading text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>Posaljite nam poruku</h2>
+                            <h2 className='font-heading text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.sendMessage}</h2>
                             <Input
                                 label={t.home.contact.name}
                                 name="name"
