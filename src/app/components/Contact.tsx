@@ -72,7 +72,7 @@ const Contact = ({ t }: { t: Translation }) => {
         <div id='contact' className='bg-secondary-light '>
             <div className='bg-secondary-light flex flex-col px-4 py-[140px] max-md:py-[70px]'>
                 <div className='max-w-screen-sw  w-full  mx-auto'>
-                    <h1 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.contact.title}</h1>
+                    <h2 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.contact.title}</h2>
                     <div className='flex flex-row  max-md:flex-col max-md:gap-16' >
                         <div className='flex flex-col max-md:order-2 w-1/2 max-md:w-full md:pr-8'>
                             <h2 className='font-heading text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.sendMessage}</h2>
@@ -163,7 +163,7 @@ const Contact = ({ t }: { t: Translation }) => {
                         <div className='h-[500px] w-[1px] bg-gray-300 max-md:hidden'></div>
                         <div className='flex-1 md:pl-8 max-md:order-1 flex flex-col max-md:gap-16 gap-8'>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.callUs}</h2>
+                                <h3 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.callUs}</h3>
                                 <p className='text-gray-500'>{t.home.contact.callUsText}</p>
                                 <div className='flex flex-row items-center gap-4'>
                                     <div className='rounded-full p-2.5 bg-secondary flex flex-col items-center justify-center' >
@@ -174,7 +174,7 @@ const Contact = ({ t }: { t: Translation }) => {
                                 </div>
                             </div>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.sendEmail}</h2>
+                                <h3 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.sendEmail}</h3>
                                 <p className='text-gray-500'>{t.home.contact.sendEmailText}</p>
                                 <div className='flex flex-row items-center gap-4'>
                                     <div className='rounded-full p-2.5 bg-secondary flex flex-col items-center justify-center' >
@@ -185,7 +185,7 @@ const Contact = ({ t }: { t: Translation }) => {
                                 </div>
                             </div>
                             <div className='flex flex-col gap-4'>
-                                <h2 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.visitUs}</h2>
+                                <h3 className='font-heading   text-[32px] leading-none text-primary  max-lsw:text-3xl max-md:text-2xl font-bold'>{t.home.contact.visitUs}</h3>
                                 <p className='text-gray-500'>{t.home.contact.visitUsText}</p>
                                 <div className='flex flex-row items-center gap-4'>
                                     <div className='rounded-full p-2.5 bg-secondary flex flex-col items-center justify-center' >

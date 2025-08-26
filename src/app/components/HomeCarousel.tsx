@@ -145,7 +145,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                     onMouseLeave={() => animateHover(index, false)}>
                                     <div className='w-[370px] max-md:w-[200px] '>
                                         <div className='pt-4 pl-8'>
-                                            <h1 className={`text-6xl max-md:text-4xl font-heading`}>{i.tittle}</h1>
+                                            <h3 className={`text-6xl max-md:text-4xl font-heading`}>{i.tittle}</h3>
 
                                         </div>
                                         <Image
@@ -187,7 +187,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         onMouseLeave={() => animateHover(5, false)}>
                         <div className='w-[500px] '>
                             <div className='pt-4 pl-8'>
-                                <h1 className={`text-6xl max-md:text-4xl font-heading`}>{t.home.mostWanted.allProducts.title}</h1>
+                                <h3 className={`text-6xl max-md:text-4xl font-heading`}>{t.home.mostWanted.allProducts.title}</h3>
 
                             </div>
                         </div>
@@ -233,7 +233,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                                     <div className='w-full   flex flex-col justify-between'>
                                         <div className='px-4'>
                                             <div className='pt-4 '>
-                                                <h1 className={`text-4xl font-bold font-heading`}>{i.tittle}</h1>
+                                                <h3 className={`text-4xl font-bold font-heading`}>{i.tittle}</h3>
 
                                             </div>
 
@@ -274,7 +274,7 @@ const HomeCarousel: React.FC<HomeCarouselProps> = ({ currentCard, setCurrentCard
                         <div className='w-full   flex flex-col justify-between'>
                             <div className='px-4'>
                                 <div className='pt-4 '>
-                                    <h1 className={`text-4xl font-bold font-heading`}>{t.home.mostWanted.allProducts.title}</h1>
+                                    <h2 className={`text-4xl font-bold font-heading`}>{t.home.mostWanted.allProducts.title}</h2>
 
                                 </div>
                             </div>

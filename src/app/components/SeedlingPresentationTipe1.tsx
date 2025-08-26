@@ -35,7 +35,7 @@ const SeedlingPresentationTipe1 = ({ selectedData, frutiName, t }: { selectedDat
 
                     </div>
                     <div className='w-1/2 max-md:w-full flex flex-col items-end max-md:items-start '>
-                        <h1 className="text-4xl max-lsw:text-3xl text-primary font-bold font-heading">{selectedData?.subvariety}</h1>
+                        <h2 className="text-4xl max-lsw:text-3xl text-primary font-bold font-heading">{selectedData?.subvariety}</h2>
                         <p className="text-lg md:text-[20px] text-gray-700 text-justify max-md:hidden">{selectedData?.about}</p>
                     </div>
 
@@ -67,7 +67,7 @@ const SeedlingPresentationTipe1 = ({ selectedData, frutiName, t }: { selectedDat
                             className={`h-[2px] w-full bg-primary md:hidden`}
                         /> */}
                 <div className='flex flex-col gap-4 mt-8'>
-                    <h1 className="text-[25px]  font-bold text-primary font-heading">{t.seedling.characteristics}</h1>
+                    <h3 className="text-[25px]  font-bold text-primary font-heading">{t.seedling.characteristics}</h3>
                     {selectedData && selectedData?.characteristics?.map((i, index) => (
                         <div key={index} className='flex flex-row gap-2 '>
                             <div className='w-3 h-1.5 bg-primary rounded-2xl mt-3'></div>
@@ -81,9 +81,9 @@ const SeedlingPresentationTipe1 = ({ selectedData, frutiName, t }: { selectedDat
 
             </div>
             <div className='flex flex-col gap-8 my-16'>
-                <h1 className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
+                <h2 className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
                     {t.seedling.suggested}
-                </h1>
+                </h2>
                 {selectedData?.suggested && <SeedlingSuggested key={`${selectedData.subvariety}-${selectedData.suggested.join(',')}`} frutiName={frutiName}/>}
             </div>
         </main>

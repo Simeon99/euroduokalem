@@ -11,7 +11,7 @@ const YouTubeVideo = ({ t }: { t: Translation }) => {
     return (
         <div className='flex flex-col px-4'>
             <div className='max-w-screen-sw w-full mx-auto'>
-                <h1 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.videoTitle}</h1>
+                <h2 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.videoTitle}</h2>
             </div>
             <div className="max-w-screen-sw w-full mx-auto aspect-video rounded-xl overflow-hidden shadow-lg">
                 {!isPlaying ? (

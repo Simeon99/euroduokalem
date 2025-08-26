@@ -24,9 +24,9 @@ const BlogPosts = ({ blogPosts, t }: { blogPosts: IBlogPost[], t: Translation })
     return (
         <div className='bg-secondary-light flex  justify-center px-4 max-md:py-16 py-36'>
             <div className='max-w-screen-sw  w-full flex flex-col gap-8'>
-                <h1 className='font-heading  text-6xl text-primary  max-lsw:text-5xl max-md:text-4xl font-bold line'>
+                <h2 className='font-heading  text-6xl text-primary  max-lsw:text-5xl max-md:text-4xl font-bold line'>
                     {t.blog.title}
-                </h1>
+                </h2>
                 {/* Desktop */}
                 <div className='flex flex-row gap-8 max-lsw:hidden'>
                     <article className='flex flex-col gap-4 w-2/3 hover:scale-101 hover:cursor-pointer transform  duration-300'>
@@ -46,9 +46,9 @@ const BlogPosts = ({ blogPosts, t }: { blogPosts: IBlogPost[], t: Translation })
 
                             </div>
                             <div className=' '>
-                                <h2 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl  line'>
+                                <h3 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl  line'>
                                     {firstThree && firstThree[0]?.title}
-                                </h2>
+                                </h3>
                             </div>
                         </Link>
                     </article>
@@ -68,9 +68,9 @@ const BlogPosts = ({ blogPosts, t }: { blogPosts: IBlogPost[], t: Translation })
 
                                             </div>
                                             <div className=''>
-                                                <h2 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl  line'>
+                                                <h3 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl  line'>
                                                     {post.title}
-                                                </h2>
+                                                </h3>
                                             </div>
                                         </Link>
                                     </article>
@@ -93,9 +93,9 @@ const BlogPosts = ({ blogPosts, t }: { blogPosts: IBlogPost[], t: Translation })
 
                                 </div>
                                 <div className=''>
-                                    <h2 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl line'>
+                                    <h3 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl line'>
                                         {post.title}
-                                    </h2>
+                                    </h3>
                                 </div>
                             </Link>
                         </article>
@@ -117,9 +117,9 @@ const BlogPosts = ({ blogPosts, t }: { blogPosts: IBlogPost[], t: Translation })
 
                                 </div>
                                 <div className=''>
-                                    <h2 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl line'>
+                                    <h3 className='text-4xl text-black font-heading max-lsw:text-3xl max-md:text-2xl line'>
                                         {post.title}
-                                    </h2>
+                                    </h3>
                                 </div>
                             </Link>
                         </article>

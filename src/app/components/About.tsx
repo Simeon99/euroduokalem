@@ -31,10 +31,10 @@ const About = ({ t }: { t: Translation }) => {
                         <div className='flex flex-col items-center mt-16'>
 
                             <div className='animate-slide-in-left pr-[25%] max-xsw:pr-0 max-xsw:self-start '>
-                                <h1 className='leading-none font-heading  text-6xl text-[#8B8B8B] max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.subtitle1}</h1>
+                                <h2 className='leading-none font-heading  text-6xl text-[#8B8B8B] max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.subtitle1}</h2>
                             </div>
                             <div className='animate-slide-in-right pl-[25%] max-xsw:pl-0 max-xsw:self-end'>
-                                <h1 className=' leading-none font-heading text-6xl text-primary  max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.subtitle2}</h1>
+                                <h2 className=' leading-none font-heading text-6xl text-primary  max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.subtitle2}</h2>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ const About = ({ t }: { t: Translation }) => {
                             </div>
                             <SeedlingsPath t={t}/>
                             <div className='w-full max-[1441px]:px-4  mt-36 flex flex-col gap-4 mb-36'>
-                                <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.sveOnamaTitle}</h1>
+                                <h2 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.sveOnamaTitle}</h2>
                                 <div className='flex flex-col gap-4'>
                                     <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>{formatTextWithBreaks(t.aboutUs.sveOnamaText)}{ }</p>
                                 </div>
@@ -261,7 +261,7 @@ const About = ({ t }: { t: Translation }) => {
                             </div>
                             <SeedlingsPath t={t}/>
                             <div className='w-full mt-16 flex flex-col gap-4 mb-36'>
-                                <h1 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.sveOnamaTitle}</h1>
+                                <h2 className='leading-none font-heading  text-6xl text-primary max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.sveOnamaTitle}</h2>
                                 <div className='flex flex-col gap-4'>
                                     <p className='text-[24px] max-md:text-[20px] max-md:max-w-full'>{formatTextWithBreaks(t.aboutUs.sveOnamaText)}</p>
                                 </div>

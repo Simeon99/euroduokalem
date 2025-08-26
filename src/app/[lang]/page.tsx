@@ -49,9 +49,9 @@ export default async function Home({ params }: PageProps) {
       </div>
       <div className="py-[140px] bg-white px-4">
         <div  className="max-w-screen-sw  w-full  mx-auto flex flex-col gap-8">
-          <h1  className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
+          <h2  className='font-heading text-6xl text-primary   max-lsw:text-5xl max-md:text-4xl font-bold line'>
             {t.home.blog.title}
-          </h1>
+          </h2>
           <HomeBlog />
         </div>
       </div>

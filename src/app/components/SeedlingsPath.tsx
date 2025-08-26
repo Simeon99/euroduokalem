@@ -30,7 +30,7 @@ const SeedlingsPath = ({ t }: { t: Translation }) => {
     return (
         <section className="pt-32 max-[1441px]:px-4">
             <div className='flex flex-col items-center p'>
-                <h1 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold text-center'>{t.aboutUs.seedlingsPath.title}</h1>
+                <h2 className='font-heading   text-[60px] leading-none text-primary  pb-8 max-lsw:text-5xl max-md:text-4xl font-bold text-center'>{t.aboutUs.seedlingsPath.title}</h2>
 
             </div>
             <div className="w-full ">

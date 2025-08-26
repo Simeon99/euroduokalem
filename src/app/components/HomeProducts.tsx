@@ -23,11 +23,11 @@ const HomeProducts = ({ t }: { t: Translation }) => {
       <div className='max-w-screen-sw w-full'>
 
         <div className='max-w-[1004px]  w-full flex flex-row justify-between items-end'>
-          <h1 className='text-[24px] md:text-[40px] leading-none font-heading font-bold text-primary'>
+          <h2 className='text-[24px] md:text-[40px] leading-none font-heading font-bold text-primary'>
             {/* Orkrijte naše najtraženije <br />
             sadnice voća */}
             {formatTextWithBreaks(t.home.mostWanted.title)}
-          </h1>
+          </h2>
           <div className='flex-1 flex flex-col max-md:w-full items-end '>
 
               <div className='flex flex-col items-center gap-[14px]'>

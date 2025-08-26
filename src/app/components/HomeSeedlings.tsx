@@ -19,7 +19,7 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
         <div className='flex  justify-center px-4 bg-secondary'>
             <div className='max-w-screen-sw  w-full flex flex-row max-md:flex-col    py-16 max-md:py-2  items-center gap-16 justify-between'>
                 <div className='flex flex-col flex-1 py-8 gap-4'>
-                    <h1 className='font-heading  text-6xl text-primary py-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.seedlingsTitle}</h1>
+                    <h2 className='font-heading  text-6xl text-primary py-8 max-lsw:text-5xl max-md:text-4xl font-bold '>{t.home.seedlingsTitle}</h2>
                     {/* Mobile image */}
                     <div className=" md:hidden relative full h-[500px] overflow-hidden rounded-md shadow-lg">
                         <Image
