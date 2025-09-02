@@ -177,27 +177,36 @@
     "button": "Read the article",
     "showMore": "Show More"
   },
+  "notFoundPage": {
+    "title": "Page Not Found",
+    "text": "The page you requested may have been moved, removed, or was never planted in our orchard.",
+    "btnHome": "Go Home",
+    "btnSeedlings": "Browse Seedlings",
+    "btnApple": "Apple trees",
+    "btnPear": "Pear trees",
+    "btnCherrz": "Cherry trees",
+    "tip": "Tip: try the catalog or return to the homepage."
+  },
   "seo": {
     "home": {
       "title": "Wholesale Fruit Seedlings Serbia - Best Quality | Euro Duo Kalem",
-      "description": "Certified, high-quality fruit seedlings from Serbia: fruit seedlings, rose seedlings & grapevine cuttings. Virus-free, premium quality. Export worldwide.",
+      "description": "Certified, high-quality fruit seedlings and fruit trees from Serbia: fruit seedlings, fruit trees, rose seedlings & grapevine cuttings. Virus-free, premium quality. Export worldwide",
       "keywords": [
         "fruit seedlings",
         "wholesale fruit seedlings",
+        "fruit trees",
+        "wholesale fruit trees",
         "apple seedlings",
         "pear seedlings",
         "plum seedlings",
         "sour cherry seedlings",
         "sweet cherry seedlings",
-        "fruit seedling import",
         "seedling export",
         "seedlings from Serbia",
         "seedlings for Russia",
         "seedlings for the EU",
-        "seedlings worldwide",
         "certified seedlings",
-        "virus-free fruit seedlings",
-        "labeled seedlings"
+        "virus-free fruit seedlings"
       ]
     },
     "seedlings": {

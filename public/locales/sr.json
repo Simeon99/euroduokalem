@@ -177,27 +177,36 @@
     "button": "Pročitaj artikal",
     "showMore": "Prikaži više"
   },
+  "notFoundPage": {
+    "title": "Stranica nije pronađena",
+    "text": "Stranica koju ste tražili možda je premještena, obrisana ili nikada nije bila zasađena u našem voćnjaku.",
+    "btnHome": "Početna",
+    "btnSeedlings": "Pregledaj sadnice",
+    "btnApple": "Jabuke",
+    "btnPear": "Kruške",
+    "btnCherrz": "Trešnje",
+    "tip": "Savet: probajte katalog ili se vratite na početnu stranicu."
+  },
   "seo": {
     "home": {
-      "title": "Sadnice voća na veliko Srbija | Euro Duo Kalem",
-      "description": "Sertifikovane, visokokvalitetne sadnice voća iz Srbije: voćne sadnice, sadnice ruža i lozni kalemovi. Bez virusa, vrhunskog kvaliteta. Izvoz širom sveta.",
+      "title": "Sadnice voća na veliko Srbija - Najbolji kvalitet | Euro Duo Kalem",
+      "description": "Sertifikovane, visokokvalitetne sadnice voća i voćnog drveća iz Srbije: sadnice voća, voćke, sadnice ruža i kalemljene lozne sadnice. Bez virusa, premium kvalitet. Izvoz širom sveta",
       "keywords": [
         "sadnice voća",
         "sadnice voća na veliko",
+        "drveće voća",
+        "drveće voća na veliko",
         "sadnice jabuke",
         "sadnice kruške",
         "sadnice šljive",
         "sadnice višnje",
         "sadnice trešnje",
-        "uvoz sadnica voća",
         "izvoz sadnica",
         "sadnice iz Srbije",
         "sadnice za Rusiju",
         "sadnice za EU",
-        "sadnice širom sveta",
         "sertifikovane sadnice",
-        "bezvirusne sadnice voća",
-        "sadnice sa deklaracijom"
+        "bezvirusne sadnice voća"
       ]
     },
     "seedlings": {

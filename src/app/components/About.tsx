@@ -59,7 +59,7 @@ const About = ({ t }: { t: Translation }) => {
                                         alt="Apple"
                                         width={400}              // required
                                         height={300}             // required
-                                        className="rounded-tr-2xl w-full h-full object-cover"   // optional Tailwind class
+                                        className="rounded-r-2xl w-full h-full object-cover"   // optional Tailwind class
                                     />
                                 </div>
 
@@ -119,7 +119,7 @@ const About = ({ t }: { t: Translation }) => {
                                         alt="Apple"
                                         width={400}              // required
                                         height={300}             // required
-                                        className="rounded-tl-2xl w-full h-full object-cover"   // optional Tailwind class
+                                        className="rounded-l-2xl w-full h-full object-cover"   // optional Tailwind class
                                     />
                                 </div>
 

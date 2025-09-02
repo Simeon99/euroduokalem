@@ -70,7 +70,7 @@ const Footer = ({ t }: { t: Translation }) => {
                     width={30}
                     height={30}
                   />
-                  <span className='font-heading font-bold text-secondary-light text-[24px] max-md:text-[18px] '>euroduokalem@yahoo.com</span>
+                  <span className='font-heading font-bold text-secondary-light text-[24px] max-md:text-[18px] '>info@euroduokalem.com</span>
                 </div>
                 {/* </Link> */}
                 {/* <Link href={' '} className=''> */}

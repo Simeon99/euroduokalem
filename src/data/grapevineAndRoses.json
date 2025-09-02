@@ -107,6 +107,10 @@
                         {
                             "name": "Beogradska besemena",
                             "url": "grapevine/beogradska besemena.jpg"
+                        },
+                        {
+                            "name": "Muscat Italy",
+                            "url": "grapevine/muscat italy.jpg"
                         }
                     ],
                     "about": "Ova grupa obuhvata stone sorte sa belim i svetloružičastim bobicama koje se gaje pretežno za konzumaciju u svežem stanju. Karakterišu ih izuzetno krupni grozdovi, sočne bobice, ujednačen ukus i atraktivan izgled - osobine koje ih čine vrlo traženim na tržištu, posebno u segmentu rane prodaje. Sorta poput Afus Ali poznata je po velikim i dugovečnim grozdovima, dok je Victoria izuzetna po ranom zrenju i krupnoći ploda. Ove sorte dobro uspevaju na plodnim i osunčanim položajima, a zahvaljujući svojoj privlačnosti pogodne su i za izvoz.",
@@ -138,10 +142,6 @@
                         {
                             "name": "Michele Parlieri",
                             "url": "grapevine/michele palieri.webp"
-                        },
-                        {
-                            "name": "Muscat Italy",
-                            "url": "grapevine/muscat italy.jpg"
                         }
                     ],
                     "about": "Ove sorte sa tamnim bobicama često imaju izraženu muskatnu aromu, slatkoću i dekorativan izgled. Pogodne su za svežu konzumaciju, ali se koriste i za preradu u sokove, rakije ili sušeno grožđe. Muscat de Hambourg i Muscat Italy poznate su po karakterističnoj aromi i prijatnoj teksturi, dok sorte poput Cardinala imaju rano zrenje i krupne bobice, što ih čini popularnim na tržištu. Zbog zahteva u pogledu orezivanja i zaštite, traže pažljiv uzgoj i posvećenost kako bi dale kvalitetan plod. Moldava je poznata po intenzivnoj boji i otpornosti, dok Michele Parlieri donosi izuzetnu krupnoću i čvrstu strukturu bobice, pogodnu za svežu konzumaciju i transport.",
@@ -347,7 +347,7 @@
             "title": "Grapevine",
             "subvarietys": [
                 {
-                    "name": "Wine Grapes – White",
+                    "name": "Wine Grapes - White",
                     "subvarietys": [
                         {
                             "name": "Muscat Ottonel",
@@ -398,7 +398,7 @@
                     ]
                 },
                 {
-                    "name": "Wine Grapes – Red",
+                    "name": "Wine Grapes - Red",
                     "subvarietys": [
                         {
                             "name": "Frankovka KT 1",
@@ -437,7 +437,7 @@
                     ]
                 },
                 {
-                    "name": "Table Grapes – White Berries",
+                    "name": "Table Grapes - White Berries",
                     "subvarietys": [
                         {
                             "name": "Victoria",
@@ -450,9 +450,13 @@
                         {
                             "name": "Beogradska Besemena",
                             "url": "grapevine/beogradska besemena.jpg"
+                        },
+                        {
+                            "name": "Muscat Italy",
+                            "url": "grapevine/muscat italy.jpg"
                         }
                     ],
-                    "about": "This group includes table grape varieties with white and light pink berries, mainly cultivated for fresh consumption. They are characterized by exceptionally large clusters, juicy berries, uniform taste, and attractive appearance – traits that make them highly sought after on the market, especially in the early sales segment. Afus Ali is known for its large and long-lasting clusters, while Victoria is exceptional for its early ripening and large fruits. These varieties perform well in fertile, sunny locations and, thanks to their appeal, are also suitable for export.",
+                    "about": "This group includes table grape varieties with white and light pink berries, mainly cultivated for fresh consumption. They are characterized by exceptionally large clusters, juicy berries, uniform taste, and attractive appearance, traits that make them highly sought after on the market, especially in the early sales segment. Afus Ali is known for its large and long-lasting clusters, while Victoria is exceptional for its early ripening and large fruits. These varieties perform well in fertile, sunny locations and, thanks to their appeal, are also suitable for export.",
                     "suggested": [
                         2,
                         3,
@@ -460,7 +464,7 @@
                     ]
                 },
                 {
-                    "name": "Table Grapes – Black Berries",
+                    "name": "Table Grapes - Black Berries",
                     "subvarietys": [
                         {
                             "name": "Ribier",
@@ -481,10 +485,6 @@
                         {
                             "name": "Michele Parlieri",
                             "url": "grapevine/michele palieri.webp"
-                        },
-                        {
-                            "name": "Muscat Italy",
-                            "url": "grapevine/muscat italy.jpg"
                         }
                     ],
                     "about": "These varieties with dark berries often have a pronounced muscat aroma, sweetness, and a decorative appearance. They are suitable for fresh consumption but are also used for processing into juices, brandy, or dried grapes. Muscat de Hambourg and Muscat Italy are known for their characteristic aroma and pleasant texture, while varieties such as Cardinal have early ripening and large berries, making them popular on the market. Due to pruning and protection requirements, they demand careful cultivation and dedication to produce quality fruit. Moldava is known for its intense color and resistance, while Michele Parlieri offers exceptional berry size and firm structure, suitable for fresh use and transport.",
@@ -578,7 +578,7 @@
                             "url": "rose/red dance.jpeg"
                         }
                     ],
-                    "about": "These classic roses are known for their large, lush blooms and intense fragrance. Ideal for garden growing and as cut flowers. They stand out for their elegance, wide range of colors, and repeat blooming throughout the season. Each variety has its own character – from rich purple (Big Purple) to soft pastel tones (Charley, Landora). **The height of hybrid tea roses ranges between 0.8 and 1 meter**, making them suitable for central parts of flower beds and terrace decoration.",
+                    "about": "These classic roses are known for their large, lush blooms and intense fragrance. Ideal for garden growing and as cut flowers. They stand out for their elegance, wide range of colors, and repeat blooming throughout the season. Each variety has its own character, from rich purple (Big Purple) to soft pastel tones (Charley, Landora). **The height of hybrid tea roses ranges between 0.8 and 1 meter**, making them suitable for central parts of flower beds and terrace decoration.",
                     "suggested": [
                         2,
                         3,
@@ -690,7 +690,7 @@
             "title": "Виноградная лоза",
             "subvarietys": [
                 {
-                    "name": "Винные сорта – белые",
+                    "name": "Винные сорта - белые",
                     "subvarietys": [
                         {
                             "name": "Мускат Оттонель",
@@ -733,7 +733,7 @@
                             "url": "grapevine/zilavka.jpg"
                         }
                     ],
-                    "about": "Эти сорта предназначены для производства белых вин – от сухих до ароматных и десертных. Они отличаются ярко выраженными ароматами и сложным вкусом. Мускат Оттонель даёт интенсивные цветочно-фруктовые ноты, а Совиньон Блан и Рислинг – свежесть и выраженную кислотность. Шардоне и Пино Блан высоко ценятся для производства премиальных вин. Ркацители, происходящий из Грузии, всё чаще встречается в наших виноградниках. Он известен своей хорошей устойчивостью, стабильной урожайностью и высокой кислотностью, что делает его подходящим для вин с потенциалом выдержки. Смедеревка и Тамьяника — автохтонные сорта, известные своим характерным ароматом и устойчивостью. Жилавка преобладает в тёплых регионах и обладает большим потенциалом для минеральных белых вин. Хорошо растёт на солнечных и хорошо дренированных почвах и особенно ценится за высококачественные вина с выраженным сортовым характером.",
+                    "about": "Эти сорта предназначены для производства белых вин , от сухих до ароматных и десертных. Они отличаются ярко выраженными ароматами и сложным вкусом. Мускат Оттонель даёт интенсивные цветочно-фруктовые ноты, а Совиньон Блан и Рислинг, свежесть и выраженную кислотность. Шардоне и Пино Блан высоко ценятся для производства премиальных вин. Ркацители, происходящий из Грузии, всё чаще встречается в наших виноградниках. Он известен своей хорошей устойчивостью, стабильной урожайностью и высокой кислотностью, что делает его подходящим для вин с потенциалом выдержки. Смедеревка и Тамьяника — автохтонные сорта, известные своим характерным ароматом и устойчивостью. Жилавка преобладает в тёплых регионах и обладает большим потенциалом для минеральных белых вин. Хорошо растёт на солнечных и хорошо дренированных почвах и особенно ценится за высококачественные вина с выраженным сортовым характером.",
                     "suggested": [
                         2,
                         3,
@@ -741,7 +741,7 @@
                     ]
                 },
                 {
-                    "name": "Винные сорта – красные",
+                    "name": "Винные сорта - красные",
                     "subvarietys": [
                         {
                             "name": "Франковка КТ 1",
@@ -780,7 +780,7 @@
                     ]
                 },
                 {
-                    "name": "Столовые сорта – белые ягоды",
+                    "name": "Столовые сорта - белые ягоды",
                     "subvarietys": [
                         {
                             "name": "Виктория",
@@ -793,6 +793,10 @@
                         {
                             "name": "Белградская бессемянная",
                             "url": "grapevine/beogradska besemena.jpg"
+                        },
+                        {
+                            "name": "Мускат Италия",
+                            "url": "grapevine/muscat italy.jpg"
                         }
                     ],
                     "about": "Эта группа включает столовые сорта с белыми и светло-розовыми ягодами, которые преимущественно выращиваются для употребления в свежем виде. Они характеризуются чрезвычайно крупными гроздьями, сочными ягодами, равномерным вкусом и привлекательным внешним видом — качествами, которые делают их очень востребованными на рынке, особенно в сегменте ранней продажи. Афус Али известен своими крупными и долго хранящимися гроздьями, а Виктория — ранним созреванием и крупными плодами. Эти сорта хорошо растут на плодородных и солнечных участках, а благодаря своей привлекательности подходят и для экспорта.",
@@ -803,7 +807,7 @@
                     ]
                 },
                 {
-                    "name": "Столовые сорта – чёрные ягоды",
+                    "name": "Столовые сорта - чёрные ягоды",
                     "subvarietys": [
                         {
                             "name": "Рибье",
@@ -824,10 +828,6 @@
                         {
                             "name": "Микеле Пальери",
                             "url": "grapevine/michele palieri.webp"
-                        },
-                        {
-                            "name": "Мускат Италия",
-                            "url": "grapevine/muscat italy.jpg"
                         }
                     ],
                     "about": "Эти сорта с тёмными ягодами часто имеют выраженный мускатный аромат, сладость и декоративный внешний вид. Они подходят для употребления в свежем виде, но также используются для переработки в соки, бренди или изюм. Мускат де Гамбург и Мускат Италия известны своим характерным ароматом и приятной текстурой, а такие сорта, как Кардинал, отличаются ранним созреванием и крупными ягодами, что делает их популярными на рынке. Из-за требований к обрезке и защите они требуют тщательного ухода и внимания для получения качественного урожая. Молдава известна своим интенсивным цветом и устойчивостью, а Микеле Пальери отличается исключительным размером ягод и плотной структурой, что делает его подходящим для свежего потребления и транспортировки.",

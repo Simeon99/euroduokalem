@@ -140,3 +140,39 @@ body {
     opacity: 1;
   }
 }
+@keyframes float {
+  0%   { transform: translateY(0) rotate(0deg); }
+  50%  { transform: translateY(-10px) rotate(2deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+@keyframes pulse-slow {
+  0%, 100% { opacity: .35; transform: scale(1); }
+  50%      { opacity: .55; transform: scale(1.06); }
+}
+@keyframes pulse-slower {
+  0%, 100% { opacity: .30; transform: scale(1); }
+  50%      { opacity: .5; transform: scale(1.08); }
+}
+@keyframes revolve {
+  0%   { transform: rotate(0deg);   opacity:.5; }
+  50%  { transform: rotate(180deg); opacity:.65; }
+  100% { transform: rotate(360deg); opacity:.5; }
+}
+@keyframes wave {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-2%); }
+}
+@keyframes wave-slow {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(2%); }
+}
+
+/* utility classes */
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-pulse-slow { animation: pulse-slow 6s ease-in-out infinite; }
+.animate-pulse-slower { animation: pulse-slower 9s ease-in-out infinite; }
+.animate-revolve { animation: revolve 14s linear infinite; }
+.animate-wave { animation: wave 12s ease-in-out infinite alternate; }
+.animate-wave-slow { animation: wave-slow 16s ease-in-out infinite alternate; }
+
+

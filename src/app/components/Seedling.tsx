@@ -68,22 +68,6 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
         }
     }
 
-    // async function fetchSelected() {
-    //     setLoadingSelected(true);
-    //     try {
-    //         const res = await fetch(`/api/seedling?lang=${lang}&fruit=${fruit}&subvariety=${selected}`);
-    //         const seedling = await res.json();
-    //         setSelectedData(seedling);
-    //         setLoadingSelected(false);
-    //     } catch (e) {
-    //         console.error('Error fetching seedlings:', e);
-    //         setLoadingSelected(false);
-    //     } finally {
-    //         setLoadingSelected(false);
-    //         setLoaded(loaded + 1);
-    //     }
-    // }
-
     async function fetchSeedlingRosesGrapevine() {
         setLoading(true);
         try {
@@ -115,21 +99,6 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
         window.scrollTo({ top: 0 });
 
     }, [fruit, lang]);
-
-    // useEffect(() => {
-    //     if (selected && fruit && lang) {
-    //         if (fruit !== "grapevine" && fruit !== "roses") {
-    //             // fetchSelected();
-    //         }
-    //     }
-    // }, [selected, fruit, lang])
-
-    // if (!fruit) return <div>Fruit not found</div>;
-
-    // const subspecies = fruit.subspecies;
-    // const active = subspecies[selected];
-
-
     return (
         <div className="flex flex-col  mt-4 h-full">
             {/* Sidebar */}
@@ -138,16 +107,10 @@ const Seedling = ({ fruit, lang, t }: { fruit: string, lang: string, t: Translat
                     <LoadingSideBar /> :
 
                     <div className='bg-none'>
-                        <h2 className="text-6xl font-bold text-primary max-lsw:text-5xl max-md:text-4xl  font-heading px-4 max-md:px-0 py-4 line-clamp-non">{fruit === "grapevine" || fruit === "roses" ? fruitDataRosesGrapevine?.title : fruitData?.title}</h2>
+                        <h1 className="text-6xl font-bold text-primary max-lsw:text-5xl max-md:text-4xl  font-heading px-4 max-md:px-0 py-4 line-clamp-non">{fruit === "grapevine" || fruit === "roses" ? fruitDataRosesGrapevine?.title : fruitData?.title}</h1>
                     </div>
 
             }
-            {/* {fruitDataRosesGrapevine?.subvarietys.map(i =>
-                <div key={i.name}>{i.name}</div>
-            )}
-            {fruit} */}
-            {/* {/* Main Content */}
-            {/* {fruit ==="grapevine" || fruit ==="roses" ? " " :} */}
             {
                 selected &&
                 selected && fruitData && <SeedlingPresent selectedData={selected} fruitData={fruitData}  setSelected={setSelected} t={t} />

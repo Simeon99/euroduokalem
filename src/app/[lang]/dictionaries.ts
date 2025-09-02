@@ -1,5 +1,5 @@
 // dictionaries.ts
-import 'server-only'
+// import 'server-only'
 import en from '../../../public/locales/en.json';
 
 
