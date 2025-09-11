@@ -21,6 +21,10 @@ export default function Button({
   const variants = {
     primary: `bg-orange text-white ${disabled ? '': 'hover:bg-[var(--color-orange-hover)]'}`,
     secondary: `text-[var(--color-primary)] border border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-secondary-light)]`,
+    contact: `bg-gray-100 text-[var(--color-primary)] 
+            hover:bg-gray-200 
+            border border-gray-300 
+            shadow-sm`,
   };
 
   const disabledClasses = `opacity-50 cursor-not-allowed  ${disabled ? '' : 'hover:scale-100 hover:bg-inherit'} `;

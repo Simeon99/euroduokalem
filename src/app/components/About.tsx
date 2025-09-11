@@ -13,6 +13,7 @@ import SeedlingsPath from './SeedlingsPath'
 const About = ({ t }: { t: Translation }) => {
     const videos = [
         { id: "lyF7cPUOs9U", title: t.aboutUs.ytVideos[0].title, poster: '/images/about/thubnail1.png' },
+        { id: "JBWNHtacwF8", title: t.aboutUs.ytVideos[3].title, poster: '/images/about/thubnail4.png' },
         { id: "9SCulActjY8", title: t.aboutUs.ytVideos[1].title, poster: '/images/about/thubnail3.png' },
         { id: "gQ350ueXsH0", title: t.aboutUs.ytVideos[2].title, poster: '/images/about/thubnail2.png' },
     ]
