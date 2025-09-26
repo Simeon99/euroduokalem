@@ -4,7 +4,7 @@ import React from 'react';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
-  variant?: 'primary' | 'secondary';
+  variant?: 'primary' | 'secondary' | 'contact';
   isLoading?: boolean;
 }
 
@@ -23,6 +23,7 @@ export default function Button({
     secondary: `text-[var(--color-primary)] border border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-secondary-light)]`,
     contact: `bg-gray-100 text-[var(--color-primary)] 
             hover:bg-gray-200 
+            text-[var(--color-primary)]
             border border-gray-300 
             shadow-sm`,
   };

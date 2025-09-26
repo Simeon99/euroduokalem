@@ -8,6 +8,12 @@
   "home": {
     "title": "Seedlings that bring \nabundant harvests and \na secure future!",
     "titleBtn": "Our seedlings",
+    "stats": {
+      "varieties":"Varieties",
+      "trees": "Trees shipped",
+      "countries": "Countries"
+    },
+    "contactBtn": "Contact",
     "baner1": "Fruit tree seedlings ",
     "baner2": "Fruit growing ",
     "baner3": "Certified seedlings",

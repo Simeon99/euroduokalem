@@ -7,6 +7,12 @@
   },
   "home": {
     "title": "Sadnice koje donose \nbogat rod i sigurnu \nbudućnost!",
+    "stats": {
+      "varieties": "Sorti",
+      "trees": "Isporučenih sadnica",
+      "countries": "Zemalja"
+    },
+    "contactBtn": "Kontakt",
     "titleBtn": "Naše sadnice",
     "baner1": "Sadnice voća",
     "baner2": "Voćarstvo",
