@@ -5,10 +5,11 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Translation } from '../[lang]/dictionaries';
 import { formatTextWithBreaks } from './ui/SplitText';
 import Button from './ui/Button';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams, usePathname, useRouter } from 'next/navigation';
 import { useLoadingBar } from 'react-top-loading-bar';
 import { AnimatePresence, motion } from 'framer-motion';
 import { CountUp } from './ui/CoundUp';
+import { useNavbar } from '../context/NavbarContext';
 
 type Props = {
     t: Translation;
@@ -20,6 +21,9 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
     const params = useParams();
     const lang = (params?.lang as string) || 'en';
     const router = useRouter();
+
+    const { scrollTo } = useNavbar();
+    const pathname = usePathname();
 
     const { start, complete } = useLoadingBar({
         color: 'orange',
@@ -67,6 +71,14 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
         }, cycleMs);
         return () => clearInterval(i);
     }, [slides.length, cycleMs]);
+
+    const handleScroll = (section: string) => {
+        if (pathname === `/${lang}`) {
+          scrollTo(section);
+        } else {
+          router.push(`/?scrollTo=${section}`);
+        }
+      };
 
     const currentSrc = slides[idx];
 
@@ -174,7 +186,9 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                         />
                         <Button
                             label={t.home.contactBtn ?? 'Contact'}
-                            onClick={() => router.push(`/${lang}/contact`)}
+                            onClick={() => {
+                                    handleScroll("contact")
+                                }}
                             aria-label={t.home.contactBtn ?? 'Contact'}
                             variant="contact" // 👉 optional, if your Button supports "primary/secondary"
                         />
