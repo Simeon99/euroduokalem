@@ -7,28 +7,23 @@ import { formatTextWithBreaks } from './ui/SplitText';
 import Button from './ui/Button';
 import { useParams, usePathname, useRouter } from 'next/navigation';
 import { useLoadingBar } from 'react-top-loading-bar';
-import { AnimatePresence, motion } from 'framer-motion';
 import { CountUp } from './ui/CoundUp';
 import { useNavbar } from '../context/NavbarContext';
 
 type Props = {
     t: Translation;
-    images?: string[]; // allow override if you want different sets per locale/campaign
-    cycleMs?: number;  // default 5000ms
+    images?: string[];
+    cycleMs?: number; // default 10000ms
 };
 
 const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
     const params = useParams();
     const lang = (params?.lang as string) || 'en';
     const router = useRouter();
-
     const { scrollTo } = useNavbar();
     const pathname = usePathname();
 
-    const { start, complete } = useLoadingBar({
-        color: 'orange',
-        height: 2,
-    });
+    const { start, complete } = useLoadingBar({ color: 'orange', height: 2 });
 
     const handleClick = () => {
         start();
@@ -45,98 +40,59 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                 ? images
                 : [
                     '/images/home/landing-photo.jpg',
-                    '/images/home/vinograd.jpeg',
+                    '/images/home/vinograd1.jpeg',
                     '/images/home/landing-image1.jpeg',
                 ],
         [images]
     );
 
-    // reduced motion preference
-    const [reducedMotion, setReducedMotion] = useState(false);
-    useEffect(() => {
-        if (typeof window === 'undefined') return;
-        const m = window.matchMedia('(prefers-reduced-motion: reduce)');
-        setReducedMotion(m.matches);
-        const onChange = (e: MediaQueryListEvent) => setReducedMotion(e.matches);
-        m.addEventListener?.('change', onChange);
-        return () => m.removeEventListener?.('change', onChange);
-    }, []);
-
-    // slideshow index
-    const [idx, setIdx] = useState(0);
+    // slideshow index (like HomeMessage)
+    const [index, setIndex] = useState(0);
     useEffect(() => {
         if (slides.length <= 1) return;
-        const i = setInterval(() => {
-            setIdx((p) => (p + 1) % slides.length);
+        const id = setInterval(() => {
+            setIndex((i) => (i + 1) % slides.length);
         }, cycleMs);
-        return () => clearInterval(i);
+        return () => clearInterval(id);
     }, [slides.length, cycleMs]);
 
     const handleScroll = (section: string) => {
         if (pathname === `/${lang}`) {
-          scrollTo(section);
+            scrollTo(section);
         } else {
-          router.push(`/?scrollTo=${section}`);
+            router.push(`/?scrollTo=${section}`);
         }
-      };
-
-    const currentSrc = slides[idx];
+    };
 
     return (
         <section
             className="relative w-full h-full -mt-[69.35px] overflow-hidden"
             aria-label="Hero section"
         >
-            {/* BACKDROP LAYER: cross-fade + subtle ken burns zoom */}
+            {/* BACKDROP: stack all images and cross-fade like in HomeMessage */}
             <div className="absolute inset-0">
-                {/* Preload NEXT image to avoid flash */}
-                <Image
-                    src={slides[(idx + 1) % slides.length]}
-                    alt=""
-                    priority
-                    fetchPriority="high"
-                    width={1}
-                    height={1}
-                    className="absolute w-0 h-0 opacity-0 pointer-events-none"
-                />
-
-                <AnimatePresence  mode="sync">
-                    <motion.div
-                        key={currentSrc}
-                        className="absolute inset-0"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }} // overlap ensures no white gap
-                        transition={{
-                            duration: reducedMotion ? 0 : 0.9,
-                            ease: 'easeOut',
-                        }}
-                    >
-                        {/* zoom wrapper for Ken Burns */}
-                        <motion.div
-                            className="absolute inset-0 will-change-transform"
-                            initial={{ scale: 1 }}                          // new image starts at 1
-                            animate={{ scale: reducedMotion ? 1 : 1.1 }}     // zooms in over the cycle
-                            transition={{
-                                duration: reducedMotion ? 0 : cycleMs / 1000,
-                                ease: 'linear',
-                            }}
+                <div className="relative w-full h-full">
+                    {slides.map((src, i) => (
+                        <div
+                            key={src}
+                            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out
+          ${i === index ? 'opacity-100' : 'opacity-0'}`}
                         >
                             <Image
-                                src={currentSrc}
-                                alt="Orchard and seedlings background"
+                                src={src}
+                                alt=""
                                 fill
-                                priority
                                 sizes="100vw"
-                                // Prevent layout jank & ensure GPU compositing
-                                className="object-cover [transform:translateZ(0)] will-change-transform"
+                                priority={i === 0}
+                                className={`object-cover transform transition-transform duration-[10000ms] ease-linear
+            ${i === index ? 'scale-110' : 'scale-100'}`}
                             />
-                        </motion.div>
-                    </motion.div>
-                </AnimatePresence>
+                        </div>
+                    ))}
+                </div>
             </div>
 
-            {/* OVERLAYS: gradient for readability + soft vignette */}
+            {/* OVERLAYS */}
             <div
                 aria-hidden
                 className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"
@@ -156,7 +112,7 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                         {formatTextWithBreaks(t.home.title)}
                     </h1>
 
-                    {/* Stats strip (optional – looks premium). Remove if not needed. */}
+                    {/* Stats strip */}
                     <div className="mt-5 grid w-full max-w-xl grid-cols-3 gap-2 text-center text-white/90">
                         {[
                             { k: t.home?.stats?.varieties ?? 'Varieties', to: 150, suffix: '+' },
@@ -167,11 +123,10 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                                 <CountUp
                                     to={item.to}
                                     suffix={item.suffix}
-                                    compact={item.compact}                 // 10000 => 10K
-                                    locale={lang === 'sr' ? 'en' : lang === 'ru' ? 'ru-RU' : 'en'}
-                                    reducedMotion={reducedMotion}
+                                    compact={item.compact}
+                                    locale={lang === 'sr' ? 'sr-RS' : lang === 'ru' ? 'ru-RU' : 'en'}
                                     className="text-xl font-bold sm:text-2xl"
-                                    durationMs={700}                       // tweak for faster/slower
+                                    durationMs={700}
                                 />
                                 <div className="text-[13px] sm:text-sm">{item.k}</div>
                             </div>
@@ -187,16 +142,16 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                         <Button
                             label={t.home.contactBtn ?? 'Contact'}
                             onClick={() => {
-                                    handleScroll("contact")
-                                }}
+                                handleScroll('contact');
+                            }}
                             aria-label={t.home.contactBtn ?? 'Contact'}
-                            variant="contact" // 👉 optional, if your Button supports "primary/secondary"
+                            variant="contact"
                         />
                     </div>
                 </div>
             </div>
 
-            {/* GRAIN (very subtle film texture for “luxury” feel) */}
+            {/* GRAIN */}
             <div
                 aria-hidden
                 className="pointer-events-none absolute inset-0 opacity-[0.08] mix-blend-overlay"
