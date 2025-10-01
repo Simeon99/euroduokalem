@@ -40,7 +40,7 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                 ? images
                 : [
                     '/images/home/landing-photo.jpg',
-                    '/images/home/vinograd1.jpeg',
+                    '/images/home/vinograd-landing.jpg',
                     '/images/home/landing-image1.jpeg',
                 ],
         [images]
@@ -82,10 +82,13 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                                 src={src}
                                 alt=""
                                 fill
-                                sizes="100vw"
-                                priority={i === 0}
+                                sizes="(max-width: 640px) 120vw, (max-width: 1024px) 110vw, 100vw"
+                                quality={95}
+                                priority={i === 0 || i === index}
+                                {...(i === index ? { loading: 'eager', fetchPriority: 'high' } : {})}
                                 className={`object-cover transform transition-transform duration-[10000ms] ease-linear
-            ${i === index ? 'scale-110' : 'scale-100'}`}
+    ${i === index ? 'scale-105' : 'scale-100'}`}
+                                style={{ willChange: 'transform' }}
                             />
                         </div>
                     ))}
