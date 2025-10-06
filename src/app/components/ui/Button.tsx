@@ -16,7 +16,7 @@ export default function Button({
   ...props
 }: ButtonProps) {
   const baseClasses =
-    `px-10 py-4 rounded-xl text-[20px] font-semibold transition-all duration-300 ${disabled ? '': 'active:scale-95'} `;
+    `px-10 max-xsw:px-4  py-4 rounded-xl text-[20px] font-semibold transition-all duration-300 ${disabled ? '': 'active:scale-95'} `;
 
   const variants = {
     primary: `bg-orange text-white ${disabled ? '': 'hover:bg-[var(--color-orange-hover)]'}`,
