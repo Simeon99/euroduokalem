@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: Loc
     },
     other: {
       "google-site-verification": "drf4T76obhgDpCAD-9RvPsnj502SfCzxS_pJuI9He84", // ✅ Add your verification code here
-      "yandex-verification": "a0504a5269fd9e4b",
+      "yandex-verification": "028a80ecf2fbfe89",
     },
   };
 }
