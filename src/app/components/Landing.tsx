@@ -115,6 +115,17 @@ const Landing: React.FC<Props> = ({ t, images, cycleMs = 10000 }) => {
                         {formatTextWithBreaks(t.home.title)}
                     </h1>
 
+                    <div className=" pt-4 z-20">
+                        <div
+                            className="rounded-2xl border border-white/25 px-5 py-3 backdrop-blur-md shadow-lg"
+                            style={{ backgroundColor: "rgba(216, 178, 96, 0.28)" }} // #d8b260 w/ opacity
+                        >
+                            <p className="text-white text-lg leading-tight">
+                                <span className='font-bold text-[#d8b260] '><b>{formatTextWithBreaks(t.home.anniversary)}</b></span> {formatTextWithBreaks(t.home.anniversaryMess)}
+                            </p>
+                        </div>
+                    </div>
+
                     {/* Stats strip */}
                     <div className="mt-5 grid w-full max-w-xl grid-cols-3 gap-2 text-center text-white/90">
                         {[

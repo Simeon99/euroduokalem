@@ -23,10 +23,20 @@ const About = ({ t }: { t: Translation }) => {
                 <div className='flex justify-center px-4'>
                     <div className='max-w-screen-sw  w-full '>
                         <div className='flex flex-col items-center mt-16'>
+                             <Image
+                                                        src="/images/home/20y_EDK_final.png" // put image in /public
+                                                        alt="Euro Duo Kalem 20 Years"
+                                                        width={150}
+                                                        height={150}
+                                                        className="object-contain pb-4  top-9 right-9 "
+                                                        priority
+                                                    />
                             <h1 className='font-heading  text-6xl text-primary  py-8 max-lsw:text-5xl max-md:text-4xl font-bold text-center line max-w-[700px]'>{t.aboutUs.title}</h1>
                             <p className='text-center text-[24px] max-md:text-[20px] max-w-[70%] max-md:max-w-full'>
                                 {t.aboutUs.text}
                             </p>
+                             
+                            
                         </div>
 
                         <div className='flex flex-col items-center mt-16'>
@@ -38,6 +48,7 @@ const About = ({ t }: { t: Translation }) => {
                                 <h2 className=' leading-none font-heading text-6xl text-primary  max-lsw:text-5xl max-md:text-4xl font-bold'>{t.aboutUs.subtitle2}</h2>
                             </div>
                         </div>
+                       
                     </div>
                 </div>
                 {/* Desktop */}

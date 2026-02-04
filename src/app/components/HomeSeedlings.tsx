@@ -32,16 +32,16 @@ const HomeSeedlings = ({ t }: { t: Translation }) => {
                     </div>
                     <div className='flex flex-col gap-4 '>
                         {t.home.seedlings.map((i, index) => {
-                            return (
-                                <div key={index} className='flex flex-row  gap-4'>
-                                    <div className=''>
-                                        <PiChecksBold color='#0E3A27' size={30} />
+                                return (
+                                    <div key={index} className='flex flex-row  gap-4'>
+                                        <div className=''>
+                                            <PiChecksBold color='#0E3A27' size={30} />
+                                        </div>
+                                        <div>
+                                            <p className=' text-[24px] max-md:text-[20px]  '>{splitBold(i)}</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <p className=' text-[24px] max-md:text-[20px] '>{splitBold(i)}</p>
-                                    </div>
-                                </div>
-                            )
+                                )
                         })}
                     </div>
                     <div className='w-[200px] pt-8'>
